@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Page</title>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="img/favicon/apple-touch-icon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="img/favicon/apple-touch-icon-72x72.png" type="image/x-icon">
+    <link rel="shortcut icon" href="img/favicon/apple-touch-icon-144x144.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/index.css">
+    <meta name="theme-color" content="#5D1324">
+    <meta name="msapplication-navbutton-color" content="#5D1324">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#5D1324">
+  </head>
+  <body>
+    <div id="overlayer"></div>
+    <main class="section_main">
+      <div class="popup-calculate">
+        <form>
+          <div class="popup-sub">
+            <div class="sub-popup--head">
+              <h3>ОСТАВЬТЕ ЗАЯВКУ НАШИМ СПЕЦИАЛИСТАМ</h3>
+              <p>А наш специалист свяжется с Вами и обсудит все детали</p>
+            </div>
+            <div class="sub-popup--wrap">
+              <div class="field col-100">
+                <label>Введите Ваше имя</label>
+                <input class="fill-user" type="text" placeholder="Иван Иванов">
+              </div>
+              <div class="field col-100">
+                <label>Введите Ваш телефон</label>
+                <input class="fill-phone" type="text" placeholder="88005355555">
+              </div>
+              <div class="field col-100">
+                <label>Введите Ваш город</label>
+                <select class="js-select2 fill-city"></select>
+              </div>
+              <div class="field col-100">
+                <button class="button-submite button-open--contact-form" type="submit">Оформить заявку</button>
+              </div>
+            </div>
+          </div>
+          <div class="popup-wrapp">
+            <h3 class="head-popup">Экспресс-расчет стоимости доставки</h3>
+            <div class="popup-wrapper">
+              <div class="field col-50">
+                <label>Откуда:</label>
+                <select class="js-select2" id="select-city1"></select>
+              </div>
+              <div class="field col-50">
+                <label>Куда:</label>
+                <select class="select-to" id="select-city2"></select>
+              </div>
+              <div class="field col-100">
+                <label>Наименование груза(Характер груза):</label>
+                <select class="product-select">
+                  <option>АВТОЗАПЧАСТИ</option>
+                  <option>АВТОШИНА</option>
+                  <option>АККУМУЛЯТОРЫ</option>
+                  <option>АКСЕССУАРЫ</option>
+                  <option>БЫТОВАЯ ТЕХНИКА</option>
+                </select>
+              </div>
+              <div class="field col-25">
+                <label>Вес (кг):</label>
+                <input type="number" max="1000000" name="quantity" value="1" required id="weight">
+              </div>
+              <div class="field col-25">
+                <label>Объемы (м3):</label>
+                <input type="number" max="1000000" name="quantity" value="0.01" required id="volume">
+              </div>
+              <div class="field col-25">
+                <label>Кол-во мест:</label>
+                <input type="number" max="1000000" name="quantity" value="1" required id="quantity">
+              </div>
+              <div class="field col-25">
+                <div class="button-items"><a class="button-submite" href="#" id="button-submite">рассчитать</a></div>
+              </div>
+            </div>
+            <div class="error-massege">
+              <p></p>
+            </div>
+            <div class="result-wrapper">
+              <h3></h3>
+              <table class="table-result" id="table-result">
+                <thead>
+                  <tr>
+                    <th></th>
+                    <th>Заберем</th>
+                    <th>Перевезем</th>
+                    <th>Доставим</th>
+                    <th>Цена, тг</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="is-active">
+                    <td>
+                      <input type="radio" name="table-radio" checked>
+                    </td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <input type="radio" name="table-radio">
+                    </td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <input type="radio" name="table-radio">
+                    </td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <input type="radio" name="table-radio">
+                    </td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+              <div id="itog">
+                <p></p>
+              </div>
+              <div class="open--contact-form"><a class="button-submite button-open--contact-form" href="#">ОФОРМИТЬ ЭКСПРЕСС ЗАЯВКУ</a></div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </main>
+    <div class="hidden">
+      <div class="popup-mail zoom-anim-dialog" id="popup-mail">
+        <p>111</p>
+      </div>
+    </div>
+    <!-- script(src='https://unpkg.com/flipping@latest/dist/flipping.web.js')-->
+    <!-- script(src='/js/shape-overlays.js')-->
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
