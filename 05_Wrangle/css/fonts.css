@@ -1,0 +1,82 @@
+@font-face {
+	font-family: "QuatroW05-Book";
+	src: url("../fonts/QuatroW05-Book/QuatroW05-Book.eot");
+	src: url("../fonts/QuatroW05-Book/QuatroW05-Book.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/QuatroW05-Book/QuatroW05-Book.woff") format("woff"),
+	url("../fonts/QuatroW05-Book/QuatroW05-Book.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "QuatroW05-Medium";
+	src: url("../fonts/QuatroW05-Medium/QuatroW05-Medium.eot");
+	src: url("../fonts/QuatroW05-Medium/QuatroW05-Medium.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/QuatroW05-Medium/QuatroW05-Medium.woff") format("woff"),
+	url("../fonts/QuatroW05-Medium/QuatroW05-Medium.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "QuatroW05-UltraBlack";
+	src: url("../fonts/QuatroW05-UltraBlack/QuatroW05-UltraBlack.eot");
+	src: url("../fonts/QuatroW05-UltraBlack/QuatroW05-UltraBlack.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/QuatroW05-UltraBlack/QuatroW05-UltraBlack.woff") format("woff"),
+	url("../fonts/QuatroW05-UltraBlack/QuatroW05-UltraBlack.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "QuatroW05-Light";
+	src: url("../fonts/QuatroW05-Light/QuatroW05-Light.eot");
+	src: url("../fonts/QuatroW05-Light/QuatroW05-Light.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/QuatroW05-Light/QuatroW05-Light.woff") format("woff"),
+	url("../fonts/QuatroW05-Light/QuatroW05-Light.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "QuatroW05-Bold";
+	src: url("../fonts/QuatroW05-Bold/QuatroW05-Bold.eot");
+	src: url("../fonts/QuatroW05-Bold/QuatroW05-Bold.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/QuatroW05-Bold/QuatroW05-Bold.woff") format("woff"),
+	url("../fonts/QuatroW05-Bold/QuatroW05-Bold.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "ProximaNovaT";
+	src: url("../fonts/ProximaNovaT-Thin/ProximaNovaT-Thin.eot");
+	src: url("../fonts/ProximaNovaT-Thin/ProximaNovaT-Thin.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/ProximaNovaT-Thin/ProximaNovaT-Thin.woff") format("woff"),
+	url("../fonts/ProximaNovaT-Thin/ProximaNovaT-Thin.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "ProximaNova-Bold";
+	src: url("../fonts/ProximaNova-Bold/ProximaNova-Bold.eot");
+	src: url("../fonts/ProximaNova-Bold/ProximaNova-Bold.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/ProximaNova-Bold/ProximaNova-Bold.woff") format("woff"),
+	url("../fonts/ProximaNova-Bold/ProximaNova-Bold.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "ProximaNova-Regular";
+	src: url("../fonts/ProximaNova-Regular/ProximaNova-Regular.eot");
+	src: url("../fonts/ProximaNova-Regular/ProximaNova-Regular.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/ProximaNova-Regular/ProximaNova-Regular.woff") format("woff"),
+	url("../fonts/ProximaNova-Regular/ProximaNova-Regular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "ProximaNova-Semibold";
+	src: url("../fonts/ProximaNova-Semibold/ProximaNova-Semibold.eot");
+	src: url("../fonts/ProximaNova-Semibold/ProximaNova-Semibold.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/ProximaNova-Semibold/ProximaNova-Semibold.woff") format("woff"),
+	url("../fonts/ProximaNova-Semibold/ProximaNova-Semibold.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}

@@ -1,0 +1,20 @@
+<svg class="sprite-svg" xmlns="http://www.w3.org/2000/svg">
+
+	<symbol id="search" width="24" height="24" viewBox="0 0 24 24" fill="none">
+		<path d="M13.0528 5.29373C15.1953 7.43632 15.1953 10.9102 13.0528 13.0528C10.9102 15.1954 7.43632 15.1954 5.29373 13.0528C3.15113 10.9102 3.15113 7.43632 5.29373 5.29373C7.43632 3.15113 10.9102 3.15113 13.0528 5.29373Z" stroke="#42515A" stroke-width="2"/>
+		<line x1="13.7334" y1="13.4381" x2="18.8737" y2="18.5848" stroke="#42515A" stroke-width="2"/>
+	</symbol>
+
+	<symbol id="arrow-slide__left" class="" width="22" height="17" viewBox="0 0 22 17" fill="none">
+		<rect x="8.48535" width="1" height="12" transform="rotate(45 8.48535 0)" fill="#777777"/>
+		<rect x="9.19238" y="16.2635" width="1" height="12" transform="rotate(135 9.19238 16.2635)" fill="#777777"/>
+		<rect x="21.1924" y="8.97057" width="20" height="1" transform="rotate(-180 21.1924 8.97057)" fill="#777777"/>
+	</symbol>
+
+	<symbol id="arrow-slide__right" width="22" height="17" viewBox="0 0 22 17" fill="none">
+		<rect x="12.8994" y="16.9706" width="1" height="12" transform="rotate(-135 12.8994 16.9706)" fill="#42515A"/>
+		<rect x="12.1924" y="0.707138" width="1" height="12" transform="rotate(-45 12.1924 0.707138)" fill="#42515A"/>
+		<rect x="0.192383" y="8.00003" width="20" height="1" fill="#42515A"/>
+	</symbol>
+
+</svg>
