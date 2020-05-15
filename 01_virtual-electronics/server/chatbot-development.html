@@ -1,0 +1,341 @@
+
+<!-- - var link1 = "development.html"--><!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Development</title>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="img/favicon/apple-touch-icon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="img/favicon/apple-touch-icon-72x72.png" type="image/x-icon">
+    <link rel="shortcut icon" href="img/favicon/apple-touch-icon-144x144.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/index.css">
+    <meta name="theme-color" content="#171717">
+    <meta name="msapplication-navbutton-color" content="#171717">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#171717">
+  </head>
+  <body>
+    <main class="section_main">
+      <div class="form-perspective">
+        <div class="form-hide">
+          <div class="succesfull-post">
+            <p class="done-head"><img src="img/icon-done.svg" alt="">Done!</p>
+            <div class="time"></div>
+            <div class="line-load">
+              <div class="line-progress"></div>
+            </div>
+            <p>Thank you for your time. <br> We will reply within 24 hours.</p><a class="back-done" href="#">back</a>
+          </div>
+          <div class="offset-form">
+            <svg class="icon-close-form" width="40" height="40" viewBox="0 0 40 40">
+              <use xlink:href="img/icon/sprite.svg#icon-close-form"></use>
+            </svg>
+            <h3>Let’s talk. Just enter your details and we will reply within 24 hours</h3>
+            <form action="#" method="post" id="sendform" enctype="multipart/form-data">
+              <div class="input-items">
+                <label>name</label>
+                <input type="text" name="name">
+                <div class="error-message">
+                  <svg class="icon-error" width="14" height="15" viewBox="0 0 14 15">
+                    <use xlink:href="img/icon/sprite.svg#icon-error"></use>
+                  </svg>
+                  <p>Required</p>
+                </div>
+              </div>
+              <div class="input-items">
+                <label>email</label>
+                <input type="text" name="email">
+                <div class="error-message">
+                  <svg class="icon-error" width="14" height="15" viewBox="0 0 14 15">
+                    <use xlink:href="img/icon/sprite.svg#icon-error"></use>
+                  </svg>
+                  <p>Required</p>
+                </div>
+              </div>
+              <div class="input-items">
+                <label>country</label>
+                <div class="countryCheck-wrap">
+                  <input class="countryCheck" type="text" name="country" placeholder="United States">
+                </div>
+              </div>
+              <div class="input-items">
+                <label>phone</label>
+                <div class="phone-items">
+                  <div class="phone-word">
+                    <input type="tel2" value="+1">
+                  </div>
+                  <input class="phone-main" type="tel3" maxlength="12">
+                  <input class="phone-val" type="hidden" name="tel">
+                  <div class="error-message">
+                    <svg class="icon-error" width="14" height="15" viewBox="0 0 14 15">
+                      <use xlink:href="img/icon/sprite.svg#icon-error"></use>
+                    </svg>
+                    <p>Required</p>
+                  </div>
+                </div>
+              </div>
+              <div class="input-items input-items--full">
+                <div class="label-flex">
+                  <label>message <span>(optional)</span></label>
+                  <div class="file-type">
+                    <label class="upload-label" for=""><i class="upload-icon"></i>upload</label>
+                    <input class="multi-pt add-load" name="file[]" type="file" id="trrr" multiple>
+                  </div>
+                </div>
+                <div class="textarea-wrap">
+                  <textarea class="textarea-send" name="message" id="textarea-send"></textarea>
+                  <p id="charNum">0/500</p>
+                </div>
+              </div>
+              <div class="input-items input-items--full">
+                <label class="checkbox-default">
+                  <input type="checkbox" name="check1" required="" checked>
+                  <p class="checkbox-default__text">I am informed about processing of my personal <br> data and the right to withdraw my consent</p>
+                </label>
+              </div>
+              <button class="send-form" name="sendMail" type="submit" id="send-form">send 
+                <svg class="icon-arrow" width="70" height="24" viewBox="0 0 70 24">
+                  <use xlink:href="img/icon/sprite.svg#icon-arrow"></use>
+                </svg>
+              </button>
+            </form>
+          </div>
+        </div>
+        <div class="overlay-bg">
+          <div class="close-fill">
+            <svg class="icon-close-form" width="40" height="40" viewBox="0 0 40 40">
+              <use xlink:href="img/icon/sprite.svg#icon-close-form"></use>
+            </svg>
+          </div>
+        </div>
+      </div>
+      <aside id="sidebar">
+        <div class="logo-sidebar">
+          <div class="overlay-menu--close"></div><a class="logo-link" href="/"><img src="img/logo-full.svg" alt="Logo"></a><a class="mobile-burger" href="#"><span></span><span></span></a>
+        </div>
+        <div class="wrapper-menu--mobile">
+          <ul class="list-dot--mobile">
+            <li><span></span></li>
+            <li><span class="is-active"></span></li>
+            <li><span></span></li>
+            <li><span></span></li>
+          </ul>
+          <ul class="list-menu--mobile">
+            <li><a href="/index.html">about</a></li>
+            <li><a class="is-active" href="/service.html">service</a></li>
+            <li><a href="/team.html">team</a></li>
+            <li><a href="/contacts.html">contacts</a></li>
+          </ul>
+        </div>
+        <div class="wrap-menu">
+          <ul class="list-menu">
+            <li><a href="/index.html">about</a></li>
+            <li><a class="is-active" href="/service.html">service</a></li>
+            <li><a href="/team.html">team</a></li>
+            <li><a href="/contacts.html">contacts</a></li>
+          </ul>
+          <div class="get-touch"><a class="get-touch--link" href="#" id="get-touch"><span>get in <br> touch <i class="icon-get">
+                  <svg class="icon-get" width="10" height="10" viewBox="0 0 10 10">
+                    <use xlink:href="img/icon/sprite.svg#icon-get"></use>
+                  </svg></i></span></a></div>
+        </div>
+      </aside>
+      <section class="section-content">
+        <div class="heading-content">
+          <h1>Chatbot Development</h1>
+        </div>
+        <div class="height-60"></div>
+        <section class="section-text">
+          <div class="wrapper-text">
+            <div class="text-item">
+              <p>AI helpers are always there for your client. Using one is a great way to build a constant long-lasting communication with your client. Customize your own business-specific chatbot that is always able to quickly provide your clients with information they require.</p>
+            </div>
+            <div class="text-item">
+              <p>Automate repeated client tasks, increase outcome and reduce customer care costs by using a chatbot. Virtual Electronics is always ready to help you develop a virtual helper tailored according to your businesses’ needs and consistent with the best industry practices.</p>
+            </div>
+          </div>
+        </section>
+        <div class="height-80"></div>
+        <section class="table-images flex-wrap">
+          <div class="table-images--items table-images--full">
+            <div class="table-images--wrap img-center--width" style="background:url(img/development/woman-in-white-t-shirt-holding-smartphone-in-front-of-laptop-9149311.jpg); background-repeat:no-repeat; background-size:cover; background-position: center;"></div>
+          </div>
+        </section>
+        <div class="height-80"></div>
+        <section class="section-text">
+          <div class="heading-default">
+            <h3>Our possibilities</h3>
+          </div>
+          <div class="wrapper-text">
+            <div class="text-item">
+              <p>We build our chatbots using the most advanced technologies on the market. Our chatbots can learn, understand multiple languages and answer to specific concerns and senses.</p>
+              <p>This allows them maintaining dialogues naturally, promote sales and add value to your client’s interaction with the company.</p>
+            </div>
+          </div>
+        </section>
+        <div class="height-100"></div>
+        <hr class="gray-line">
+        <div class="height-100"></div>
+        <section class="section--how-work">
+          <div class="heading-default">
+            <h3>Smart chatbot for your business</h3>
+          </div>
+          <div class="height-50"></div>
+          <div class="how-work--wrapper">
+            <div class="wrapper-text">
+              <div class="text-item how-work--item">
+                <h4><span class="count--how-work">1</span>Chatbot for Banking & Finance</h4>
+                <p>This chatbot is designed to provide personal financial information to your customers, such as outstanding balance, available credit limit, payment dates, banking services and products, history of operations, interest calculations, etc. It can be also used to send alerts to your customers and assist them in making payments and fund transfers.</p>
+              </div>
+              <div class="text-item how-work--item">
+                <h4><span class="count--how-work">2</span>Traveler’s assistant Chatbot</h4>
+                <p>This chatbot is designed to help travelers find and book the most suitable flights, train and bus rides, pay for the tickets and alert them about any schedule changes. It also helps with hotels, house and car rentals, event tickets, restaurant bookings and weather forecasts.<br></p><a href="#">Read more or try a demo</a>
+              </div>
+              <div class="text-item how-work--item">
+                <h4><span class="count--how-work">3</span>E-commerce Chatbot</h4>
+                <p>Functionality of this Chatbot includes online navigation in stores and malls, finding development prospects, reporting a lost item to the shop administration, tracking delivery status and sending alerts. It also facilitates in-app purchases, promotes best deals and offers coupons. E-commerce Chatbot is a great way to increase sales and remarketing.</p>
+              </div>
+              <div class="text-item how-work--item">
+                <h4><span class="count--how-work">4</span>Insurance Chatbot</h4>
+                <p>Insurance Chatbot can be used by your customers for comparing plans, reminding insurance policies and assisting with filling and submitting insurance statements. Having a 24/7 Chatbot is particularly important in an industry with clients who may require immediate attention at any time of the day.</p>
+              </div>
+              <div class="text-item how-work--item">
+                <h4><span class="count--how-work">5</span>Chatbot for medical services</h4>
+                <p>This medical Chatbot is perfect for making doctor appointments, schedule changes, sending reminders, collecting patient data, etc. If necessary, the bot can offer a preliminary diagnosis and suggested treatment based on the symptoms. It will become a great helper to medical personnel, pharmacists and patients.</p>
+              </div>
+              <div class="text-item how-work--item">
+                <h4><span class="count--how-work">6</span>HR Chatbot</h4>
+                <p>Use this Chatbot to rationalize your HR’s work with the personnel. It helps consult on job opportunities, open vacancies, legal labor requirements, corporate policies and events. It can automatically conduct surveys among the employees and automate tasks related to hiring such as data collection, interview appointments, etc.</p>
+              </div>
+              <div class="text-item how-work--item">
+                <h4><span class="count--how-work">7</span>Support service Chatbot</h4>
+                <p>Automate the most common support tasks such as password restoration, account management, access to common office devices or web folders, FAQs etc.</p>
+              </div>
+              <div class="text-item how-work--item">
+                <h4><span class="count--how-work">8</span>Corporate chatbot</h4>
+                <p>You can entrust this Chatbot with day-to-day corporate needs such as scheduling the conference room, booking business trips, accessing corporate contact numbers, policies and guidelines, collecting feedback and suggestions from the employees, etc.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <div class="height-80"></div>
+        <hr class="gray-line">
+        <div class="height-80"></div>
+        <section class="section-text">
+          <div class="heading-default">
+            <h3>Tools& Technologies</h3>
+          </div>
+          <div class="wrapper-text">
+            <div class="text-item">
+              <p>We offer a number of services that make our chatbots even more effective. These services can be both onsite and cloud-based and include: Full-cycle management and maintenance of your company’s complete IT infrastructure</p>
+            </div>
+            <div class="text-item">
+              <p>Virtual Electronics can reduce your costs and make your company’s existing IT infrastructure even more effective through innovations and outcome orientation. We bring our expert knowledge and professionalism to build a roadmap intended for optimizing your IT infrastructure, events, processes and premises. Our efficient and cost-effective IT-infrastructure management services are aimed to fully automate, unify, standardize and virtualize your systems and processes.</p>
+            </div>
+          </div>
+        </section>
+        <div class="height-100"></div>
+        <hr class="gray-line">
+        <div class="height-100"></div>
+        <section class="section-expertise">
+          <div class="heading-default">
+            <h3>Here is what you get when you choose to use our services:</h3>
+          </div>
+        </section>
+        <div class="height-50"></div>
+        <section class="table-images flex-wrap">
+          <div class="table-images--items table-images--full">
+            <div class="table-images--wrap img-center--width" style="background:url(img/development1.jpg); background-repeat:no-repeat; background-size:cover; background-position: center;"></div>
+          </div>
+        </section>
+        <div class="height-80"></div>
+        <section class="section-expertise">
+          <div class="expertise-wrapper">
+            <div class="expertise-cols">
+              <div class="expertise-item"><img src="img/icon/icon-logo.svg" alt="">
+                <h4>We are competent</h4>
+                <p>Our experts are highly competent and professional in IT technologies which makes us perfect for developing, implementing, managing and supporting any IT projects.</p>
+              </div>
+            </div>
+            <div class="expertise-cols">
+              <div class="expertise-item"><img src="img/icon/icon-logo.svg" alt="">
+                <h4>We offer flexible solutions</h4>
+                <p>We know how to tailor our IT solutions according to the ever-changing need and requirements of every client as well as to overall business environment with focus on your company’s specifics.</p>
+              </div>
+            </div>
+            <div class="expertise-cols">
+              <div class="expertise-item"><img src="img/icon/icon-logo.svg" alt="">
+                <h4>We focus on innovations</h4>
+                <p>PWe make our IT solutions with focus on future development and offer innovative technologies according to the constantly progressing market standards.</p>
+              </div>
+            </div>
+            <div class="expertise-cols">
+              <div class="expertise-item"><img src="img/icon/icon-logo.svg" alt="">
+                <h4>We aim for the quality</h4>
+                <p>We always make sure to determine all necessary technical parameters that will work for your exact company. Our experts are highly motivated to deliver outstanding results; therefore, you can be sure to get the best possible services from experienced professionals.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <div class="height-100"></div>
+        <hr class="gray-line">
+        <div class="height-100"></div>
+        <section class="section-text">
+          <div class="heading-default">
+            <h3>Get the most from your IT infrastructure with our flexible management</h3>
+          </div>
+          <div class="wrapper-text">
+            <div class="text-item">
+              <p>Virtual Electronics has many years of experience in providing IT operations management of exceptional quality to companies and corporations of levels and economy sectors in a wide geographic range.</p>
+            </div>
+            <div class="text-item">
+              <p>Virtual Electronics covers all stages of your product life and serves as both outsource and onsite consultant, service provider and integrator. We know exactly how to optimize and increase efficiency of your resources through our management services. Our integration starts with planning, analyzing, consulting and testing and goes further through backing your company’s needs in infrastructure management, ensuring project safety and client support.</p>
+            </div>
+          </div>
+        </section>
+        <div class="height-100"></div>
+        <hr class="gray-line">
+        <div class="height-100"></div>
+        <section class="section-text">
+          <div class="wrapper-text">
+            <div class="text-item">
+              <div class="heading-default">
+                <h3>How we manage IT operations</h3>
+              </div>
+              <p>Virtual Electronics is a one-stop solution for all your IT operations in terms of building, designing and maintaining a reliable IT infrastructure along with consulting, project managing and support. Though we always tend to use the most advanced technologies, we are capable of working with all types of networks and systems, including the outdated ones. We use modern IT Infrastructure Libraries along with the unified and well-tested solutions that help us ensure that your IT operations are in pace with your business requirements.</p>
+              <div class="height-50"></div>
+              <div class="heading-default">
+                <h3>Adding value to your projects through IT infrastructure</h3>
+              </div>
+              <p>By implementing only well-tested solutions and services we reduce your development and support expenses, provide intuitive means of measuring your teams’ and product’s performance and ensure that your business strategy is in line with industry standards and best practices. With our help you can be sure that even the most complicated projects are executed in time, in good quality and in full compliance with all the latest applicable regulations and laws such as GDPR.</p>
+            </div>
+            <div class="text-item">
+              <div class="heading-default">
+                <h3>Harmonization of IT Infrastructure</h3>
+              </div>
+              <p>Virtual Electronics provides a full scale of services related to IT infrastructure operations managing, server-related operations and support. We are able to provide our services across all known platforms with flexible and advanced tools such as:</p>
+            </div>
+          </div>
+        </section>
+        <div class="height-80"></div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer-wrapper">
+        <p class="copy-right">© 2019-<span id="curent-year"></span> Virtual Electronics</p>
+        <p>All Rights Reserved</p>
+      </div>
+    </footer>
+    <div class="hidden">
+      <div class="popup-mail zoom-anim-dialog" id="popup-mail">
+        <p>111</p>
+      </div>
+    </div>
+    <!-- script(src='https://unpkg.com/flipping@latest/dist/flipping.web.js')-->
+    <!-- script(src='/js/shape-overlays.js')-->
+    <script src="js/scripts.js"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.7/jquery.validate.min.js"></script>
+    <script src="js/multiengine.js"></script>
+  </body>
+</html>

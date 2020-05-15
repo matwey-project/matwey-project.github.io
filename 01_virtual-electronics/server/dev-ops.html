@@ -1,0 +1,296 @@
+
+<!-- - var link1 = "development.html"--><!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>DevOps</title>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="img/favicon/apple-touch-icon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="img/favicon/apple-touch-icon-72x72.png" type="image/x-icon">
+    <link rel="shortcut icon" href="img/favicon/apple-touch-icon-144x144.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/index.css">
+    <meta name="theme-color" content="#171717">
+    <meta name="msapplication-navbutton-color" content="#171717">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#171717">
+  </head>
+  <body>
+    <main class="section_main">
+      <div class="form-perspective">
+        <div class="form-hide">
+          <div class="succesfull-post">
+            <p class="done-head"><img src="img/icon-done.svg" alt="">Done!</p>
+            <div class="time"></div>
+            <div class="line-load">
+              <div class="line-progress"></div>
+            </div>
+            <p>Thank you for your time. <br> We will reply within 24 hours.</p><a class="back-done" href="#">back</a>
+          </div>
+          <div class="offset-form">
+            <svg class="icon-close-form" width="40" height="40" viewBox="0 0 40 40">
+              <use xlink:href="img/icon/sprite.svg#icon-close-form"></use>
+            </svg>
+            <h3>Let’s talk. Just enter your details and we will reply within 24 hours</h3>
+            <form action="#" method="post" id="sendform" enctype="multipart/form-data">
+              <div class="input-items">
+                <label>name</label>
+                <input type="text" name="name">
+                <div class="error-message">
+                  <svg class="icon-error" width="14" height="15" viewBox="0 0 14 15">
+                    <use xlink:href="img/icon/sprite.svg#icon-error"></use>
+                  </svg>
+                  <p>Required</p>
+                </div>
+              </div>
+              <div class="input-items">
+                <label>email</label>
+                <input type="text" name="email">
+                <div class="error-message">
+                  <svg class="icon-error" width="14" height="15" viewBox="0 0 14 15">
+                    <use xlink:href="img/icon/sprite.svg#icon-error"></use>
+                  </svg>
+                  <p>Required</p>
+                </div>
+              </div>
+              <div class="input-items">
+                <label>country</label>
+                <div class="countryCheck-wrap">
+                  <input class="countryCheck" type="text" name="country" placeholder="United States">
+                </div>
+              </div>
+              <div class="input-items">
+                <label>phone</label>
+                <div class="phone-items">
+                  <div class="phone-word">
+                    <input type="tel2" value="+1">
+                  </div>
+                  <input class="phone-main" type="tel3" maxlength="12">
+                  <input class="phone-val" type="hidden" name="tel">
+                  <div class="error-message">
+                    <svg class="icon-error" width="14" height="15" viewBox="0 0 14 15">
+                      <use xlink:href="img/icon/sprite.svg#icon-error"></use>
+                    </svg>
+                    <p>Required</p>
+                  </div>
+                </div>
+              </div>
+              <div class="input-items input-items--full">
+                <div class="label-flex">
+                  <label>message <span>(optional)</span></label>
+                  <div class="file-type">
+                    <label class="upload-label" for=""><i class="upload-icon"></i>upload</label>
+                    <input class="multi-pt add-load" name="file[]" type="file" id="trrr" multiple>
+                  </div>
+                </div>
+                <div class="textarea-wrap">
+                  <textarea class="textarea-send" name="message" id="textarea-send"></textarea>
+                  <p id="charNum">0/500</p>
+                </div>
+              </div>
+              <div class="input-items input-items--full">
+                <label class="checkbox-default">
+                  <input type="checkbox" name="check1" required="" checked>
+                  <p class="checkbox-default__text">I am informed about processing of my personal <br> data and the right to withdraw my consent</p>
+                </label>
+              </div>
+              <button class="send-form" name="sendMail" type="submit" id="send-form">send 
+                <svg class="icon-arrow" width="70" height="24" viewBox="0 0 70 24">
+                  <use xlink:href="img/icon/sprite.svg#icon-arrow"></use>
+                </svg>
+              </button>
+            </form>
+          </div>
+        </div>
+        <div class="overlay-bg">
+          <div class="close-fill">
+            <svg class="icon-close-form" width="40" height="40" viewBox="0 0 40 40">
+              <use xlink:href="img/icon/sprite.svg#icon-close-form"></use>
+            </svg>
+          </div>
+        </div>
+      </div>
+      <aside id="sidebar">
+        <div class="logo-sidebar">
+          <div class="overlay-menu--close"></div><a class="logo-link" href="/"><img src="img/logo-full.svg" alt="Logo"></a><a class="mobile-burger" href="#"><span></span><span></span></a>
+        </div>
+        <div class="wrapper-menu--mobile">
+          <ul class="list-dot--mobile">
+            <li><span></span></li>
+            <li><span class="is-active"></span></li>
+            <li><span></span></li>
+            <li><span></span></li>
+          </ul>
+          <ul class="list-menu--mobile">
+            <li><a href="/index.html">about</a></li>
+            <li><a class="is-active" href="/service.html">service</a></li>
+            <li><a href="/team.html">team</a></li>
+            <li><a href="/contacts.html">contacts</a></li>
+          </ul>
+        </div>
+        <div class="wrap-menu">
+          <ul class="list-menu">
+            <li><a href="/index.html">about</a></li>
+            <li><a class="is-active" href="/service.html">service</a></li>
+            <li><a href="/team.html">team</a></li>
+            <li><a href="/contacts.html">contacts</a></li>
+          </ul>
+          <div class="get-touch"><a class="get-touch--link" href="#" id="get-touch"><span>get in <br> touch <i class="icon-get">
+                  <svg class="icon-get" width="10" height="10" viewBox="0 0 10 10">
+                    <use xlink:href="img/icon/sprite.svg#icon-get"></use>
+                  </svg></i></span></a></div>
+        </div>
+      </aside>
+      <section class="section-content">
+        <div class="heading-content">
+          <h1>DevOps</h1>
+        </div>
+        <div class="height-60"></div>
+        <section class="section-text">
+          <div class="wrapper-text">
+            <div class="text-item">
+              <p>Virtual Electronics offers DevOps services that are sure to boost your team’s productivity, reduce time-to-market and increase the quality of your product.</p>
+            </div>
+          </div>
+        </section>
+        <div class="height-80"></div>
+        <hr class="gray-line">
+        <div class="height-80"></div>
+        <section class="section-text">
+          <div class="wrapper-text">
+            <div class="text-item">
+              <p>Our team’s dedicated and professional approach to DevOps Implementation service provision with deep focus on your company’s business strategy, goals and requirements will allow you to increase effectiveness and flexibility of your teams and take your product’s quality to perfection. Virtual Electronics always ensures that the services are provided timely and efficiently, letting your business keep its pace and making your customers happy with your product.</p>
+            </div>
+            <div class="text-item">
+              <p>We help our clients build a solid and reliable DevOps practice from the very beginning and well as find the ways to make their existing teams even more effective with ongoing projects. Our experts always comply with the best DevOps practices.</p>
+            </div>
+          </div>
+        </section>
+        <div class="height-80"></div>
+        <section class="table-images flex-wrap">
+          <div class="table-images--items table-images--full">
+            <div class="table-images--wrap img-center--width" style="background:url(img/development/grayscale-photography-of-people-walking-on-walkalator-20811661.jpg); background-repeat:no-repeat; background-size:cover; background-position: center;"><a href="#"></a></div>
+          </div>
+        </section>
+        <div class="height-80"></div>
+        <hr class="gray-line">
+        <div class="height-80"></div>
+        <section class="section-text">
+          <div class="heading-default">
+            <h3>How DevOps realization by Virtual Electronics can help your business</h3>
+          </div>
+          <div class="wrapper-text">
+            <div class="text-item">
+              <p>DevOps implementation by Virtual Electronics helps broadening the key values throughout your company teams, significantly improves communication and increases the effectiveness of your teams.</p>
+            </div>
+            <div class="text-item">
+              <p>Our assistance directly impacts the efficiency of development, testing and implementation processes. While giving some extra resources to Virtual Electronics’ integration, you gain so much more quality to show to your costumers.</p>
+            </div>
+          </div>
+        </section>
+        <div class="height-80"></div>
+        <section class="section-expertise">
+          <div class="heading-default">
+            <h3>Augmented Transparency</h3>
+          </div>
+          <div class="wrapper-text">
+            <div class="text-item">
+              <p>With our help the key processes in your company will become much more clear and transparent to your teams, your customers, the company’s management and shareholders.</p>
+            </div>
+          </div>
+          <div class="height-50"></div>
+          <div class="expertise-wrapper">
+            <div class="expertise-cols">
+              <div class="expertise-item"><img src="img/icon/icon-logo.svg" alt="">
+                <h4>Augmented Transparency</h4>
+                <p>With our help the key processes in your company will become much more clear and transparent to your teams, your customers, the company’s management and shareholders.</p>
+              </div>
+            </div>
+            <div class="expertise-cols">
+              <div class="expertise-item"><img src="img/icon/icon-logo.svg" alt="">
+                <h4>Enhanced internal communication and shared values</h4>
+                <p>Our key goal in DepOps implementation is to ensure that your company’s Development team, IT units, QA team, management and business members understand and share the toolkits, processes, liabilities and general values during all stages of their work.</p>
+              </div>
+            </div>
+            <div class="expertise-cols">
+              <div class="expertise-item"><img src="img/icon/icon-logo.svg" alt="">
+                <h4>Quality boost</h4>
+                <p>Common values shared by all teams is the way to better product architecture, software code, supplied decisions and overall quality boost.</p>
+              </div>
+            </div>
+            <div class="expertise-cols">
+              <div class="expertise-item"><img src="img/icon/icon-logo.svg" alt="">
+                <h4>Shortened Time-to-Market and increased Effectiveness</h4>
+                <p>Virtual Electronics’ DevOps service aims to set up the intrateam environment built on effective cooperation and practices common to all teams such as continuous development, integration and deployment that naturally leads to better team performance, eased automation and improvement in all processes including product issue and further support.</p>
+              </div>
+            </div>
+            <div class="expertise-cols">
+              <div class="expertise-item"><img src="img/icon/icon-logo.svg" alt="">
+                <h4>Eased Management and Supervision</h4>
+                <p>Integrated use of unified toolkits provided by Visual Studio, Microsoft Azure, TFS and others powered by well-built DevOps procedures eases the management and supervision over the teams and team members, the ongoing processes and the current development stage.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <div class="mobile-80">
+          <div class="height-100"></div>
+          <hr class="gray-line">
+          <div class="height-100"></div>
+        </div>
+        <section class="section-text">
+          <div class="heading-default">
+            <h3>DevOps Services to improve Software Product Development</h3>
+          </div>
+          <div class="height-50"></div>
+          <div class="how-work--wrapper">
+            <div class="wrapper-text">
+              <div class="text-item how-work--item">
+                <h4><span class="count--how-work">1</span>Application Lifecycle Managing (ALM)</h4>
+                <p>You can entrust the experts of Virtual Electronics with helping you in building an effective system of process rationalization that ensures flawless ongoing work around all aspects of Application Lifecycle including planning, designing, development, testing, implementation and support. The affected processes include:</p>
+              </div>
+              <div class="text-item how-work--item">
+                <h4><span class="count--how-work">2</span>DevOps using Modern Cloud</h4>
+                <p>Virtual Electronics is proud to be a Microsoft Gold Cloud Partner with deep knowledge of modern cloud technologies. Connecting our DevOps services to the modern cloud technologies allows us to provide high-end cloud-based solutions and services, thus making the most use of the cloud transforming technologies and reducing the software development time. Virtual Electronics’ Cloud DevOps services will smoothly, safely and successfully guide your company through the digital transformation thus eliminating the risks of human mistakes, saving your budgets and optimizing every stage of the development processes.</p>
+              </div>
+              <div class="text-item how-work--item">
+                <h4><span class="count--how-work">3</span>DevSecOps</h4>
+                <p>Our DevSecOps approach is designed to support secure and rational software delivery using the DevOps standard. When you integrate your software security with our DevOps service you can be sure in getting better results at annex development and keeping your application secured through allowing installation of hardware that provides annex safety self-testing, self-diagnosis and self-protection. Our security team will be engaged during every phase of DevOps lifecycle performing ongoing protection testing and reviewing the source code to ensure its security during various stages of formation.</p>
+              </div>
+              <div class="text-item how-work--item">
+                <h4><span class="count--how-work">4</span>QA Automation DevOps (DevQAOps)</h4>
+                <p>Virtual Electronics performs DevQAOps to rationalize the software testing processes and bring them to complete automation while eliminating threats, lowering costs and ensuring faster software delivery. This ongoing process will allow you to start assembling the new software release and perform testing on the go which is crucial to keep the business running at its pace.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <div class="height-80"></div>
+        <hr class="gray-line">
+        <div class="height-80"></div>
+        <section class="section-text">
+          <div class="wrapper-text">
+            <div class="text-item">
+              <p>Let us know if you want to entrust your ADL to Virtual Electronics’ experts and we can discuss the details.</p>
+            </div>
+          </div>
+        </section>
+        <div class="height-80"></div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer-wrapper">
+        <p class="copy-right">© 2019-<span id="curent-year"></span> Virtual Electronics</p>
+        <p>All Rights Reserved</p>
+      </div>
+    </footer>
+    <div class="hidden">
+      <div class="popup-mail zoom-anim-dialog" id="popup-mail">
+        <p>111</p>
+      </div>
+    </div>
+    <!-- script(src='https://unpkg.com/flipping@latest/dist/flipping.web.js')-->
+    <!-- script(src='/js/shape-overlays.js')-->
+    <script src="js/scripts.js"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.7/jquery.validate.min.js"></script>
+    <script src="js/multiengine.js"></script>
+  </body>
+</html>

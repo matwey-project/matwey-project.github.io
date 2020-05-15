@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>About</title>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="img/favicon/apple-touch-icon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="img/favicon/apple-touch-icon-72x72.png" type="image/x-icon">
+    <link rel="shortcut icon" href="img/favicon/apple-touch-icon-144x144.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/index.css">
+    <meta name="theme-color" content="#171717">
+    <meta name="msapplication-navbutton-color" content="#171717">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#171717">
+  </head>
+  <body>
+    <main class="section_main">
+      <div class="succesfull-wrapper">
+        <div class="overlay-bg">
+          <div class="close-fill">
+            <svg class="icon-close-form" width="40" height="40" viewBox="0 0 40 40">
+              <use xlink:href="img/icon/sprite.svg#icon-close-form"></use>
+            </svg>
+          </div>
+        </div>
+        <div class="succesfull-post">
+          <p class="done-head"><img src="img/icon-done.svg" alt="">Done!</p>
+          <div class="time"></div>
+          <div class="line-load">
+            <div class="line-progress"></div>
+          </div>
+          <p>Thank you for your time. <br> We will reply within 24 hours.</p><a class="back-done" href="#">back</a>
+        </div>
+      </div>
+      <div class="form-perspective">
+        <div class="form-hide">
+          <div class="offset-form">
+            <svg class="icon-close-form" width="40" height="40" viewBox="0 0 40 40">
+              <use xlink:href="img/icon/sprite.svg#icon-close-form"></use>
+            </svg>
+            <h3>Let’s talk. Just enter your details and we will reply within 24 hours</h3>
+            <form action="#" method="post" id="sendform" enctype="multipart/form-data">
+              <div class="input-items">
+                <label>name</label>
+                <input type="text" name="name">
+                <div class="error-message">
+                  <svg class="icon-error" width="14" height="15" viewBox="0 0 14 15">
+                    <use xlink:href="img/icon/sprite.svg#icon-error"></use>
+                  </svg>
+                  <p>Required</p>
+                </div>
+              </div>
+              <div class="input-items">
+                <label>email</label>
+                <input type="text" name="email">
+                <div class="error-message">
+                  <svg class="icon-error" width="14" height="15" viewBox="0 0 14 15">
+                    <use xlink:href="img/icon/sprite.svg#icon-error"></use>
+                  </svg>
+                  <p>Required</p>
+                </div>
+              </div>
+              <div class="input-items">
+                <label>country</label>
+                <div class="countryCheck-wrap">
+                  <input class="countryCheck" type="text" name="country" placeholder="United States">
+                </div>
+              </div>
+              <div class="input-items">
+                <label>phone</label>
+                <div class="phone-items">
+                  <div class="phone-word">
+                    <input type="tel2" value="+1">
+                  </div>
+                  <input class="phone-main" type="tel3" maxlength="12">
+                  <input class="phone-val" type="hidden" name="tel">
+                  <div class="error-message">
+                    <svg class="icon-error" width="14" height="15" viewBox="0 0 14 15">
+                      <use xlink:href="img/icon/sprite.svg#icon-error"></use>
+                    </svg>
+                    <p>Required</p>
+                  </div>
+                </div>
+              </div>
+              <div class="input-items input-items--full">
+                <div class="label-flex">
+                  <label>message <span>(optional)</span></label>
+                  <div class="file-type">
+                    <label class="upload-label" for=""><i class="upload-icon"></i>upload</label>
+                    <input class="multi-pt add-load" name="file[]" type="file" id="trrr" multiple>
+                  </div>
+                </div>
+                <div class="textarea-wrap">
+                  <textarea class="textarea-send" name="message" id="textarea-send"></textarea>
+                  <p id="charNum">0/500</p>
+                </div>
+              </div>
+              <div class="input-items input-items--full">
+                <label class="checkbox-default">
+                  <input type="checkbox" name="check1" required="" checked>
+                  <p class="checkbox-default__text">I am informed about processing of my personal <br> data and the right to withdraw my consent</p>
+                </label>
+              </div>
+              <button class="send-form" name="sendMail" type="submit" id="send-form">send 
+                <svg class="icon-arrow" width="70" height="24" viewBox="0 0 70 24">
+                  <use xlink:href="img/icon/sprite.svg#icon-arrow"></use>
+                </svg>
+              </button>
+            </form>
+          </div>
+        </div>
+        <div class="overlay-bg">
+          <div class="close-fill">
+            <svg class="icon-close-form" width="40" height="40" viewBox="0 0 40 40">
+              <use xlink:href="img/icon/sprite.svg#icon-close-form"></use>
+            </svg>
+          </div>
+        </div>
+      </div>
+      <aside id="sidebar">
+        <div class="logo-sidebar">
+          <div class="overlay-menu--close"></div><a class="logo-link" href="/index.html"><img src="img/logo-full.svg" alt="Logo"></a><a class="mobile-burger" href="#"><span></span><span></span></a>
+        </div>
+        <div class="wrapper-menu--mobile">
+          <ul class="list-dot--mobile">
+            <li><span></span></li>
+            <li><span class="is-active"></span></li>
+            <li><span></span></li>
+            <li><span></span></li>
+          </ul>
+          <ul class="list-menu--mobile">
+            <li><a href="index.html">about</a></li>
+            <li><a class="is-active" href="service.html">service</a></li>
+            <li><a href="team.html">team</a></li>
+            <li><a href="contacts.html">contacts</a></li>
+          </ul>
+        </div>
+        <div class="wrap-menu">
+          <ul class="list-menu">
+            <li><a href="index.html">about</a></li>
+            <li><a class="is-active" href="service.html">service</a></li>
+            <li><a href="team.html">team</a></li>
+            <li><a href="contacts.html">contacts</a></li>
+          </ul>
+          <div class="get-touch"><a class="get-touch--link" href="#" id="get-touch"><span>get in <br> touch <i class="icon-get">
+                  <svg class="icon-get" width="10" height="10" viewBox="0 0 10 10">
+                    <use xlink:href="img/icon/sprite.svg#icon-get"></use>
+                  </svg></i></span></a></div>
+        </div>
+      </aside>
+      <section class="section-content">
+        <div class="heading-content">
+          <h1>Do what matters, leave the rest for outsourcing</h1>
+        </div>
+        <div class="height-100"></div>
+        <section class="table-images flex-wrap">
+          <div class="table-images--items table-images--full">
+            <div class="table-images--wrap img-center--width" style="background:url(img/development/table-img2-1.jpg); background-repeat:no-repeat; background-size:cover; background-position: center;"></div>
+          </div>
+          <div class="table-images--items table-images--full-mini mobile-none">
+            <div class="table-images--wrap img-center--width" style="background:url(img/development/table-img2-2.jpg); background-repeat:no-repeat; background-size:cover; background-position: center;"></div>
+            <div class="table-images--wrap img-center--width" style="background:url(img/development/table-img2-3.jpg); background-repeat:no-repeat; background-size:cover; background-position: center;"></div>
+          </div>
+        </section>
+        <div class="height-80"></div>
+        <section class="section-text">
+          <div class="wrapper-text">
+            <div class="text-item">
+              <p>Virtual Electronics is the Syngaporean corporation developing different types of program support and engaging in subcontracting services.</p>
+            </div>
+            <div class="text-item">
+              <p>Virtual Electronics cooperates with technology business communities all over the world assisting to be more creative and constructive in its software products manufacturing.</p>
+            </div>
+          </div>
+        </section>
+        <div class="height-80"></div>
+        <hr class="gray-line">
+        <div class="height-40"></div>
+        <section class="section-slide">
+          <div class="slide-wrapper--no-overflow">
+            <div class="slide-wrapper">
+              <div class="swiper-container">
+                <div class="swiper-scrollbar--style">
+                  <div class="swiper-scrollbar"></div>
+                </div>
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide"><a class="swiper-slide--item img-center--height" href="mobile-app-development.html"><img src="img/about-slide/about-slide1.jpg" alt=""></a>
+                    <h3><a href="mobile-app-development.html">Mobile App Development</a></h3>
+                    <p>A custom application for your business operations.</p>
+                  </div>
+                  <div class="swiper-slide"><a class="swiper-slide--item img-center--height" href="smart-team.html"><img src="img/about-slide/photo-of-people-sitting-beside-table-31827552.jpg" alt=""></a>
+                    <h3><a href="smart-team.html">Smart Team</a></h3>
+                    <p>We use our resources and capabilities to rebuild your team</p>
+                  </div>
+                  <div class="swiper-slide"><a class="swiper-slide--item img-center--height" href="big-data-&amp;-analytics.html"><img src="img/about-slide/2xJXbVqQ2.jpg" alt=""></a>
+                    <h3><a href="big-data-&amp;-analytics.html">Big Data & Analytics</a></h3>
+                    <p>VE will help you turn segmentary figures into integrated big data solutions</p>
+                  </div>
+                  <div class="swiper-slide"><a class="swiper-slide--item frame-border" href="service.html">
+                      <svg class="icon-all" width="40" height="36" viewBox="0 0 40 36">
+                        <use xlink:href="img/icon/sprite.svg#icon-all"></use>
+                      </svg></a>
+                    <h3><a href="service.html">All Services</a></h3>
+                    <p>Discover all services we provide</p>
+                  </div>
+                </div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="section-number">
+          <div class="section-number--wrapper">
+            <div class="section-number--items">
+              <div class="number-item">
+                <h3>3</h3>
+                <p>offices</p>
+              </div>
+            </div>
+            <div class="section-number--items">
+              <div class="number-item">
+                <h3>87</h3>
+                <p>clients</p>
+              </div>
+            </div>
+            <div class="section-number--items">
+              <div class="number-item">
+                <h3>20+</h3>
+                <p>developers</p>
+              </div>
+            </div>
+            <div class="section-number--items">
+              <div class="number-item">
+                <h3>20</h3>
+                <p>clients <br> researched</p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="section-electronics">
+          <div class="heading-default">
+            <h3>About Virtual Electronics</h3>
+          </div>
+          <div class="wrapper-text">
+            <div class="text-item">
+              <p>The company carries out deliveries of great software engineering with significant competence in a range of financing, enterprise and management trying to help all our clients to implement best technology improvements in their business activities.</p>
+            </div>
+            <div class="text-item">
+              <p>Also corporates facilitates to improve clients' engineering teams making them successful. </p>
+            </div>
+          </div>
+          <div class="table-images aboutImages">
+            <div class="table-images--items table-images--big table-images--big-heihgt mobile-none">
+              <div class="table-images--wrap img-center--width" style="background:url(img/development/electronics1.jpg); background-repeat:no-repeat; background-size:cover; background-position: center;"></div>
+            </div>
+            <div class="table-images--items table-images--small">
+              <div class="table-images--wrap mobile-none" style="background:url(img/development/electronics2.jpg); background-repeat:no-repeat; background-size:cover; background-position: center;"></div>
+              <div class="table-images--wrap" style="background:url(img/development/electronics3.jpg); background-repeat:no-repeat; background-size:cover; background-position: center;"></div>
+            </div>
+          </div>
+        </section>
+        <div class="mobile-80">
+          <div class="height-100"></div>
+          <hr class="gray-line">
+          <div class="height-100"></div>
+        </div>
+        <section class="section-team">
+          <div class="heading-default">
+            <h3>Dream Team</h3>
+          </div>
+          <div class="wrapper-text">
+            <div class="text-item">
+              <p>Our team employs more than 30 highly qualified employees from 8 countries</p>
+            </div>
+          </div>
+          <div class="slide-wrapper--no-overflow">
+            <div class="slide-wrapper slide-team">
+              <div class="swiper-container">
+                <div class="swiper-scrollbar--style">
+                  <div class="swiper-scrollbar"></div>
+                </div>
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide"><a class="swiper-slide--item frame-border" href="">
+                      <svg class="icon-people" width="40" height="36" viewBox="0 0 40 36">
+                        <use xlink:href="img/icon/sprite.svg#icon-people"></use>
+                      </svg></a><a href="">Waldemar B</a>
+                    <p>Chief Executive Officer</p>
+                  </div>
+                  <div class="swiper-slide"><a class="swiper-slide--item frame-border" href="">
+                      <svg class="icon-people" width="40" height="36" viewBox="0 0 40 36">
+                        <use xlink:href="img/icon/sprite.svg#icon-people"></use>
+                      </svg></a><a href="">Dominic Tan Wei Wen</a>
+                    <p>Chief Operating Officer</p>
+                  </div>
+                  <div class="swiper-slide"><a class="swiper-slide--item frame-border" href="">
+                      <svg class="icon-people" width="40" height="36" viewBox="0 0 40 36">
+                        <use xlink:href="img/icon/sprite.svg#icon-people"></use>
+                      </svg></a>
+                    <h4>Eugeniy Semochkin</h4>
+                    <p>Chief Information Technology Officer</p>
+                  </div>
+                  <div class="swiper-slide"><a class="swiper-slide--item frame-border" href="team.html">
+                      <svg class="icon-all" width="40" height="36" viewBox="0 0 40 36">
+                        <use xlink:href="img/icon/sprite.svg#icon-all"></use>
+                      </svg></a><a class="small-name" href="team.html">All Team</a></div>
+                </div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <div class="height-100"></div>
+        <hr class="gray-line">
+        <div class="height-100"></div>
+        <section class="our-projects">
+          <div class="our-projects--wrapper">
+            <h3>Our projects</h3>
+            <div class="projects-logo">
+              <div class="projects-logo--items"><img src="img/our-projects/our-projects7.svg" alt="Our Projects"></div>
+              <div class="projects-logo--items"><img src="img/our-projects/our-projects8.svg" alt="Our Projects"></div>
+            </div>
+          </div>
+        </section>
+        <div class="height-120"></div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer-wrapper">
+        <p class="copy-right">© 2019-<span id="curent-year"></span> Virtual Electronics</p>
+        <p>All Rights Reserved</p>
+      </div>
+    </footer>
+    <div class="hidden">
+      <div class="popup-mail zoom-anim-dialog" id="popup-mail">
+        <p>111</p>
+      </div>
+    </div>
+    <!-- script(src='https://unpkg.com/flipping@latest/dist/flipping.web.js')-->
+    <!-- script(src='/js/shape-overlays.js')-->
+    <script src="js/scripts.js"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.7/jquery.validate.min.js"></script>
+    <script src="js/multiengine.js"></script>
+  </body>
+</html>

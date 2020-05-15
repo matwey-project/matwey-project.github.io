@@ -1,0 +1,300 @@
+
+<!-- - var link1 = "development.html"--><!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>ux/ui design</title>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="img/favicon/apple-touch-icon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="img/favicon/apple-touch-icon-72x72.png" type="image/x-icon">
+    <link rel="shortcut icon" href="img/favicon/apple-touch-icon-144x144.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/index.css">
+    <meta name="theme-color" content="#171717">
+    <meta name="msapplication-navbutton-color" content="#171717">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#171717">
+  </head>
+  <body>
+    <main class="section_main">
+      <div class="form-perspective">
+        <div class="form-hide">
+          <div class="succesfull-post">
+            <p class="done-head"><img src="img/icon-done.svg" alt="">Done!</p>
+            <div class="time"></div>
+            <div class="line-load">
+              <div class="line-progress"></div>
+            </div>
+            <p>Thank you for your time. <br> We will reply within 24 hours.</p><a class="back-done" href="#">back</a>
+          </div>
+          <div class="offset-form">
+            <svg class="icon-close-form" width="40" height="40" viewBox="0 0 40 40">
+              <use xlink:href="img/icon/sprite.svg#icon-close-form"></use>
+            </svg>
+            <h3>Let’s talk. Just enter your details and we will reply within 24 hours</h3>
+            <form action="#" method="post" id="sendform" enctype="multipart/form-data">
+              <div class="input-items">
+                <label>name</label>
+                <input type="text" name="name">
+                <div class="error-message">
+                  <svg class="icon-error" width="14" height="15" viewBox="0 0 14 15">
+                    <use xlink:href="img/icon/sprite.svg#icon-error"></use>
+                  </svg>
+                  <p>Required</p>
+                </div>
+              </div>
+              <div class="input-items">
+                <label>email</label>
+                <input type="text" name="email">
+                <div class="error-message">
+                  <svg class="icon-error" width="14" height="15" viewBox="0 0 14 15">
+                    <use xlink:href="img/icon/sprite.svg#icon-error"></use>
+                  </svg>
+                  <p>Required</p>
+                </div>
+              </div>
+              <div class="input-items">
+                <label>country</label>
+                <div class="countryCheck-wrap">
+                  <input class="countryCheck" type="text" name="country" placeholder="United States">
+                </div>
+              </div>
+              <div class="input-items">
+                <label>phone</label>
+                <div class="phone-items">
+                  <div class="phone-word">
+                    <input type="tel2" value="+1">
+                  </div>
+                  <input class="phone-main" type="tel3" maxlength="12">
+                  <input class="phone-val" type="hidden" name="tel">
+                  <div class="error-message">
+                    <svg class="icon-error" width="14" height="15" viewBox="0 0 14 15">
+                      <use xlink:href="img/icon/sprite.svg#icon-error"></use>
+                    </svg>
+                    <p>Required</p>
+                  </div>
+                </div>
+              </div>
+              <div class="input-items input-items--full">
+                <div class="label-flex">
+                  <label>message <span>(optional)</span></label>
+                  <div class="file-type">
+                    <label class="upload-label" for=""><i class="upload-icon"></i>upload</label>
+                    <input class="multi-pt add-load" name="file[]" type="file" id="trrr" multiple>
+                  </div>
+                </div>
+                <div class="textarea-wrap">
+                  <textarea class="textarea-send" name="message" id="textarea-send"></textarea>
+                  <p id="charNum">0/500</p>
+                </div>
+              </div>
+              <div class="input-items input-items--full">
+                <label class="checkbox-default">
+                  <input type="checkbox" name="check1" required="" checked>
+                  <p class="checkbox-default__text">I am informed about processing of my personal <br> data and the right to withdraw my consent</p>
+                </label>
+              </div>
+              <button class="send-form" name="sendMail" type="submit" id="send-form">send 
+                <svg class="icon-arrow" width="70" height="24" viewBox="0 0 70 24">
+                  <use xlink:href="img/icon/sprite.svg#icon-arrow"></use>
+                </svg>
+              </button>
+            </form>
+          </div>
+        </div>
+        <div class="overlay-bg">
+          <div class="close-fill">
+            <svg class="icon-close-form" width="40" height="40" viewBox="0 0 40 40">
+              <use xlink:href="img/icon/sprite.svg#icon-close-form"></use>
+            </svg>
+          </div>
+        </div>
+      </div>
+      <aside id="sidebar">
+        <div class="logo-sidebar">
+          <div class="overlay-menu--close"></div><a class="logo-link" href="/"><img src="img/logo-full.svg" alt="Logo"></a><a class="mobile-burger" href="#"><span></span><span></span></a>
+        </div>
+        <div class="wrapper-menu--mobile">
+          <ul class="list-dot--mobile">
+            <li><span></span></li>
+            <li><span class="is-active"></span></li>
+            <li><span></span></li>
+            <li><span></span></li>
+          </ul>
+          <ul class="list-menu--mobile">
+            <li><a href="/index.html">about</a></li>
+            <li><a class="is-active" href="/service.html">service</a></li>
+            <li><a href="/team.html">team</a></li>
+            <li><a href="/contacts.html">contacts</a></li>
+          </ul>
+        </div>
+        <div class="wrap-menu">
+          <ul class="list-menu">
+            <li><a href="/index.html">about</a></li>
+            <li><a class="is-active" href="/service.html">service</a></li>
+            <li><a href="/team.html">team</a></li>
+            <li><a href="/contacts.html">contacts</a></li>
+          </ul>
+          <div class="get-touch"><a class="get-touch--link" href="#" id="get-touch"><span>get in <br> touch <i class="icon-get">
+                  <svg class="icon-get" width="10" height="10" viewBox="0 0 10 10">
+                    <use xlink:href="img/icon/sprite.svg#icon-get"></use>
+                  </svg></i></span></a></div>
+        </div>
+      </aside>
+      <section class="section-content">
+        <div class="heading-content">
+          <h1>UX/UI Design</h1>
+        </div>
+        <div class="height-60"></div>
+        <section class="section-text">
+          <div class="wrapper-text">
+            <div class="text-item">
+              <p>UI that will allow users satisfy their needs using your products.</p>
+            </div>
+          </div>
+        </section>
+        <div class="height-80"></div>
+        <hr class="gray-line">
+        <div class="height-80"></div>
+        <section class="section-text">
+          <div class="wrapper-text">
+            <div class="text-item">
+              <p>Virtual Electronics first of all considers for what purposes people will use your product. Then we develop suitable for these purposes UI.</p>
+            </div>
+            <div class="text-item">
+              <p>UIs should meet people’s needs and be easy to interact with that is why we apply best technologies while designing to ensure reliable design for apps and remove the gap between a user and a technology.</p>
+            </div>
+          </div>
+        </section>
+        <div class="height-80"></div>
+        <section class="table-images flex-wrap">
+          <div class="table-images--items table-images--full">
+            <div class="table-images--wrap img-center--width" style="background:url(img/development/apple-computer-desk-devices-3265011.jpg); background-repeat:no-repeat; background-size:cover; background-position: center;"></div>
+          </div>
+        </section>
+        <div class="mobile-80">
+          <div class="height-100"></div>
+          <hr class="gray-line">
+          <div class="height-100"></div>
+        </div>
+        <section class="section-expertise">
+          <div class="expertise-wrapper">
+            <div class="expertise-cols">
+              <div class="expertise-item"><img src="img/icon/icon-logo.svg" alt="">
+                <h4>UX/UI design services</h4>
+                <p>Our UX developers can deliver services for interface development for different industries. We guarantee that the UI will meet all the requirements and will be user-friendly so people will get profits as soon as they decided to take advantage of your product</p>
+              </div>
+            </div>
+            <div class="expertise-cols">
+              <div class="expertise-item"><img src="img/icon/icon-logo.svg" alt="">
+                <h4>UI design</h4>
+                <p>Preparation of tried frameworks and prototypes for results-based digital solution</p>
+              </div>
+            </div>
+            <div class="expertise-cols">
+              <div class="expertise-item"><img src="img/icon/icon-logo.svg" alt="">
+                <h4>Interaction design</h4>
+                <p>Reflection of users’ interaction in textual, visual, platform, time, and behavioral context</p>
+              </div>
+            </div>
+            <div class="expertise-cols">
+              <div class="expertise-item"><img src="img/icon/icon-logo.svg" alt="">
+                <h4>UI development</h4>
+                <p>Interface designing from ground zero to its completion</p>
+              </div>
+            </div>
+            <div class="expertise-cols">
+              <div class="expertise-item"><img src="img/icon/icon-logo.svg" alt="">
+                <h4>Web and mobile</h4>
+                <p>Management of designers and developers’ cooperation</p>
+              </div>
+            </div>
+            <div class="expertise-cols">
+              <div class="expertise-item"><img src="img/icon/icon-logo.svg" alt="">
+                <h4>HMI design depending on a business line</h4>
+                <p>Creation of convenient solutions that remove the gap between people and technologies</p>
+              </div>
+            </div>
+            <div class="expertise-cols">
+              <div class="expertise-item"><img src="img/icon/icon-logo.svg" alt="">
+                <h4>Design based on data</h4>
+                <p>Product enhancement taking into account user’s experience</p>
+              </div>
+            </div>
+            <div class="expertise-cols">
+              <div class="expertise-item"><img src="img/icon/icon-logo.svg" alt="">
+                <h4>Planning of activities and cycles</h4>
+                <p>Obtain projected results and precise assessments with the help of our UX/UI processes</p>
+              </div>
+            </div>
+            <div class="expertise-cols">
+              <div class="expertise-item"><img src="img/icon/icon-logo.svg" alt="">
+                <h4>Application of proper methodologies</h4>
+                <p>Our team of professional is willing to conduct research, analysis and consider all the concept to satisfy user’s needs and resolve problems of competitiveness on the market</p>
+              </div>
+            </div>
+            <div class="expertise-cols">
+              <div class="expertise-item"><img src="img/icon/icon-logo.svg" alt="">
+                <h4>We are experienced in niche UX/UI designing</h4>
+                <p>Our developers have experience in automotive, eLearning, and FinTech areas for which they have already created a number of user-friendly interfaces</p>
+              </div>
+            </div>
+            <div class="expertise-cols">
+              <div class="expertise-item"><img src="img/icon/icon-logo.svg" alt="">
+                <h4>Quick-learners</h4>
+                <p>Be ready for quick interchange of information between teams working on your product</p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <div class="mobile-80">
+          <div class="height-100"></div>
+          <hr class="gray-line">
+          <div class="height-100"></div>
+        </div>
+        <section class="section-why">
+          <div class="heading-default">
+            <h3>UX/UI ensures growth of clients’ involvement</h3>
+          </div>
+          <div class="wrapper-why">
+            <div class="why-cols">
+              <div class="why-item"><img src="img/icon/icon-logo.svg" alt="">
+                <h4>Stand out your product</h4>
+                <p>The market abounds in similar products. In order attract users to your product it should have impressive and memorable design, satisfy people’s needs and have user-friendly interface providing at the same time benefits, security, reliability and offering high-quality services. We will help you to make your product distinguish itself among boring and similar products on the market.</p>
+              </div>
+            </div>
+            <div class="why-cols">
+              <div class="why-item"><img src="img/icon/icon-logo.svg" alt="">
+                <h4>Increased income</h4>
+                <p>Attractive web-sites and well-constructed and convenient interfaces push users turn to your product again and again. It is very important to create user-friendly interface and develop perfect design to increase credibility and reliability of your product that will surely bring you to large income and lead your product to success.</p>
+              </div>
+            </div>
+            <div class="why-cols">
+              <div class="why-item"><img src="img/icon/icon-logo.svg" alt="">
+                <h4>Proper development</h4>
+                <p>Digital prototyping and iterative layouts make it possible for companies to check their business concepts, test each function before the release, obtain accurate assessment of their app or website and reduce costs. Our services of monitoring users experience and digital prototyping will ensure the adaptability of further processes and will help to reduce future cost and attract more users by proper development management.</p>
+              </div>
+            </div>
+          </div>
+          <div class="height-100"></div>
+        </section>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer-wrapper">
+        <p class="copy-right">© 2019-<span id="curent-year"></span> Virtual Electronics</p>
+        <p>All Rights Reserved</p>
+      </div>
+    </footer>
+    <div class="hidden">
+      <div class="popup-mail zoom-anim-dialog" id="popup-mail">
+        <p>111</p>
+      </div>
+    </div>
+    <!-- script(src='https://unpkg.com/flipping@latest/dist/flipping.web.js')-->
+    <!-- script(src='/js/shape-overlays.js')-->
+    <script src="js/scripts.js"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.7/jquery.validate.min.js"></script>
+    <script src="js/multiengine.js"></script>
+  </body>
+</html>

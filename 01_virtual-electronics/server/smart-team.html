@@ -1,0 +1,260 @@
+
+<!-- - var link1 = "development.html"--><!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>smart team</title>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="img/favicon/apple-touch-icon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="img/favicon/apple-touch-icon-72x72.png" type="image/x-icon">
+    <link rel="shortcut icon" href="img/favicon/apple-touch-icon-144x144.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/index.css">
+    <meta name="theme-color" content="#171717">
+    <meta name="msapplication-navbutton-color" content="#171717">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#171717">
+  </head>
+  <body>
+    <main class="section_main">
+      <div class="form-perspective">
+        <div class="form-hide">
+          <div class="succesfull-post">
+            <p class="done-head"><img src="img/icon-done.svg" alt="">Done!</p>
+            <div class="time"></div>
+            <div class="line-load">
+              <div class="line-progress"></div>
+            </div>
+            <p>Thank you for your time. <br> We will reply within 24 hours.</p><a class="back-done" href="#">back</a>
+          </div>
+          <div class="offset-form">
+            <svg class="icon-close-form" width="40" height="40" viewBox="0 0 40 40">
+              <use xlink:href="img/icon/sprite.svg#icon-close-form"></use>
+            </svg>
+            <h3>Let’s talk. Just enter your details and we will reply within 24 hours</h3>
+            <form action="#" method="post" id="sendform" enctype="multipart/form-data">
+              <div class="input-items">
+                <label>name</label>
+                <input type="text" name="name">
+                <div class="error-message">
+                  <svg class="icon-error" width="14" height="15" viewBox="0 0 14 15">
+                    <use xlink:href="img/icon/sprite.svg#icon-error"></use>
+                  </svg>
+                  <p>Required</p>
+                </div>
+              </div>
+              <div class="input-items">
+                <label>email</label>
+                <input type="text" name="email">
+                <div class="error-message">
+                  <svg class="icon-error" width="14" height="15" viewBox="0 0 14 15">
+                    <use xlink:href="img/icon/sprite.svg#icon-error"></use>
+                  </svg>
+                  <p>Required</p>
+                </div>
+              </div>
+              <div class="input-items">
+                <label>country</label>
+                <div class="countryCheck-wrap">
+                  <input class="countryCheck" type="text" name="country" placeholder="United States">
+                </div>
+              </div>
+              <div class="input-items">
+                <label>phone</label>
+                <div class="phone-items">
+                  <div class="phone-word">
+                    <input type="tel2" value="+1">
+                  </div>
+                  <input class="phone-main" type="tel3" maxlength="12">
+                  <input class="phone-val" type="hidden" name="tel">
+                  <div class="error-message">
+                    <svg class="icon-error" width="14" height="15" viewBox="0 0 14 15">
+                      <use xlink:href="img/icon/sprite.svg#icon-error"></use>
+                    </svg>
+                    <p>Required</p>
+                  </div>
+                </div>
+              </div>
+              <div class="input-items input-items--full">
+                <div class="label-flex">
+                  <label>message <span>(optional)</span></label>
+                  <div class="file-type">
+                    <label class="upload-label" for=""><i class="upload-icon"></i>upload</label>
+                    <input class="multi-pt add-load" name="file[]" type="file" id="trrr" multiple>
+                  </div>
+                </div>
+                <div class="textarea-wrap">
+                  <textarea class="textarea-send" name="message" id="textarea-send"></textarea>
+                  <p id="charNum">0/500</p>
+                </div>
+              </div>
+              <div class="input-items input-items--full">
+                <label class="checkbox-default">
+                  <input type="checkbox" name="check1" required="" checked>
+                  <p class="checkbox-default__text">I am informed about processing of my personal <br> data and the right to withdraw my consent</p>
+                </label>
+              </div>
+              <button class="send-form" name="sendMail" type="submit" id="send-form">send 
+                <svg class="icon-arrow" width="70" height="24" viewBox="0 0 70 24">
+                  <use xlink:href="img/icon/sprite.svg#icon-arrow"></use>
+                </svg>
+              </button>
+            </form>
+          </div>
+        </div>
+        <div class="overlay-bg">
+          <div class="close-fill">
+            <svg class="icon-close-form" width="40" height="40" viewBox="0 0 40 40">
+              <use xlink:href="img/icon/sprite.svg#icon-close-form"></use>
+            </svg>
+          </div>
+        </div>
+      </div>
+      <aside id="sidebar">
+        <div class="logo-sidebar">
+          <div class="overlay-menu--close"></div><a class="logo-link" href="/"><img src="img/logo-full.svg" alt="Logo"></a><a class="mobile-burger" href="#"><span></span><span></span></a>
+        </div>
+        <div class="wrapper-menu--mobile">
+          <ul class="list-dot--mobile">
+            <li><span></span></li>
+            <li><span class="is-active"></span></li>
+            <li><span></span></li>
+            <li><span></span></li>
+          </ul>
+          <ul class="list-menu--mobile">
+            <li><a href="/index.html">about</a></li>
+            <li><a class="is-active" href="/service.html">service</a></li>
+            <li><a href="/team.html">team</a></li>
+            <li><a href="/contacts.html">contacts</a></li>
+          </ul>
+        </div>
+        <div class="wrap-menu">
+          <ul class="list-menu">
+            <li><a href="/index.html">about</a></li>
+            <li><a class="is-active" href="/service.html">service</a></li>
+            <li><a href="/team.html">team</a></li>
+            <li><a href="/contacts.html">contacts</a></li>
+          </ul>
+          <div class="get-touch"><a class="get-touch--link" href="#" id="get-touch"><span>get in <br> touch <i class="icon-get">
+                  <svg class="icon-get" width="10" height="10" viewBox="0 0 10 10">
+                    <use xlink:href="img/icon/sprite.svg#icon-get"></use>
+                  </svg></i></span></a></div>
+        </div>
+      </aside>
+      <section class="section-content">
+        <div class="heading-content">
+          <h1>Smart Team</h1>
+        </div>
+        <div class="height-80"></div>
+        <section class="table-images flex-wrap">
+          <div class="table-images--items table-images--full">
+            <div class="table-images--wrap img-center--width" style="background:url(img/development/photo-of-people-sitting-beside-table-31827551.jpg); background-repeat:no-repeat; background-size:cover; background-position: center;"></div>
+          </div>
+        </section>
+        <div class="height-80"></div>
+        <hr class="gray-line">
+        <div class="height-80"></div>
+        <section class="section-text">
+          <div class="heading-default">
+            <h3>We Will Help You</h3>
+          </div>
+          <div class="wrapper-text">
+            <div class="text-item">
+              <ul>
+                <li>Decrease resourcing costs by up to 50%</li>
+                <li>Enhance the skills of your existing team</li>
+                <li>Launch a product faster</li>
+                <li>Improve any issue in your skill set</li>
+                <li>Concentrate on your core business</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+        <div class="height-100"></div>
+        <hr class="gray-line">
+        <div class="height-100"></div>
+        <div class="how-work--wrapper">
+          <div class="wrapper-text">
+            <div class="text-item how-work--item">
+              <h4><span class="count--how-work">1</span>Rebuilding your team</h4>
+              <p>We use our resources and capabilities to rebuild your team, basing on what you need. Some of our devs will be available for you from the start. Also, we can provide custom. </p>
+              <p>We build your team based on your requirements, using our internal development recruitment  services. </p>
+            </div>
+            <div class="text-item how-work--item">
+              <h4><span class="count--how-work">2</span>Integration</h4>
+              <p>We integrate a ready-made team with your site, and our manager responsible for team integration will keep working with you for several months to make sure everything operates properly. He will also work on integration, team-building and do everything needed to ensure effective communication.</p>
+            </div>
+            <div class="text-item how-work--item">
+              <h4><span class="count--how-work">3</span>Administration</h4>
+              <p>We take care of provision of technical infrastructure, as well as encouragement of your teams to continue their education. We help a team to grow professionally.</p>
+            </div>
+            <div class="text-item how-work--item">
+              <h4><span class="count--how-work">4</span>Control your product development</h4>
+              <p>You can ask us to take part and work on communication and relationship anytime, and also you will fully control product development.</p>
+            </div>
+          </div>
+        </div>
+        <div class="height-100"></div>
+        <hr class="gray-line">
+        <div class="height-100"></div>
+        <section class="section--how-work">
+          <div class="heading-default">
+            <h3>Why to choose us</h3>
+          </div>
+          <div class="table-images flex-wrap">
+            <div class="table-images--items table-images--full">
+              <div class="table-images--wrap img-center--width" style="background:url(img/development/photo-of-men-doing-fist-bump-31843021.jpg); background-repeat:no-repeat; background-size:cover; background-position: center;"></div>
+            </div>
+          </div>
+        </section>
+        <div class="mobile-80"></div>
+        <section class="section-why">
+          <div class="heading-default"></div>
+          <div class="wrapper-why">
+            <div class="why-cols">
+              <div class="why-item"><img src="img/icon/icon-logo.svg" alt="">
+                <h4>Locations</h4>
+                <p>We are located mostly in the European countries and also we have strong connections  with many destinations in North America.</p>
+              </div>
+            </div>
+            <div class="why-cols">
+              <div class="why-item"><img src="img/icon/icon-logo.svg" alt="">
+                <h4>High loyalty on the team</h4>
+                <p>One more thing we can do is help you increase loyalty, as well as increase the level of motivation that will be high enough to help your team function well.</p>
+              </div>
+            </div>
+            <div class="why-cols">
+              <div class="why-item"><img src="img/icon/icon-logo.svg" alt="">
+                <h4>Technology expertise</h4>
+                <p>We use our vast experience and profound tech knowledge to deliver high-quality services, which helps us to create innovative solutions. Our professionals have experience of developing FinTech and Business Intelligence solutions, mobile apps, big data and science data analysis.</p>
+              </div>
+            </div>
+            <div class="why-cols">
+              <div class="why-item"><img src="img/icon/icon-logo.svg" alt="">
+                <h4>Easy to start</h4>
+                <p>Our recruitment specialists make it possible to involve top professionals to be a part of your business team. It should be easy to create your expert team as we have centers in countries where a great number of experienced and talented software engineers work.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <div class="height-100"></div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer-wrapper">
+        <p class="copy-right">© 2019-<span id="curent-year"></span> Virtual Electronics</p>
+        <p>All Rights Reserved</p>
+      </div>
+    </footer>
+    <div class="hidden">
+      <div class="popup-mail zoom-anim-dialog" id="popup-mail">
+        <p>111</p>
+      </div>
+    </div>
+    <!-- script(src='https://unpkg.com/flipping@latest/dist/flipping.web.js')-->
+    <!-- script(src='/js/shape-overlays.js')-->
+    <script src="js/scripts.js"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.7/jquery.validate.min.js"></script>
+    <script src="js/multiengine.js"></script>
+  </body>
+</html>

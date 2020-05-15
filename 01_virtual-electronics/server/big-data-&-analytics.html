@@ -1,0 +1,361 @@
+
+<!-- - var link1 = "development.html"--><!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>big data &amp; analytics</title>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="img/favicon/apple-touch-icon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="img/favicon/apple-touch-icon-72x72.png" type="image/x-icon">
+    <link rel="shortcut icon" href="img/favicon/apple-touch-icon-144x144.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/index.css">
+    <meta name="theme-color" content="#171717">
+    <meta name="msapplication-navbutton-color" content="#171717">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#171717">
+  </head>
+  <body>
+    <main class="section_main">
+      <div class="form-perspective">
+        <div class="form-hide">
+          <div class="succesfull-post">
+            <p class="done-head"><img src="img/icon-done.svg" alt="">Done!</p>
+            <div class="time"></div>
+            <div class="line-load">
+              <div class="line-progress"></div>
+            </div>
+            <p>Thank you for your time. <br> We will reply within 24 hours.</p><a class="back-done" href="#">back</a>
+          </div>
+          <div class="offset-form">
+            <svg class="icon-close-form" width="40" height="40" viewBox="0 0 40 40">
+              <use xlink:href="img/icon/sprite.svg#icon-close-form"></use>
+            </svg>
+            <h3>Let’s talk. Just enter your details and we will reply within 24 hours</h3>
+            <form action="#" method="post" id="sendform" enctype="multipart/form-data">
+              <div class="input-items">
+                <label>name</label>
+                <input type="text" name="name">
+                <div class="error-message">
+                  <svg class="icon-error" width="14" height="15" viewBox="0 0 14 15">
+                    <use xlink:href="img/icon/sprite.svg#icon-error"></use>
+                  </svg>
+                  <p>Required</p>
+                </div>
+              </div>
+              <div class="input-items">
+                <label>email</label>
+                <input type="text" name="email">
+                <div class="error-message">
+                  <svg class="icon-error" width="14" height="15" viewBox="0 0 14 15">
+                    <use xlink:href="img/icon/sprite.svg#icon-error"></use>
+                  </svg>
+                  <p>Required</p>
+                </div>
+              </div>
+              <div class="input-items">
+                <label>country</label>
+                <div class="countryCheck-wrap">
+                  <input class="countryCheck" type="text" name="country" placeholder="United States">
+                </div>
+              </div>
+              <div class="input-items">
+                <label>phone</label>
+                <div class="phone-items">
+                  <div class="phone-word">
+                    <input type="tel2" value="+1">
+                  </div>
+                  <input class="phone-main" type="tel3" maxlength="12">
+                  <input class="phone-val" type="hidden" name="tel">
+                  <div class="error-message">
+                    <svg class="icon-error" width="14" height="15" viewBox="0 0 14 15">
+                      <use xlink:href="img/icon/sprite.svg#icon-error"></use>
+                    </svg>
+                    <p>Required</p>
+                  </div>
+                </div>
+              </div>
+              <div class="input-items input-items--full">
+                <div class="label-flex">
+                  <label>message <span>(optional)</span></label>
+                  <div class="file-type">
+                    <label class="upload-label" for=""><i class="upload-icon"></i>upload</label>
+                    <input class="multi-pt add-load" name="file[]" type="file" id="trrr" multiple>
+                  </div>
+                </div>
+                <div class="textarea-wrap">
+                  <textarea class="textarea-send" name="message" id="textarea-send"></textarea>
+                  <p id="charNum">0/500</p>
+                </div>
+              </div>
+              <div class="input-items input-items--full">
+                <label class="checkbox-default">
+                  <input type="checkbox" name="check1" required="" checked>
+                  <p class="checkbox-default__text">I am informed about processing of my personal <br> data and the right to withdraw my consent</p>
+                </label>
+              </div>
+              <button class="send-form" name="sendMail" type="submit" id="send-form">send 
+                <svg class="icon-arrow" width="70" height="24" viewBox="0 0 70 24">
+                  <use xlink:href="img/icon/sprite.svg#icon-arrow"></use>
+                </svg>
+              </button>
+            </form>
+          </div>
+        </div>
+        <div class="overlay-bg">
+          <div class="close-fill">
+            <svg class="icon-close-form" width="40" height="40" viewBox="0 0 40 40">
+              <use xlink:href="img/icon/sprite.svg#icon-close-form"></use>
+            </svg>
+          </div>
+        </div>
+      </div>
+      <aside id="sidebar">
+        <div class="logo-sidebar">
+          <div class="overlay-menu--close"></div><a class="logo-link" href="/"><img src="img/logo-full.svg" alt="Logo"></a><a class="mobile-burger" href="#"><span></span><span></span></a>
+        </div>
+        <div class="wrapper-menu--mobile">
+          <ul class="list-dot--mobile">
+            <li><span></span></li>
+            <li><span class="is-active"></span></li>
+            <li><span></span></li>
+            <li><span></span></li>
+          </ul>
+          <ul class="list-menu--mobile">
+            <li><a href="/index.html">about</a></li>
+            <li><a class="is-active" href="/service.html">service</a></li>
+            <li><a href="/team.html">team</a></li>
+            <li><a href="/contacts.html">contacts</a></li>
+          </ul>
+        </div>
+        <div class="wrap-menu">
+          <ul class="list-menu">
+            <li><a href="/index.html">about</a></li>
+            <li><a class="is-active" href="/service.html">service</a></li>
+            <li><a href="/team.html">team</a></li>
+            <li><a href="/contacts.html">contacts</a></li>
+          </ul>
+          <div class="get-touch"><a class="get-touch--link" href="#" id="get-touch"><span>get in <br> touch <i class="icon-get">
+                  <svg class="icon-get" width="10" height="10" viewBox="0 0 10 10">
+                    <use xlink:href="img/icon/sprite.svg#icon-get"></use>
+                  </svg></i></span></a></div>
+        </div>
+      </aside>
+      <section class="section-content">
+        <div class="heading-content">
+          <h1>Big Data & Analytics</h1>
+        </div>
+        <div class="height-80"></div>
+        <hr class="gray-line">
+        <div class="height-80"></div>
+        <section class="section-text">
+          <div class="wrapper-text">
+            <div class="text-item">
+              <div class="heading-default">
+                <h3>Make the best use of the Big Data for the benefit of your product </h3>
+              </div>
+              <p>Virtual Electronics will help you turn segmentary figures into integrated big data solutions that will strengthen your daily operations and focus your efforts in a most productive way. You will be able to use the advantages of making data-driven decisions and forecasts to provide more valuable and relevant product to your customers and optimize your costs and resources by cutting your operations to the most effective ones.</p>
+            </div>
+            <div class="text-item">
+              <div class="heading-default">
+                <h3>Big Data-related services</h3>
+              </div>
+              <p>Data produced and stored by your company is a perfect source from which our expert will be able to create a clear image of the key strengths, weaknesses, risks and potential of your product in particular and business as a whole. Understanding a making a good use of all of these is the key to reducing your costs, speeding up the marketing of your products and increasing the outcome of your business operations.</p>
+            </div>
+          </div>
+        </section>
+        <div class="height-80"></div>
+        <section class="table-images flex-wrap">
+          <div class="table-images--items table-images--full">
+            <div class="table-images--wrap img-center--width" style="background:url(img/development/2xJXbVqQ1.jpg); background-repeat:no-repeat; background-size:cover; background-position: center;"></div>
+          </div>
+        </section>
+        <div class="height-80"></div>
+        <hr class="gray-line">
+        <div class="height-80"></div>
+        <section class="section-text">
+          <div class="wrapper-text">
+            <div class="text-item">
+              <div class="heading-default">
+                <h3>Machine learning</h3>
+              </div>
+              <p>Use machine learning to construct the most advanced frameworks based on computer vision, neuro algorithms and self-educating solutions.</p>
+            </div>
+            <div class="text-item">
+              <div class="heading-default">
+                <h3>Big data analysis</h3>
+              </div>
+              <p>Transform huge amounts of standalone data into a meaningful information and use it for the good of your business.</p>
+            </div>
+          </div>
+        </section>
+        <div class="mobile-80">
+          <div class="height-100"></div>
+          <hr class="gray-line">
+          <div class="height-100"></div>
+        </div>
+        <section class="section-expertise">
+          <div class="expertise-wrapper">
+            <div class="expertise-cols">
+              <div class="expertise-item"><img src="img/icon/icon-logo.svg" alt="">
+                <h4>Take full control of your data</h4>
+                <p>Keep your data organized, safely stored and useful</p>
+              </div>
+            </div>
+            <div class="expertise-cols">
+              <div class="expertise-item"><img src="img/icon/icon-logo.svg" alt="">
+                <h4>Ongoing business analysis</h4>
+                <p>Learn to better understand your business using ongoing data monitoring and reporting, powerful tools and advanced mechanisms of data science</p>
+              </div>
+            </div>
+            <div class="expertise-cols">
+              <div class="expertise-item"><img src="img/icon/icon-logo.svg" alt="">
+                <h4>Learn to understand the data language</h4>
+                <p>Learn from your data, understand what it has to say and respond by building an effective and easy communication</p>
+              </div>
+            </div>
+            <div class="expertise-cols">
+              <div class="expertise-item"><img src="img/icon/icon-logo.svg" alt="">
+                <h4>Data organization</h4>
+                <p>Organize your data storages in the most effective way and make room for the handy and accessible big data solutions</p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <div class="height-100"></div>
+        <hr class="gray-line">
+        <div class="height-100"></div>
+        <section class="section-text">
+          <div class="wrapper-text">
+            <div class="text-item">
+              <div class="heading-default">
+                <h3>Big data reading and visualization</h3>
+              </div>
+              <p>Make the outcome of your big data solutions easy to understand and use them to create valuable insights.</p>
+            </div>
+          </div>
+        </section>
+        <div class="height-60"></div>
+        <section class="section-text">
+          <div class="wrapper-text">
+            <div class="text-item">
+              <div class="heading-default">
+                <h3>Forecasting</h3>
+              </div>
+              <p>Locate the patterns in your data and make useful forecasts that will help you predict and eliminate the risks.</p>
+            </div>
+            <div class="text-item">
+              <div class="heading-default">
+                <h3>Professional AI utilization</h3>
+              </div>
+              <p>Our team is experienced in implementing all kinds of Artificial Intelligence solution that are designed to let you make the most of your business.</p>
+            </div>
+          </div>
+        </section>
+        <div class="height-100"></div>
+        <hr class="gray-line">
+        <div class="height-100"></div>
+        <section class="section--how-work">
+          <div class="heading-default">
+            <h3>We make science serve your business</h3>
+          </div>
+          <div class="table-images flex-wrap">
+            <div class="table-images--items table-images--full">
+              <div class="table-images--wrap img-center--width" style="background:url(img/development/iL7PwcSw1.jpg); background-repeat:no-repeat; background-size:cover; background-position: center;"></div>
+            </div>
+          </div>
+          <div class="height-80"></div>
+          <div class="wrapper-text">
+            <div class="text-item">
+              <p>Virtual Electronics’ engineers are proud to have scientific degrees in computer science and applied mathematics and have practical experience and knowledge in implementing this knowledge in order to provide results for your business.</p>
+            </div>
+          </div>
+        </section>
+        <div class="mobile-80">
+          <div class="height-100"></div>
+          <hr class="gray-line">
+          <div class="height-60"></div>
+        </div>
+        <section class="section-why">
+          <div class="wrapper-why">
+            <div class="why-cols">
+              <div class="why-item"><img src="img/icon/icon-logo.svg" alt="">
+                <h4>We customize big data solutions for your exact needs</h4>
+                <p>We analyze your needs and then use specific tools and make necessary adjustments to make sure that our big data solutions fit your business needs and goals.</p>
+              </div>
+            </div>
+            <div class="why-cols">
+              <div class="why-item"><img src="img/icon/icon-logo.svg" alt="">
+                <h4>We make complex solutions easy to comprehend and use</h4>
+                <p>Our expertise allows us to turn complicated big data solutions into a human-readable information that is easy to work with.</p>
+              </div>
+            </div>
+            <div class="why-cols">
+              <div class="why-item"><img src="img/icon/icon-logo.svg" alt="">
+                <h4>We focus on security of your data</h4>
+                <p>We always remember how important your data is for you, and therefore we handle your data with due care and make sure our solutions are safe and protected</p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <div class="height-100"></div>
+        <hr class="gray-line">
+        <div class="height-100"></div>
+        <section class="section-text">
+          <div class="heading-default">
+            <h3>Services related to big data-driven business management</h3>
+          </div>
+          <div class="wrapper-text">
+            <div class="text-item">
+              <div class="heading-default">
+                <h3>Data-based decisions</h3>
+              </div>
+              <ul>
+                <li>In today’s world data is one of the most valuable resources, and companies understand that. Many businesses turn to be more data-dependent while becoming more and more responsible with the data itself and flexible in terms of data-based solutions. Forecasts and management based on data-driven decisions is a healthy way for moving any business forward.</li>
+                <li>With the huge amounts of data incoming every day it is vitally important to stay in pace with the ever-rising standards and think out of the box with suggested business solutions. Data-driven forecasts and ongoing analytics are the key to getting better outcomes through making rational and well-weighted decisions.</li>
+              </ul>
+            </div>
+            <div class="text-item">
+              <div class="heading-default">
+                <h3>Stand out among competitors</h3>
+              </div>
+              <ul>
+                <li>Quality of data and expertise in handling and analyzing this data is crucial for adequately addressing any risks and taking possibilities. It allows businesses to identity the trends on the early stages and adjust their products and services to their advantage.</li>
+                <li>Big data-driven decisions can only be made with professional forecasting and analysis. The sooner your company starts implementing big data analysis and decision-making based on this ongoing process, the more advanced your market positions will be among the competitors and the quicker you will see the increase in your company’s outcome.</li>
+              </ul>
+            </div>
+          </div>
+          <div class="height-80"></div>
+          <div class="wrapper-text">
+            <div class="text-item">
+              <div class="heading-default">
+                <h3>Let the data drive you to success</h3>
+              </div>
+              <ul>
+                <li>Data science today answers the calls for making data-driven solutions that consider a wide range of information in making forecasts for any modern business. Big data analytics includes allocating, structuring and analyzing all forms of useful data including texts, figures, human speech, actions, time measurements, etc. Expertise in handling these kinds of data is critical for getting a reliable forecast specific for a certain company and its products and services.</li>
+                <li>Data scientists process the Big Data to build effective prognosis models and create patterns of possible scenarios that can further be used to address the most probable issues before they happen. This also includes data-driven analysis of the clients’ problems and expectations that can be effectively solved and met using the prediction techniques.</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+        <div class="height-100"></div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer-wrapper">
+        <p class="copy-right">© 2019-<span id="curent-year"></span> Virtual Electronics</p>
+        <p>All Rights Reserved</p>
+      </div>
+    </footer>
+    <div class="hidden">
+      <div class="popup-mail zoom-anim-dialog" id="popup-mail">
+        <p>111</p>
+      </div>
+    </div>
+    <!-- script(src='https://unpkg.com/flipping@latest/dist/flipping.web.js')-->
+    <!-- script(src='/js/shape-overlays.js')-->
+    <script src="js/scripts.js"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.7/jquery.validate.min.js"></script>
+    <script src="js/multiengine.js"></script>
+  </body>
+</html>

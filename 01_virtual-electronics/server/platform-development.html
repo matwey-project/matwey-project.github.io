@@ -1,0 +1,377 @@
+
+<!-- - var link1 = "development.html"--><!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>platform development </title>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="img/favicon/apple-touch-icon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="img/favicon/apple-touch-icon-72x72.png" type="image/x-icon">
+    <link rel="shortcut icon" href="img/favicon/apple-touch-icon-144x144.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/index.css">
+    <meta name="theme-color" content="#171717">
+    <meta name="msapplication-navbutton-color" content="#171717">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#171717">
+  </head>
+  <body>
+    <main class="section_main">
+      <div class="form-perspective">
+        <div class="form-hide">
+          <div class="succesfull-post">
+            <p class="done-head"><img src="img/icon-done.svg" alt="">Done!</p>
+            <div class="time"></div>
+            <div class="line-load">
+              <div class="line-progress"></div>
+            </div>
+            <p>Thank you for your time. <br> We will reply within 24 hours.</p><a class="back-done" href="#">back</a>
+          </div>
+          <div class="offset-form">
+            <svg class="icon-close-form" width="40" height="40" viewBox="0 0 40 40">
+              <use xlink:href="img/icon/sprite.svg#icon-close-form"></use>
+            </svg>
+            <h3>Let’s talk. Just enter your details and we will reply within 24 hours</h3>
+            <form action="#" method="post" id="sendform" enctype="multipart/form-data">
+              <div class="input-items">
+                <label>name</label>
+                <input type="text" name="name">
+                <div class="error-message">
+                  <svg class="icon-error" width="14" height="15" viewBox="0 0 14 15">
+                    <use xlink:href="img/icon/sprite.svg#icon-error"></use>
+                  </svg>
+                  <p>Required</p>
+                </div>
+              </div>
+              <div class="input-items">
+                <label>email</label>
+                <input type="text" name="email">
+                <div class="error-message">
+                  <svg class="icon-error" width="14" height="15" viewBox="0 0 14 15">
+                    <use xlink:href="img/icon/sprite.svg#icon-error"></use>
+                  </svg>
+                  <p>Required</p>
+                </div>
+              </div>
+              <div class="input-items">
+                <label>country</label>
+                <div class="countryCheck-wrap">
+                  <input class="countryCheck" type="text" name="country" placeholder="United States">
+                </div>
+              </div>
+              <div class="input-items">
+                <label>phone</label>
+                <div class="phone-items">
+                  <div class="phone-word">
+                    <input type="tel2" value="+1">
+                  </div>
+                  <input class="phone-main" type="tel3" maxlength="12">
+                  <input class="phone-val" type="hidden" name="tel">
+                  <div class="error-message">
+                    <svg class="icon-error" width="14" height="15" viewBox="0 0 14 15">
+                      <use xlink:href="img/icon/sprite.svg#icon-error"></use>
+                    </svg>
+                    <p>Required</p>
+                  </div>
+                </div>
+              </div>
+              <div class="input-items input-items--full">
+                <div class="label-flex">
+                  <label>message <span>(optional)</span></label>
+                  <div class="file-type">
+                    <label class="upload-label" for=""><i class="upload-icon"></i>upload</label>
+                    <input class="multi-pt add-load" name="file[]" type="file" id="trrr" multiple>
+                  </div>
+                </div>
+                <div class="textarea-wrap">
+                  <textarea class="textarea-send" name="message" id="textarea-send"></textarea>
+                  <p id="charNum">0/500</p>
+                </div>
+              </div>
+              <div class="input-items input-items--full">
+                <label class="checkbox-default">
+                  <input type="checkbox" name="check1" required="" checked>
+                  <p class="checkbox-default__text">I am informed about processing of my personal <br> data and the right to withdraw my consent</p>
+                </label>
+              </div>
+              <button class="send-form" name="sendMail" type="submit" id="send-form">send 
+                <svg class="icon-arrow" width="70" height="24" viewBox="0 0 70 24">
+                  <use xlink:href="img/icon/sprite.svg#icon-arrow"></use>
+                </svg>
+              </button>
+            </form>
+          </div>
+        </div>
+        <div class="overlay-bg">
+          <div class="close-fill">
+            <svg class="icon-close-form" width="40" height="40" viewBox="0 0 40 40">
+              <use xlink:href="img/icon/sprite.svg#icon-close-form"></use>
+            </svg>
+          </div>
+        </div>
+      </div>
+      <aside id="sidebar">
+        <div class="logo-sidebar">
+          <div class="overlay-menu--close"></div><a class="logo-link" href="/"><img src="img/logo-full.svg" alt="Logo"></a><a class="mobile-burger" href="#"><span></span><span></span></a>
+        </div>
+        <div class="wrapper-menu--mobile">
+          <ul class="list-dot--mobile">
+            <li><span></span></li>
+            <li><span class="is-active"></span></li>
+            <li><span></span></li>
+            <li><span></span></li>
+          </ul>
+          <ul class="list-menu--mobile">
+            <li><a href="/index.html">about</a></li>
+            <li><a class="is-active" href="/service.html">service</a></li>
+            <li><a href="/team.html">team</a></li>
+            <li><a href="/contacts.html">contacts</a></li>
+          </ul>
+        </div>
+        <div class="wrap-menu">
+          <ul class="list-menu">
+            <li><a href="/index.html">about</a></li>
+            <li><a class="is-active" href="/service.html">service</a></li>
+            <li><a href="/team.html">team</a></li>
+            <li><a href="/contacts.html">contacts</a></li>
+          </ul>
+          <div class="get-touch"><a class="get-touch--link" href="#" id="get-touch"><span>get in <br> touch <i class="icon-get">
+                  <svg class="icon-get" width="10" height="10" viewBox="0 0 10 10">
+                    <use xlink:href="img/icon/sprite.svg#icon-get"></use>
+                  </svg></i></span></a></div>
+        </div>
+      </aside>
+      <section class="section-content">
+        <div class="heading-content">
+          <h1>Platform Development </h1>
+        </div>
+        <div class="height-60"></div>
+        <section class="section-text">
+          <div class="wrapper-text">
+            <div class="text-item">
+              <p>Support your business operations <br> with a custom application.</p>
+            </div>
+          </div>
+        </section>
+        <div class="height-80"></div>
+        <hr class="gray-line">
+        <div class="height-80"></div>
+        <section class="section-text">
+          <div class="heading-default">
+            <h3>What we offer for your platform designing</h3>
+          </div>
+          <div class="wrapper-text">
+            <div class="text-item">
+              <p>Our developers have years of experience in various development spheres that allows them set up any type of DBs, clouds, etc. We offer you a set of solutions created to satisfy your needs. </p>
+            </div>
+            <div class="text-item">
+              <p>Besides that, the platform created for you will take advantage of cloud functions that provide ready access, multiplatformity and reliable protection, which cuts back on work for engineers.</p>
+            </div>
+          </div>
+        </section>
+        <div class="height-80"></div>
+        <section class="table-images flex-wrap">
+          <div class="table-images--items table-images--full">
+            <div class="table-images--wrap img-center--width" style="background:url(img/development/dark-electronic-electronics-equipment-4244361.jpg); background-repeat:no-repeat; background-size:cover; background-position: center;"></div>
+          </div>
+        </section>
+        <div class="height-80"></div>
+        <hr class="gray-line">
+        <div class="height-80"></div>
+        <section class="section-expertise">
+          <div class="expertise-wrapper">
+            <div class="expertise-cols">
+              <div class="expertise-item"><img src="img/icon/icon-logo.svg" alt="">
+                <h4>Cloud-based solutions</h4>
+                <p>Designing of effective server side apps</p>
+              </div>
+            </div>
+            <div class="expertise-cols">
+              <div class="expertise-item"><img src="img/icon/icon-logo.svg" alt="">
+                <h4>API</h4>
+                <p>Implementation of interfaces for use by software engineers </p>
+              </div>
+            </div>
+            <div class="expertise-cols">
+              <div class="expertise-item"><img src="img/icon/icon-logo.svg" alt="">
+                <h4>SDK</h4>
+                <p>Software development tools for work simplification</p>
+              </div>
+            </div>
+            <div class="expertise-cols">
+              <div class="expertise-item"><img src="img/icon/icon-logo.svg" alt="">
+                <h4>Data stores</h4>
+                <p>Collection, analysis and handling of a large bulk of data</p>
+              </div>
+            </div>
+            <div class="expertise-cols">
+              <div class="expertise-item"><img src="img/icon/icon-logo.svg" alt="">
+                <h4>Interop</h4>
+                <p>Smooth interop of platforms, on-site soft and various solutions</p>
+              </div>
+            </div>
+            <div class="expertise-cols">
+              <div class="expertise-item"><img src="img/icon/icon-logo.svg" alt="">
+                <h4>Safety</h4>
+                <p>Data and design environments protection</p>
+              </div>
+            </div>
+            <div class="expertise-cols">
+              <div class="expertise-item"><img src="img/icon/icon-logo.svg" alt="">
+                <h4>Supervision and support</h4>
+                <p>Design environments are available 24/7</p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <div class="height-100"></div>
+        <hr class="gray-line">
+        <div class="height-100"></div>
+        <section class="section--how-work">
+          <div class="how-work--wrapper">
+            <div class="wrapper-text">
+              <div class="text-item how-work--item">
+                <h4><span class="count--how-work">1</span>Work in multiple areas</h4>
+                <p>Our developers are able to design platforms for payment systems, power-handling, collection of statistical information, etc.</p>
+              </div>
+              <div class="text-item how-work--item">
+                <h4><span class="count--how-work">2</span>Years of experience</h4>
+                <p>Our architects are able to create a product from ground zero.</p>
+              </div>
+              <div class="text-item how-work--item">
+                <h4><span class="count--how-work">3</span>DevOps</h4>
+                <p>Our developers apply up-to-date Developer Operations methodologies that ensure unstoppable activity of our services.</p>
+              </div>
+              <div class="text-item how-work--item">
+                <h4><span class="count--how-work">4</span>Success</h4>
+                <p>A large number of people take advantage of platforms designed by our experts.</p>
+              </div>
+            </div>
+          </div>
+          <div class="height-100"></div>
+          <div class="table-images flex-wrap">
+            <div class="table-images--items table-images--full">
+              <div class="table-images--wrap img-center--width" style="background:url(img/development/photo-of-people-leaning-on-wooden-table-31843251.jpg); background-repeat:no-repeat; background-size:cover; background-position: center;"></div>
+            </div>
+          </div>
+        </section>
+        <div class="mobile-80">
+          <div class="height-100"></div>
+          <hr class="gray-line">
+          <div class="height-100"></div>
+        </div>
+        <section class="section-why">
+          <div class="heading-default">
+            <h3>Platform designing for business purposes</h3>
+          </div>
+          <div class="wrapper-why">
+            <div class="why-cols">
+              <div class="why-item"><img src="img/icon/icon-logo.svg" alt="">
+                <h4>Quick integration of innovations</h4>
+                <p>Cloud platform for app designing offers well-organized application framework and architecture. It helps the developers work speedily and ensures unprecedented connection opportunities and perfect processing capacity.</p>
+                <p>Virtual environments ensure fast designing of platforms, provide necessary tools and reduce the time for market entering, which makes your business more reliable and large-scale.</p>
+              </div>
+            </div>
+            <div class="why-cols">
+              <div class="why-item"><img src="img/icon/icon-logo.svg" alt="">
+                <h4>Cost minimization</h4>
+                <p>Applications built on platforms are simpler to use and cost-effective as there is no need in additional technical equipment for maintenance, constant control and software administration thanks to the framework virtualization.</p>
+                <p>A lot of companies that take advantage of SaaS or cloud-based platforms use them not only for app designing but also for data storing as it is a secure way providing possibilities of joint work.</p>
+              </div>
+            </div>
+            <div class="why-cols">
+              <div class="why-item"><img src="img/icon/icon-logo.svg" alt="">
+                <h4>Improved data protection system</h4>
+                <p>Enterprises that decided to take advantage of cloud-based platform can be confident in their data protection as the data kept in cloud undergoes encryption coding and is transferred via secure connection, which completely prohibits data trespass for hackers and ensures security and risk tolerance.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <div class="height-100"></div>
+        <hr class="gray-line">
+        <div class="height-100"></div>
+        <section class="section-tehnology">
+          <div class="heading-default">
+            <h3>Technology map</h3>
+          </div>
+          <div class="wrapper-text">
+            <div class="text-item">
+              <p> We not only code, but also advise our Clients on strategic technology stack.</p>
+            </div>
+          </div>
+          <div class="tehnology-wrapper">
+            <div class="tehnology-list">
+              <p class="name-list">Web</p>
+              <ul class="tehnology-map">
+                <li><a href="#">PHP</a></li>
+                <li><a href="#">.NET</a></li>
+                <li><a href="#">HTML5/CSS3/JS</a></li>
+                <li><a href="#">Magento</a></li>
+                <li><a href="#">AngularJS</a></li>
+                <li><a href="#">ReactJS</a></li>
+              </ul>
+            </div>
+            <div class="tehnology-list">
+              <p class="name-list">Web</p>
+              <ul class="tehnology-map">
+                <li><a href="#">iOS</a></li>
+                <li><a href="#">Android</a></li>
+                <li><a href="#">Xamarin</a></li>
+                <li><a href="#">Flutter</a></li>
+                <li><a href="#">Unity</a></li>
+              </ul>
+            </div>
+            <div class="tehnology-list">
+              <p class="name-list">Enterprise</p>
+              <ul class="tehnology-map">
+                <li><a href="#">MS Dynamics™</a></li>
+                <li><a href="#">NAV</a></li>
+                <li><a href="#">AX</a></li>
+                <li><a href="#">CRM</a></li>
+                <li><a href="#">J2EE</a></li>
+                <li><a href="#">MS SharePoint</a></li>
+                <li><a href="#">MS Biztalk</a></li>
+              </ul>
+            </div>
+            <div class="tehnology-list">
+              <p class="name-list">Cloud</p>
+              <ul class="tehnology-map">
+                <li><a href="#">Amazon Web Services</a></li>
+                <li><a href="#">Microsoft Azure</a></li>
+                <li><a href="#">Docker</a></li>
+              </ul>
+            </div>
+            <div class="tehnology-list">
+              <p class="name-list">Database & Search Technologies</p>
+              <ul class="tehnology-map">
+                <li><a href="#">MS SQL Server</a></li>
+                <li><a href="#">MySQL</a></li>
+                <li><a href="#">MongoDB</a></li>
+                <li><a href="#">Redis</a></li>
+                <li><a href="#">Hadoop</a></li>
+                <li><a href="#">Pig</a></li>
+                <li><a href="#">Hive</a></li>
+              </ul>
+            </div>
+          </div>
+        </section>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer-wrapper">
+        <p class="copy-right">© 2019-<span id="curent-year"></span> Virtual Electronics</p>
+        <p>All Rights Reserved</p>
+      </div>
+    </footer>
+    <div class="hidden">
+      <div class="popup-mail zoom-anim-dialog" id="popup-mail">
+        <p>111</p>
+      </div>
+    </div>
+    <!-- script(src='https://unpkg.com/flipping@latest/dist/flipping.web.js')-->
+    <!-- script(src='/js/shape-overlays.js')-->
+    <script src="js/scripts.js"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.7/jquery.validate.min.js"></script>
+    <script src="js/multiengine.js"></script>
+  </body>
+</html>

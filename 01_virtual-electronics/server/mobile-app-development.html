@@ -1,0 +1,406 @@
+
+<!-- - var link1 = "development.html"--><!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Development</title>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="img/favicon/apple-touch-icon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="img/favicon/apple-touch-icon-72x72.png" type="image/x-icon">
+    <link rel="shortcut icon" href="img/favicon/apple-touch-icon-144x144.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/index.css">
+    <meta name="theme-color" content="#171717">
+    <meta name="msapplication-navbutton-color" content="#171717">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#171717">
+  </head>
+  <body>
+    <main class="section_main">
+      <div class="form-perspective">
+        <div class="form-hide">
+          <div class="succesfull-post">
+            <p class="done-head"><img src="img/icon-done.svg" alt="">Done!</p>
+            <div class="time"></div>
+            <div class="line-load">
+              <div class="line-progress"></div>
+            </div>
+            <p>Thank you for your time. <br> We will reply within 24 hours.</p><a class="back-done" href="#">back</a>
+          </div>
+          <div class="offset-form">
+            <svg class="icon-close-form" width="40" height="40" viewBox="0 0 40 40">
+              <use xlink:href="img/icon/sprite.svg#icon-close-form"></use>
+            </svg>
+            <h3>Let’s talk. Just enter your details and we will reply within 24 hours</h3>
+            <form action="#" method="post" id="sendform" enctype="multipart/form-data">
+              <div class="input-items">
+                <label>name</label>
+                <input type="text" name="name">
+                <div class="error-message">
+                  <svg class="icon-error" width="14" height="15" viewBox="0 0 14 15">
+                    <use xlink:href="img/icon/sprite.svg#icon-error"></use>
+                  </svg>
+                  <p>Required</p>
+                </div>
+              </div>
+              <div class="input-items">
+                <label>email</label>
+                <input type="text" name="email">
+                <div class="error-message">
+                  <svg class="icon-error" width="14" height="15" viewBox="0 0 14 15">
+                    <use xlink:href="img/icon/sprite.svg#icon-error"></use>
+                  </svg>
+                  <p>Required</p>
+                </div>
+              </div>
+              <div class="input-items">
+                <label>country</label>
+                <div class="countryCheck-wrap">
+                  <input class="countryCheck" type="text" name="country" placeholder="United States">
+                </div>
+              </div>
+              <div class="input-items">
+                <label>phone</label>
+                <div class="phone-items">
+                  <div class="phone-word">
+                    <input type="tel2" value="+1">
+                  </div>
+                  <input class="phone-main" type="tel3" maxlength="12">
+                  <input class="phone-val" type="hidden" name="tel">
+                  <div class="error-message">
+                    <svg class="icon-error" width="14" height="15" viewBox="0 0 14 15">
+                      <use xlink:href="img/icon/sprite.svg#icon-error"></use>
+                    </svg>
+                    <p>Required</p>
+                  </div>
+                </div>
+              </div>
+              <div class="input-items input-items--full">
+                <div class="label-flex">
+                  <label>message <span>(optional)</span></label>
+                  <div class="file-type">
+                    <label class="upload-label" for=""><i class="upload-icon"></i>upload</label>
+                    <input class="multi-pt add-load" name="file[]" type="file" id="trrr" multiple>
+                  </div>
+                </div>
+                <div class="textarea-wrap">
+                  <textarea class="textarea-send" name="message" id="textarea-send"></textarea>
+                  <p id="charNum">0/500</p>
+                </div>
+              </div>
+              <div class="input-items input-items--full">
+                <label class="checkbox-default">
+                  <input type="checkbox" name="check1" required="" checked>
+                  <p class="checkbox-default__text">I am informed about processing of my personal <br> data and the right to withdraw my consent</p>
+                </label>
+              </div>
+              <button class="send-form" name="sendMail" type="submit" id="send-form">send 
+                <svg class="icon-arrow" width="70" height="24" viewBox="0 0 70 24">
+                  <use xlink:href="img/icon/sprite.svg#icon-arrow"></use>
+                </svg>
+              </button>
+            </form>
+          </div>
+        </div>
+        <div class="overlay-bg">
+          <div class="close-fill">
+            <svg class="icon-close-form" width="40" height="40" viewBox="0 0 40 40">
+              <use xlink:href="img/icon/sprite.svg#icon-close-form"></use>
+            </svg>
+          </div>
+        </div>
+      </div>
+      <aside id="sidebar">
+        <div class="logo-sidebar">
+          <div class="overlay-menu--close"></div><a class="logo-link" href="/"><img src="img/logo-full.svg" alt="Logo"></a><a class="mobile-burger" href="#"><span></span><span></span></a>
+        </div>
+        <div class="wrapper-menu--mobile">
+          <ul class="list-dot--mobile">
+            <li><span></span></li>
+            <li><span class="is-active"></span></li>
+            <li><span></span></li>
+            <li><span></span></li>
+          </ul>
+          <ul class="list-menu--mobile">
+            <li><a href="/index.html">about</a></li>
+            <li><a class="is-active" href="/service.html">service</a></li>
+            <li><a href="/team.html">team</a></li>
+            <li><a href="/contacts.html">contacts</a></li>
+          </ul>
+        </div>
+        <div class="wrap-menu">
+          <ul class="list-menu">
+            <li><a href="/index.html">about</a></li>
+            <li><a class="is-active" href="/service.html">service</a></li>
+            <li><a href="/team.html">team</a></li>
+            <li><a href="/contacts.html">contacts</a></li>
+          </ul>
+          <div class="get-touch"><a class="get-touch--link" href="#" id="get-touch"><span>get in <br> touch <i class="icon-get">
+                  <svg class="icon-get" width="10" height="10" viewBox="0 0 10 10">
+                    <use xlink:href="img/icon/sprite.svg#icon-get"></use>
+                  </svg></i></span></a></div>
+        </div>
+      </aside>
+      <section class="section-content">
+        <div class="heading-content">
+          <h1>Mobile App Development</h1>
+        </div>
+        <div class="height-60"></div>
+        <section class="section-text">
+          <div class="wrapper-text">
+            <div class="text-item">
+              <p>A custom application for your business operations.</p>
+            </div>
+          </div>
+        </section>
+        <div class="height-80"></div>
+        <hr class="gray-line">
+        <div class="height-80"></div>
+        <section class="section-text">
+          <div class="heading-default">
+            <h3>Introduce your product to mobile users</h3>
+          </div>
+          <div class="wrapper-text">
+            <div class="text-item">
+              <p>If you need to launch a new app, to improve the one you already have or create an MVP to present your idea to your audience, here we are to help you with frontend as well as backend development at any stage. </p>
+            </div>
+            <div class="text-item">
+              <p>There’re also other services available, like providing help (let’s say, if you need to between hybrid and native mobile app development). We also work on UI/UX design and provide full-cycle services (prototyping, testing, support, programming).</p>
+            </div>
+          </div>
+        </section>
+        <div class="height-80"></div>
+        <section class="table-images flex-wrap">
+          <div class="table-images--items table-images--full">
+            <div class="table-images--wrap img-center--width" style="background:url(img/development/person-looking-at-phone-and-at-macbook-pro-11812441.jpg); background-repeat:no-repeat; background-size:cover; background-position: center;"><a></a></div>
+          </div>
+        </section>
+        <div class="height-80"></div>
+        <hr class="gray-line">
+        <div class="height-80"></div>
+        <section class="section-text">
+          <div class="heading-default">
+            <h3>Benefit from our service’s <br> mobile app development know-how</h3>
+          </div>
+          <div class="wrapper-text">
+            <div class="text-item">
+              <p>Almost every Virtual Electronics project has something to do with mobile app development. We work on creation of native, hybrid, and cross-platform mobile products. UI/UX design, security and usability are what we particularly focus on. We have a lot of partners who also create mobile apps. </p>
+            </div>
+            <div class="text-item">
+              <p>Virtual Electronics is a team of dedicated professionals with more than 10-year experience, who do their best working on development of every solution. They have profound knowledge of Unity, Android, iOS and Unreal Engine platforms.	</p>
+            </div>
+          </div>
+        </section>
+        <div class="mobile-80">
+          <div class="height-100"></div>
+          <hr class="gray-line">
+          <div class="height-100"></div>
+        </div>
+        <section class="section-expertise">
+          <div class="heading-default">
+            <h3>OUR SERVICES</h3>
+          </div>
+          <div class="expertise-wrapper">
+            <div class="expertise-cols">
+              <div class="expertise-item"><img src="img/expertise/expertise1.svg" alt="">
+                <h4>Web app extension</h4>
+                <p>Extending your web presence helps many businesses to succeed.	</p>
+              </div>
+            </div>
+            <div class="expertise-cols">
+              <div class="expertise-item"><img src="img/expertise/expertise2.svg" alt="Expertise Images">
+                <h4>Development of a cross-platform app</h4>
+                <p>One cross-platform app is better than two different ones. You don’t need to functionality and performance anymore.</p>
+              </div>
+            </div>
+            <div class="expertise-cols">
+              <div class="expertise-item"><img src="img/expertise/expertise3.svg" alt="Expertise Images">
+                <h4>Development of a native mobile app development</h4>
+                <p>If you need to get an app specifically for iOS or Android users, this is for you</p>
+              </div>
+            </div>
+            <div class="expertise-cols">
+              <div class="expertise-item"><img src="img/expertise/expertise4.svg" alt="Expertise Images">
+                <h4>Wearables and smart devices</h4>
+                <p>Boost your business, developing a solution for Apple TV, smartwatches, cars and smart homes</p>
+              </div>
+            </div>
+            <div class="expertise-cols">
+              <div class="expertise-item"><img src="img/expertise/expertise5.svg" alt="Expertise Images">
+                <h4>Payment integration</h4>
+                <p>Attract more customers, allowing them to choose a convenient payment methods from a variety of.</p>
+              </div>
+            </div>
+            <div class="expertise-cols">
+              <div class="expertise-item"><img src="img/expertise/expertise6.svg" alt="Expertise Images">
+                <h4>Proof of concept</h4>
+                <p>Creation of a prototype of an app with UX/UI design and technical specs helps reducing risks</p>
+              </div>
+            </div>
+            <div class="expertise-cols">
+              <div class="expertise-item"><img src="img/expertise/expertise7.svg" alt="Expertise Images">
+                <h4>Maintenance and support</h4>
+                <p>Provision of tech support for already existing solutions</p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <div class="height-100"></div>
+        <hr class="gray-line">
+        <div class="height-100"></div>
+        <section class="section--how-work">
+          <div class="heading-default">
+            <h3>WORK FLOW</h3>
+          </div>
+          <div class="table-images flex-wrap">
+            <div class="table-images--items table-images--full">
+              <div class="table-images--wrap img-center--width" style="background:url(img/development/multi-cultural-people-31846341.jpg); background-repeat:no-repeat; background-size:cover; background-position: center;"></div>
+            </div>
+          </div>
+          <div class="height-100"></div>
+          <div class="how-work--wrapper">
+            <div class="wrapper-text">
+              <div class="text-item how-work--item">
+                <h4><span class="count--how-work">1</span>Analysis</h4>
+                <p>The first thing to do for the team is to study the app’s concept: how it helps the users to solve their problems, how it helps the business to reach its goals and so on. </p>
+                <p>Cooperating with the business team, Virtual Electronics finds out what the main challenges are. We also take into account the audience itself. This all results in a project development plan.</p>
+              </div>
+              <div class="text-item how-work--item">
+                <h4><span class="count--how-work">2</span>UI/UX</h4>
+                <p>Customer experience means a lot. This is the stage when we also have to evaluate users’ expectations. The goal is to understand how the design of the app can help the business to achieve its goals. </p>
+              </div>
+              <div class="text-item how-work--item">
+                <h4><span class="count--how-work">3</span>Solution development</h4>
+                <p>Virtual Electronics uses Agile/Scrum to come up with an initial version of an application, then we gradually improve it add the features that seem to be appropriate. Every stage of this process also includes testing that helps to find out what we need to improve.</p>
+              </div>
+              <div class="text-item how-work--item">
+                <h4><span class="count--how-work">4</span>Solution release and further support</h4>
+                <p>Virtual Electronics releases the apps and launches then in the app stores. After that, our teams also provide support.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <div class="mobile-80">
+          <div class="height-100"></div>
+          <hr class="gray-line">
+          <div class="height-100"></div>
+        </div>
+        <section class="section-why">
+          <div class="heading-default">
+            <h3>Why us</h3>
+          </div>
+          <div class="wrapper-why">
+            <div class="why-cols">
+              <div class="why-item"><img src="img/why/why1.svg" alt="">
+                <h4>We’ve worked on more than 100 projects</h4>
+                <p>Almost every project Virtual Electronics has ever worked on includes development of a mobile solution. We have a vast experience and time-proved partnerships with many companies.</p>
+              </div>
+            </div>
+            <div class="why-cols">
+              <div class="why-item"><img src="img/why/why2.svg" alt="">
+                <h4>Our portfolio includes many industries</h4>
+                <p>Our experience exceeds 10 years. Virtual Electronics has created multiple solutions for companies representing various industries, such as financial industry, healthcare, real estate and so on.</p>
+              </div>
+            </div>
+            <div class="why-cols">
+              <div class="why-item"><img src="img/why/why3.svg" alt="">
+                <h4>Full-cycle mobile solution development</h4>
+                <p>Virtual Electronics helps to develop an app from scratch, starting with creation of a concept and up to integration.</p>
+              </div>
+            </div>
+            <div class="why-cols">
+              <div class="why-item"><img src="img/why/why4.svg" alt="">
+                <h4>A part of a respectable company</h4>
+                <p>We a part of Virtual Electronics, a software development company. There’re more than 1000 engineers working in our company, who are able to develop projects of any type and size.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <div class="height-100"></div>
+        <hr class="gray-line">
+        <div class="height-100"></div>
+        <section class="section-tehnology">
+          <div class="heading-default">
+            <h3>Technology map</h3>
+          </div>
+          <div class="wrapper-text">
+            <div class="text-item">
+              <p>We don’t just code but help our Clients simplify application landscape as well as consult on strategic technology stack.</p>
+            </div>
+          </div>
+          <div class="tehnology-wrapper">
+            <div class="tehnology-list">
+              <p class="name-list">Web</p>
+              <ul class="tehnology-map">
+                <li><a href="#">PHP</a></li>
+                <li><a href="#">.NET</a></li>
+                <li><a href="#">HTML5/CSS3/JS</a></li>
+                <li><a href="#">Magento</a></li>
+                <li><a href="#">AngularJS</a></li>
+                <li><a href="#">ReactJS</a></li>
+              </ul>
+            </div>
+            <div class="tehnology-list">
+              <p class="name-list">Web</p>
+              <ul class="tehnology-map">
+                <li><a href="#">iOS</a></li>
+                <li><a href="#">Android</a></li>
+                <li><a href="#">Xamarin</a></li>
+                <li><a href="#">Flutter</a></li>
+                <li><a href="#">Unity</a></li>
+              </ul>
+            </div>
+            <div class="tehnology-list">
+              <p class="name-list">Enterprise</p>
+              <ul class="tehnology-map">
+                <li><a href="#">MS Dynamics™</a></li>
+                <li><a href="#">NAV</a></li>
+                <li><a href="#">AX</a></li>
+                <li><a href="#">CRM</a></li>
+                <li><a href="#">J2EE</a></li>
+                <li><a href="#">MS SharePoint</a></li>
+                <li><a href="#">MS Biztalk</a></li>
+              </ul>
+            </div>
+            <div class="tehnology-list">
+              <p class="name-list">Cloud</p>
+              <ul class="tehnology-map">
+                <li><a href="#">Amazon Web Services</a></li>
+                <li><a href="#">Microsoft Azure</a></li>
+                <li><a href="#">Docker</a></li>
+              </ul>
+            </div>
+            <div class="tehnology-list">
+              <p class="name-list">Database & Search Technologies</p>
+              <ul class="tehnology-map">
+                <li><a href="#">MS SQL Server</a></li>
+                <li><a href="#">MySQL</a></li>
+                <li><a href="#">MongoDB</a></li>
+                <li><a href="#">Redis</a></li>
+                <li><a href="#">Hadoop</a></li>
+                <li><a href="#">Pig</a></li>
+                <li><a href="#">Hive</a></li>
+              </ul>
+            </div>
+          </div>
+        </section>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer-wrapper">
+        <p class="copy-right">© 2019-<span id="curent-year"></span> Virtual Electronics</p>
+        <p>All Rights Reserved</p>
+      </div>
+    </footer>
+    <div class="hidden">
+      <div class="popup-mail zoom-anim-dialog" id="popup-mail">
+        <p>111</p>
+      </div>
+    </div>
+    <!-- script(src='https://unpkg.com/flipping@latest/dist/flipping.web.js')-->
+    <!-- script(src='/js/shape-overlays.js')-->
+    <script src="js/scripts.js"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.7/jquery.validate.min.js"></script>
+    <script src="js/multiengine.js"></script>
+  </body>
+</html>

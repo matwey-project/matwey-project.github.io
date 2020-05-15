@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>consulting and implementation</title>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="img/favicon/apple-touch-icon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="img/favicon/apple-touch-icon-72x72.png" type="image/x-icon">
+    <link rel="shortcut icon" href="img/favicon/apple-touch-icon-144x144.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/index.css">
+    <meta name="theme-color" content="#171717">
+    <meta name="msapplication-navbutton-color" content="#171717">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#171717">
+  </head>
+  <body>
+    <main class="section_main">
+      <div class="form-perspective">
+        <div class="form-hide">
+          <div class="succesfull-post">
+            <p class="done-head"><img src="img/icon-done.svg" alt="">Done!</p>
+            <div class="time"></div>
+            <div class="line-load">
+              <div class="line-progress"></div>
+            </div>
+            <p>Thank you for your time. <br> We will reply within 24 hours.</p><a class="back-done" href="#">back</a>
+          </div>
+          <div class="offset-form">
+            <svg class="icon-close-form" width="40" height="40" viewBox="0 0 40 40">
+              <use xlink:href="img/icon/sprite.svg#icon-close-form"></use>
+            </svg>
+            <h3>Let’s talk. Just enter your details and we will reply within 24 hours</h3>
+            <form action="#" method="post" id="sendform" enctype="multipart/form-data">
+              <div class="input-items">
+                <label>name</label>
+                <input type="text" name="name">
+                <div class="error-message">
+                  <svg class="icon-error" width="14" height="15" viewBox="0 0 14 15">
+                    <use xlink:href="img/icon/sprite.svg#icon-error"></use>
+                  </svg>
+                  <p>Required</p>
+                </div>
+              </div>
+              <div class="input-items">
+                <label>email</label>
+                <input type="text" name="email">
+                <div class="error-message">
+                  <svg class="icon-error" width="14" height="15" viewBox="0 0 14 15">
+                    <use xlink:href="img/icon/sprite.svg#icon-error"></use>
+                  </svg>
+                  <p>Required</p>
+                </div>
+              </div>
+              <div class="input-items">
+                <label>country</label>
+                <div class="countryCheck-wrap">
+                  <input class="countryCheck" type="text" name="country" placeholder="United States">
+                </div>
+              </div>
+              <div class="input-items">
+                <label>phone</label>
+                <div class="phone-items">
+                  <div class="phone-word">
+                    <input type="tel2" value="+1">
+                  </div>
+                  <input class="phone-main" type="tel3" maxlength="12">
+                  <input class="phone-val" type="hidden" name="tel">
+                  <div class="error-message">
+                    <svg class="icon-error" width="14" height="15" viewBox="0 0 14 15">
+                      <use xlink:href="img/icon/sprite.svg#icon-error"></use>
+                    </svg>
+                    <p>Required</p>
+                  </div>
+                </div>
+              </div>
+              <div class="input-items input-items--full">
+                <div class="label-flex">
+                  <label>message <span>(optional)</span></label>
+                  <div class="file-type">
+                    <label class="upload-label" for=""><i class="upload-icon"></i>upload</label>
+                    <input class="multi-pt add-load" name="file[]" type="file" id="trrr" multiple>
+                  </div>
+                </div>
+                <div class="textarea-wrap">
+                  <textarea class="textarea-send" name="message" id="textarea-send"></textarea>
+                  <p id="charNum">0/500</p>
+                </div>
+              </div>
+              <div class="input-items input-items--full">
+                <label class="checkbox-default">
+                  <input type="checkbox" name="check1" required="" checked>
+                  <p class="checkbox-default__text">I am informed about processing of my personal <br> data and the right to withdraw my consent</p>
+                </label>
+              </div>
+              <button class="send-form" name="sendMail" type="submit" id="send-form">send 
+                <svg class="icon-arrow" width="70" height="24" viewBox="0 0 70 24">
+                  <use xlink:href="img/icon/sprite.svg#icon-arrow"></use>
+                </svg>
+              </button>
+            </form>
+          </div>
+        </div>
+        <div class="overlay-bg">
+          <div class="close-fill">
+            <svg class="icon-close-form" width="40" height="40" viewBox="0 0 40 40">
+              <use xlink:href="img/icon/sprite.svg#icon-close-form"></use>
+            </svg>
+          </div>
+        </div>
+      </div>
+      <aside id="sidebar">
+        <div class="logo-sidebar">
+          <div class="overlay-menu--close"></div><a class="logo-link" href="/"><img src="img/logo-full.svg" alt="Logo"></a><a class="mobile-burger" href="#"><span></span><span></span></a>
+        </div>
+        <div class="wrapper-menu--mobile">
+          <ul class="list-dot--mobile">
+            <li><span></span></li>
+            <li><span class="is-active"></span></li>
+            <li><span></span></li>
+            <li><span></span></li>
+          </ul>
+          <ul class="list-menu--mobile">
+            <li><a href="/index.html">about</a></li>
+            <li><a class="is-active" href="/service.html">service</a></li>
+            <li><a href="/team.html">team</a></li>
+            <li><a href="/contacts.html">contacts</a></li>
+          </ul>
+        </div>
+        <div class="wrap-menu">
+          <ul class="list-menu">
+            <li><a href="/index.html">about</a></li>
+            <li><a class="is-active" href="/service.html">service</a></li>
+            <li><a href="/team.html">team</a></li>
+            <li><a href="/contacts.html">contacts</a></li>
+          </ul>
+          <div class="get-touch"><a class="get-touch--link" href="#" id="get-touch"><span>get in <br> touch <i class="icon-get">
+                  <svg class="icon-get" width="10" height="10" viewBox="0 0 10 10">
+                    <use xlink:href="img/icon/sprite.svg#icon-get"></use>
+                  </svg></i></span></a></div>
+        </div>
+      </aside>
+      <section class="section-content">
+        <div class="heading-content">
+          <h1>Consulting and Implementation</h1>
+        </div>
+        <div class="height-60"></div>
+        <section class="section-text">
+          <div class="wrapper-text">
+            <div class="text-item">
+              <p>Professional consulting and implementation for all your IT needs</p>
+            </div>
+          </div>
+        </section>
+        <div class="height-80"></div>
+        <hr class="gray-line">
+        <div class="height-80"></div>
+        <section class="section-text">
+          <div class="wrapper-text">
+            <div class="text-item">
+              <p>We bring all our professionalism and knowledge to provide outstanding consulting and implementation services for your business.</p>
+            </div>
+            <div class="text-item">
+              <p>We are constantly focused on understanding and satisfying your needs. We proactively connect planning, developing and implementation processes with ongoing analysis to make sure the new solutions are in line with your challenges and goals.</p>
+            </div>
+          </div>
+        </section>
+        <div class="height-80"></div>
+        <section class="table-images flex-wrap">
+          <div class="table-images--items table-images--full">
+            <div class="table-images--wrap img-center--width" style="background:url(img/development/people-inside-a-room-31843591.jpg); background-repeat:no-repeat; background-size:cover; background-position: center;"><a href="#"></a></div>
+          </div>
+        </section>
+        <div class="height-80"></div>
+        <hr class="gray-line">
+        <div class="height-80"></div>
+        <section class="section-text">
+          <div class="heading-default">
+            <h3>Deep analysis of your IT structure and ongoing consulting:</h3>
+          </div>
+          <div class="wrapper-text">
+            <div class="text-item">
+              <p>It is extremely important to stay in line with the modern fast-paced tech environment in order to satisfy your client’s expectations. Today’s cloud platforms are intended for letting companies digitize their business processes and thus take them to a new quality level with automated and optimized key IT services.</p>
+            </div>
+            <div class="text-item">
+              <p>Our experts will help you in taking the most from the offered solutions in a most effective way. We are professionals and experts in process implementation with many years of positive track record.</p>
+            </div>
+          </div>
+        </section>
+        <div class="mobile-80">
+          <div class="height-100"></div>
+          <hr class="gray-line">
+          <div class="height-100"></div>
+        </div>
+        <section class="section--how-work">
+          <div class="heading-default">
+            <h3>Virtual Electronics will be happy to assist you in:</h3>
+          </div>
+          <div class="how-work--wrapper">
+            <div class="wrapper-text">
+              <div class="text-item how-work--item">
+                <h4><span class="count--how-work"><img src="img/icon/icon-logo.svg" width="15px" alt=""></span>Implementation of IT Service Management</h4>
+                <p>Our experts will introduce you to all the details of the service, guide you through its ups and downs, ensure that the proposed solutions are in line with your needs and take care of all technical requirements. We will define and suggest the easiest and most appropriate ways of integration followed by project execution and adjustment.. With Virtual Electronics you will receive an agile and cost-effective IT Service Management solution that will drive your product’s performance and automate your key services in accordance with the latest ITIL practices:</p>
+              </div>
+              <div class="text-item how-work--item">
+                <h4><span class="count--how-work"><img src="img/icon/icon-logo.svg" width="15px" alt=""></span>Modernization of ITSM and ITOM systems</h4>
+                <p>We offer a solution that will increase efficiency of your outdated systems through uniting them into a singe service managing system focused on your end users. Our experts will verify and adjust your critical data located in different sources and safely transfer it to a cloud server with further adaptation to a new cloud data model.</p>
+              </div>
+              <div class="text-item how-work--item">
+                <h4><span class="count--how-work"><img src="img/icon/icon-logo.svg" width="15px" alt=""></span>Planning and consulting</h4>
+                <p>We will determine your key needs along with the most suitable client introduction and adoption strategy. Our experts will elaborate a complete roadmap of required customization, integration and transferring phases.</p>
+              </div>
+              <div class="text-item how-work--item">
+                <h4><span class="count--how-work"><img src="img/icon/icon-logo.svg" width="15px" alt=""></span>End User Portal</h4>
+                <p>The expert team of Virtual Electronics will help you set up an automated end-user portal designed to solve common issues and automate repeated tasks. This solution will reduce the problem addressing time, lower the issue-addressing time and costs and serve your clients well.</p>
+              </div>
+              <div class="text-item how-work--item">
+                <h4><span class="count--how-work"><img src="img/icon/icon-logo.svg" width="15px" alt=""></span>Integration of the knowledge base</h4>
+                <p>Creating a client-oriented knowledge base and integrating it to your end-user portal will grant your clients as well as your employees an effective solution for addressing both regular and irregular issues.</p>
+              </div>
+              <div class="text-item how-work--item">
+                <h4><span class="count--how-work"><img src="img/icon/icon-logo.svg" width="15px" alt=""></span>Integrated compliance module</h4>
+                <p>Virtual Electronics can provide you with integrated cloud modules that make complying with multiple regulations, laws and policies, both internal and external, easier and more effective for your company. This module will ensure adherence to applicable international, national and corporate threat prevention and data protection rules and requirements and help you to safely go through certification procedures.</p>
+              </div>
+              <div class="text-item how-work--item">
+                <h4><span class="count--how-work"><img src="img/icon/icon-logo.svg" width="15px" alt=""></span>Integrated and interactive service catalogue</h4>
+                <p>We can help you setup a cloud-based interactive service catalogue designed to represent your services in the most suitable way for your business. This solution will help you optimize and ease service navigation, purchase support, invoicing, etc.</p>
+              </div>
+              <div class="text-item how-work--item">
+                <h4><span class="count--how-work"><img src="img/icon/icon-logo.svg" width="15px" alt=""></span>Integrated online reporting features</h4>
+                <p>Based on particular needs of your company we can develop and integrate a cloud-based reporting solution that helps automate and rationalize performance data collection to ensure adequate data-driven decision-making.</p>
+              </div>
+              <div class="text-item how-work--item">
+                <h4><span class="count--how-work"><img src="img/icon/icon-logo.svg" width="15px" alt=""></span>Module customization</h4>
+                <p>BVirtual Electronics can create customized cloud-based modules designed to serve the needs of your company and ensure automation of HR, procurement, workflow, communication and other business processes.</p>
+              </div>
+              <div class="text-item how-work--item">
+                <h4><span class="count--how-work"><img src="img/icon/icon-logo.svg" width="15px" alt=""></span>Integrated solutions based on ServiceNow</h4>
+                <p>Virtual Electronics can help you digitize your IT, customer and employee workflows by developing and integrating cloud web solutions based on services provided by ServiceNow, a platform for developing web-based and mobile solutions.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <div class="mobile-80">
+          <div class="height-100"></div>
+          <hr class="gray-line">
+          <div class="height-100"></div>
+        </div>
+        <section class="section-text">
+          <div class="heading-default">
+            <h3>Supported types of ServiceNow solutions</h3>
+          </div>
+          <div class="wrapper-text">
+            <div class="text-item">
+              <p>We offer various types of integrated solutions based on ServiceNow modules such as:</p>
+              <p>Virtual Electronics is a competent consulting service provider and integrator of Microsoft services</p>
+            </div>
+            <div class="text-item">
+              <p>Virtual Electronics is a long-time partner with Microsoft and is certified to consult on and integrate Microsoft’s software solutions. Our specialists are qualified experts in all kinds of Microsoft tools.</p>
+              <p>We strengthen your business with Microsoft solutions that make it more agile, connected, efficient and profitable. We can suggest and implement multiple solutions that increase scalability and let you stand out among competitors.</p>
+            </div>
+          </div>
+        </section>
+        <div class="height-80"></div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer-wrapper">
+        <p class="copy-right">© 2019-<span id="curent-year"></span> Virtual Electronics</p>
+        <p>All Rights Reserved</p>
+      </div>
+    </footer>
+    <div class="hidden">
+      <div class="popup-mail zoom-anim-dialog" id="popup-mail">
+        <p>111</p>
+      </div>
+    </div>
+    <!-- script(src='https://unpkg.com/flipping@latest/dist/flipping.web.js')-->
+    <!-- script(src='/js/shape-overlays.js')-->
+    <script src="js/scripts.js"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.7/jquery.validate.min.js"></script>
+    <script src="js/multiengine.js"></script>
+  </body>
+</html>

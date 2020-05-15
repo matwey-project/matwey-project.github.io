@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Service</title>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="img/favicon/apple-touch-icon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="img/favicon/apple-touch-icon-72x72.png" type="image/x-icon">
+    <link rel="shortcut icon" href="img/favicon/apple-touch-icon-144x144.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/index.css">
+    <meta name="theme-color" content="#171717">
+    <meta name="msapplication-navbutton-color" content="#171717">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#171717">
+  </head>
+  <body>
+    <main class="section_main">
+      <div class="succesfull-wrapper">
+        <div class="overlay-bg">
+          <div class="close-fill">
+            <svg class="icon-close-form" width="40" height="40" viewBox="0 0 40 40">
+              <use xlink:href="img/icon/sprite.svg#icon-close-form"></use>
+            </svg>
+          </div>
+        </div>
+        <div class="succesfull-post">
+          <p class="done-head"><img src="img/icon-done.svg" alt="">Done!</p>
+          <div class="time"></div>
+          <div class="line-load">
+            <div class="line-progress"></div>
+          </div>
+          <p>Thank you for your time. <br> We will reply within 24 hours.</p><a class="back-done" href="#">back</a>
+        </div>
+      </div>
+      <div class="form-perspective">
+        <div class="form-hide">
+          <div class="offset-form">
+            <svg class="icon-close-form" width="40" height="40" viewBox="0 0 40 40">
+              <use xlink:href="img/icon/sprite.svg#icon-close-form"></use>
+            </svg>
+            <h3>Let’s talk. Just enter your details and we will reply within 24 hours</h3>
+            <form action="#" method="post" id="sendform" enctype="multipart/form-data">
+              <div class="input-items">
+                <label>name</label>
+                <input type="text" name="name">
+                <div class="error-message">
+                  <svg class="icon-error" width="14" height="15" viewBox="0 0 14 15">
+                    <use xlink:href="img/icon/sprite.svg#icon-error"></use>
+                  </svg>
+                  <p>Required</p>
+                </div>
+              </div>
+              <div class="input-items">
+                <label>email</label>
+                <input type="text" name="email">
+                <div class="error-message">
+                  <svg class="icon-error" width="14" height="15" viewBox="0 0 14 15">
+                    <use xlink:href="img/icon/sprite.svg#icon-error"></use>
+                  </svg>
+                  <p>Required</p>
+                </div>
+              </div>
+              <div class="input-items">
+                <label>country</label>
+                <div class="countryCheck-wrap">
+                  <input class="countryCheck" type="text" name="country" placeholder="United States">
+                </div>
+              </div>
+              <div class="input-items">
+                <label>phone</label>
+                <div class="phone-items">
+                  <div class="phone-word">
+                    <input type="tel2" value="+1">
+                  </div>
+                  <input class="phone-main" type="tel3" maxlength="12">
+                  <input class="phone-val" type="hidden" name="tel">
+                  <div class="error-message">
+                    <svg class="icon-error" width="14" height="15" viewBox="0 0 14 15">
+                      <use xlink:href="img/icon/sprite.svg#icon-error"></use>
+                    </svg>
+                    <p>Required</p>
+                  </div>
+                </div>
+              </div>
+              <div class="input-items input-items--full">
+                <div class="label-flex">
+                  <label>message <span>(optional)</span></label>
+                  <div class="file-type">
+                    <label class="upload-label" for=""><i class="upload-icon"></i>upload</label>
+                    <input class="multi-pt add-load" name="file[]" type="file" id="trrr" multiple>
+                  </div>
+                </div>
+                <div class="textarea-wrap">
+                  <textarea class="textarea-send" name="message" id="textarea-send"></textarea>
+                  <p id="charNum">0/500</p>
+                </div>
+              </div>
+              <div class="input-items input-items--full">
+                <label class="checkbox-default">
+                  <input type="checkbox" name="check1" required="" checked>
+                  <p class="checkbox-default__text">I am informed about processing of my personal <br> data and the right to withdraw my consent</p>
+                </label>
+              </div>
+              <button class="send-form" name="sendMail" type="submit" id="send-form">send 
+                <svg class="icon-arrow" width="70" height="24" viewBox="0 0 70 24">
+                  <use xlink:href="img/icon/sprite.svg#icon-arrow"></use>
+                </svg>
+              </button>
+            </form>
+          </div>
+        </div>
+        <div class="overlay-bg">
+          <div class="close-fill">
+            <svg class="icon-close-form" width="40" height="40" viewBox="0 0 40 40">
+              <use xlink:href="img/icon/sprite.svg#icon-close-form"></use>
+            </svg>
+          </div>
+        </div>
+      </div>
+      <aside id="sidebar">
+        <div class="logo-sidebar">
+          <div class="overlay-menu--close"></div><a class="logo-link" href="/index.html"><img src="img/logo-full.svg" alt="Logo"></a><a class="mobile-burger" href="#"><span></span><span></span></a>
+        </div>
+        <div class="wrapper-menu--mobile">
+          <ul class="list-dot--mobile">
+            <li><span></span></li>
+            <li><span class="is-active"></span></li>
+            <li><span></span></li>
+            <li><span></span></li>
+          </ul>
+          <ul class="list-menu--mobile">
+            <li><a href="index.html">about</a></li>
+            <li><a class="is-active" href="service.html">service</a></li>
+            <li><a href="team.html">team</a></li>
+            <li><a href="contacts.html">contacts</a></li>
+          </ul>
+        </div>
+        <div class="wrap-menu">
+          <ul class="list-menu">
+            <li><a href="index.html">about</a></li>
+            <li><a class="is-active" href="service.html">service</a></li>
+            <li><a href="team.html">team</a></li>
+            <li><a href="contacts.html">contacts</a></li>
+          </ul>
+          <div class="get-touch"><a class="get-touch--link" href="#" id="get-touch"><span>get in <br> touch <i class="icon-get">
+                  <svg class="icon-get" width="10" height="10" viewBox="0 0 10 10">
+                    <use xlink:href="img/icon/sprite.svg#icon-get"></use>
+                  </svg></i></span></a></div>
+        </div>
+      </aside>
+      <section class="section-content">
+        <div class="service-heading">
+          <div class="heading-content tag-wrap">
+            <h1>Our services</h1>
+          </div>
+          <div class="wrapper-text">
+            <div class="text-item">
+              <p>Virtual Electronics is an international outsourcing company. We help our clients in the implementation of IT projects of any complexity and create software products to solve all business problems. </p>
+            </div>
+          </div>
+        </div>
+        <div class="height-50"></div>
+        <section class="section-slide">
+          <div class="slide-wrapper--no-overflow">
+            <div class="slide-wrapper">
+              <div class="swiper-container">
+                <div class="swiper-scrollbar--style">
+                  <div class="swiper-scrollbar"></div>
+                </div>
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide"><a class="swiper-slide--item img-center--height" href="mobile-app-development.html"><img src="img/about-slide/about-slide1.jpg" alt=""></a>
+                    <h3><a href="mobile-app-development.html">Mobile App Development</a></h3>
+                    <p>Support your business operations with a custom application</p>
+                  </div>
+                  <div class="swiper-slide"><a class="swiper-slide--item img-center--height" href="smart-team.html"><img src="img/about-slide/photo-of-people-sitting-beside-table-31827552.jpg" alt=""></a>
+                    <h3><a href="smart-team.html">Smart Team</a></h3>
+                    <p>We use our resources and capabilities to rebuild your team, basing on what you need</p>
+                  </div>
+                  <div class="swiper-slide"><a class="swiper-slide--item img-center--height" href="big-data-&amp;-analytics.html"><img src="img/about-slide/2xJXbVqQ2.jpg" alt=""></a>
+                    <h3><a href="big-data-&amp;-analytics.html">Big Data & Analytics</a></h3>
+                    <p>Virtual Electronics will help you turn segmentary figures into integrated big data solutions</p>
+                  </div>
+                  <div class="swiper-slide"><a class="swiper-slide--item img-center--height" href="qa-&amp;-software-testing.html"><img src="img/about-slide/m-TC8OWA2.jpg" alt=""></a>
+                    <h3><a href="qa-&amp;-software-testing.html">QA & Software Testing</a></h3>
+                    <p>Software quality assurance and testing performed by experienced engineers from VE</p>
+                  </div>
+                  <div class="swiper-slide"><a class="swiper-slide--item img-center--height" href="internet-of-things.html"><img src="img/about-slide/coding-computer-data-depth-of-field-5775852.jpg" alt=""></a>
+                    <h3><a href="internet-of-things.html">Internet of Things</a></h3>
+                    <p>The IoT technology is the future that unlocks possibilities for making timely data-driven decisions</p>
+                  </div>
+                  <div class="swiper-slide"><a class="swiper-slide--item img-center--height" href="dev-ops.html"><img src="img/about-slide/grayscale-photography-of-people-walking-on-walkalator-20811662.jpg" alt=""></a>
+                    <h3><a href="dev-ops.html">DevOps</a></h3>
+                    <p>VE offers services that are sure to boost your team’s productivity and increase the quality of your product</p>
+                  </div>
+                  <div class="swiper-slide"><a class="swiper-slide--item img-center--height" href="it-technical-support.html"><img src="img/about-slide/selective-focus-photo-of-man-in-official-shirt-sitting-in-24516452.jpg" alt=""></a>
+                    <h3><a href="it-technical-support.html">IT Technical Support</a></h3>
+                    <p>Technical specialists carry out reliable second- and third-line consumer technical support</p>
+                  </div>
+                  <div class="swiper-slide"><a class="swiper-slide--item img-center--height" href="chatbot-development.html"><img src="img/about-slide/woman-in-white-t-shirt-holding-smartphone-in-front-of-laptop-9149312.jpg" alt=""></a>
+                    <h3><a href="chatbot-development.html">Chatbot Development</a></h3>
+                    <p>Customize your own business-specific chatbot</p>
+                  </div>
+                  <div class="swiper-slide"><a class="swiper-slide--item img-center--height" href="consulting-and-implementation.html"><img src="img/about-slide/people-inside-a-room-31843592.jpg" alt=""></a>
+                    <h3><a href="consulting-and-implementation.html">Consulting and Implementation</a></h3>
+                    <p>Professional consulting and implementation for all your IT needs</p>
+                  </div>
+                </div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <div class="height-100"></div>
+        <hr class="gray-line">
+        <div class="height-100"></div>
+        <section class="section-slide">
+          <div class="wrapper-text">
+            <div class="text-item">
+              <h3>Research & Development</h3>
+            </div>
+            <div class="text-item">
+              <p>Virtual Electronics is engaged in the implementation of innovative products and IT services in the business of customers </p>
+            </div>
+          </div>
+          <div class="slide-wrapper--no-overflow">
+            <div class="slide-wrapper">
+              <div class="swiper-container">
+                <div class="swiper-scrollbar--style">
+                  <div class="swiper-scrollbar"></div>
+                </div>
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide"><a class="swiper-slide--item img-center--height" href="software-product-development.html"><img src="img/about-slide/people-working-in-front-of-the-computer-31843572.jpg" alt=""></a>
+                    <h3><a href="software-product-development.html">Software Product Development</a></h3>
+                    <p>Over the years Virtual Electronics has retained its main focus on product development.</p>
+                  </div>
+                  <div class="swiper-slide"><a class="swiper-slide--item img-center--height" href="platform-development.html"><img src="img/about-slide/dark-electronic-electronics-equipment-4244362.jpg" alt=""></a>
+                    <h3><a href="platform-development.html">Platform Development</a></h3>
+                    <p>We offer you a set of solutions created to satisfy your needs.</p>
+                  </div>
+                  <div class="swiper-slide"><a class="swiper-slide--item img-center--height" href="poc-development.html"><img src="img/about-slide/photo-of-people-doing-handshakes-31831722.jpg" alt=""></a>
+                    <h3><a href="poc-development.html">PoC Development</a></h3>
+                    <p>It is important to examine stimulating strategies of your business before entering the market</p>
+                  </div>
+                </div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <div class="height-100"></div>
+        <hr class="gray-line">
+        <div class="height-100"></div>
+        <section class="section-slide">
+          <div class="wrapper-text">
+            <div class="text-item">
+              <h3>Design Team</h3>
+            </div>
+            <div class="text-item">
+              <p>High-impact teams</p>
+            </div>
+          </div>
+          <div class="slide-wrapper--no-overflow">
+            <div class="slide-wrapper">
+              <div class="swiper-container">
+                <div class="swiper-scrollbar--style">
+                  <div class="swiper-scrollbar"></div>
+                </div>
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide"><a class="swiper-slide--item img-center--height" href="game-art-production.html"><img src="img/about-slide/star-wars-jedi-fallen-order-gallery-1_b3ecffd52.jpg" alt=""></a>
+                    <h3><a href="game-art-production.html">Game Art Production</a></h3>
+                    <p>Our development team in game art field ensures high quality at each phase of the creation process</p>
+                  </div>
+                  <div class="swiper-slide"><a class="swiper-slide--item img-center--height" href="ux-ui-design.html"><img src="img/about-slide/apple-computer-desk-devices-3265012.jpg" alt=""></a>
+                    <h3><a href="ux-ui-design.html">UX/UI Design</a></h3>
+                    <p>UI that will allow users satisfy their needs using your products</p>
+                  </div>
+                  <div class="swiper-slide"><a class="swiper-slide--item img-center--height" href="design-team.html"><img src="img/about-slide/photo-of-people-looking-on-laptop-31828122.jpg" alt=""></a>
+                    <h3><a href="design-team.html">Design Team</a></h3>
+                    <p>Our UX/UI design and consulting experience focuses on the connection of people’s need with business aims</p>
+                  </div>
+                  <div class="swiper-slide"><a class="swiper-slide--item img-center--height" href="product-design.html"><img src="img/about-slide/photo-of-man-standing-in-front-of-people-31828292.jpg" alt=""></a>
+                    <h3><a href="product-design.html">Product Design</a></h3>
+                    <p>Check your concepts, design niche product ideas and build up your plan to success with the help of Virtual Electronics</p>
+                  </div>
+                </div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <div class="height-100"></div>
+        <hr class="gray-line">
+        <div class="height-100"></div>
+        <section class="section-slide">
+          <div class="wrapper-text">
+            <div class="text-item">
+              <h3>Team Extension</h3>
+            </div>
+            <div class="text-item">
+              <p>A team of professionals that will help you to realize any of your ideas.</p>
+            </div>
+          </div>
+          <div class="slide-wrapper--no-overflow">
+            <div class="slide-wrapper">
+              <div class="swiper-container">
+                <div class="swiper-scrollbar--style">
+                  <div class="swiper-scrollbar"></div>
+                </div>
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide"><a class="swiper-slide--item img-center--height" href="quality-assurance.html"><img src="img/about-slide/people-holding-their-phones-31844353.jpg" alt=""></a>
+                    <h3><a href="quality-assurance.html">Quality assurance</a></h3>
+                    <p>Maximize quality of your solution</p>
+                  </div>
+                  <div class="swiper-slide"><a class="swiper-slide--item img-center--height" href="it-operations.html"><img src="img/about-slide/MijtkBMA2.jpg" alt=""></a>
+                    <h3><a href="it-operations.html">It Operations</a></h3>
+                    <p>Business model optimization</p>
+                  </div>
+                  <div class="swiper-slide"><a class="swiper-slide--item img-center--height" href="tech-support.html"><img src="img/about-slide/white-and-blue-cables-28812292.jpg" alt=""></a>
+                    <h3><a href="tech-support.html">Tech Support</a></h3>
+                    <p>Help your customers.</p>
+                  </div>
+                  <div class="swiper-slide"><a class="swiper-slide--item img-center--height" href="professional-services.html"><img src="img/about-slide/shallow-focus-photo-of-people-discussing-31828262.jpg" alt=""></a>
+                    <h3><a href="professional-services.html">Professional Services</a></h3>
+                    <p>More confidence for your team.</p>
+                  </div>
+                </div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <div class="height-100"></div>
+        <hr class="gray-line">
+        <div class="height-100"></div>
+        <section class="section-slide">
+          <div class="wrapper-text">
+            <div class="text-item">
+              <h3>Other</h3>
+            </div>
+            <div class="text-item">
+              <p>Virtual Electronics is an international outsourcing company. We help our clients in the implementation of IT projects of any complexity and create software products to solve all business problems. </p>
+            </div>
+          </div>
+          <div class="slide-wrapper--no-overflow">
+            <div class="slide-wrapper">
+              <div class="swiper-container">
+                <div class="swiper-scrollbar--style">
+                  <div class="swiper-scrollbar"></div>
+                </div>
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide"><a class="swiper-slide--item img-center--height" href="application-testing-&amp;-packaging.html"><img src="img/about-slide/photo_2020-01-25_13-59-30.jpg" alt=""></a>
+                    <h3><a href="application-testing-&amp;-packaging.html">Application Testing & Packaging</a></h3>
+                    <p>Test your app and receive it ready-made</p>
+                  </div>
+                  <div class="swiper-slide"><a class="swiper-slide--item img-center--height" href="software-reengineering.html"><img src="img/about-slide/person-in-front-of-laptop-on-brown-wooden-table-21152172.jpg" alt=""></a>
+                    <h3><a href="software-reengineering.html">Software Reengineering</a></h3>
+                    <p>Revival of outdated soft via Reengineering and Migration.</p>
+                  </div>
+                  <div class="swiper-slide"><a class="swiper-slide--item img-center--height" href="software-asset-management.html"><img src="img/about-slide/lines-of-code-26533622.jpg" alt=""></a>
+                    <h3><a href="software-asset-management.html">Software Asset Management</a></h3>
+                    <p>Protection Against Risks with the help of Software Asset Management</p>
+                  </div>
+                  <div class="swiper-slide"><a class="swiper-slide--item img-center--height" href="software-audit.html"><img src="img/about-slide/group-of-people-sitting-indoors-31843612.jpg" alt=""></a>
+                    <h3><a href="software-audit.html">Software Audit</a></h3>
+                    <p>VE offers assistance in detecting merits and flaws of your product ensuring risk avoidance and minimization of loss in income</p>
+                  </div>
+                  <div class="swiper-slide"><a class="swiper-slide--item img-center--height" href="virtual-reality.html"><img src="img/about-slide/person-wearing-vr-goggles-20076472.jpg" alt=""></a>
+                    <h3><a href="virtual-reality.html">Virtual Reality</a></h3>
+                    <p>VR app development</p>
+                  </div>
+                  <div class="swiper-slide"><a class="swiper-slide--item img-center--height" href="cloud-solutions.html"><img src="img/about-slide/photo-of-man-holding-a-book-9270222.jpg" alt=""></a>
+                    <h3><a href="cloud-solutions.html">Cloud solutions</a></h3>
+                    <p>Integrate your existing IT infrastructure with the cloud services and optimize productivity, expenses, scalability and flexibility of your business.</p>
+                  </div>
+                  <div class="swiper-slide"><a class="swiper-slide--item img-center--height" href="ar-technology.html"><img src="img/about-slide/about-slide2.jpg" alt=""></a>
+                    <h3><a href="ar-technology.html">AR Technology</a></h3>
+                    <p>AR technology is here to help to promote your products.</p>
+                  </div>
+                  <div class="swiper-slide"><a class="swiper-slide--item img-center--height" href="virtual-reality.html"><img src="img/about-slide/about-slide3.jpg" alt=""></a>
+                    <h3><a href="virtual-reality.html">Virtual Reality</a></h3>
+                    <p>Custom VR experiences to empower your business with a new demention of virtual reality, effectively used in multiple industries</p>
+                  </div>
+                </div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <div class="height-100"></div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer-wrapper">
+        <p class="copy-right">© 2019-<span id="curent-year"></span> Virtual Electronics</p>
+        <p>All Rights Reserved</p>
+      </div>
+    </footer>
+    <div class="hidden">
+      <div class="popup-mail zoom-anim-dialog" id="popup-mail">
+        <p>111</p>
+      </div>
+    </div>
+    <!-- script(src='https://unpkg.com/flipping@latest/dist/flipping.web.js')-->
+    <!-- script(src='/js/shape-overlays.js')-->
+    <script src="js/scripts.js"></script>
+    <script src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.7/jquery.validate.min.js"></script>
+    <script src="js/multiengine.js"></script>
+  </body>
+</html>
