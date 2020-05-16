@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Альтернатива</title>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="img/favicon/apple-touch-icon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="img/favicon/apple-touch-icon-72x72.png" type="image/x-icon">
+    <link rel="shortcut icon" href="img/favicon/apple-touch-icon-144x144.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/index.css">
+    <meta name="theme-color" content="#3d414e">
+    <meta name="msapplication-navbutton-color" content="#3d414e">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#3d414e">
+  </head>
+  <body>
+    <div id="overlayer"></div>
+    <header class="header" style="background: #9cc5e7 url(img/header-bg.jpg)">
+      <section class="top-line">
+        <div class="container-head">
+          <div class="flex-wrapper">
+            <div class="logo-top"><a class="logo-top__link" href="index.html">Альтернатива</a>
+            </div>
+            <div class="menu-header">
+              <nav class="nav-top">
+                <ul class="nav-top__list">
+                  <li class="nav-top__list-li"><a href="#">о школе</a>
+                    <div class="nav-top__sub-menu">
+                      <ul>
+                        <li><a href="#">о нас</a></li>
+                        <li><a href="#">филиалы</a></li>
+                        <li><a href="#">автопарк</a></li>
+                        <li><a href="#">виды обучения</a></li>
+                        <li><a href="#">стоимость обучения</a></li>
+                        <li><a href="#">расписание занятий</a></li>
+                        <li><a href="#">инструкторы</a></li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li class="nav-top__list-li"><a href="#">акции</a>
+                  </li>
+                  <li class="nav-top__list-li"><a href="#">онлайн-обучение</a>
+                  </li>
+                  <li class="nav-top__list-li"><a href="#">запись онлайн</a>
+                  </li>
+                  <li class="nav-top__list-li"><a href="#">контакты</a>
+                  </li>
+                  <li class="nav-top__list-li"><a class="popup" href="#popup-thank">отзывы</a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+            <div class="phone-head">
+              <div class="phone-head__wrapper"><a class="phone-number" href="tel:+78124047000">+7 (812) 404-7000</a><a class="popup" href="#popup-send">заказать звонок</a></div>
+              <div class="burger-menu"><span></span><span></span><span></span></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="container-head flex-contain">
+        <div class="form-wrapper">
+          <form>
+            <div class="section-form">
+              <input placeholder="Имя Фамилия">
+            </div>
+            <div class="section-form">
+              <input placeholder="example@yandex.ru">
+            </div>
+            <div class="section-form">
+              <textarea placeholder="Доп. информ."></textarea>
+            </div>
+            <button class="form-button" type="submit">оставить заявку</button>
+          </form>
+        </div>
+      </div>
+    </header>
+    <svg class="shape-overlays" viewbox="0 0 100 100" preserveaspectratio="none">
+      <path class="shape-overlays__path"></path>
+      <path class="shape-overlays__path"></path>
+      <path class="shape-overlays__path"></path>
+    </svg>
+    <div class="left-menu">
+      <nav class="navigation__left-menu">
+        <ul>
+          <li><a class="link-menu" href="#">
+              <svg class="icon icon icon--svg icon-file">
+                <USE xlink:href="img/sprite.svg#icon-file"></USE>
+              </svg></a>
+            <div class="sub-menu">
+              <ul>
+                <li><a href="#">восстановление навыков</a></li>
+              </ul>
+            </div>
+          </li>
+          <li><a class="link-menu" href="#">
+              <svg class="icon icon icon--svg icon-car">
+                <USE xlink:href="img/sprite.svg#icon-car"></USE>
+              </svg></a>
+            <div class="sub-menu">
+              <ul>
+                <li><a href="#">восстановление навыков</a></li>
+              </ul>
+            </div>
+          </li>
+          <li><a class="link-menu" href="#">
+              <svg class="icon icon icon--svg icon-procent">
+                <USE xlink:href="img/sprite.svg#icon-procent"></USE>
+              </svg></a>
+            <div class="sub-menu">
+              <ul>
+                <li><a href="#">восстановление навыков</a></li>
+              </ul>
+            </div>
+          </li>
+          <li><a class="link-menu" href="#">
+              <svg class="icon icon icon--svg icon-user">
+                <USE xlink:href="img/sprite.svg#icon-user"></USE>
+              </svg></a>
+            <div class="sub-menu">
+              <ul>
+                <li><a href="#">восстановление навыков</a></li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <main class="section_main" role="main">
+      <section class="instructor">
+        <div class="container">
+          <h3 class="heading">Инструкторы</h3>
+          <div class="owl-carousel slider-events">
+            <div class="item">
+              <div class="slider-item">
+                <div class="slider-item__img"><img src="img/slider-img1.png" alt=""></div>
+                <div class="slider-item__content">
+                  <h3 class="slider-item__heading">Иван Грозный</h3>
+                  <p class="slider-item__text">
+                    сертифицированный инструктор
+                    первой категории
+                  </p><a class="slider-item__link" href="#">подробнее</a>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="slider-item">
+                <div class="slider-item__img"><img src="img/slider-img2.png" alt=""></div>
+                <div class="slider-item__content">
+                  <h3 class="slider-item__heading">Иван Грозный</h3>
+                  <p class="slider-item__text">
+                    сертифицированный инструктор
+                    первой категории
+                  </p><a class="slider-item__link" href="#">подробнее</a>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="slider-item">
+                <div class="slider-item__img"><img src="img/slider-img3.png" alt=""></div>
+                <div class="slider-item__content">
+                  <h3 class="slider-item__heading">Иван Грозный</h3>
+                  <p class="slider-item__text">
+                    сертифицированный инструктор
+                    первой категории
+                  </p><a class="slider-item__link" href="#">подробнее</a>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="slider-item">
+                <div class="slider-item__img"><img src="img/slider-img1.png" alt=""></div>
+                <div class="slider-item__content">
+                  <h3 class="slider-item__heading">Иван Грозный</h3>
+                  <p class="slider-item__text">
+                    сертифицированный инструктор
+                    первой категории
+                  </p><a class="slider-item__link" href="#">подробнее</a>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="slider-item">
+                <div class="slider-item__img"><img src="img/slider-img2.png" alt=""></div>
+                <div class="slider-item__content">
+                  <h3 class="slider-item__heading">Иван Грозный</h3>
+                  <p class="slider-item__text">
+                    сертифицированный инструктор
+                    первой категории
+                  </p><a class="slider-item__link" href="#">подробнее</a>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="slider-item">
+                <div class="slider-item__img"><img src="img/slider-img3.png" alt=""></div>
+                <div class="slider-item__content">
+                  <h3 class="slider-item__heading">Иван Грозный</h3>
+                  <p class="slider-item__text">
+                    сертифицированный инструктор
+                    первой категории
+                  </p><a class="slider-item__link" href="#">подробнее</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="advantage">
+        <div class="container">
+          <h3 class="heading">Наши преимущества</h3>
+          <div class="advantage-wrapper">
+            <div class="advantage-item">
+              <div class="advantage--img"><img src="img/advantage1.png" alt=""></div>
+              <div class="advantage--text">
+                <h4>Большой автопарк</h4>
+                <p>Вы сможете подобрать<br>автомобиль себе по вкусу</p>
+              </div>
+            </div>
+            <div class="advantage-item">
+              <div class="advantage--img"><img src="img/advantage2.png" alt=""></div>
+              <div class="advantage--text">
+                <h4>Опыт</h4>
+                <p>Занятия ведут проверенные<br>специалисты в своей области</p>
+              </div>
+            </div>
+            <div class="advantage-item">
+              <div class="advantage--img"><img src="img/advantage3.png" alt=""></div>
+              <div class="advantage--text">
+                <h4>Техническое оснащение</h4>
+                <p>Наша техническая база вас<br>не разочарует!</p>
+              </div>
+            </div>
+            <div class="advantage-item">
+              <div class="advantage--img"><img src="img/advantage4.png" alt=""></div>
+              <div class="advantage--text">
+                <h4>Мы открыты к диалогу</h4>
+                <p>Наши специалисты помогут<br>вам во всём разобраться</p>
+              </div>
+            </div>
+            <div class="advantage-item">
+              <div class="advantage--img"><img src="img/advantage5.png" alt=""></div>
+              <div class="advantage--text">
+                <h4>Эффективная программа</h4>
+                <p>Идеальное соотношение<br>теории и практики на курсе</p>
+              </div>
+            </div>
+            <div class="advantage-item">
+              <div class="advantage--img"><img src="img/advantage6.png" alt=""></div>
+              <div class="advantage--text">
+                <h4>Качество</h4>
+                <p>О нашем качестве лучше всего<br>говорят отзывы учеников</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="instructor">
+        <div class="container">
+          <h3 class="heading">Автопарк</h3>
+          <div class="owl-carousel slider-events">
+            <div class="item">
+              <div class="slider-item">
+                <div class="slider-item__img"><img src="img/car-img1.png" alt=""></div>
+                <div class="slider-item__content">
+                  <h3 class="slider-item__heading">Модель машины</h3>
+                  <p class="slider-item__text">
+                    самая подходящая модель
+                    для начала обучения
+                  </p><a class="slider-item__link" href="#">подробнее</a>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="slider-item">
+                <div class="slider-item__img"><img src="img/car-img2.png" alt=""></div>
+                <div class="slider-item__content">
+                  <h3 class="slider-item__heading">Модель машины</h3>
+                  <p class="slider-item__text">
+                    самая подходящая модель
+                    для начала обучения
+                  </p><a class="slider-item__link" href="#">подробнее</a>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="slider-item">
+                <div class="slider-item__img"><img src="img/car-img3.png" alt=""></div>
+                <div class="slider-item__content">
+                  <h3 class="slider-item__heading">Модель машины</h3>
+                  <p class="slider-item__text">
+                    самая подходящая модель
+                    для начала обучения
+                  </p><a class="slider-item__link" href="#">подробнее</a>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="slider-item">
+                <div class="slider-item__img"><img src="img/car-img4.png" alt=""></div>
+                <div class="slider-item__content">
+                  <h3 class="slider-item__heading">Модель машины</h3>
+                  <p class="slider-item__text">
+                    самая подходящая модель
+                    для начала обучения
+                  </p><a class="slider-item__link" href="#">подробнее</a>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="slider-item">
+                <div class="slider-item__img"><img src="img/car-img2.png" alt=""></div>
+                <div class="slider-item__content">
+                  <h3 class="slider-item__heading">Модель машины</h3>
+                  <p class="slider-item__text">
+                    самая подходящая модель
+                    для начала обучения
+                  </p><a class="slider-item__link" href="#">подробнее</a>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="slider-item">
+                <div class="slider-item__img"><img src="img/car-img3.png" alt=""></div>
+                <div class="slider-item__content">
+                  <h3 class="slider-item__heading">Модель машины</h3>
+                  <p class="slider-item__text">
+                    самая подходящая модель
+                    для начала обучения
+                  </p><a class="slider-item__link" href="#">подробнее</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="gallery">
+        <div class="container-head">
+          <h3 class="heading">Галерея</h3>
+          <div class="gallery-wrapper">
+            <div class="gallery-items">
+              <div class="gallery-items__img"><img src="img/gallery/gellery1.jpg" alt=""></div>
+            </div>
+            <div class="gallery-items">
+              <div class="gallery-items__img"><img src="img/gallery/gellery2.jpg" alt=""></div>
+            </div>
+            <div class="gallery-items">
+              <div class="gallery-items__img"><img src="img/gallery/gellery3.jpg" alt=""></div>
+            </div>
+            <div class="gallery-items big-gallery">
+              <div class="gallery-items__img"><img src="img/gallery/gellery4.jpg" alt=""></div>
+            </div>
+            <div class="gallery-items">
+              <div class="gallery-items__img"><img src="img/gallery/gellery5.jpg" alt=""></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="contact">
+        <div class="container">
+          <h3 class="heading">Контакты</h3>
+          <div class="contact-info">
+            <p>Телефон: <span>+7 (812) 404-7000</span></p>
+            <p>Режим работы: <span>8:00 – 19:30</span></p>
+          </div>
+          <div class="contact-wrapper">
+            <div class="contact-items">
+              <div class="contact-items--wr">
+                <div class="contact-items__map"><iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A06b8671329b12468bb2853fe841bf893aeaa41d1a061f287384e51ff6993e7ba&amp;source=constructor" width="100%" height="180" frameborder="0"></iframe></div>
+                <div class="contact-items__content">
+                  <h4>Новый Петергоф</h4>
+                  <p>Санкт-Петербургский пр., 60, 4 эт., офис №431</p>
+                  <p class="phone-map">+7 (812) 956-2975</p>
+                  <div class="contact-bottom"><a class="button" href="#">подробнее</a></div>
+                </div>
+              </div>
+            </div>
+            <div class="contact-items">
+              <div class="contact-items--wr">
+                <div class="contact-items__map"><iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A06b8671329b12468bb2853fe841bf893aeaa41d1a061f287384e51ff6993e7ba&amp;source=constructor" width="100%" height="180" frameborder="0"></iframe></div>
+                <div class="contact-items__content">
+                  <h4>Новый Петергоф</h4>
+                  <p>Санкт-Петербургский пр., 60, 4 эт., офис №431</p>
+                  <p class="phone-map">+7 (812) 956-2975</p>
+                  <div class="contact-bottom"><a class="button" href="#">подробнее</a></div>
+                </div>
+              </div>
+            </div>
+            <div class="contact-items">
+              <div class="contact-items--wr">
+                <div class="contact-items__map"><iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A06b8671329b12468bb2853fe841bf893aeaa41d1a061f287384e51ff6993e7ba&amp;source=constructor" width="100%" height="180" frameborder="0"></iframe></div>
+                <div class="contact-items__content">
+                  <h4>Новый Петергоф</h4>
+                  <p>Санкт-Петербургский пр., 60, 4 эт., офис №431</p>
+                  <p class="phone-map">+7 (812) 956-2975</p>
+                  <div class="contact-bottom"><a class="button" href="#">подробнее</a></div>
+                </div>
+              </div>
+            </div>
+            <div class="contact-items">
+              <div class="contact-items--wr">
+                <div class="contact-items__map"><iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A06b8671329b12468bb2853fe841bf893aeaa41d1a061f287384e51ff6993e7ba&amp;source=constructor" width="100%" height="180" frameborder="0"></iframe></div>
+                <div class="contact-items__content">
+                  <h4>Новый Петергоф</h4>
+                  <p>Санкт-Петербургский пр., 60, 4 эт., офис №431</p>
+                  <p class="phone-map">+7 (812) 956-2975</p>
+                  <div class="contact-bottom"><a class="button" href="#">подробнее</a></div>
+                </div>
+              </div>
+            </div>
+            <div class="contact-items">
+              <div class="contact-items--wr">
+                <div class="contact-items__map"><iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A06b8671329b12468bb2853fe841bf893aeaa41d1a061f287384e51ff6993e7ba&amp;source=constructor" width="100%" height="180" frameborder="0"></iframe></div>
+                <div class="contact-items__content">
+                  <h4>Новый Петергоф</h4>
+                  <p>Санкт-Петербургский пр., 60, 4 эт., офис №431</p>
+                  <p class="phone-map">+7 (812) 956-2975</p>
+                  <div class="contact-bottom"><a class="button" href="#">подробнее</a></div>
+                </div>
+              </div>
+            </div>
+            <div class="contact-items">
+              <div class="contact-items--wr">
+                <div class="contact-items__map"><img src="img/map-more.jpg" alt=""></div>
+                <div class="contact-items__content">
+                  <div class="contacts-more">
+                    <h3>филиалы будут<br>дополняться</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="content-stop">
+        <div class="container-stop">
+          <div class="wrapper-stop">
+            <div class="wrapper-stop__img"><img src="img/stop.png" alt=""></div>
+            <div class="wrapper-stop__text">
+              <h3 class="heading">Какой-то текст</h3>
+              <div class="height-38"></div>
+              <p>Постоянный количественный рост и сфера нашей активности представляет собой интересный эксперимент проверки соответствующий условий активизации. Товарищи! дальнейшее развитие различных форм деятельности способствует подготовки и реализации форм развития. Не следует, однако забывать, что укрепление и развитие структуры способствует подготовки и реализации систем массового участия. Значимость этих проблем настолько очевидна, что сложившаяся структура организации требуют определения и уточнения модели развития.</p>
+              <h4>Подзаголовок</h4>
+              <p>Задача организации, в особенности же рамки и место обучения кадров способствует подготовки и реализации позиций, занимаемых участниками в отношении поставленных задач.</p><a href="#">ссылка подробнее</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="form-send">
+        <div class="container-form">
+          <h3 class="heading">Оставить заявку</h3>
+          <form>
+            <div class="section-form">
+              <input placeholder="Имя Фамилия">
+            </div>
+            <div class="section-form">
+              <input placeholder="example@yandex.ru">
+            </div>
+            <div class="section-form">
+              <textarea placeholder="Доп. информ."></textarea>
+            </div>
+            <button class="form-button" type="submit">оставить заявку</button>
+          </form>
+        </div>
+        <div class="thank-wrapper"><img src="img/thank-icon.png" alt="">
+          <h4>Ваша заявка принята</h4>
+          <p>с вами свяжется администратор</p>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container-footer">
+        <div class="footer-logo">
+          <div class="logo-foot"><a class="logo-foot__link" href="#">Альтернатива</a>
+          </div>
+        </div>
+        <div class="footer-foot">
+          <div class="footer-foot__items">
+            <nav class="small-menu">
+              <ul>
+                <li><a href="#">о нас</a></li>
+                <li><a href="#">филиалы</a></li>
+                <li><a href="#">автопарк</a></li>
+                <li><a href="#">виды обучения</a></li>
+                <li><a href="#">стоимость обучения</a></li>
+                <li><a href="#">расписание занятий</a></li>
+                <li><a href="#">инструкторы</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="footer-foot__items">
+            <nav class="menu-big">
+              <ul>
+                <li><a href="#">запись онлайн</a></li>
+                <li><a href="#">контакты</a></li>
+                <li><a href="#">отзывы</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="footer-foot__items">
+            <nav class="menu-big">
+              <ul>
+                <li><a href="#">акции</a></li>
+                <li><a href="#">онлайн-обучение</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="footer-foot__items"><a class="phone-footer" href="tel:+78124047000">+7 (812) 404-7000</a></div>
+        </div>
+      </div>
+    </footer>
+    <div class="hidden">
+      <div class="thank-you zoom-anim-dialog" id="popup-thank">
+        <div class="thank-send">
+          <p>Спасибо, мы перезвоним!</p>
+        </div>
+      </div>
+      <div class="main-form zoom-anim-dialog" id="popup-send">
+        <div class="form-wrapper">
+          <form>
+            <div class="section-form">
+              <input placeholder="Имя Фамилия">
+            </div>
+            <div class="section-form">
+              <input placeholder="example@yandex.ru">
+            </div>
+            <div class="section-form">
+              <textarea placeholder="Доп. информ."></textarea>
+            </div>
+            <button class="form-button" type="submit">оставить заявку</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <script src="https://unpkg.com/flipping@latest/dist/flipping.web.js"></script>
+    <script src="js/shape-overlays.js"></script>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
