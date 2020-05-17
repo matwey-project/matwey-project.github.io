@@ -1,0 +1,536 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1800px) {
+
+}
+
+@media only screen and (max-width : 1680px) {
+	
+}
+
+@media only screen and (max-width : 1545px) {
+
+}
+
+@media only screen and (max-width : 1400px){
+
+}
+
+@media only screen and (max-width : 1350px){
+
+}
+
+@media only screen and (max-width : 1060px) {
+
+}
+
+@media only screen and (max-width : 1220px) {
+
+}
+
+@media only screen and (max-width : 1199px) {
+	.rwd-table .button-default {
+		font-size: 12px;
+	}
+	.donate-link li {
+		font-size: 14px;
+	}
+	.default-video img {
+		width: 100%;
+		height: auto;
+	}
+	.default-video {
+		min-height: 100%;
+	}
+	.link-baned img {
+		width: 100%;
+	}
+	.wrapp-callendar {
+		padding: 66px 0 0 15px;
+	}
+	.text-callendar {
+		padding-left: 20px;
+	}
+	.text-callendar h3 {
+		font-size: 34px;
+		line-height: 38px;
+	}
+}
+
+@media only screen and (max-width : 1024px) {
+
+}
+
+@media only screen and (max-width : 1023px) {
+
+}
+
+@media only screen and (max-width : 992px) {
+	.left-sidebar__content {
+		padding-left: 0;
+	}
+}
+
+@media only screen and (max-width : 991px) {
+	.starting-tbl tr td:nth-child(3) {
+		width: 23%;
+	}
+	.finished-tbl tr td:nth-child(3) {
+		width: 24%;
+	}
+	.finished-tbl tr td:last-child {
+		width: 11%;
+	}
+	.item-info__left {
+		width: 65%;
+	}
+	.item-info__right {
+		width: 35%;
+	}
+	.items__company-heading h3 i {
+		font-size: 24px;
+		color: #3c5899;
+	}
+	.items__company-heading h3 {
+		font-size: 24px;
+	}
+	.buttons-company {
+		margin-top: 20px;
+		text-align: center !important;
+	}
+	.buttons-company .button-default {
+		margin: 0 5px;
+	}
+	.table-main .rwd-table {
+		margin-bottom: 40px;
+	}
+	.header-nav__item {
+		padding: 0 2px;
+	}
+	.wrapp-callendar {
+		padding: 30px 0 0 0px;
+		width: 100%;
+		max-width: 480px;
+		margin: 0 auto;
+	}
+	.null-block {
+		display: none;
+	}
+	.wrap-logo {
+		text-align: left;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 980px) {
+
+}
+
+@media only screen and (max-width : 960px){
+
+}
+
+@media only screen and (max-width : 940px){
+
+}
+
+@media only screen and (max-width : 900px){
+
+}
+
+@media only screen and (max-width : 854px){
+
+}
+
+@media only screen and (max-width : 800px){
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.wrapper-nav,
+	.wrapper-button {
+		width: 100%;
+		position: relative;
+	}
+	.wrapper-nav {
+		z-index: 1;
+	}
+}
+
+@media only screen and (max-width : 767px) {
+	.sidebar-video {
+		text-align: center;
+	}
+	.left-sidebar__content {
+		margin-top: 25px;
+	}
+	.popular-items {
+		margin-bottom: 20px;
+	}
+	.wrapper-popular {
+		padding-bottom: 10px;
+	}
+}
+
+@media only screen and (max-width : 720px) {
+	body {
+		padding-bottom: 90px;
+	}
+	.disqus-style {
+		margin-top: 20px;
+	}
+	.donate-link {
+		display: block;
+		float: none;
+	}
+	.progress-tbl th, .finished-tbl td {
+		margin: .5em 1em;
+	}
+	.progress-tbl td {
+		display: block;
+		text-align: right;
+	}
+	.progress-tbl td:before {
+		content: attr(data-th) ": ";
+		font-weight: bold;
+		width: 6.5em;
+		display: inline-block;
+		float: left;
+		text-align: left;
+	}
+	.progress-tbl td:first-child {
+		padding: 0;
+	}
+	.progress-tbl tr td:nth-child(3) {
+		width: auto;
+	}
+	.progress-tbl tr:first-child {
+		display: none;
+	}
+	.progress-tbl tr td:last-child {
+		width: auto;
+	}
+	.progress-tbl tr:nth-child(odd) {
+		background: #f8f8f8;
+	}
+	.progress-tbl .social-table {
+		line-height: 20px;
+	}
+
+	.starting-tbl th, .finished-tbl td {
+		margin: .5em 1em;
+	}
+	.starting-tbl td {
+		display: block;
+		text-align: right;
+	}
+	.starting-tbl td:before {
+		content: attr(data-th) ": ";
+		font-weight: bold;
+		width: 6.5em;
+		display: inline-block;
+		float: left;
+		text-align: left;
+	}
+	.starting-tbl td:first-child {
+		padding: 0;
+	}
+	.starting-tbl tr td:nth-child(3) {
+		width: auto;
+	}
+	.starting-tbl tr:first-child {
+		display: none;
+	}
+	.starting-tbl tr td:last-child {
+		width: auto;
+	}
+	.starting-tbl tr:nth-child(odd) {
+		background: #f8f8f8;
+	}
+	.starting-tbl .social-table {
+		line-height: 20px;
+	}
+}
+
+@media only screen and (max-width : 640px) {
+	body {
+		padding-bottom: 107px;
+	}
+	.donate-link {
+		display: block;
+		float: left;
+		margin-top: 12px;
+	}
+	.finished-tbl th, .finished-tbl td {
+		margin: .5em 1em;
+	}
+	.finished-tbl td {
+		display: block;
+		text-align: right;
+	}
+	.finished-tbl td:before {
+		content: attr(data-th) ": ";
+		font-weight: bold;
+		width: 6.5em;
+		display: inline-block;
+		float: left;
+		text-align: left;
+	}
+	.finished-tbl td:first-child {
+		padding: 0;
+	}
+	.finished-tbl tr td:nth-child(3) {
+		width: auto;
+	}
+	.finished-tbl tr:first-child {
+		display: none;
+	}
+	.finished-tbl tr td:last-child {
+		width: auto;
+	}
+	.social-table {
+		line-height: normal;
+	}
+	.finished-tbl tr:nth-child(odd) {
+		background: #f8f8f8;
+	}
+}
+
+@media only screen and (max-width : 600px) {
+	.style-popup label,
+	.label-span {
+		margin-bottom: 10px;
+	}
+	.items-forms {
+		margin-bottom: 10px;
+	}
+	.style-popup input,
+	.download-label {
+		width: 100%;
+	}
+}
+
+@media only screen and (max-width : 540px) {
+	.events-tbl th:first-child {
+		width: auto;
+	}
+	.position-coin li {
+		padding-right: 4px;
+	}
+	.thumbnail {
+		position: relative;
+		width: 100%;
+		height: 160px;
+		overflow: hidden;
+	}
+	.thumbnail img {
+		position: absolute;
+		left: 50%;
+		top: 50%;
+		height: 100%;
+		width: auto;
+		-webkit-transform: translate(-50%,-50%);
+		-ms-transform: translate(-50%,-50%);
+		transform: translate(-50%,-50%);
+	}
+}
+
+@media only screen and (max-width : 480px) {
+	.style-popup {
+		padding: 25px 45px;
+	}
+	.wrapper-news {
+		display: none;
+	}
+	.wrap-logo,
+	.data-coin {
+		width: 100%;
+		text-align: center;
+	}
+	.position-coin {
+		float: none;
+		margin: 25px auto 18px;
+		display: block;
+		text-align: center;
+	}
+	.position-coin li {
+		float: none;
+		display: inline-block;
+	}
+	.icon-callendar img {
+		width: 85px;
+	}
+	.text-callendar {
+		padding-left: 10px;
+	}
+	.wrapp-callendar {
+		max-width: 375px;
+	}
+	.text-callendar h3 {
+		font-size: 26px;
+		line-height: 34px;
+		margin-top: 10px;
+	}
+}
+
+@media only screen and (max-width : 479px) {
+	.rwd-table th:first-child, .rwd-table td:first-child {
+		padding: 0;
+	}
+	.rwd-table th, .rwd-table td {
+		text-align: right;
+	}
+	.social-table {
+		line-height: normal;
+	}
+}
+
+@media only screen and (max-width : 414px) {
+	.style-popup {
+		padding: 25px 15px;
+	}
+	.rwd-table tr:nth-child(odd) {
+		background: #f8f8f8;
+	}
+	body {
+		padding-bottom: 105px;
+	}
+	.thumbnail {
+		height: 120px;
+	}
+	.rwd-table tr:first-child {
+		height: 0;
+	}
+	.table-main h3 {
+		font-size: 22px;
+		line-height: 35px;
+	}
+	.rwd-table th:first-child,
+	.rwd-table td:first-child {
+		padding: 0;
+	}
+	.social-table {
+		line-height: normal;
+		display: inline-block;
+	}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 375px) {
+	.buttons-company .button-default {
+		margin: 5px auto;
+		display: block;
+	}
+	.wrapper-social__icons {
+		display: none;
+	}
+	.wrapper-social__button a {
+		margin-right: 2px;
+	}
+	.icon-callendar img {
+		display: none;
+	}
+	.text-callendar,
+	.icon-callendar {
+		float: none;
+	}
+	.wrapp-callendar {
+		padding: 0;
+		text-align: center;
+	}
+	.popular-smal {
+		width: 100%;
+	}
+	.heading-style__h3 img {
+		display: none;
+	}
+}
+
+@media only screen and (max-width : 360px) {
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+	.header-nav__list {
+		border-bottom: 0;
+		margin-bottom: 0;
+	}
+	body {
+		padding-bottom: 150px;
+	}
+	.wrapper-button {
+		display: none;
+	}
+	.wrapper-nav {
+		min-height: 22px;
+	}
+	.social-button {
+		max-width: 240px;
+		padding-left: 20px;
+	}
+	.thumbnail {
+		height: 100px;
+	}
+	.link-finished {
+		font: 16px/40px "Lato-Bold", sans-serif;
+	}
+	.table-main h3 {
+		font-size: 18px;
+		line-height: 40px;
+	}
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 769px) {
+
+}
+
+@media only screen and (min-width : 854px){
+
+}
+
+@media only screen and (min-width : 900px){
+
+}
+
+@media only screen and (min-width : 901px){
+
+}
+
+@media only screen and (min-width : 960px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 980px) {
+
+}
+
+@media only screen and (min-width : 1024px){
+
+}
+
+@media only screen and (min-width : 1060px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}

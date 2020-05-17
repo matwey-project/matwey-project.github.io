@@ -1,0 +1,90 @@
+@font-face {
+	font-family: "Lato-Regular";
+	src: url("../fonts/Lato-Regular/Lato-Regular.eot");
+	src: url("../fonts/Lato-Regular/Lato-Regular.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/Lato-Regular/Lato-Regular.woff") format("woff"),
+	url("../fonts/Lato-Regular/Lato-Regular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "Lato-Bold";
+	src: url("../fonts/Lato-Bold/Lato-Bold.eot");
+	src: url("../fonts/Lato-Bold/Lato-Bold.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/Lato-Bold/Lato-Bold.woff") format("woff"),
+	url("../fonts/Lato-Bold/Lato-Bold.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "Lato-Light";
+	src: url("../fonts/Lato-Light/Lato-Light.eot");
+	src: url("../fonts/Lato-Light/Lato-Light.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/Lato-Light/Lato-Light.woff") format("woff"),
+	url("../fonts/Lato-Light/Lato-Light.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "Lato-Black";
+	src: url("../fonts/Lato-Black/Lato-Black.eot");
+	src: url("../fonts/Lato-Black/Lato-Black.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/Lato-Black/Lato-Black.woff") format("woff"),
+	url("../fonts/Lato-Black/Lato-Black.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "Lato-Semibold";
+	src: url("../fonts/Lato-Semibold/Lato-Semibold.eot");
+	src: url("../fonts/Lato-Semibold/Lato-Semibold.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/Lato-Semibold/Lato-Semibold.woff") format("woff"),
+	url("../fonts/Lato-Semibold/Lato-Semibold.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "HelveticaRegular";
+	src: url("../fonts/HelveticaRegular/HelveticaRegular.eot");
+	src: url("../fonts/HelveticaRegular/HelveticaRegular.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/HelveticaRegular/HelveticaRegular.woff") format("woff"),
+	url("../fonts/HelveticaRegular/HelveticaRegular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "HelveticaNeueCyr-Bold";
+	src: url("../fonts/HelveticaNeueCyr-Bold/HelveticaNeueCyr-Bold.eot");
+	src: url("../fonts/HelveticaNeueCyr-Bold/HelveticaNeueCyr-Bold.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/HelveticaNeueCyr-Bold/HelveticaNeueCyr-Bold.woff") format("woff"),
+	url("../fonts/HelveticaNeueCyr-Bold/HelveticaNeueCyr-Bold.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "HelveticaLight";
+	src: url("../fonts/HelveticaLight/HelveticaLight.eot");
+	src: url("../fonts/HelveticaLight/HelveticaLight.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/HelveticaLight/HelveticaLight.woff") format("woff"),
+	url("../fonts/HelveticaLight/HelveticaLight.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "HelveticaNeueCyr-Medium";
+	src: url("../fonts/HelveticaNeueCyr-Medium/HelveticaNeueCyr-Medium.eot");
+	src: url("../fonts/HelveticaNeueCyr-Medium/HelveticaNeueCyr-Medium.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/HelveticaNeueCyr-Medium/HelveticaNeueCyr-Medium.woff") format("woff"),
+	url("../fonts/HelveticaNeueCyr-Medium/HelveticaNeueCyr-Medium.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "MinionPro-Regular";
+	src: url("../fonts/MinionPro-Regular/MinionPro-Regular.eot");
+	src: url("../fonts/MinionPro-Regular/MinionPro-Regular.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/MinionPro-Regular/MinionPro-Regular.woff") format("woff"),
+	url("../fonts/MinionPro-Regular/MinionPro-Regular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}

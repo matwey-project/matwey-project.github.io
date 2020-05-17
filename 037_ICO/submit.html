@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+	<meta charset="utf-8">
+
+	<title>ICGO</title>
+	<meta name="description" content="">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<meta property="og:image" content="path/to/image.jpg">
+	<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+
+	<!-- Chrome, Firefox OS and Opera -->
+	<meta name="theme-color" content="#000">
+	<!-- Windows Phone -->
+	<meta name="msapplication-navbutton-color" content="#000">
+	<!-- iOS Safari -->
+	<meta name="apple-mobile-web-app-status-bar-style" content="#000">
+
+	<style>body { opacity: 0; overflow-x: hidden; } html { background-color: #fff; }</style>
+
+	<!-- <link rel="stylesheet" href="css/grid_css.css"/> -->
+	<link rel="stylesheet" href="css/bootstrap.min.css"/>
+	<link rel="stylesheet" href="css/main.css" />
+	<link rel="stylesheet" href="css/media.css" />
+	<link rel="stylesheet" href="libs/datapiker/datepicker.min.css" />
+	<link rel="stylesheet" href="css/fonts.css" />
+	<link rel="stylesheet" href="css/font-awesome.min.css" />
+	<link rel="stylesheet" href="libs/magnific-popup/magnific-popup.css" />
+	<link href="libs/owl-carousel/owl.carousel.css" rel="stylesheet" type="text/css">
+
+</head>
+<body>
+	<a href="#view-form" class="popup">Popup Window</a>
+	<!-- Header -->
+	<header class="header">
+		<div class="top-line">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-7 col-sm-6 wrapper-nav">
+						<a href="#" class="burger-nav__list   mobile-menu__open" id="click-prevent">
+							<span class="stick"></span>
+							<span class="stick"></span>
+							<span class="stick"></span>
+						</a>
+						<nav class="header-nav">
+							<ul class="header-nav__list mobile-menu__list">
+								<li class="header-nav__item">
+									<a href="#" class="header-nav__link">ICO calendar</a>
+								</li>
+								<li class="header-nav__item">
+									<a href="#" class="header-nav__link">Events</a>
+								</li>
+								<li class="header-nav__item menu-item-has-children">
+									<a href="#" class="header-nav__link">Submit </a>
+									<ul class="sub-menu">
+										<li><a href="#">ICO</a></li>
+										<li><a href="#">News & Events</a></li>
+									</ul>
+								</li>
+								<li class="header-nav__item">
+									<a href="#" class="header-nav__link">Promotions</a>
+								</li>
+								<li class="header-nav__item">
+									<a href="#" class="header-nav__link">Calculator</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+					<div class="col-md-5 col-sm-6 wrapper-button">
+						<div class="wrapper-social clearfix">
+							<div class="wrapper-social__button">
+								<a href="#" class="telegram-icon"><i class="fa fa-telegram" aria-hidden="true"></i> Follow /News_ICGO</a>
+								<a href="#" class="twitter-icon"><i class="fa fa-twitter" aria-hidden="true"></i> Follow @News_ICGO</a>
+							</div>
+							<div class="wrapper-social__icons">
+								<ul>
+									<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+									<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="block-logo">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4 null-block"></div>
+					<div class="col-md-4 col-sm-6 col-xs-6 wrap-logo">
+						<a href="#" class="logo">
+							<img src="img/logo.png" alt="">
+						</a>
+					</div>
+					<div class="col-md-4 col-sm-6 col-xs-6 data-coin">
+						<ul class="position-coin clearfix">
+							<li>
+								<h3 class="name-coin">BTC</h3>
+								<p class="num-money">$ 10 023,36</p>
+								<p class="stake-coin rating-up"><i class="fa fa-angle-up" aria-hidden="true"></i> 25%</p><!-- Class .fa-angle-down и .fa-angle-up меняют стрелку -->
+							</li>
+							<li>
+								<h3 class="name-coin">BCH</h3>
+								<p class="num-money">$ 748,88</p>
+								<p class="stake-coin rating-down"><i class="fa fa-angle-down" aria-hidden="true"></i> 25%</p>
+							</li>
+							<li>
+								<h3 class="name-coin">ETH</h3>
+								<p class="num-money">$ 338,28</p>
+								<p class="stake-coin rating-down"><i class="fa fa-angle-down" aria-hidden="true"></i> 0.1%</p>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<!-- Header End -->
+	<!-- Main -->
+	<main>
+		<section class="submite-page">
+			<div class="container">
+				<div class="heading-submite">
+					<h1>Submit a New Entry</h1>
+					<p class="slogan-submite">
+						Thank you for your entry! News and Events you’d like to share with us please use the text box below. We look forward to reviewing and will aim to share with the ICGO community as soon as possible.
+					</p>
+				</div>
+				<form action="">
+					<div class="items-submite">
+						<label for="submite-1">Your Name <span class="red-color">*</span></label>
+						<input type="text" id="submite-1" class="placeholder-style" placeholder="Your name">
+					</div>
+					<div class="items-submite">
+						<label for="submite-2">Your E-mail <span class="red-color">*</span></label>
+						<input type="text" id="submite-2" class="placeholder-style" placeholder="Your e-mail">
+					</div>
+					<div class="items-submite">
+						<label for="submite-3">Listing Request <span class="red-color">*</span></label>
+						<div class="wrapper-select">
+							<div class="sbmt__select-arrows"><i class="fa fa-caret-up" aria-hidden="true"></i><i class="fa fa-caret-down" aria-hidden="true"></i></div>
+							<select>
+								<option>please select</option>
+								<option>Event (Conference, Talk, Seminar)</option>
+								<option>News (Announcement, Report, Press Release)</option>
+							</select>
+						</div>
+					</div>
+					<div class="items-submite">
+						<label for="submite-4">Listing Title <span class="red-color">*</span></label>
+						<input type="text" id="submite-4" class="placeholder-style" placeholder="Event name">
+					</div>
+					<div class="items-submite">
+						<label for="submite-5">Description <span class="red-color">*</span></label>
+						<textarea name="" id="" class="textarea placeholder-style" placeholder="Information"></textarea>
+					</div>
+					<div class="items-submite">
+						<label for="submite-6">Link/s to more info (Website/Whitepaper/YouTube/LinkedIn etc.) <span class="red-color">*</span></label>
+						<textarea name="" id="" class="textarea placeholder-style" placeholder="URL"></textarea>
+					</div>
+					<div class="items-submite__check">
+						<div class="form-check__item">
+							<input type="checkbox" id="check-1">
+							<label for="check-1">I am responsible for this information</label>
+						</div>
+					</div>
+					<div class="items-submite__button">
+					<button class="button-default">Submit</button>
+					</div>
+				</form>
+				<!-- <input type='text' class="datepicker-here" data-language='en' data-position="bottom left" /> -->
+			</div>
+		</section>
+	</main>
+	<!-- Main End -->
+
+	<!-- Footer -->
+	<footer class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-7 col-sm-5">
+					<ul class="copyright clearfix">
+						<li><span>© 2017 ICGO</span></li>
+						<li><a href="#">Submit</a></li>
+						<li><a href="#">Advertise</a></li>
+					</ul>
+				</div>
+				<div class="col-md-5 col-sm-7">
+					<ul class="donate-link">
+						<li>Donate BTC: sjrgwejgnwenwinweifjwkfjnvwkfnvwkfdnv</li>
+						<li>Donate ETH: jfnvwjknfvkwjnfvkjwnfvkjnwfvwjnfv324ge</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- Footer End -->
+
+	<div class="hidden">
+		<div id="view-form" class="style-popup">
+			<form action="">
+				<h3>Submit</h3>
+				<div class="items-forms">
+					<label for="names">Name</label>
+					<input id="names" type="text">
+				</div>
+				<div class="items-forms">
+					<label for="url">URL</label>
+					<input id="url" type="text">
+				</div>
+				<div class="items-forms">
+					<label for="date">Date</label>
+					<input type='text' id="date" class="datepicker-here" data-language='en' data-position="bottom left" />
+				</div>
+				<div class="items-forms">
+					<label for="location">Location</label>
+					<input id="location" type="text">
+				</div>
+				<div class="items-forms">
+					<span class="label-span">Logo</span>
+					<input type="file" id="myfile" class="inputfile hide">
+					<label for="myfile" class="download-label">
+						<!-- <div class='button-container'>
+							<div class='button-text'>Upload your logo here (16*16)</div>
+						</div> -->
+						<span>Upload your logo here (16*16)</span>
+					</label>
+					<!-- <div class="hide">
+						<input type="file" id="myfile" />
+					</div> -->
+				</div>
+				<div class="items-forms__buttons">
+					<button class="button-default">Submit</button>
+				</div>
+			</form>
+		</div>
+	</div>
+
+	<script src="libs/jquery/jquery-1.11.2.min.js"></script>
+	<script src="libs/owl-carousel/owl.carousel.min.js"></script>
+	<script src="libs/marquee/jquery.marquee.min.js"></script>
+	<script src="libs/magnific-popup/jquery.magnific-popup.min.js"></script>
+	<script src="libs/datapiker/datepicker.min.js"></script>
+	<script src="libs/datapiker/datepicker.en.js"></script>
+	<script src="js/common.js"></script>
+
+</body>
+</html>

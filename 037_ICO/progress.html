@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+	<meta charset="utf-8">
+
+	<title>ICGO</title>
+	<meta name="description" content="">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<meta property="og:image" content="path/to/image.jpg">
+	<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+
+	<!-- Chrome, Firefox OS and Opera -->
+	<meta name="theme-color" content="#000">
+	<!-- Windows Phone -->
+	<meta name="msapplication-navbutton-color" content="#000">
+	<!-- iOS Safari -->
+	<meta name="apple-mobile-web-app-status-bar-style" content="#000">
+
+	<style>body { opacity: 0; overflow-x: hidden; } html { background-color: #fff; }</style>
+
+	<!-- <link rel="stylesheet" href="css/grid_css.css"/> -->
+	<link rel="stylesheet" href="css/bootstrap.min.css"/>
+	<link rel="stylesheet" href="css/main.css" />
+	<link rel="stylesheet" href="css/media.css" />
+	<link rel="stylesheet" href="libs/datapiker/datepicker.min.css" />
+	<link rel="stylesheet" href="css/fonts.css" />
+	<link rel="stylesheet" href="css/font-awesome.min.css" />
+	<link rel="stylesheet" href="libs/magnific-popup/magnific-popup.css" />
+	<link href="libs/owl-carousel/owl.carousel.css" rel="stylesheet" type="text/css">
+
+</head>
+<body>
+	<a href="#view-form" class="popup">Popup Window</a>
+	<!-- Header -->
+	<header class="header">
+		<div class="top-line">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-7 col-sm-6 wrapper-nav">
+						<a href="#" class="burger-nav__list   mobile-menu__open" id="click-prevent">
+							<span class="stick"></span>
+							<span class="stick"></span>
+							<span class="stick"></span>
+						</a>
+						<nav class="header-nav">
+							<ul class="header-nav__list mobile-menu__list">
+								<li class="header-nav__item">
+									<a href="#" class="header-nav__link">ICO calendar</a>
+								</li>
+								<li class="header-nav__item">
+									<a href="#" class="header-nav__link">Events</a>
+								</li>
+								<li class="header-nav__item menu-item-has-children">
+									<a href="#" class="header-nav__link">Submit </a>
+									<ul class="sub-menu">
+										<li><a href="#">ICO</a></li>
+										<li><a href="#">News & Events</a></li>
+									</ul>
+								</li>
+								<li class="header-nav__item">
+									<a href="#" class="header-nav__link">Promotions</a>
+								</li>
+								<li class="header-nav__item">
+									<a href="#" class="header-nav__link">Calculator</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+					<div class="col-md-5 col-sm-6 wrapper-button">
+						<div class="wrapper-social clearfix">
+							<div class="wrapper-social__button">
+								<a href="#" class="telegram-icon"><i class="fa fa-telegram" aria-hidden="true"></i> Follow /News_ICGO</a>
+								<a href="#" class="twitter-icon"><i class="fa fa-twitter" aria-hidden="true"></i> Follow @News_ICGO</a>
+							</div>
+							<div class="wrapper-social__icons">
+								<ul>
+									<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+									<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="block-logo">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4 null-block"></div>
+					<div class="col-md-4 col-sm-6 col-xs-6 wrap-logo">
+						<a href="#" class="logo">
+							<img src="img/logo.png" alt="">
+						</a>
+					</div>
+					<div class="col-md-4 col-sm-6 col-xs-6 data-coin">
+						<ul class="position-coin clearfix">
+							<li>
+								<h3 class="name-coin">BTC</h3>
+								<p class="num-money">$ 10 023,36</p>
+								<p class="stake-coin rating-up"><i class="fa fa-angle-up" aria-hidden="true"></i> 25%</p><!-- Class .fa-angle-down и .fa-angle-up меняют стрелку -->
+							</li>
+							<li>
+								<h3 class="name-coin">BCH</h3>
+								<p class="num-money">$ 748,88</p>
+								<p class="stake-coin rating-down"><i class="fa fa-angle-down" aria-hidden="true"></i> 25%</p>
+							</li>
+							<li>
+								<h3 class="name-coin">ETH</h3>
+								<p class="num-money">$ 338,28</p>
+								<p class="stake-coin rating-down"><i class="fa fa-angle-down" aria-hidden="true"></i> 0.1%</p>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="wrapper-news">
+			<div class="container">
+				<div class="items-news">
+					<div class="icon-news">
+						<img src="img/logo-news.png" alt="">
+					</div>
+					<div class="news-strock marquee">
+						<a href="#" class="marquee-link">Sberbank conducts payment transaction using IBM blockchain tech 1 <span class="data-news">Wed, 29 Nov 2017 14:19 GMT</span></a>
+						<a href="#" class="marquee-link">Sberbank conducts payment transaction using IBM blockchain tech 2 <span class="data-news">Wed, 29 Nov 2017 14:19 GMT</span></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<!-- Header End -->
+	<!-- Baner -->
+	<section class="baned">
+		<div class="container">
+			<a href="#" class="link-baned thumbnail">
+				<img src="img/baned.png" alt="">
+			</a>
+		</div>
+	</section>
+	<!-- Baner End -->
+	<!-- Main -->
+	<main>
+		<section class="wrapper-finished">
+			<div class="container">
+				<h3 class="page-heading">ICO calendar</h3>
+				<div class="heading-descrpt">
+					<p>
+						This is a curated calendar of token sales. Get alerted before a token sale opens.
+					</p>
+					<p>
+						TokenMarket team moderates the list. Listing is free.
+					</p>
+					<a href="#" class="link-info"><i class="fa fa-question-circle" aria-hidden="true"></i> List your Initial Coin Offering</a>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<ul class="tab-menu__table clearfix">
+							<li><a href="#" class="active">In Progress</a></li>
+							<li><a href="#">Starting soon</a></li>
+							<li><a href="#">Finished</a></li>
+						</ul>
+						<table class="rwd-table progress-tbl">
+							<tr>
+								<th>Name</th>
+								<th>Link</th>
+								<th>Description</th>
+								<th>ICO</th>
+								<th>PPC</th>
+								<th>Countdown</th>
+								<th>Insight</th>
+								<th>Buy</th>
+							</tr>
+							<tr>
+								<td data-th="Name"><a href="#" class="bitcoin-icon__style">Bitcoin</a></td>
+								<td data-th="Link">
+									<ul class="social-table">
+										<li><a href="#" class="table-icon__twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+										<li><a href="#" class="table-icon__facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+										<li><a href="#" class="table-icon__medium"><i class="fa fa-medium" aria-hidden="true"></i></a></li>
+										<li><a href="#" class="table-icon__slack"><i class="fa fa-slack" aria-hidden="true"></i></a></li>
+									</ul>
+								</td>
+								<td data-th="Description">
+									Natural Asset Exchange <br>
+									Marketplace
+								</td>
+								<td data-th="ICO">
+									<a href="#">500 000 000</a> <br>
+									<a href="#">EARTH</a>
+								</td>
+								<td data-th="PPC">
+									<a href="#">0.059USD</a> <br>
+									<a href="#">0.00019ETH</a>
+								</td>
+								<td data-th="Countdown"><a href="#" class="count-down">09.09. 18.56</a></td>
+								<td data-th="Insight"><a href="#" class="table-link">Show more</a></td>
+								<td data-th="Buy">
+									<button class="button-default"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Buy now</button>
+								</td>
+							</tr>
+							<tr>
+								<td data-th="Name"><a href="#" class="bitcoin-icon__style"><img src="img/icon-bitcoin.png" alt="">Bitcoin</a></td>
+								<td data-th="Link">
+									<ul class="social-table">
+										<li><a href="#" class="table-icon__twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+										<li><a href="#" class="table-icon__facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+										<li><a href="#" class="table-icon__medium"><i class="fa fa-medium" aria-hidden="true"></i></a></li>
+										<li><a href="#" class="table-icon__slack"><i class="fa fa-slack" aria-hidden="true"></i></a></li>
+									</ul>
+								</td>
+								<td data-th="Description">
+									Natural Asset Exchange <br>
+									Marketplace
+								</td>
+								<td data-th="ICO">
+									<a href="#">500 000 000</a> <br>
+									<a href="#">EARTH</a>
+								</td>
+								<td data-th="PPC">
+									<a href="#">0.059USD</a> <br>
+									<a href="#">0.00019ETH</a>
+								</td>
+								<td data-th="Countdown"><a href="#" class="count-down">09.09. 18.56</a></td>
+								<td data-th="Insight"><a href="#" class="table-link">Show more</a></td>
+								<td data-th="Buy">
+									<button class="button-default"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Buy now</button>
+								</td>
+							</tr>
+							<tr>
+								<td data-th="Name"><a href="#" class="bitcoin-icon__style"><img src="img/icon-bitcoin.png" alt="">Bitcoin</a></td>
+								<td data-th="Link">
+									<ul class="social-table">
+										<li><a href="#" class="table-icon__twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+										<li><a href="#" class="table-icon__facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+										<li><a href="#" class="table-icon__medium"><i class="fa fa-medium" aria-hidden="true"></i></a></li>
+										<li><a href="#" class="table-icon__slack"><i class="fa fa-slack" aria-hidden="true"></i></a></li>
+									</ul>
+								</td>
+								<td data-th="Description">
+									Natural Asset Exchange <br>
+									Marketplace
+								</td>
+								<td data-th="ICO">
+									<a href="#">500 000 000</a> <br>
+									<a href="#">EARTH</a>
+								</td>
+								<td data-th="PPC">
+									<a href="#">0.059USD</a> <br>
+									<a href="#">0.00019ETH</a>
+								</td>
+								<td data-th="Countdown"><a href="#" class="count-down">09.09. 18.56</a></td>
+								<td data-th="Insight"><a href="#" class="table-link">Show more</a></td>
+								<td data-th="Buy">
+									<button class="button-default"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Buy now</button>
+								</td>
+							</tr>
+							<tr>
+								<td data-th="Name"><a href="#" class="bitcoin-icon__style"><img src="img/icon-bitcoin.png" alt="">Bitcoin</a></td>
+								<td data-th="Link">
+									<ul class="social-table">
+										<li><a href="#" class="table-icon__twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+										<li><a href="#" class="table-icon__facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+										<li><a href="#" class="table-icon__medium"><i class="fa fa-medium" aria-hidden="true"></i></a></li>
+										<li><a href="#" class="table-icon__slack"><i class="fa fa-slack" aria-hidden="true"></i></a></li>
+									</ul>
+								</td>
+								<td data-th="Description">
+									Natural Asset Exchange <br>
+									Marketplace
+								</td>
+								<td data-th="ICO">
+									<a href="#">500 000 000</a> <br>
+									<a href="#">EARTH</a>
+								</td>
+								<td data-th="PPC">
+									<a href="#">0.059USD</a> <br>
+									<a href="#">0.00019ETH</a>
+								</td>
+								<td data-th="Countdown"><a href="#" class="count-down">09.09. 18.56</a></td>
+								<td data-th="Insight"><a href="#" class="table-link">Show more</a></td>
+								<td data-th="Buy">
+									<button class="button-default"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Buy now</button>
+								</td>
+							</tr>
+							<tr>
+								<td data-th="Name"><a href="#" class="bitcoin-icon__style"><img src="img/icon-bitcoin.png" alt="">Bitcoin</a></td>
+								<td data-th="Link">
+									<ul class="social-table">
+										<li><a href="#" class="table-icon__twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+										<li><a href="#" class="table-icon__facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+										<li><a href="#" class="table-icon__medium"><i class="fa fa-medium" aria-hidden="true"></i></a></li>
+										<li><a href="#" class="table-icon__slack"><i class="fa fa-slack" aria-hidden="true"></i></a></li>
+									</ul>
+								</td>
+								<td data-th="Description">
+									Natural Asset Exchange <br>
+									Marketplace
+								</td>
+								<td data-th="ICO">
+									<a href="#">500 000 000</a> <br>
+									<a href="#">EARTH</a>
+								</td>
+								<td data-th="PPC">
+									<a href="#">0.059USD</a> <br>
+									<a href="#">0.00019ETH</a>
+								</td>
+								<td data-th="Countdown"><a href="#" class="count-down">09.09. 18.56</a></td>
+								<td data-th="Insight"><a href="#" class="table-link">Show more</a></td>
+								<td data-th="Buy">
+									<button class="button-default"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Buy now</button>
+								</td>
+							</tr>
+							<tr>
+								<td data-th="Name"><a href="#" class="bitcoin-icon__style"><img src="img/icon-bitcoin.png" alt="">Bitcoin</a></td>
+								<td data-th="Link">
+									<ul class="social-table">
+										<li><a href="#" class="table-icon__twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+										<li><a href="#" class="table-icon__facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+										<li><a href="#" class="table-icon__medium"><i class="fa fa-medium" aria-hidden="true"></i></a></li>
+										<li><a href="#" class="table-icon__slack"><i class="fa fa-slack" aria-hidden="true"></i></a></li>
+									</ul>
+								</td>
+								<td data-th="Description">
+									Natural Asset Exchange <br>
+									Marketplace
+								</td>
+								<td data-th="ICO">
+									<a href="#">500 000 000</a> <br>
+									<a href="#">EARTH</a>
+								</td>
+								<td data-th="PPC">
+									<a href="#">0.059USD</a> <br>
+									<a href="#">0.00019ETH</a>
+								</td>
+								<td data-th="Countdown"><a href="#" class="count-down">09.09. 18.56</a></td>
+								<td data-th="Insight"><a href="#" class="table-link">Show more</a></td>
+								<td data-th="Buy">
+									<button class="button-default"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Buy now</button>
+								</td>
+							</tr>
+							<tr>
+								<td data-th="Name"><a href="#" class="bitcoin-icon__style"><img src="img/icon-bitcoin.png" alt="">Bitcoin</a></td>
+								<td data-th="Link">
+									<ul class="social-table">
+										<li><a href="#" class="table-icon__twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+										<li><a href="#" class="table-icon__facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+										<li><a href="#" class="table-icon__medium"><i class="fa fa-medium" aria-hidden="true"></i></a></li>
+										<li><a href="#" class="table-icon__slack"><i class="fa fa-slack" aria-hidden="true"></i></a></li>
+									</ul>
+								</td>
+								<td data-th="Description">
+									Natural Asset Exchange <br>
+									Marketplace
+								</td>
+								<td data-th="ICO">
+									<a href="#">500 000 000</a> <br>
+									<a href="#">EARTH</a>
+								</td>
+								<td data-th="PPC">
+									<a href="#">0.059USD</a> <br>
+									<a href="#">0.00019ETH</a>
+								</td>
+								<td data-th="Countdown"><a href="#" class="count-down">09.09. 18.56</a></td>
+								<td data-th="Insight"><a href="#" class="table-link">Show more</a></td>
+								<td data-th="Buy">
+									<button class="button-default"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Buy now</button>
+								</td>
+							</tr>
+							<tr>
+								<td data-th="Name"><a href="#" class="bitcoin-icon__style"><img src="img/icon-bitcoin.png" alt="">Bitcoin</a></td>
+								<td data-th="Link">
+									<ul class="social-table">
+										<li><a href="#" class="table-icon__twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+										<li><a href="#" class="table-icon__facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+										<li><a href="#" class="table-icon__medium"><i class="fa fa-medium" aria-hidden="true"></i></a></li>
+										<li><a href="#" class="table-icon__slack"><i class="fa fa-slack" aria-hidden="true"></i></a></li>
+									</ul>
+								</td>
+								<td data-th="Description">
+									Natural Asset Exchange <br>
+									Marketplace
+								</td>
+								<td data-th="ICO">
+									<a href="#">500 000 000</a> <br>
+									<a href="#">EARTH</a>
+								</td>
+								<td data-th="PPC">
+									<a href="#">0.059USD</a> <br>
+									<a href="#">0.00019ETH</a>
+								</td>
+								<td data-th="Countdown"><a href="#" class="count-down">09.09. 18.56</a></td>
+								<td data-th="Insight"><a href="#" class="table-link">Show more</a></td>
+								<td data-th="Buy">
+									<button class="button-default"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Buy now</button>
+								</td>
+							</tr>
+							<tr>
+								<td data-th="Name"><a href="#" class="bitcoin-icon__style"><img src="img/icon-bitcoin.png" alt="">Bitcoin</a></td>
+								<td data-th="Link">
+									<ul class="social-table">
+										<li><a href="#" class="table-icon__twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+										<li><a href="#" class="table-icon__facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+										<li><a href="#" class="table-icon__medium"><i class="fa fa-medium" aria-hidden="true"></i></a></li>
+										<li><a href="#" class="table-icon__slack"><i class="fa fa-slack" aria-hidden="true"></i></a></li>
+									</ul>
+								</td>
+								<td data-th="Description">
+									Natural Asset Exchange <br>
+									Marketplace
+								</td>
+								<td data-th="ICO">
+									<a href="#">500 000 000</a> <br>
+									<a href="#">EARTH</a>
+								</td>
+								<td data-th="PPC">
+									<a href="#">0.059USD</a> <br>
+									<a href="#">0.00019ETH</a>
+								</td>
+								<td data-th="Countdown"><a href="#" class="count-down">09.09. 18.56</a></td>
+								<td data-th="Insight"><a href="#" class="table-link">Show more</a></td>
+								<td data-th="Buy">
+									<button class="button-default"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Buy now</button>
+								</td>
+							</tr>
+						</table>
+						<div class="load-more">
+							<button class="button-default">Load More</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="height_65"></section>
+	</main>
+	<!-- Main End -->
+
+	<!-- Footer -->
+	<footer class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-7 col-sm-5">
+					<ul class="copyright clearfix">
+						<li><span>© 2017 ICGO</span></li>
+						<li><a href="#">Submit</a></li>
+						<li><a href="#">Advertise</a></li>
+					</ul>
+				</div>
+				<div class="col-md-5 col-sm-7">
+					<ul class="donate-link">
+						<li>Donate BTC: sjrgwejgnwenwinweifjwkfjnvwkfnvwkfdnv</li>
+						<li>Donate ETH: jfnvwjknfvkwjnfvkjwnfvkjnwfvwjnfv324ge</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- Footer End -->
+
+	<div class="hidden">
+		<div id="view-form" class="style-popup">
+			<form action="">
+				<h3>Submit</h3>
+				<div class="items-forms">
+					<label for="names">Name</label>
+					<input id="names" type="text">
+				</div>
+				<div class="items-forms">
+					<label for="url">URL</label>
+					<input id="url" type="text">
+				</div>
+				<div class="items-forms">
+					<label for="date">Date</label>
+					<input type='text' id="date" class="datepicker-here" data-language='en' data-position="bottom left" />
+				</div>
+				<div class="items-forms">
+					<label for="location">Location</label>
+					<input id="location" type="text">
+				</div>
+				<div class="items-forms">
+					<span class="label-span">Logo</span>
+					<input type="file" id="myfile" class="inputfile hide">
+					<label for="myfile" class="download-label">
+						<span>Upload your logo here (16*16)</span>
+					</label>
+				</div>
+				<div class="items-forms__buttons">
+					<button class="button-default">Submit</button>
+				</div>
+			</form>
+		</div>
+	</div>
+
+	<script src="libs/jquery/jquery-1.11.2.min.js"></script>
+	<script src="libs/owl-carousel/owl.carousel.min.js"></script>
+	<script src="libs/marquee/jquery.marquee.min.js"></script>
+	<script src="libs/jcf/jcf.js"></script>
+	<script src="libs/jcf/jcf.select.js"></script>
+	<script src="libs/magnific-popup/jquery.magnific-popup.min.js"></script>
+	<script src="libs/datapiker/datepicker.min.js"></script>
+	<script src="libs/datapiker/datepicker.en.js"></script>
+	<script src="js/common.js"></script>
+
+</body>
+</html>
