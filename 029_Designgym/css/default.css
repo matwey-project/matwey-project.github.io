@@ -1,0 +1,9 @@
+.new_header {
+	height: 190px;
+	background: -moz-linear-gradient(top, rgba(255,255,255,1) 1%, rgba(247,247,247,1) 50%, rgba(255,255,255,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, rgba(255,255,255,1) 1%,rgba(247,247,247,1) 50%,rgba(255,255,255,1) 100%);
+	text-align: center;
+}
+.new_header h1 {
+	line-height: 190px;
+}
