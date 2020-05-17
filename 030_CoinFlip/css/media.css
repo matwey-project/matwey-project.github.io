@@ -1,0 +1,757 @@
+/*==========  Desktop First Method  ==========*/
+
+@media only screen and (max-width : 1800px) {
+	.wrapper__roulette-main {
+		padding: 0 20px;
+	}
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1720px) {
+	.ruolette-win {
+		max-width: 340px;
+		width: 100%;
+	}
+	.roulette-main {
+		margin-top: 40px;
+	}
+}
+
+@media only screen and (max-width : 1700px) {
+	.roulette-main {
+		padding: 28px 40px;
+	}
+}
+
+@media only screen and (max-width : 1680px) {
+	.round-hash {
+		max-width: 560px;
+	}
+	.win-stake {
+		max-width: 240px;
+	}
+}
+@media only screen and (max-width : 1620px) {
+	.ruolette-win {
+		max-width: 320px;
+	}
+}
+
+@media only screen and (max-width : 1600px) {
+	.carshed-winner {
+		top: 60px;
+		left: 30px;
+	}
+	.wrapper-charts {
+		padding: 30px 25px 0 25px;
+	}
+	.form-cashout {
+		margin: 22px 0 0;
+		max-width: 100%;
+	}
+	.next-round {
+		top: 60px;
+		left: 30px;
+	}
+	.item-charts {
+		padding-right: 52px;
+	}
+	.main-charts {
+		padding-right: 0;
+	}
+	.main-charts::before {
+		width: calc(100% - 32px);
+	}
+}
+
+@media only screen and (max-width : 1560px) {
+	.ruolette-win {
+		max-width: 300px;
+	}
+}
+
+@media only screen and (max-width : 1540px) {
+	.wrapper-hash-code {
+		padding-right: 20px;
+	}
+}
+
+@media only screen and (max-width : 1500px) {
+	.ruolette-win {
+		max-width: 50%;
+		padding: 0 15px;
+	}
+}
+
+@media only screen and (max-width : 1480px) {
+	.round-hash {
+		max-width: 400px;
+	}
+	.jackpot-info {
+		margin-right: 40px;
+	}
+	.metamask {
+		margin-left: 20px;
+		margin-right: 40px;
+	}
+	.dropdown {
+		margin-right: 40px;
+	}
+	.item-header.block-info {
+		padding-right: 40px;
+	}
+	.left-sidebar {
+		padding-top: 20px;
+	}
+	.main-navigation ul li {
+		margin-bottom: 15px;
+	}
+}
+
+@media only screen and (max-width : 1400px){
+	.roulette-main {
+		padding: 28px 20px;
+	}
+	.item-circle__size {
+		margin-left: 0;
+	}
+	.wrapper-hash-code {
+		height: calc(100% - 20px);
+	}
+	.main-dice {
+		margin: 80px auto;
+	}
+	.form-cashout {
+		justify-content: space-around;
+	}
+	.wrapper-bet {
+		margin: 0;
+	}
+	.header-factor {
+		text-align: center;
+	}
+	.form-cashout button {
+		margin-top: 20px;
+	}
+}
+
+@media only screen and (max-width : 1280px){
+	.last-rolls__item {
+		margin-top: 15px;
+	}
+	.item-charts {
+		padding-right: 25px;
+	}
+	.wrapper-charts {
+		padding: 30px 10px 0 10px;
+	}
+}
+
+@media only screen and (max-width : 1240px) {
+	.wrapper-circle,
+	.wrapper-hash-code {
+		width: 100%;
+		max-width: 100%;
+		-webkit-box-flex: 0;
+		-ms-flex: 0 0 100%;
+		flex: 0 0 100%;
+	}
+	.item-circle__size {
+		margin: 0 auto;
+	}
+}
+
+@media only screen and (max-width : 1200px) {
+	.wrapper-bet {
+		padding-right: 25px;
+	}
+}
+
+@media only screen and (max-width : 1199px) {
+	.ruolette-win {
+		max-width: 100%;
+	}
+	.wrapper__players-list {
+		max-width: 100%;
+	}
+}
+
+@media only screen and (max-width : 1136px) {
+	.top-player__list li span {
+		max-width: 300px;
+	}
+	.top-player__list li {
+		justify-content: space-between;
+	}
+	.top-player__list {
+		padding: 50px 40px 0;
+	}
+	.tab-container {
+		padding: 0 15px;
+	}
+	.form-cashout__item {
+		max-width: 100%;
+		width: 100%;
+		margin-bottom: 20px;
+	}
+	.form-cashout button {
+		margin-top: 0px;
+	}
+	.form-cashout__item input {
+		max-width: 100%;
+		width: calc(100% - 90px);
+	}
+	.wrapper__current-games {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	.header-bet {
+		-webkit-box-flex: 0;
+		-ms-flex: 0 0 33%;
+		flex: 0 0 33%;
+		max-width: 33%;
+		text-align: center;
+	}
+	.header-name {
+		-webkit-box-flex: 0;
+		-ms-flex: 0 0 31%;
+		flex: 0 0 31%;
+		max-width: 31%;
+	}
+	.header-factor {
+		-webkit-box-flex: 0;
+		-ms-flex: 0 0 20%;
+		flex: 0 0 20%;
+		max-width: 20%;
+	}
+	.round-hash {
+		max-width: 320px;
+	}
+	.next-round {
+		top: 50px;
+		left: 20px;
+	}
+	.next-round p {
+		font-size: 30px;
+	}
+}
+
+@media only screen and (max-width : 1100px) {
+	.jackpot-info {
+		margin-right: 20px;
+	}
+	.metamask {
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+	.dropdown {
+		margin-right: 20px;
+	}
+}
+
+@media only screen and (max-width : 1060px) {
+	.round-hash {
+		max-width: 270px;
+	}
+	.item-dice__top,
+	.item-dice__center,
+	.item-dice__bottom {
+		padding: 20px;
+	}
+}
+
+@media only screen and (max-width : 1024px) {
+	.tab-container {
+		margin: 30px auto 0;
+	}
+	.right-sidebar {
+		right: -320px;
+	}
+	.right-sidebar.closed__right-sidebar {
+		right: 320px;
+	}
+	.wrapper-main {
+		padding-right: 0;
+	}
+	.closed-button-right {
+		left: -37px;
+	}
+	.closed-button-right img {
+		-webkit-transform: rotateY(180deg);
+		-ms-transform: rotateY(180deg);
+		-o-transform: rotateY(180deg);
+		transform: rotateY(180deg);
+	}
+	.right-sidebar.closed__right-sidebar {
+		right: 0px;
+	}
+}
+
+@media only screen and (max-width : 1000px) {
+	.logo {
+		margin-left: 25px;
+	}
+	.item-header.block-info {
+		padding-right: 25px;
+	}
+}
+
+@media only screen and (max-width : 980px) {
+	.jackpot-info {
+		display: none;
+	}
+}
+
+@media only screen and (max-width : 960px){
+
+}
+
+@media only screen and (max-width : 940px){
+
+}
+
+@media only screen and (max-width : 899px){
+	.ruolette-win {
+		max-width: 100%;
+	}
+}
+
+@media only screen and (max-width : 854px){
+	.metamask {
+		display: none;
+	}
+	.item-header.block-logo {
+		width: 25%;
+		min-width: auto;
+	}
+	.item-header.block-info {
+		width: 75%;
+	}
+}
+
+@media only screen and (max-width : 800px){
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.main-dice {
+		margin: 40px auto;
+	}
+	.carshed-winner b {
+		font-size: 42px;
+		line-height: 36px;
+	}
+	.right-sidebar,
+	.left-sidebar {
+		z-index: 1000;
+	}
+	.form-sidebar textarea {
+		padding: 16px 40px 14px 20px;
+	}
+	.burger-menu {
+		text-decoration: none;
+		display: inline-block;
+		width: 30px;
+		position: absolute;
+		top: 20px;
+		left: 110px;
+	}
+	.left-sidebar {
+		left: -150px;
+	}
+	.left-sidebar.menu-left__open {
+		left: 0;
+	}
+	.hide-dropdown {
+		padding-top: 22px;
+	}
+	.wrapper-main {
+		padding-top: 100px;
+		padding-left: 0px;
+	}
+	.left-sidebar,
+	.right-sidebar {
+		top: 99px;
+		height: calc(100% - 100px);
+	}
+	.item-header.block-info {
+		padding-top: 4px;
+	}
+	.left-sidebar {
+		//width: 90px;
+	}
+	#closed-left {
+		display: none;
+	}
+	.socials {
+		padding: 14px 0 4px;
+	}
+	.logo img {
+		width: 60px;
+	}
+}
+
+@media only screen and (max-width : 720px) {
+	.item-charts {
+		padding-right: 0;
+	}
+	.item-players {
+		margin-bottom: 20px;
+	}
+	.item-charts,
+	.item-players {
+		width: 100%;
+		float: none;
+	}
+	.wrapper-charts {
+		height: calc(100vh - 100px);
+	}
+	.main-charts {
+		padding-right: 0;
+	}
+	.main-charts::before {
+		width: calc(100% - 30px);
+	}
+	.round-hash {
+		max-width: 400px;
+	}
+	.main-charts {
+		margin-bottom: 30px;
+	}
+	.wrapper-bet {
+		padding-right: 0;
+		margin: 0 auto;
+	}
+	.table-players {
+		max-width: 100%;
+	}
+	.history-players .wrapper__table-players {
+		width: 100%;
+	}
+}
+
+@media only screen and (max-width : 640px) {
+	.wrapper-dice {
+		padding: 0 15px;
+	}
+	.socials {
+		display: none;
+	}
+	.left-sidebar {
+		padding-top: 20px;
+		padding-bottom: 0px;
+	}
+}
+
+@media only screen and (max-width : 600px) {
+	.top-player__list {
+		padding: 30px 20px 0;
+	}
+	.wager-item {
+		height: auto;
+	}
+	.style-roll.roll-under {
+		max-width: 220px;
+	}
+	.item-dice__top, .item-dice__center {
+		padding: 20px;
+	}
+}
+
+@media only screen and (max-width : 540px) {
+	.item-dice__top .min-max__dice {
+		order: 3;
+		margin: 20px auto 0;
+	}
+	.style-roll.roll-under {
+		max-width: 180px;
+	}
+	.item-dice__top .profit-dice {
+		order: 2;
+	}
+	.current-items__user .current-items__img {
+		display: none;
+	}
+	.current__button-wrapper,
+	.current-items__user {
+		width: 25%;
+	}
+	.current-items__button {
+		width: 35%;
+	}
+	.closed-button {
+		bottom: 0;
+		background: #fff;
+	}
+	.form-sidebar textarea {
+		padding: 16px 40px 14px 20px;
+	}
+}
+
+@media only screen and (max-width : 480px) {
+	.top-player__list li span {
+		max-width: 225px;
+	}
+	.list-rolls__item li {
+		margin: 0;
+	}
+	.previous-rolls__item {
+		text-align: center;
+	}
+	.previous-rolls__item p {
+		margin-bottom: 15px;
+	}
+	.wager-item__stake {
+		text-align: center;
+	}
+	.clear-link {
+		width: 100%;
+		display: inline-block;
+		margin-bottom: 15px;
+	}
+	.wager-item__icons {
+		margin: 0 auto 10px;
+	}
+	.wager-item__icons img {
+		margin-right: 0;
+	}
+	.list__wager-stake li {
+		margin-bottom: 5px;
+	}
+	.list-rolls__item {
+		width: 100%;
+		text-align: center;
+	}
+	.wrapper-hash-code {
+		padding-right: 10px;
+	}
+	.view-deposit__link {
+		margin-right: 30px;
+	}
+	.style-roll.roll-under {
+		max-width: 200px;
+		margin: 20px auto 0;
+	}
+	.round-hash {
+		max-width: 360px;
+	} 
+	.language {
+		display: none;
+	}
+	.item-header.block-info {
+		padding-right: 0px;
+	}
+	.current-items__button {
+		//width: 30%;
+	}
+	.current__button-wrapper,
+	.current-items__user {
+		width: 30%;
+	}
+}
+
+@media only screen and (max-width : 414px) {
+	.tab-container {
+		margin: 20px auto 0;
+		padding: 0 10px;
+	}
+	.top-player__list li span {
+		max-width: 190px;
+	}
+	.top-player__list li {
+		padding-left: 26px;
+	}
+	.top-player__list {
+		padding: 20px 10px 0;
+	}
+	.list-rolls__item li {
+		margin: 5px 10px;
+	}
+	.circle-items {
+		zoom: .9;
+	}
+	.circle {
+		left: 36px;
+		top: 23px;
+	}
+	.item-dice__top .min-max__dice {
+		margin: 0px auto 0;
+	}
+	.profit-win__yellow {
+		margin-bottom: 10px;
+	}
+	.item-dice__top,
+	.item-dice__center,
+	.item-dice__bottom {
+		padding: 15px;
+	}
+	.items-input, .profit-dice {
+		width: 100%;
+		margin: 0 0 20px;
+	}
+	.item-dice__top .profit-dice {
+		order: 1;
+		text-align: right;
+		padding-right: 10px;
+	}
+	.item-dice__top .items-input {
+		order: 2;
+	}
+	.default-input {
+		max-width: 100%;
+	}
+	.wrapper-charts {
+		padding: 30px 15px 0 15px;
+	}
+}
+
+@media only screen and (max-width : 375px) {
+	.top-player__list li span {
+		max-width: 150px;
+	}
+	.rolling-text-left {
+		display: none;
+	}
+	.ruolette-win {
+		padding: 0 0;
+	}
+	.tiket-deposit {
+		justify-content: center;
+	}
+	.tiket-deposit .top-round__user {
+		margin-bottom: 15px;
+	}
+	.circle-items {
+		zoom: .8;
+	}
+	.circle {
+		left: 38px;
+		top: 23px;
+	}
+	.round-hash {
+		max-width: 360px;
+		padding-right: 30px;
+	}
+	.current__button-wrapper, .current-items__user {
+		width: 25%;
+	}
+	.current-items__button {
+		width: 40%;
+	}
+	.black-small {
+		min-width: 90px;
+	}
+	.vs-chances {
+		width: 120px;
+		padding: 18px 20px 0;
+	}
+	.comparison-games {
+		max-width: 310px;
+		margin: 40px auto 30px;
+	}
+	.dropdown a.user-login {
+		display: block;
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		width: 140px;
+	}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 360px) {
+	.win-stake {
+		max-width: 200px;
+	}
+	.circle {
+		left: 30px;
+		top: 23px;
+	}
+	.round-hash {
+		max-width: 300px;
+		padding-right: 0;
+	}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+	.form-sidebar textarea {
+		height: 85px;
+	}
+	.right-sidebar.closed__right-sidebar .closed-button {
+		left: 0px;
+	}
+	.top-player__list li span {
+		max-width: 130px;
+	}
+	.win-stake {
+		max-width: 170px;
+	}
+	.circle-items {
+		zoom: .6;
+	}
+	.circle {
+		left: 64px;
+		top: 23px;
+	}
+	.style-roll {
+		max-width: 200px;
+		margin: 0 auto 15px;
+	}
+	.style-roll.roll-under {
+		margin: 0px auto 0;
+	}
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 769px) {
+
+}
+
+@media only screen and (min-width : 854px){
+
+}
+
+@media only screen and (min-width : 900px){
+
+}
+
+@media only screen and (min-width : 901px){
+
+}
+
+@media only screen and (min-width : 960px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 980px) {
+
+}
+
+@media only screen and (min-width : 1024px){
+
+}
+
+@media only screen and (min-width : 1060px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
