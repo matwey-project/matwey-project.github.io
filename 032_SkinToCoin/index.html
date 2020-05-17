@@ -1,0 +1,1058 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+	<meta charset="utf-8">
+
+	<title>Skin To Coin</title>
+	<meta name="description" content="">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<meta property="og:image" content="path/to/image.jpg">
+	<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+
+	<!-- Chrome, Firefox OS and Opera -->
+	<meta name="theme-color" content="#000">
+	<!-- Windows Phone -->
+	<meta name="msapplication-navbutton-color" content="#000">
+	<!-- iOS Safari -->
+	<meta name="apple-mobile-web-app-status-bar-style" content="#000">
+
+	<style>body { opacity: 0; overflow-x: hidden; } html { background-color: #fff; }</style>
+
+	<link rel="stylesheet" href="css/grid_css.css"/>
+	<link rel="stylesheet" href="css/main.css" />
+	<link rel="stylesheet" href="css/media.css" />
+	<link rel="stylesheet" href="css/fonts.css" />
+	<link rel="stylesheet" href="libs/magnific-popup/magnific-popup.css" />
+	<link href="libs/owl-carousel/owl.carousel.css" rel="stylesheet" type="text/css">
+
+</head>
+<body>
+	<!-- Header -->
+	<header class="header">
+		<div class="container header_logo-position">
+			<div class="clearfix">
+				<div class="header__two-container header__two-left">
+					<div class="menu-container">
+						<a href="#" class="logo">
+							<img src="img/logo.png" alt="Logo">
+						</a>
+						<a href="#" class="burger-nav__list   mobile-menu__open" id="click-prevent">
+							<span class="stick"></span>
+							<span class="stick"></span>
+							<span class="stick"></span>
+						</a>
+						<nav class="header-nav">
+							<ul class="header-nav__list mobile-menu__list">
+								<li class="header-nav__item">
+									<a href="#open-window" class="popup-with-move-anim header-nav__link">How it works</a>
+								</li>
+								<li class="header-nav__item">
+									<a href="#open-window" class="popup-with-move-anim header-nav__link">FAQ</a>
+								</li>
+								<li class="header-nav__item">
+									<a href="#open-window" class="popup-with-move-anim header-nav__link">Contact Us</a>
+								</li>
+								<li class="header-nav__item">
+									<a href="#open-window" class="popup-with-move-anim header-nav__link">API</a>
+								</li>
+								<li class="header-nav__item">
+									<a href="bonuses.html" class="header-nav__link">Bonuses</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+				<div class="header__two-container header__two-right">
+					<div class="header__check-container">
+						<div class="log-in position-checked">
+							<div class="log-in__name">
+								<span>Name</span>
+								<img src="img/log-in.png" alt="">
+							</div>
+							<div class="log-in__info">
+								<p>Text</p>
+								<p>Text</p>
+								<p>Text</p>
+								<p>Text</p>
+								<p>Text</p>
+							</div>
+						</div>
+						<div class="multi-select position-checked">
+							<p class="name-select">Language:</p>
+							<select class="select-home" data-jcf='{"wrapNative": false, "wrapNativeOnMobile": false}'>
+								<option>Eng</option>
+								<option>Ru</option>
+								<option>Ua</option>
+								<option>Ln</option>
+								<option>PL</option>
+							</select>
+						</div>
+						<div class="multi-select position-checked">
+							<p class="name-select">Currency:</p>
+							<select class="select-home" data-jcf='{"wrapNative": false, "wrapNativeOnMobile": false}'>
+								<option>UAN</option>
+								<option>USD</option>
+								<option>RUB</option>
+								<option>EU</option>
+								<option>PL</option>
+							</select>
+						</div>
+					</div>		
+				</div>
+			</div>
+		</div>
+	</header>
+	<!-- Header End -->
+
+	<!-- Main -->
+	<main>
+	<div class="container">
+		<div class="baned-style">
+			<a href="#"><img src="img/baned.jpg" alt=""></a>
+		</div>
+	</div>
+		<div class="container">
+			<div class="download clearfix">
+				<div class="left-download small-block">
+					<span class="border-style"></span>
+					<div class="small-block__white">
+						<h3>YOUR INVENTORY</h3>
+					</div>
+				</div>
+				<div class="download-polosa medium-block">
+					<div class="cont">
+						<progress id="progress-bar" min="1" max="100" value="0"></progress>
+						<span class="first border-change">
+							<p class="my-text">Enter your Steam Trade Link</p>
+						</span>
+						<span class="second">
+							<p class="my-text">Select items to sell</p>
+						</span>
+						<span class="third">
+							<p class="my-text">Confirm Trade</p>
+						</span>
+						<span class="fourth">
+							<p class="my-text">Receive Money </p>
+						</span>
+					</div>
+				</div>
+				<div class="right-download small-block">
+					<div class="small-block__white">
+						<h3>CASH OFFER</h3>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="info-skin my-row clearfix">
+				<div class="info-skin__left">
+					<div class="wrapper__left-skin">
+						<div class="trade-url">
+							<p>
+								Enter your Steam <span>Trade Url</span>
+							</p>
+							<form action="" class="link-to">
+								<input type="text" class="link-to-check" placeholder="https://steamcommunity.com/tradeoffer/new/?partner=341109587&token=PNpuULxf">
+								<button class="button-check"></button>
+							</form>
+						</div>
+						<div class="wrapper-search">
+							<form action="" class="search-form">
+								<input type="text" placeholder="Search" class="search-to">
+								<button class="button-search"></button>
+							</form>
+						</div>
+						<div class="select-sort">
+							<p>Select items to sell:</p>
+							<div class="wrapper__select-sort clearfix">
+								<div class="select-sort--item">
+									<ul>
+										<li>
+											<input type="checkbox" class="checkbox" id="checkbox-1">
+											<label for="checkbox-1">CS:GO</label>
+										</li>
+										<li>
+											<input type="checkbox" class="checkbox" id="checkbox-2">
+											<label for="checkbox-2">PUBG</label>
+										</li>
+									</ul>
+								</div>
+								<div class="select-sort--item text-right present-select">
+									<select class="present" data-jcf='{"wrapNative": false, "wrapNativeOnMobile": false}'>
+										<option class="hideme">Sort by price</option>
+										<option>Price 1</option>
+										<option>Price 2</option>
+										<option>Price 3</option>
+									</select>
+								</div>
+							</div>
+						</div>
+						<div class="slide-section">
+							<div class="item">
+								<div class="slide-section__row clearfix">
+									<div class="slide-wrapper__item">
+										<div class="slide-items">
+											<p class="slide-items-text">$0.09</p>
+											<div class="thumbnail">
+												<img src="img/item-skin.png" class="portrait" alt="">
+											</div>
+											<p class="text-sale-foot">
+												<span>usp-s</span>
+												Cyrex FN
+											</p>
+										</div>
+									</div>
+									<div class="slide-wrapper__item">
+										<div class="slide-items">
+											<p class="slide-items-text">$0.09</p>
+											<div class="thumbnail">
+												<img src="img/item-skin2.png" alt="">
+											</div>
+											<p class="text-sale-foot">
+												<span>usp-s</span>
+												Cyrex FN
+											</p>
+										</div>
+									</div>
+									<div class="slide-wrapper__item">
+										<div class="slide-items">
+											<div class="thumbnail">
+												<img src="img/item-skin.png" class="portrait" alt="">
+											</div>
+										</div>
+									</div>
+									<div class="slide-wrapper__item">
+										<div class="slide-items">
+											<div class="thumbnail">
+												<img src="img/item-skin.png" class="portrait" alt="">
+											</div>
+										</div>
+									</div>
+									<div class="slide-wrapper__item">
+										<div class="slide-items">
+											<div class="thumbnail">
+												<img src="img/item-skin2.png" alt="">
+											</div>
+										</div>
+									</div>
+									<div class="slide-wrapper__item">
+										<div class="slide-items">
+											<div class="thumbnail">
+												<img src="img/item-skin2.png" alt="">
+											</div>
+										</div>
+									</div>
+									<div class="slide-wrapper__item">
+										<div class="slide-items">
+											<div class="thumbnail closed">
+												<img src="img/item-skin.png" class="portrait" alt="">
+											</div>
+										</div>
+									</div>
+									<div class="slide-wrapper__item">
+										<div class="slide-items">
+											<div class="thumbnail closed">
+												<img src="img/item-skin.png" class="portrait" alt="">
+											</div>
+										</div>
+									</div>
+									<div class="slide-wrapper__item">
+										<div class="slide-items">
+											<div class="thumbnail closed">
+												<img src="img/item-skin.png" class="portrait" alt="">
+											</div>
+										</div>
+									</div>
+									<div class="slide-wrapper__item">
+										<div class="slide-items">
+											<div class="thumbnail">
+												<img src="img/item-skin.png" class="portrait" alt="">
+											</div>
+										</div>
+									</div>
+									<div class="slide-wrapper__item">
+										<div class="slide-items"></div>
+									</div>
+									<div class="slide-wrapper__item">
+										<div class="slide-items"></div>
+									</div>
+									<div class="slide-wrapper__item">
+										<div class="slide-items"></div>
+									</div>
+									<div class="slide-wrapper__item">
+										<div class="slide-items"></div>
+									</div>
+									<div class="slide-wrapper__item">
+										<div class="slide-items"></div>
+									</div>
+									<div class="slide-wrapper__item">
+										<div class="slide-items"></div>
+									</div>
+									<div class="slide-wrapper__item">
+										<div class="slide-items"></div>
+									</div>
+									<div class="slide-wrapper__item">
+										<div class="slide-items"></div>
+									</div>
+									<div class="slide-wrapper__item">
+										<div class="slide-items"></div>
+									</div>
+									<div class="slide-wrapper__item">
+										<div class="slide-items"></div>
+									</div>
+								</div>
+							</div>
+							<div class="item">
+								<div class="slide-section__row clearfix">
+									<div class="slide-wrapper__item">
+										<div class="slide-items">
+											<p class="slide-items-text">$0.09</p>
+											<div class="thumbnail">
+												<img src="img/item-skin.png" class="portrait" alt="">
+											</div>
+											<p class="text-sale-foot">
+												<span>usp-s</span>
+												Cyrex FN
+											</p>
+										</div>
+									</div>
+									<div class="slide-wrapper__item">
+										<div class="slide-items">
+											<p class="slide-items-text">$0.09</p>
+											<div class="thumbnail">
+												<img src="img/item-skin2.png" alt="">
+											</div>
+											<p class="text-sale-foot">
+												<span>usp-s</span>
+												Cyrex FN
+											</p>
+										</div>
+									</div>
+									<div class="slide-wrapper__item">
+										<div class="slide-items">
+											<div class="thumbnail">
+												<img src="img/item-skin.png" class="portrait" alt="">
+											</div>
+										</div>
+									</div>
+									<div class="slide-wrapper__item">
+										<div class="slide-items">
+											<div class="thumbnail">
+												<img src="img/item-skin.png" class="portrait" alt="">
+											</div>
+										</div>
+									</div>
+									<div class="slide-wrapper__item">
+										<div class="slide-items">
+											<div class="thumbnail">
+												<img src="img/item-skin2.png" alt="">
+											</div>
+										</div>
+									</div>
+									<div class="slide-wrapper__item">
+										<div class="slide-items">
+											<div class="thumbnail">
+												<img src="img/item-skin2.png" alt="">
+											</div>
+										</div>
+									</div>
+									<div class="slide-wrapper__item">
+										<div class="slide-items">
+											<div class="thumbnail closed">
+												<img src="img/item-skin.png" class="portrait" alt="">
+											</div>
+										</div>
+									</div>
+									<div class="slide-wrapper__item">
+										<div class="slide-items">
+											<div class="thumbnail closed">
+												<img src="img/item-skin.png" class="portrait" alt="">
+											</div>
+										</div>
+									</div>
+									<div class="slide-wrapper__item">
+										<div class="slide-items">
+											<div class="thumbnail closed">
+												<img src="img/item-skin.png" class="portrait" alt="">
+											</div>
+										</div>
+									</div>
+									<div class="slide-wrapper__item">
+										<div class="slide-items">
+											<div class="thumbnail">
+												<img src="img/item-skin.png" class="portrait" alt="">
+											</div>
+										</div>
+									</div>
+									<div class="slide-wrapper__item">
+										<div class="slide-items"></div>
+									</div>
+									<div class="slide-wrapper__item">
+										<div class="slide-items"></div>
+									</div>
+									<div class="slide-wrapper__item">
+										<div class="slide-items"></div>
+									</div>
+									<div class="slide-wrapper__item">
+										<div class="slide-items"></div>
+									</div>
+									<div class="slide-wrapper__item">
+										<div class="slide-items"></div>
+									</div>
+									<div class="slide-wrapper__item">
+										<div class="slide-items"></div>
+									</div>
+									<div class="slide-wrapper__item">
+										<div class="slide-items"></div>
+									</div>
+									<div class="slide-wrapper__item">
+										<div class="slide-items"></div>
+									</div>
+									<div class="slide-wrapper__item">
+										<div class="slide-items"></div>
+									</div>
+									<div class="slide-wrapper__item">
+										<div class="slide-items"></div>
+									</div>
+								</div>
+							</div>
+							<div class="item">
+								<div class="slide-section__row clearfix">
+									<div class="slide-wrapper__item">
+										<div class="slide-items">
+											<p class="slide-items-text">$0.09</p>
+											<div class="thumbnail">
+												<img src="img/item-skin.png" class="portrait" alt="">
+											</div>
+											<p class="text-sale-foot">
+												<span>usp-s</span>
+												Cyrex FN
+											</p>
+										</div>
+									</div>
+									<div class="slide-wrapper__item">
+										<div class="slide-items">
+											<p class="slide-items-text">$0.09</p>
+											<div class="thumbnail">
+												<img src="img/item-skin2.png" alt="">
+											</div>
+											<p class="text-sale-foot">
+												<span>usp-s</span>
+												Cyrex FN
+											</p>
+										</div>
+									</div>
+									<div class="slide-wrapper__item">
+										<div class="slide-items">
+											<div class="thumbnail">
+												<img src="img/item-skin.png" class="portrait" alt="">
+											</div>
+										</div>
+									</div>
+									<div class="slide-wrapper__item">
+										<div class="slide-items">
+											<div class="thumbnail">
+												<img src="img/item-skin.png" class="portrait" alt="">
+											</div>
+										</div>
+									</div>
+									<div class="slide-wrapper__item">
+										<div class="slide-items">
+											<div class="thumbnail">
+												<img src="img/item-skin2.png" alt="">
+											</div>
+										</div>
+									</div>
+									<div class="slide-wrapper__item">
+										<div class="slide-items">
+											<div class="thumbnail">
+												<img src="img/item-skin2.png" alt="">
+											</div>
+										</div>
+									</div>
+									<div class="slide-wrapper__item">
+										<div class="slide-items">
+											<div class="thumbnail closed">
+												<img src="img/item-skin.png" class="portrait" alt="">
+											</div>
+										</div>
+									</div>
+									<div class="slide-wrapper__item">
+										<div class="slide-items">
+											<div class="thumbnail closed">
+												<img src="img/item-skin.png" class="portrait" alt="">
+											</div>
+										</div>
+									</div>
+									<div class="slide-wrapper__item">
+										<div class="slide-items">
+											<div class="thumbnail closed">
+												<img src="img/item-skin.png" class="portrait" alt="">
+											</div>
+										</div>
+									</div>
+									<div class="slide-wrapper__item">
+										<div class="slide-items">
+											<div class="thumbnail">
+												<img src="img/item-skin.png" class="portrait" alt="">
+											</div>
+										</div>
+									</div>
+									<div class="slide-wrapper__item">
+										<div class="slide-items"></div>
+									</div>
+									<div class="slide-wrapper__item">
+										<div class="slide-items"></div>
+									</div>
+									<div class="slide-wrapper__item">
+										<div class="slide-items"></div>
+									</div>
+									<div class="slide-wrapper__item">
+										<div class="slide-items"></div>
+									</div>
+									<div class="slide-wrapper__item">
+										<div class="slide-items"></div>
+									</div>
+									<div class="slide-wrapper__item">
+										<div class="slide-items"></div>
+									</div>
+									<div class="slide-wrapper__item">
+										<div class="slide-items"></div>
+									</div>
+									<div class="slide-wrapper__item">
+										<div class="slide-items"></div>
+									</div>
+									<div class="slide-wrapper__item">
+										<div class="slide-items"></div>
+									</div>
+									<div class="slide-wrapper__item">
+										<div class="slide-items"></div>
+									</div>
+								</div>
+							</div>
+							<div class="item">
+								<div class="slide-section__row clearfix">
+									<div class="slide-wrapper__item">
+										<div class="slide-items">
+											<p class="slide-items-text">$0.09</p>
+											<div class="thumbnail">
+												<img src="img/item-skin.png" class="portrait" alt="">
+											</div>
+											<p class="text-sale-foot">
+												<span>usp-s</span>
+												Cyrex FN
+											</p>
+										</div>
+									</div>
+									<div class="slide-wrapper__item">
+										<div class="slide-items">
+											<p class="slide-items-text">$0.09</p>
+											<div class="thumbnail">
+												<img src="img/item-skin2.png" alt="">
+											</div>
+											<p class="text-sale-foot">
+												<span>usp-s</span>
+												Cyrex FN
+											</p>
+										</div>
+									</div>
+									<div class="slide-wrapper__item">
+										<div class="slide-items">
+											<div class="thumbnail">
+												<img src="img/item-skin.png" class="portrait" alt="">
+											</div>
+										</div>
+									</div>
+									<div class="slide-wrapper__item">
+										<div class="slide-items">
+											<div class="thumbnail">
+												<img src="img/item-skin.png" class="portrait" alt="">
+											</div>
+										</div>
+									</div>
+									<div class="slide-wrapper__item">
+										<div class="slide-items">
+											<div class="thumbnail">
+												<img src="img/item-skin2.png" alt="">
+											</div>
+										</div>
+									</div>
+									<div class="slide-wrapper__item">
+										<div class="slide-items">
+											<div class="thumbnail">
+												<img src="img/item-skin2.png" alt="">
+											</div>
+										</div>
+									</div>
+									<div class="slide-wrapper__item">
+										<div class="slide-items">
+											<div class="thumbnail closed">
+												<img src="img/item-skin.png" class="portrait" alt="">
+											</div>
+										</div>
+									</div>
+									<div class="slide-wrapper__item">
+										<div class="slide-items">
+											<div class="thumbnail closed">
+												<img src="img/item-skin.png" class="portrait" alt="">
+											</div>
+										</div>
+									</div>
+									<div class="slide-wrapper__item">
+										<div class="slide-items">
+											<div class="thumbnail closed">
+												<img src="img/item-skin.png" class="portrait" alt="">
+											</div>
+										</div>
+									</div>
+									<div class="slide-wrapper__item">
+										<div class="slide-items">
+											<div class="thumbnail">
+												<img src="img/item-skin.png" class="portrait" alt="">
+											</div>
+										</div>
+									</div>
+									<div class="slide-wrapper__item">
+										<div class="slide-items"></div>
+									</div>
+									<div class="slide-wrapper__item">
+										<div class="slide-items"></div>
+									</div>
+									<div class="slide-wrapper__item">
+										<div class="slide-items"></div>
+									</div>
+									<div class="slide-wrapper__item">
+										<div class="slide-items"></div>
+									</div>
+									<div class="slide-wrapper__item">
+										<div class="slide-items"></div>
+									</div>
+									<div class="slide-wrapper__item">
+										<div class="slide-items"></div>
+									</div>
+									<div class="slide-wrapper__item">
+										<div class="slide-items"></div>
+									</div>
+									<div class="slide-wrapper__item">
+										<div class="slide-items"></div>
+									</div>
+									<div class="slide-wrapper__item">
+										<div class="slide-items"></div>
+									</div>
+									<div class="slide-wrapper__item">
+										<div class="slide-items"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="slide-cheked">
+							<div class="clearfix">
+								<div class="col_6">
+									<button class="button-default">Refresh</button>
+								</div>
+								<div class="col_6 text-right">
+									<button class="button-default">Select All</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="info-skin__right">
+					<div class="icon-block">
+						<div class="clearfix icon-block__icons">
+							<div class="col_4">
+								<img src="img/icon-clock.png" alt="">
+								<p>Instant Cash</p>
+							</div>
+							<div class="col_4">
+								<img src="img/money.png" alt="">
+								<p>No Hidden Fees</p>
+							</div>
+							<div class="col_4">
+								<img src="img/icon-activation.png" alt="">
+								<p>100% Secure</p>
+							</div>
+						</div>
+					</div>
+					<div class="money-wrapper text-right">
+						<strike>Old price $ 0.00</strike>
+						<h3 class="money-wiev">
+							<span>$</span> 0.00
+						</h3>
+					</div>
+					<div class="get-money">
+						<div class="your-payout">
+							<p>Select your payout method</p>
+						</div>
+						<div class="get-money-icons clearfix">
+							<div class="col_4">
+								<a href="#" class="icon_get-money">
+									<img src="img/icon-litecoin.png" alt="">
+								</a>
+							</div>
+							<div class="col_4 text-center">
+								<a href="#" class="icon_get-money">
+									<img src="img/icon-bitcoin.png" alt="">
+								</a>
+							</div>
+							<div class="col_4 text-right">
+								<a href="#" class="icon_get-money">
+									<img src="img/icon-rith.png" alt="">
+								</a>
+							</div>
+							<button class="button-money">
+								<span>GET MONEY</span>
+							</button>
+						</div>
+					</div>
+					<div class="wrapper-charts">
+						<canvas id="myChart" width="580" height="300"></canvas>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="slider-wrapper">
+				<h3 class="style-main__h3"><span>RECENT DEALS</span></h3>
+				<div class="slide-rules">
+					<div class="item">
+						<div class="slide-items">
+							<p class="slide-items-text">5 mins ago.</p>
+							<div class="thumbnail">
+								<img src="img/item-skin.png" class="portrait" alt="">
+							</div>
+							<p class="text-sale-foot">
+								5$
+							</p>
+						</div>
+					</div>
+					<div class="item">
+						<div class="slide-items">
+							<p class="slide-items-text">10 mins ago.</p>
+							<div class="thumbnail">
+								<img src="img/item-skin.png" class="portrait" alt="">
+							</div>
+							<p class="text-sale-foot">
+								105$
+							</p>
+						</div>
+					</div>
+					<div class="item">
+						<div class="slide-items">
+							<p class="slide-items-text">5 mins ago.</p>
+							<div class="thumbnail">
+								<img src="img/item-skin.png" class="portrait" alt="">
+							</div>
+							<p class="text-sale-foot">
+								5$
+							</p>
+						</div>
+					</div>
+					<div class="item">
+						<div class="slide-items">
+							<p class="slide-items-text">10 mins ago.</p>
+							<div class="thumbnail">
+								<img src="img/item-skin.png" class="portrait" alt="">
+							</div>
+							<p class="text-sale-foot">
+								105$
+							</p>
+						</div>
+					</div>
+					<div class="item">
+						<div class="slide-items">
+							<p class="slide-items-text">5 mins ago.</p>
+							<div class="thumbnail">
+								<img src="img/item-skin.png" class="portrait" alt="">
+							</div>
+							<p class="text-sale-foot">
+								5$
+							</p>
+						</div>
+					</div>
+					<div class="item">
+						<div class="slide-items">
+							<p class="slide-items-text">10 mins ago.</p>
+							<div class="thumbnail">
+								<img src="img/item-skin.png" class="portrait" alt="">
+							</div>
+							<p class="text-sale-foot">
+								105$
+							</p>
+						</div>
+					</div>
+					<div class="item">
+						<div class="slide-items">
+							<p class="slide-items-text">5 mins ago.</p>
+							<div class="thumbnail">
+								<img src="img/item-skin.png" class="portrait" alt="">
+							</div>
+							<p class="text-sale-foot">
+								5$
+							</p>
+						</div>
+					</div>
+					<div class="item">
+						<div class="slide-items">
+							<p class="slide-items-text">10 mins ago.</p>
+							<div class="thumbnail">
+								<img src="img/item-skin.png" class="portrait" alt="">
+							</div>
+							<p class="text-sale-foot">
+								105$
+							</p>
+						</div>
+					</div>
+					<div class="item">
+						<div class="slide-items">
+							<p class="slide-items-text">5 mins ago.</p>
+							<div class="thumbnail">
+								<img src="img/item-skin.png" class="portrait" alt="">
+							</div>
+							<p class="text-sale-foot">
+								5$
+							</p>
+						</div>
+					</div>
+					<div class="item">
+						<div class="slide-items">
+							<p class="slide-items-text">10 mins ago.</p>
+							<div class="thumbnail">
+								<img src="img/item-skin.png" class="portrait" alt="">
+							</div>
+							<p class="text-sale-foot">
+								105$
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="it-works">
+				<h3 class="style-main__h3"><span>HOW IT WORKS</span></h3>
+				<div class="wrapper-video">
+					<div class="wrapper-video__top clearfix">
+						<div class="video-top__items top__items-one clearfix">
+							<div class="wrapper-video__item">
+								<img src="img/icon-steam.png" alt="">
+								<div class="wrapper-video__text">
+									<h4>1.SIGN IN VIA STEAM</h4>
+									<p>to sell your skins and get cash</p>
+								</div>
+							</div>
+						</div>
+						<div class="video-top__items top__items-two clearfix">
+							<div class="wrapper-video__item">
+								<img src="img/icon-war.png" alt="">
+								<div class="wrapper-video__text">
+									<h4>2.CHOOSE ITEMS</h4>
+									<p>to sell from your inventory</p>
+								</div>
+							</div>
+						</div>
+						<div class="video-top__items top__items-three clearfix">
+							<div class="wrapper-video__item">
+								<img src="img/icon-money.png" alt="">
+								<div class="wrapper-video__text">
+									<h4>3.GET CASH INSTANTLY</h4>
+									<p>via the selected payment method.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="wrapper-video__play">
+						<h3 class="style-main__h3"><span>VIDEO OPTION</span></h3>
+						<div class="container-items-video">
+							<div class="items-video__play">
+								<a class="popup-youtube" href="http://www.youtube.com/watch?v=0O2aH4XLbto"></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="purple height90">
+
+			</div>
+		</div>
+	</main>
+	<!-- Main End -->
+
+	<!-- Footer -->
+	<footer>
+		<div class="container clearfix">
+			<div class="logo-footer">
+				<a href="#">
+					<img src="img/footer-logo.png" alt="">
+				</a>
+			</div>
+			<div class="text-footer">
+				<p class="copyright-footer">SKINTOCOIN.COM (C.)  2017 <span>Terms of Service</span></p>
+				<span class="text-footer__span">
+					Skintocoin is not affiliated with valve in any way 
+				</span>
+				<span class="text-footer__span">
+					Powered by Steam, a registered trademark of Valve Corporation
+				</span>
+				<a href="#" class="mail-footer">support@skintocoin.com</a>
+			</div>
+		</div>	
+	</footer>
+	<!-- Footer End -->
+
+
+	<div class="hidden">
+
+		<div id="open-window" class="zoom-anim-dialog">
+			<div class="wrapper-info_text">
+				<h1>HEADER</h1>
+				<div class="open-window__text">
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce suscipit enim at lectus facilisis, interdum finibus odio viverra. Vivamus eu dignissim nisi. Aliquam tempor massa metus, vitae vulputate tortor porttitor quis. Ut in ligula egestas magna efficitur tempus. Cras in urna non mauris tincidunt laoreet vel sed tortor. Duis eleifend quam non nibh laoreet vulputate. Mauris sagittis nisl ac lorem laoreet ullamcorper.
+					</p>
+					<p class="red-text">
+						Praesent eget nunc nec augue ullamcorper laoreet quis hendrerit odio. Donec quis ipsum scelerisque, fringilla neque et, aliquam nunc. Sed at auctor ex, vel vulputate tortor. Cras commodo, enim et sollicitudin feugiat, sem quam tempor leo, in ultrices ante sapien quis nisl. Aliquam commodo vulputate sagittis. Nunc viverra viverra nulla, vitae tincidunt ante. Phasellus elementum ante vel justo tristique cursus a at ligula. Nam condimentum volutpat feugiat. Proin at nisl vel nulla tincidunt viverra.
+					</p>
+					<br>
+					<p class="text-small">
+						Integer ornare, nisl et consequat mattis, risus sem facilisis ligula, id tristique ex odio a turpis. Integer commodo porta justo, vitae venenatis ante convallis id. Nunc tempus hendrerit sem, at feugiat velit consequat non. Maecenas non mi quis nulla consequat auctor. Aliquam malesuada turpis ac nibh ultrices congue nec sit amet risus.
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="libs/jquery/jquery-1.11.2.min.js"></script>
+	<script src="libs/owl-carousel/owl.carousel.min.js"></script>
+	<script src="libs/chart/chart.js"></script>
+	<script src="libs/jcf/jcf.js"></script>
+	<script src="libs/jcf/jcf.select.js"></script>
+	<script src="libs/magnific-popup/jquery.magnific-popup.min.js"></script>
+	<script src="js/common.js"></script>
+	<script>
+		var myChart = document.getElementById("myChart");
+		var myChart = document.getElementById("myChart").getContext("2d");
+		var myChart = $("#myChart");
+		var myChart = "myChart";
+
+		var myChart = new Chart(myChart, {
+			type: 'line',
+			data: {
+				datasets: [{
+					fill: false,
+					label: 'Bitcoin',
+					data: [ 2500, 4100, 8104, 8800, 8800, 7600, 10000],
+					borderColor: "#f08b16",
+					borderWidth: 2,
+					borderCapStyle: 'square',
+					borderJoinStyle: 'round',
+					cubicInterpolationMode: 'default',
+					pointRadius: 5,
+					lineTension: 0,
+					pointBackgroundColor: '#181b28',
+					pointBorderColor: '#f08b16',
+					pointBorderWidth: 2,
+					pointRadius: 8,
+					pointHitRadius: 8,
+					pointHoverRadius: 8,
+					pointHoverBackgroundColor: '#f08b16',
+					pointHoverBorderColor: '#fff',
+					pointHoverBorderWidth: 2,
+				},
+				{
+					fill: false,
+					label: 'Etherium',
+					data: [ 2400, 3100, 5104, 9800, 5800, 2600, 9000],
+					borderColor: "#62688f",
+					borderWidth: 2,
+					borderCapStyle: 'square',
+					borderJoinStyle: 'round',
+					cubicInterpolationMode: 'default',
+					pointRadius: 5,
+					lineTension: 0,
+					pointBackgroundColor: '#181b28',
+					pointBorderColor: '#62688f',
+					pointBorderWidth: 2,
+					pointRadius: 8,
+					pointHitRadius: 8,
+					pointHoverRadius: 8,
+					pointHoverBackgroundColor: '#62688f',
+					pointHoverBorderColor: '#fff',
+					pointHoverBorderWidth: 2,
+				},
+				{
+					fill: false,
+					label: 'Litecoin',
+					data: [ 8400, 1100, 9104, 1800, 3800, 1600, 9900],
+					borderColor: "#183966",
+					borderWidth: 2,
+					borderCapStyle: 'square',
+					borderJoinStyle: 'round',
+					cubicInterpolationMode: 'default',
+					pointRadius: 5,
+					lineTension: 0,
+					pointBackgroundColor: '#181b28',
+					pointBorderColor: '#183966',
+					pointBorderWidth: 2,
+					pointRadius: 8,
+					pointHitRadius: 8,
+					pointHoverRadius: 8,
+					pointHoverBackgroundColor: '#183966',
+					pointHoverBorderColor: '#fff',
+					pointHoverBorderWidth: 2,
+				}],
+				labels: ['JAN', 'FEB', 'MAR', 'APR', 'MAY', 'JUN'],
+			},
+			options: {
+				legend: {
+					display: true,
+					labels: {
+						boxWidth: 0,
+						fontSize: 18,
+						fontColor: '#FFF'
+					}
+				},
+				tooltips: {
+					backgroundColor: '#323a5a',
+					titleFontFamily: 'sans-serif',
+					callbacks: {
+						labelColor: function(tooltipItem, chart) {
+							return {
+								borderColor: '#333',
+								backgroundColor: '#333'
+							}
+						},
+						labelTextColor:function(tooltipItem, chart){
+							return '#fff';
+						},
+						afterLabel: function(tooltipItem, data) {
+
+						}
+					}
+				},
+				scales: {
+					yAxes: [{
+						ticks: {
+							callback: function(value, index, values) {
+								return '' + value;
+							}
+						}
+					}]
+				},
+			}
+
+		});
+	</script>
+
+</body>
+</html>
