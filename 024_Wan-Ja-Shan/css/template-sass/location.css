@@ -1,0 +1,156 @@
+.locator-top {
+  background: #4d5562;
+  text-align: center;
+  padding-top: 66px;
+  padding-bottom: 77px; }
+  .locator-top h1 {
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 6px; }
+  .locator-top p {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0.26px; }
+  .locator-top .locator-select {
+    margin: 40px 0; }
+
+.wrapper-map {
+  margin: 60px 0 0; }
+  .wrapper-map img {
+    margin: 0 auto; }
+
+.location-partner {
+  padding-top: 50px;
+  padding-bottom: 70px; }
+  .location-partner .location-partner-logo {
+    max-width: 800px;
+    width: 100%;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+       -moz-box-orient: horizontal;
+       -moz-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-align: center;
+       -moz-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 0 auto; }
+
+.what-store {
+  background: #f1efea;
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 140px; }
+  .what-store h4 {
+    color: #a3323a;
+    font-weight: 700;
+    line-height: 80px;
+    text-transform: uppercase;
+    letter-spacing: 1.39px;
+    margin-bottom: 14px; }
+  .what-store p {
+    color: #505050;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    margin-bottom: 24px; }
+
+.location-authenticity {
+  padding-top: 80px;
+  padding-bottom: 80px; }
+  .location-authenticity .wrapper-just {
+    float: right;
+    max-width: 500px;
+    padding: 50px 66px;
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center; }
+    .location-authenticity .wrapper-just h4 {
+      color: #194f6e;
+      font-size: 54px;
+      font-weight: 700;
+      line-height: 66px;
+      text-transform: uppercase;
+      letter-spacing: 1.35px; }
+    .location-authenticity .wrapper-just .icon-strok {
+      display: block;
+      margin-top: 10px;
+      margin-bottom: 20px; }
+    .location-authenticity .wrapper-just h6 {
+      color: #194f6e;
+      font-size: 32px;
+      font-weight: 700;
+      line-height: 43px;
+      text-transform: uppercase;
+      letter-spacing: 0.8px;
+      margin-bottom: 40px; }
+    .location-authenticity .wrapper-just p {
+      color: #505050;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 24px;
+      letter-spacing: 0.2px; }
+    .location-authenticity .wrapper-just a {
+      color: #505050; }
+
+.location-contact {
+  padding-top: 130px;
+  padding-bottom: 40px; }
+  .location-contact .wrapper-location-contact h1 {
+    color: #ffffff;
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 59px;
+    text-transform: uppercase;
+    letter-spacing: 1.75px;
+    margin-bottom: 34px; }
+  .location-contact .wrapper-location-contact .wrap-items__location-contact {
+    max-width: 480px;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+       -moz-box-orient: horizontal;
+       -moz-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap; }
+    .location-contact .wrapper-location-contact .wrap-items__location-contact .items__location-contact {
+      width: 50%;
+      margin-bottom: 55px; }
+      .location-contact .wrapper-location-contact .wrap-items__location-contact .items__location-contact h4 {
+        color: #ffffff;
+        font-family: "Source Sans Pro", sans-serif;
+        font-size: 16px;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 1.49px;
+        margin-bottom: 8px; }
+      .location-contact .wrapper-location-contact .wrap-items__location-contact .items__location-contact .icons__location-contact {
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+           -moz-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+           -moz-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        width: 24px;
+        height: 24px;
+        margin-bottom: 12px; }
