@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<meta charset="utf-8">
+
+	<title>Calendar</title>
+	<meta name="description" content="">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<meta property="og:image" content="path/to/image.jpg">
+	<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+
+	<!-- Chrome, Firefox OS and Opera -->
+	<meta name="theme-color" content="#000">
+	<!-- Windows Phone -->
+	<meta name="msapplication-navbutton-color" content="#000">
+	<!-- iOS Safari -->
+	<meta name="apple-mobile-web-app-status-bar-style" content="#000">
+
+	<link rel="stylesheet" href="css/main.css" />
+	<link rel="stylesheet" href="js/select2.min.css" />
+	<link rel="stylesheet" href="libs/magnific-popup/magnific-popup.css" />
+
+
+</head>
+<body>
+	<!-- Header -->
+	<header class="header">
+
+	</header>
+	<!-- Header End -->
+
+	<!-- Main -->
+	<main>
+
+		<div class="container">
+
+			<table id="calendar2">
+				<thead>
+					<tr><td>‹<td colspan="5"><td>›
+					<tr><td>MON<td>TUE<td>WED<td>THU<td>FRI<td>SAT<td>SUN
+				<tbody>
+			</table>
+			<p id="mass"></p>
+			<div class="hidden">
+				<div id="form-popup" class="popup-view zoom-anim-dialog mfp-hide">
+					<form action="">
+						<h1>Make an appointment</h1>
+						<p class="date-days">Date: <span id="data-now">Now date</span></p>
+						<br>
+						<span class="date-days">Select Time:</span>
+						<select class="js-example-basic-single" name="state">
+							<option value="09:00">09:00</option>
+							<option value="09:30">09:30</option>
+							<option value="10:00">10:00</option>
+							<option value="10:30">10:30</option>
+							<option value="11:00">11:00</option>
+							<option value="11:30">11:30</option>
+							<option value="12:00" disabled="disabled">12:00</option>
+							<option value="12:30">12:30</option>
+							<option value="13:00">13:00</option>
+							<option value="13:30">13:30</option>
+							<option value="14:00">14:00</option>
+							<option value="14:30" disabled="disabled">14:30</option>
+							<option value="15:00" disabled="disabled">15:00</option>
+							<option value="15:30" disabled="disabled">15:30</option>
+							<option value="16:00">16:00</option>
+							<option value="16:30">16:30</option>
+						</select>
+						<select class="js-example-basic-single" name="state">
+							<option value="09:00">09:00</option>
+							<option value="10:00">10:00</option>
+							<option value="11:00">11:00</option>
+							<option value="12:00" disabled="disabled">12:00</option>
+							<option value="13:00">13:00</option>
+							<option value="14:00">14:00</option>
+							<option value="15:00" disabled="disabled">15:00</option>
+							<option value="16:00">16:00</option>
+							<option value="17:00">17:00</option>
+						</select>
+						<div class="clients-info">
+							<h2>Your Information</h2>
+							<div class="wrapper-input">
+									<input type="text" placeholder="First name">
+									<input type="text" placeholder="Last name">
+									<input type="text" placeholder="Email address">
+									<input type="text" placeholder="Phone number">
+							</div>
+						</div>
+						<button class="submite-calendar">BOOK APPOINTMENT</button>
+					</form>
+				</div>
+			</div>
+
+		</div>
+		
+	</main>
+	<!-- Main End -->
+
+	<!-- Footer -->
+	<footer></footer>
+	<!-- Footer End -->
+
+
+	<div class="hidden"></div>
+
+	<script src="libs/jquery/jquery.min.js"></script>
+	<script src="libs/magnific-popup/jquery.magnific-popup.min.js"></script>
+	<script src="js/select2.min.js"></script>
+	<script src="js/common.js"></script>
+
+</body>
+</html>
