@@ -1,0 +1,937 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+	<meta charset="utf-8">
+
+	<title>TradeF1</title>
+	<meta name="description" content="">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<meta property="og:image" content="path/to/image.jpg">
+	<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+
+	<!-- Chrome, Firefox OS and Opera -->
+	<meta name="theme-color" content="#000">
+	<!-- Windows Phone -->
+	<meta name="msapplication-navbutton-color" content="#000">
+	<!-- iOS Safari -->
+	<meta name="apple-mobile-web-app-status-bar-style" content="#000">
+
+	<style>body { opacity: 0; overflow-x: hidden; } html { background-color: #fff; }</style>
+
+	<link rel="stylesheet" href="css/grid_css.css"/>
+	<link rel="stylesheet" href="css/main.css" />
+	<link rel="stylesheet" href="css/media.css" />
+	<link rel="stylesheet" href="css/fonts.css" />
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="libs/simple-scrollbar/simple-scrollbar.css">
+
+</head>
+<body  class="content">
+
+	<!-- Header -->
+	<!-- <a class="modal-open style-mod" href="#about">About Modals</a> -->
+	<div class="wrapper-log-in clearfix">
+		<div class="col_6">
+			<ul class="log-in_menu">
+				<li><a href="#about" class="modal-open">ABOUT US</a></li>
+				<li><a href="#about" class="modal-open">SUPPORT</a></li>
+				<li><a href="#about" class="modal-open">FAQ</a></li>
+			</ul>
+		</div>
+		<div class="col_6 text-right">
+			<div class="wrap-user">
+				<div class="drop-menu">
+					<a href="#">
+						USD
+					</a>
+					<ul class="sub-drop-menu">
+						<li><a href="#">USD</a></li>
+						<li><a href="#">RUB</a></li>
+						<li><a href="#">EUR</a></li>
+						<li><a href="#">UA</a></li>
+						<li><a href="#">PL</a></li>
+					</ul>
+				</div>
+				<div class="drop-menu">
+					<a href="#">
+						NAME
+					</a>
+					<ul class="sub-drop-menu">
+						<li><a href="#">NAME</a></li>
+					</ul>
+				</div>
+				<!-- <div class="admin-block">
+					<a href="#" class="admin-block__open">
+						<img src="img/icon-admin.png" alt="">
+						<span class="name">Name</span>
+					</a>
+					<div class="log-out">
+						<a href="#">Logout</a>
+					</div>
+				</div> -->
+			</div>
+		</div>
+	</div>
+	<!-- Header End -->
+
+	<!-- Main -->
+	<main>
+		<div class="wrapper-full__container clearfix" id="go-section">
+			<div class="wrapper-center">
+				<div class="items-online">
+					<div class="online-items">
+						<p><span class="number-online">2445</span>
+							<span>
+								<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" class="users" viewBox="0 0 466.146 466.146" style="enable-background:new 0 0 466.146 466.146;" xml:space="preserve">
+									<g>
+										<path d="M289.285,191.86c28.844-18.539,47.995-50.83,47.995-87.654C337.28,46.659,290.621,0,233.088,0   c-57.559,0-104.207,46.659-104.207,104.207c0,36.824,19.151,69.121,47.996,87.654c-67.959,6.082-121.422,63.331-121.422,132.854   v108.155l0.274,1.69l7.457,2.328c70.196,21.929,131.195,29.259,181.401,29.259c98.048,0,154.886-27.97,158.408-29.743l6.963-3.534   h0.732V324.714C410.698,255.197,357.253,197.957,289.285,191.86z" fill="#FFFFFF"/>
+									</g>
+								</svg>
+							</span>
+						</p>
+					</div>
+					<a href="#" class="trade-big__buttons buttons-trade">TRADE</a>
+					<a href="#" class="trade-small__buttons buttons-trade">AUTO-TRADE</a>
+					<div class="slider-wrap">
+						<div class="masonry">
+							<p>
+								<input type="text" id="amount">
+								<span class="icon-slide">$</span>
+								<input type="text" id="amount_1">
+							</p>
+
+							<div id="slider-range"></div>
+						</div>
+					</div>
+					<div class="wrapper-select">
+						<div class="select-item">
+							<p class="name-select">Type</p>
+							<p class="dotted-items">
+								<span></span>
+								<span></span>
+								<span></span>
+							</p>
+							<div class="select-item__hiden clearfix">
+								<a href="#" class="full-width">All Types</a>
+								<a href="#" class="select-img">
+									<img src="img/svg/case.svg" alt="">
+								</a>
+								<a href="#" class="select-img">
+									<img src="img/svg/house-key.svg" alt="">
+								</a>
+								<a href="#" class="select-img">
+									<img src="img/svg/knife.svg" alt="">
+								</a>
+								<a href="#" class="select-img">
+									<img src="img/svg/leather-gloves.svg" alt="">
+								</a>
+								<a href="#" class="select-img">
+									<img src="img/svg/music.svg" alt="">
+								</a>
+								<a href="#" class="select-img">
+									<img src="img/svg/pistol.svg" alt="">
+								</a>
+								<a href="#" class="select-img">
+									<img src="img/svg/rifles.svg" alt="">
+								</a>
+								<a href="#" class="select-img">
+									<img src="img/svg/shotguns.svg" alt="">
+								</a>
+								<a href="#" class="select-img">
+									<img src="img/svg/smg.svg" alt="">
+								</a>
+								<a href="#" class="select-img">
+									<img src="img/svg/sniper.svg" alt="">
+								</a>
+								<!-- <a href="#" class="select-img">Paste SVG Code</a> -->
+							</div>
+						</div>
+						<div class="select-item">
+							<p class="name-select">Exterior</p>
+							<p class="dotted-items">
+								<span></span>
+								<span></span>
+								<span></span>
+							</p>
+							<div class="select-item__hiden">
+								<ul>
+									<li><a href="#">All Exteriors</a></li>
+									<li><a href="#">Factory New</a></li>
+									<li><a href="#">Minimal Wear</a></li>
+									<li><a href="#">Field-Tested</a></li>
+									<li><a href="#">Well-Worn</a></li>
+									<li><a href="#">Battle-Scarred</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="more-filter__wrapper">
+						<a href="#" class="more-filter">More Filters</a>
+					</div>
+					<div class="reset-link__wrapper">
+						<a href="#" class="reset-link">Reset All Filters</a>
+					</div>
+					<div class="wrapper__bonus-text">
+						<h3>2% BONUS</h3>
+						<h4>NOT APPLIED</h4>
+						<p>
+							Add “TRADEF1.COM” to <br>
+							your Steam profile <br>
+							name and re-log in via <br>
+							Steam
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="full-left">
+				<div class="wrapper-trade">
+					<div class="line-red clearfix">
+						<div class="col_6">
+							<p>YOU RECIVE</p>
+						</div>
+						<div class="col_6 text-right">
+							<p class="price"><span class="icon-price">$</span>0.00</p>
+						</div>
+					</div>
+					<div class="wrapper-trade__content"></div>
+				</div>
+				<div class="wrapper-trade">
+					<div class="line-red clearfix">
+						<div class="col_8">
+							<div class="search-item">
+								<input type="text" placeholder="SEARCH..." class="placeholder-style">
+								<button class="search-button" title="Search">
+									<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" width="512px" height="512px" viewBox="0 0 485.213 485.213" style="enable-background:new 0 0 485.213 485.213;" xml:space="preserve" class=""><g><g>
+										<g>
+											<path d="M471.882,407.567L360.567,296.243c-16.586,25.795-38.536,47.734-64.331,64.321l111.324,111.324    c17.772,17.768,46.587,17.768,64.321,0C489.654,454.149,489.654,425.334,471.882,407.567z" data-original="#000000" class="active-path" data-old_color="#ffffff" fill="#ffffff"/>
+											<path d="M363.909,181.955C363.909,81.473,282.44,0,181.956,0C81.474,0,0.001,81.473,0.001,181.955s81.473,181.951,181.955,181.951    C282.44,363.906,363.909,282.437,363.909,181.955z M181.956,318.416c-75.252,0-136.465-61.208-136.465-136.46    c0-75.252,61.213-136.465,136.465-136.465c75.25,0,136.468,61.213,136.468,136.465    C318.424,257.208,257.206,318.416,181.956,318.416z" data-original="#000000" class="active-path" data-old_color="#ffffff" fill="#ffffff"/>
+											<path d="M75.817,181.955h30.322c0-41.803,34.014-75.814,75.816-75.814V75.816C123.438,75.816,75.817,123.437,75.817,181.955z" data-original="#000000" class="active-path" data-old_color="#ffffff" fill="#ffffff"/>
+										</g>
+									</g></g>
+								</svg>
+							</button>
+							<span class="reset-search" title="Reset">
+								<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 52 52" style="enable-background:new 0 0 52 52;" xml:space="preserve" width="512px" height="512px"><g><g>
+									<path d="M26,0C11.664,0,0,11.663,0,26s11.664,26,26,26s26-11.663,26-26S40.336,0,26,0z M26,50C12.767,50,2,39.233,2,26   S12.767,2,26,2s24,10.767,24,24S39.233,50,26,50z" data-original="#000000" class="active-path" data-old_color="#000000" fill="#FFFFFF"/>
+									<path d="M35.707,16.293c-0.391-0.391-1.023-0.391-1.414,0L26,24.586l-8.293-8.293c-0.391-0.391-1.023-0.391-1.414,0   s-0.391,1.023,0,1.414L24.586,26l-8.293,8.293c-0.391,0.391-0.391,1.023,0,1.414C16.488,35.902,16.744,36,17,36   s0.512-0.098,0.707-0.293L26,27.414l8.293,8.293C34.488,35.902,34.744,36,35,36s0.512-0.098,0.707-0.293   c0.391-0.391,0.391-1.023,0-1.414L27.414,26l8.293-8.293C36.098,17.316,36.098,16.684,35.707,16.293z" data-original="#000000" class="active-path" data-old_color="#000000" fill="#FFFFFF"/>
+								</svg>
+							</span>
+						</div>
+					</div>
+					<div class="col_4 text-right">
+						<a href="#" class="refresh-icon">
+							<!-- <i class="fa fa-refresh" aria-hidden="true"></i> -->
+							<!-- <img src="img/loop-load.png" alt=""> -->
+							<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="loop-load" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 53 53" style="enable-background:new 0 0 53 53;" xml:space="preserve" width="512px" height="512px"><g><g>
+								<path d="M30,50c-0.553,0-1-0.447-1-1s0.447-1,1-1c0.637,0,1.278-0.029,1.906-0.086   c0.542-0.059,1.036,0.356,1.086,0.906s-0.355,1.036-0.906,1.086C31.398,49.969,30.697,50,30,50z M35.924,49.192   c-0.438,0-0.839-0.289-0.962-0.731c-0.148-0.532,0.163-1.084,0.694-1.231c0.61-0.17,1.22-0.371,1.811-0.597   c0.513-0.196,1.094,0.063,1.291,0.578c0.196,0.516-0.062,1.094-0.578,1.291c-0.648,0.247-1.317,0.468-1.986,0.653   C36.104,49.181,36.013,49.192,35.924,49.192z M41.412,46.813c-0.338,0-0.667-0.171-0.855-0.48   c-0.287-0.472-0.137-1.087,0.335-1.374c0.543-0.33,1.075-0.688,1.583-1.064c0.446-0.329,1.07-0.235,1.399,0.208   c0.328,0.444,0.235,1.07-0.208,1.399c-0.557,0.412-1.141,0.805-1.735,1.166C41.769,46.766,41.589,46.813,41.412,46.813z    M46.054,43.043c-0.245,0-0.491-0.09-0.684-0.271c-0.403-0.378-0.424-1.011-0.046-1.413c0.433-0.462,0.85-0.949,1.241-1.45   c0.339-0.436,0.967-0.514,1.403-0.173c0.436,0.34,0.513,0.968,0.173,1.403c-0.428,0.549-0.885,1.083-1.358,1.587   C46.586,42.937,46.32,43.043,46.054,43.043z M49.515,38.166c-0.156,0-0.314-0.036-0.462-0.113c-0.489-0.256-0.679-0.86-0.424-1.35   c0.293-0.56,0.563-1.142,0.805-1.729c0.21-0.512,0.796-0.756,1.305-0.545c0.511,0.21,0.755,0.794,0.545,1.305   c-0.264,0.644-0.561,1.281-0.881,1.895C50.224,37.971,49.875,38.166,49.515,38.166z M51.532,32.538   c-0.068,0-0.137-0.007-0.206-0.021c-0.541-0.113-0.887-0.644-0.773-1.184c0.129-0.618,0.232-1.252,0.307-1.884   c0.064-0.548,0.57-0.946,1.109-0.877c0.549,0.064,0.941,0.561,0.877,1.109c-0.081,0.691-0.194,1.385-0.336,2.062   C52.411,32.215,51.995,32.538,51.532,32.538z" data-original="#26B99A" class="active-path" data-old_color="#C8C9C9" fill="#FFFFFF"/>
+								<path d="M52,27c-0.553,0-1-0.447-1-1c0-11.579-9.421-21-21-21S9,14.421,9,26c0,0.553-0.447,1-1,1   s-1-0.447-1-1C7,13.317,17.317,3,30,3s23,10.317,23,23C53,26.553,52.553,27,52,27z" data-original="#26B99A" class="active-path" data-old_color="#C8C9C9" fill="#FFFFFF"/>
+								<path d="M8,27c-0.256,0-0.512-0.098-0.707-0.293l-7-7c-0.391-0.391-0.391-1.023,0-1.414s1.023-0.391,1.414,0   l7,7c0.391,0.391,0.391,1.023,0,1.414C8.512,26.902,8.256,27,8,27z" data-original="#26B99A" class="active-path" data-old_color="#C8C9C9" fill="#FFFFFF"/>
+								<path d="M8,27c-0.256,0-0.512-0.098-0.707-0.293c-0.391-0.391-0.391-1.023,0-1.414l7-7   c0.391-0.391,1.023-0.391,1.414,0s0.391,1.023,0,1.414l-7,7C8.512,26.902,8.256,27,8,27z" data-original="#26B99A" class="active-path" data-old_color="#C8C9C9" fill="#FFFFFF"/>
+							</g></g> </svg>
+						</a>
+					</div>
+				</div>
+				<div class="wrapper-trade__price clearfix">
+					<div class="arrow-price arrow-price__left">
+						<!-- <img src="img/arrow-up.png" alt=""> -->
+						<svg xmlns="http://www.w3.org/2000/svg" class="arrows-svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 129 129" enable-background="new 0 0 129 129" width="512px" height="512px" class=""><g><g>
+							<path d="m121.3,34.6c-1.6-1.6-4.2-1.6-5.8,0l-51,51.1-51.1-51.1c-1.6-1.6-4.2-1.6-5.8,0-1.6,1.6-1.6,4.2 0,5.8l53.9,53.9c0.8,0.8 1.8,1.2 2.9,1.2 1,0 2.1-0.4 2.9-1.2l53.9-53.9c1.7-1.6 1.7-4.2 0.1-5.8z" data-original="#000000" class="active-path" data-old_color="#F7EAEA" fill="#FFFFFF"/>
+						</g></g> </svg>
+						<p>Price</p>
+					</div>
+					<div ss-container class="wrapper-skins clearfix">
+						<div id="bot_inventory" class="inventory_list">
+							<div class="item covert" name="★ Karambit | Lore 1"  float="0.2646844387">
+								<figure>
+									<div class="condition">FT</div>
+									<img class="item_image" src="img/Image24.png" alt="">
+									<div class="price"><span>$ </span><span class="price-text">453.37</span></div>
+								</figure>
+							</div>
+							<div class="item covert" name="★ Karambit | Lore 2"  float="0.4120767713">
+								<figure>
+									<div class="condition">FT</div>
+									<img class="item_image" src="img/Z2aWPng.png" alt="">
+									<div class="price"><span>$ </span><span class="price-text">1825.37</span></div>
+								</figure>
+							</div>
+							<div class="item covert" name="★ Karambit 3"  float="0.3738864660">
+								<figure>
+									<div class="condition">FT</div>
+									<img class="item_image" src="img/Z2aWPng.png" alt="">
+									<div class="price"><span>$ </span><span class="price-text">117.37</span></div>
+								</figure>
+							</div>
+							<div class="item covert" name="★ Karambit | Lore 1"  float="0.2646844387">
+								<figure>
+									<div class="condition">FT</div>
+									<img class="item_image" src="img/Image24.png" alt="">
+									<div class="price"><span>$ </span><span class="price-text">453.37</span></div>
+								</figure>
+							</div>
+							<div class="item covert" name="★ Karambit | Lore 2"  float="0.4120767713">
+								<figure>
+									<div class="condition">FT</div>
+									<img class="item_image" src="img/Z2aWPng.png" alt="">
+									<div class="price"><span>$ </span><span class="price-text">1825.37</span></div>
+								</figure>
+							</div>
+							<div class="item covert" name="★ Karambit 3"  float="0.3738864660">
+								<figure>
+									<div class="condition">FT</div>
+									<img class="item_image" src="img/Z2aWPng.png" alt="">
+									<div class="price"><span>$ </span><span class="price-text">117.37</span></div>
+								</figure>
+							</div>
+							<div class="item covert" name="★ Karambit | Lore 1"  float="0.2646844387">
+								<figure>
+									<div class="condition">FT</div>
+									<img class="item_image" src="img/Image24.png" alt="">
+									<div class="price"><span>$ </span><span class="price-text">453.37</span></div>
+								</figure>
+							</div>
+							<div class="item covert" name="★ Karambit | Lore 2"  float="0.4120767713">
+								<figure>
+									<div class="condition">FT</div>
+									<img class="item_image" src="img/Z2aWPng.png" alt="">
+									<div class="price"><span>$ </span><span class="price-text">1825.37</span></div>
+								</figure>
+							</div>
+							<div class="item covert" name="★ Karambit 3"  float="0.3738864660">
+								<figure>
+									<div class="condition">FT</div>
+									<img class="item_image" src="img/Z2aWPng.png" alt="">
+									<div class="price"><span>$ </span><span class="price-text">117.37</span></div>
+								</figure>
+							</div>
+							<div class="item covert" name="★ Karambit | Lore 1"  float="0.2646844387">
+								<figure>
+									<div class="condition">FT</div>
+									<img class="item_image" src="img/Image24.png" alt="">
+									<div class="price"><span>$ </span><span class="price-text">453.37</span></div>
+								</figure>
+							</div>
+							<div class="item covert" name="★ Karambit | Lore 2"  float="0.4120767713">
+								<figure>
+									<div class="condition">FT</div>
+									<img class="item_image" src="img/Z2aWPng.png" alt="">
+									<div class="price"><span>$ </span><span class="price-text">1825.37</span></div>
+								</figure>
+							</div>
+							<div class="item covert" name="★ Karambit 3"  float="0.3738864660">
+								<figure>
+									<div class="condition">FT</div>
+									<img class="item_image" src="img/Z2aWPng.png" alt="">
+									<div class="price"><span>$ </span><span class="price-text">117.37</span></div>
+								</figure>
+							</div>
+							<div class="item covert" name="★ Karambit | Lore 1"  float="0.2646844387">
+								<figure>
+									<div class="condition">FT</div>
+									<img class="item_image" src="img/Image24.png" alt="">
+									<div class="price"><span>$ </span><span class="price-text">453.37</span></div>
+								</figure>
+							</div>
+							<div class="item covert" name="★ Karambit | Lore 2"  float="0.4120767713">
+								<figure>
+									<div class="condition">FT</div>
+									<img class="item_image" src="img/Z2aWPng.png" alt="">
+									<div class="price"><span>$ </span><span class="price-text">1825.37</span></div>
+								</figure>
+							</div>
+							<div class="item covert" name="★ Karambit 3"  float="0.3738864660">
+								<figure>
+									<div class="condition">FT</div>
+									<img class="item_image" src="img/Z2aWPng.png" alt="">
+									<div class="price"><span>$ </span><span class="price-text">117.37</span></div>
+								</figure>
+							</div>
+							<div class="item covert" name="★ Karambit | Lore 1"  float="0.2646844387">
+								<figure>
+									<div class="condition">FT</div>
+									<img class="item_image" src="img/Image24.png" alt="">
+									<div class="price"><span>$ </span><span class="price-text">453.37</span></div>
+								</figure>
+							</div>
+							<div class="item covert" name="★ Karambit | Lore 2"  float="0.4120767713">
+								<figure>
+									<div class="condition">FT</div>
+									<img class="item_image" src="img/Z2aWPng.png" alt="">
+									<div class="price"><span>$ </span><span class="price-text">1825.37</span></div>
+								</figure>
+							</div>
+							<div class="item covert" name="★ Karambit 3"  float="0.3738864660">
+								<figure>
+									<div class="condition">FT</div>
+									<img class="item_image" src="img/Z2aWPng.png" alt="">
+									<div class="price"><span>$ </span><span class="price-text">117.37</span></div>
+								</figure>
+							</div>
+							<div class="item covert" name="★ Karambit | Lore 1"  float="0.2646844387">
+								<figure>
+									<div class="condition">FT</div>
+									<img class="item_image" src="img/Image24.png" alt="">
+									<div class="price"><span>$ </span><span class="price-text">453.37</span></div>
+								</figure>
+							</div>
+							<div class="item covert" name="★ Karambit | Lore 2"  float="0.4120767713">
+								<figure>
+									<div class="condition">FT</div>
+									<img class="item_image" src="img/Z2aWPng.png" alt="">
+									<div class="price"><span>$ </span><span class="price-text">1825.37</span></div>
+								</figure>
+							</div>
+							<div class="item covert" name="★ Karambit 3"  float="0.3738864660">
+								<figure>
+									<div class="condition">FT</div>
+									<img class="item_image" src="img/Z2aWPng.png" alt="">
+									<div class="price"><span>$ </span><span class="price-text">117.37</span></div>
+								</figure>
+							</div>
+							<div class="item covert" name="★ Karambit | Lore 1"  float="0.2646844387">
+								<figure>
+									<div class="condition">FT</div>
+									<img class="item_image" src="img/Image24.png" alt="">
+									<div class="price"><span>$ </span><span class="price-text">453.37</span></div>
+								</figure>
+							</div>
+							<div class="item covert" name="★ Karambit 3"  float="0.3738864660">
+								<figure>
+									<div class="condition">FT</div>
+									<img class="item_image" src="img/Z2aWPng.png" alt="">
+									<div class="price"><span>$ </span><span class="price-text">117.37</span></div>
+								</figure>
+							</div>
+							<div class="item covert" name="★ Karambit | Lore 1"  float="0.2646844387">
+								<figure>
+									<div class="condition">FT</div>
+									<img class="item_image" src="img/Image24.png" alt="">
+									<div class="price"><span>$ </span><span class="price-text">453.37</span></div>
+								</figure>
+							</div>
+							<div class="item covert" name="★ Karambit 3"  float="0.3738864660">
+								<figure>
+									<div class="condition">FT</div>
+									<img class="item_image" src="img/Z2aWPng.png" alt="">
+									<div class="price"><span>$ </span><span class="price-text">117.37</span></div>
+								</figure>
+							</div>
+							<div class="item covert" name="★ Karambit | Lore 1"  float="0.2646844387">
+								<figure>
+									<div class="condition">FT</div>
+									<img class="item_image" src="img/Image24.png" alt="">
+									<div class="price"><span>$ </span><span class="price-text">453.37</span></div>
+								</figure>
+							</div>
+							<div class="item covert" name="★ Karambit 3"  float="0.3738864660">
+								<figure>
+									<div class="condition">FT</div>
+									<img class="item_image" src="img/Z2aWPng.png" alt="">
+									<div class="price"><span>$ </span><span class="price-text">117.37</span></div>
+								</figure>
+							</div>
+							<div class="item covert" name="★ Karambit | Lore 1"  float="0.2646844387">
+								<figure>
+									<div class="condition">FT</div>
+									<img class="item_image" src="img/Image24.png" alt="">
+									<div class="price"><span>$ </span><span class="price-text">453.37</span></div>
+								</figure>
+							</div>
+							<div class="item covert" name="★ Karambit 3"  float="0.3738864660">
+								<figure>
+									<div class="condition">FT</div>
+									<img class="item_image" src="img/Z2aWPng.png" alt="">
+									<div class="price"><span>$ </span><span class="price-text">117.37</span></div>
+								</figure>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="full-right">
+			<div class="wrapper-trade">
+				<div class="line-red clearfix">
+					<div class="col_6">
+						<p>YOU RECIVE</p>
+					</div>
+					<div class="col_6 text-right">
+						<p class="price"><span class="icon-price">$</span>0.00</p>
+					</div>
+				</div>
+				<div class="wrapper-trade__content"></div>
+			</div>
+			<div class="wrapper-trade">
+				<div class="line-red clearfix">
+					<div class="col_3">
+						<a href="#" class="refresh-icon">
+							<!-- <i class="fa fa-refresh" aria-hidden="true"></i> -->
+							<!-- <img src="img/loop-load.png" alt=""> -->
+							<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="loop-load" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 53 53" style="enable-background:new 0 0 53 53;" xml:space="preserve" width="512px" height="512px"><g><g>
+								<path d="M30,50c-0.553,0-1-0.447-1-1s0.447-1,1-1c0.637,0,1.278-0.029,1.906-0.086   c0.542-0.059,1.036,0.356,1.086,0.906s-0.355,1.036-0.906,1.086C31.398,49.969,30.697,50,30,50z M35.924,49.192   c-0.438,0-0.839-0.289-0.962-0.731c-0.148-0.532,0.163-1.084,0.694-1.231c0.61-0.17,1.22-0.371,1.811-0.597   c0.513-0.196,1.094,0.063,1.291,0.578c0.196,0.516-0.062,1.094-0.578,1.291c-0.648,0.247-1.317,0.468-1.986,0.653   C36.104,49.181,36.013,49.192,35.924,49.192z M41.412,46.813c-0.338,0-0.667-0.171-0.855-0.48   c-0.287-0.472-0.137-1.087,0.335-1.374c0.543-0.33,1.075-0.688,1.583-1.064c0.446-0.329,1.07-0.235,1.399,0.208   c0.328,0.444,0.235,1.07-0.208,1.399c-0.557,0.412-1.141,0.805-1.735,1.166C41.769,46.766,41.589,46.813,41.412,46.813z    M46.054,43.043c-0.245,0-0.491-0.09-0.684-0.271c-0.403-0.378-0.424-1.011-0.046-1.413c0.433-0.462,0.85-0.949,1.241-1.45   c0.339-0.436,0.967-0.514,1.403-0.173c0.436,0.34,0.513,0.968,0.173,1.403c-0.428,0.549-0.885,1.083-1.358,1.587   C46.586,42.937,46.32,43.043,46.054,43.043z M49.515,38.166c-0.156,0-0.314-0.036-0.462-0.113c-0.489-0.256-0.679-0.86-0.424-1.35   c0.293-0.56,0.563-1.142,0.805-1.729c0.21-0.512,0.796-0.756,1.305-0.545c0.511,0.21,0.755,0.794,0.545,1.305   c-0.264,0.644-0.561,1.281-0.881,1.895C50.224,37.971,49.875,38.166,49.515,38.166z M51.532,32.538   c-0.068,0-0.137-0.007-0.206-0.021c-0.541-0.113-0.887-0.644-0.773-1.184c0.129-0.618,0.232-1.252,0.307-1.884   c0.064-0.548,0.57-0.946,1.109-0.877c0.549,0.064,0.941,0.561,0.877,1.109c-0.081,0.691-0.194,1.385-0.336,2.062   C52.411,32.215,51.995,32.538,51.532,32.538z" data-original="#26B99A" class="active-path" data-old_color="#C8C9C9" fill="#FFFFFF"/>
+								<path d="M52,27c-0.553,0-1-0.447-1-1c0-11.579-9.421-21-21-21S9,14.421,9,26c0,0.553-0.447,1-1,1   s-1-0.447-1-1C7,13.317,17.317,3,30,3s23,10.317,23,23C53,26.553,52.553,27,52,27z" data-original="#26B99A" class="active-path" data-old_color="#C8C9C9" fill="#FFFFFF"/>
+								<path d="M8,27c-0.256,0-0.512-0.098-0.707-0.293l-7-7c-0.391-0.391-0.391-1.023,0-1.414s1.023-0.391,1.414,0   l7,7c0.391,0.391,0.391,1.023,0,1.414C8.512,26.902,8.256,27,8,27z" data-original="#26B99A" class="active-path" data-old_color="#C8C9C9" fill="#FFFFFF"/>
+								<path d="M8,27c-0.256,0-0.512-0.098-0.707-0.293c-0.391-0.391-0.391-1.023,0-1.414l7-7   c0.391-0.391,1.023-0.391,1.414,0s0.391,1.023,0,1.414l-7,7C8.512,26.902,8.256,27,8,27z" data-original="#26B99A" class="active-path" data-old_color="#C8C9C9" fill="#FFFFFF"/>
+							</g></g> </svg>
+						</a>
+					</div>
+					<div class="col_3">
+						<nav class="list-line clearfix">
+							<ul class="">
+								<li>
+									<a href="#">ALL BOTS</a>
+									<ul class="sub__list-line">
+										<li><a href="#">All bots Items 1</a></li>
+										<li><a href="#">All bots Items 1</a></li>
+										<li><a href="#">All bots Items 1</a></li>
+									</ul>
+								</li>
+									<!-- <li>
+										<a href="#">ALL BOTS</a>
+										<ul class="sub__list-line">
+											<li><a href="#">All bots Items 2</a></li>
+											<li><a href="#">All bots Items 2</a></li>
+											<li><a href="#">All bots Items 2</a></li>
+										</ul>
+									</li> -->
+								</ul>
+							</nav>
+						</div>
+						<div class="col_6 text-right">
+							<div class="search-item">
+								<input type="text" placeholder="SEARCH..." class="placeholder-style">
+								<button class="search-button" title="Search">
+									<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" width="512px" height="512px" viewBox="0 0 485.213 485.213" style="enable-background:new 0 0 485.213 485.213;" xml:space="preserve" class=""><g><g>
+										<g>
+											<path d="M471.882,407.567L360.567,296.243c-16.586,25.795-38.536,47.734-64.331,64.321l111.324,111.324    c17.772,17.768,46.587,17.768,64.321,0C489.654,454.149,489.654,425.334,471.882,407.567z" data-original="#000000" class="active-path" data-old_color="#ffffff" fill="#ffffff"/>
+											<path d="M363.909,181.955C363.909,81.473,282.44,0,181.956,0C81.474,0,0.001,81.473,0.001,181.955s81.473,181.951,181.955,181.951    C282.44,363.906,363.909,282.437,363.909,181.955z M181.956,318.416c-75.252,0-136.465-61.208-136.465-136.46    c0-75.252,61.213-136.465,136.465-136.465c75.25,0,136.468,61.213,136.468,136.465    C318.424,257.208,257.206,318.416,181.956,318.416z" data-original="#000000" class="active-path" data-old_color="#ffffff" fill="#ffffff"/>
+											<path d="M75.817,181.955h30.322c0-41.803,34.014-75.814,75.816-75.814V75.816C123.438,75.816,75.817,123.437,75.817,181.955z" data-original="#000000" class="active-path" data-old_color="#ffffff" fill="#ffffff"/>
+										</g>
+									</g></g>
+								</svg>
+							</button>
+							<span class="reset-search" title="Reset">
+								<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 52 52" style="enable-background:new 0 0 52 52;" xml:space="preserve" width="512px" height="512px"><g><g>
+									<path d="M26,0C11.664,0,0,11.663,0,26s11.664,26,26,26s26-11.663,26-26S40.336,0,26,0z M26,50C12.767,50,2,39.233,2,26   S12.767,2,26,2s24,10.767,24,24S39.233,50,26,50z" data-original="#000000" class="active-path" data-old_color="#000000" fill="#FFFFFF"/>
+									<path d="M35.707,16.293c-0.391-0.391-1.023-0.391-1.414,0L26,24.586l-8.293-8.293c-0.391-0.391-1.023-0.391-1.414,0   s-0.391,1.023,0,1.414L24.586,26l-8.293,8.293c-0.391,0.391-0.391,1.023,0,1.414C16.488,35.902,16.744,36,17,36   s0.512-0.098,0.707-0.293L26,27.414l8.293,8.293C34.488,35.902,34.744,36,35,36s0.512-0.098,0.707-0.293   c0.391-0.391,0.391-1.023,0-1.414L27.414,26l8.293-8.293C36.098,17.316,36.098,16.684,35.707,16.293z" data-original="#000000" class="active-path" data-old_color="#000000" fill="#FFFFFF"/>
+								</svg>
+							</span>
+						</div>
+					</div>
+				</div>
+				<div class="wrapper-trade__price clearfix">
+					<div class="arrow-price arrow-price__right">
+						<!-- <img src="img/arrow-up.png" alt=""> -->
+						<svg xmlns="http://www.w3.org/2000/svg" class="arrows-svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 129 129" enable-background="new 0 0 129 129" width="512px" height="512px" class=""><g><g>
+							<path d="m121.3,34.6c-1.6-1.6-4.2-1.6-5.8,0l-51,51.1-51.1-51.1c-1.6-1.6-4.2-1.6-5.8,0-1.6,1.6-1.6,4.2 0,5.8l53.9,53.9c0.8,0.8 1.8,1.2 2.9,1.2 1,0 2.1-0.4 2.9-1.2l53.9-53.9c1.7-1.6 1.7-4.2 0.1-5.8z" data-original="#000000" class="active-path" data-old_color="#F7EAEA" fill="#FFFFFF"/>
+						</svg>
+						<p>Price</p>
+					</div>
+					<div ss-container class="wrapper-skins clearfix">
+						<div id="bot_inventory" class="inventory_list">
+							<div class="item covert" name="★ Karambit | Lore 1"  float="0.2646844387">
+								<figure>
+									<div class="condition">FT</div>
+									<img class="item_image" src="img/Image24.png" alt="">
+									<div class="price"><span>$ </span><span class="price-text">453.37</span></div>
+								</figure>
+							</div>
+							<div class="item covert" name="★ Karambit | Lore 2"  float="0.4120767713">
+								<figure>
+									<div class="condition">FT</div>
+									<img class="item_image" src="img/Z2aWPng.png" alt="">
+									<div class="price"><span>$ </span><span class="price-text">1825.37</span></div>
+								</figure>
+							</div>
+							<div class="item covert" name="★ Karambit 3"  float="0.3738864660">
+								<figure>
+									<div class="condition">FT</div>
+									<img class="item_image" src="img/Z2aWPng.png" alt="">
+									<div class="price"><span>$ </span><span class="price-text">117.37</span></div>
+								</figure>
+							</div>
+							<div class="item covert" name="★ Karambit | Lore 1"  float="0.2646844387">
+								<figure>
+									<div class="condition">FT</div>
+									<img class="item_image" src="img/Image24.png" alt="">
+									<div class="price"><span>$ </span><span class="price-text">453.37</span></div>
+								</figure>
+							</div>
+							<div class="item covert" name="★ Karambit | Lore 2"  float="0.4120767713">
+								<figure>
+									<div class="condition">FT</div>
+									<img class="item_image" src="img/Z2aWPng.png" alt="">
+									<div class="price"><span>$ </span><span class="price-text">1825.37</span></div>
+								</figure>
+							</div>
+							<div class="item covert" name="★ Karambit 3"  float="0.3738864660">
+								<figure>
+									<div class="condition">FT</div>
+									<img class="item_image" src="img/Z2aWPng.png" alt="">
+									<div class="price"><span>$ </span><span class="price-text">117.37</span></div>
+								</figure>
+							</div>
+							<div class="item covert" name="★ Karambit | Lore 1"  float="0.2646844387">
+								<figure>
+									<div class="condition">FT</div>
+									<img class="item_image" src="img/Image24.png" alt="">
+									<div class="price"><span>$ </span><span class="price-text">453.37</span></div>
+								</figure>
+							</div>
+							<div class="item covert" name="★ Karambit | Lore 2"  float="0.4120767713">
+								<figure>
+									<div class="condition">FT</div>
+									<img class="item_image" src="img/Z2aWPng.png" alt="">
+									<div class="price"><span>$ </span><span class="price-text">1825.37</span></div>
+								</figure>
+							</div>
+							<div class="item covert" name="★ Karambit 3"  float="0.3738864660">
+								<figure>
+									<div class="condition">FT</div>
+									<img class="item_image" src="img/Z2aWPng.png" alt="">
+									<div class="price"><span>$ </span><span class="price-text">117.37</span></div>
+								</figure>
+							</div>
+							<div class="item covert" name="★ Karambit | Lore 1"  float="0.2646844387">
+								<figure>
+									<div class="condition">FT</div>
+									<img class="item_image" src="img/Image24.png" alt="">
+									<div class="price"><span>$ </span><span class="price-text">453.37</span></div>
+								</figure>
+							</div>
+							<div class="item covert" name="★ Karambit | Lore 2"  float="0.4120767713">
+								<figure>
+									<div class="condition">FT</div>
+									<img class="item_image" src="img/Z2aWPng.png" alt="">
+									<div class="price"><span>$ </span><span class="price-text">1825.37</span></div>
+								</figure>
+							</div>
+							<div class="item covert" name="★ Karambit 3"  float="0.3738864660">
+								<figure>
+									<div class="condition">FT</div>
+									<img class="item_image" src="img/Z2aWPng.png" alt="">
+									<div class="price"><span>$ </span><span class="price-text">117.37</span></div>
+								</figure>
+							</div>
+							<div class="item covert" name="★ Karambit | Lore 1"  float="0.2646844387">
+								<figure>
+									<div class="condition">FT</div>
+									<img class="item_image" src="img/Image24.png" alt="">
+									<div class="price"><span>$ </span><span class="price-text">453.37</span></div>
+								</figure>
+							</div>
+							<div class="item covert" name="★ Karambit | Lore 2"  float="0.4120767713">
+								<figure>
+									<div class="condition">FT</div>
+									<img class="item_image" src="img/Z2aWPng.png" alt="">
+									<div class="price"><span>$ </span><span class="price-text">1825.37</span></div>
+								</figure>
+							</div>
+							<div class="item covert" name="★ Karambit 3"  float="0.3738864660">
+								<figure>
+									<div class="condition">FT</div>
+									<img class="item_image" src="img/Z2aWPng.png" alt="">
+									<div class="price"><span>$ </span><span class="price-text">117.37</span></div>
+								</figure>
+							</div>
+							<div class="item covert" name="★ Karambit | Lore 1"  float="0.2646844387">
+								<figure>
+									<div class="condition">FT</div>
+									<img class="item_image" src="img/Image24.png" alt="">
+									<div class="price"><span>$ </span><span class="price-text">453.37</span></div>
+								</figure>
+							</div>
+							<div class="item covert" name="★ Karambit | Lore 2"  float="0.4120767713">
+								<figure>
+									<div class="condition">FT</div>
+									<img class="item_image" src="img/Z2aWPng.png" alt="">
+									<div class="price"><span>$ </span><span class="price-text">1825.37</span></div>
+								</figure>
+							</div>
+							<div class="item covert" name="★ Karambit 3"  float="0.3738864660">
+								<figure>
+									<div class="condition">FT</div>
+									<img class="item_image" src="img/Z2aWPng.png" alt="">
+									<div class="price"><span>$ </span><span class="price-text">117.37</span></div>
+								</figure>
+							</div>
+							<div class="item covert" name="★ Karambit | Lore 1"  float="0.2646844387">
+								<figure>
+									<div class="condition">FT</div>
+									<img class="item_image" src="img/Image24.png" alt="">
+									<div class="price"><span>$ </span><span class="price-text">453.37</span></div>
+								</figure>
+							</div>
+							<div class="item covert" name="★ Karambit | Lore 2"  float="0.4120767713">
+								<figure>
+									<div class="condition">FT</div>
+									<img class="item_image" src="img/Z2aWPng.png" alt="">
+									<div class="price"><span>$ </span><span class="price-text">1825.37</span></div>
+								</figure>
+							</div>
+							<div class="item covert" name="★ Karambit 3"  float="0.3738864660">
+								<figure>
+									<div class="condition">FT</div>
+									<img class="item_image" src="img/Z2aWPng.png" alt="">
+									<div class="price"><span>$ </span><span class="price-text">117.37</span></div>
+								</figure>
+							</div>
+							<div class="item covert" name="★ Karambit | Lore 1"  float="0.2646844387">
+								<figure>
+									<div class="condition">FT</div>
+									<img class="item_image" src="img/Image24.png" alt="">
+									<div class="price"><span>$ </span><span class="price-text">453.37</span></div>
+								</figure>
+							</div>
+							<div class="item covert" name="★ Karambit 3"  float="0.3738864660">
+								<figure>
+									<div class="condition">FT</div>
+									<img class="item_image" src="img/Z2aWPng.png" alt="">
+									<div class="price"><span>$ </span><span class="price-text">117.37</span></div>
+								</figure>
+							</div>
+							<div class="item covert" name="★ Karambit | Lore 1"  float="0.2646844387">
+								<figure>
+									<div class="condition">FT</div>
+									<img class="item_image" src="img/Image24.png" alt="">
+									<div class="price"><span>$ </span><span class="price-text">453.37</span></div>
+								</figure>
+							</div>
+							<div class="item covert" name="★ Karambit 3"  float="0.3738864660">
+								<figure>
+									<div class="condition">FT</div>
+									<img class="item_image" src="img/Z2aWPng.png" alt="">
+									<div class="price"><span>$ </span><span class="price-text">117.37</span></div>
+								</figure>
+							</div>
+							<div class="item covert" name="★ Karambit | Lore 1"  float="0.2646844387">
+								<figure>
+									<div class="condition">FT</div>
+									<img class="item_image" src="img/Image24.png" alt="">
+									<div class="price"><span>$ </span><span class="price-text">453.37</span></div>
+								</figure>
+							</div>
+							<div class="item covert" name="★ Karambit 3"  float="0.3738864660">
+								<figure>
+									<div class="condition">FT</div>
+									<img class="item_image" src="img/Z2aWPng.png" alt="">
+									<div class="price"><span>$ </span><span class="price-text">117.37</span></div>
+								</figure>
+							</div>
+							<div class="item covert" name="★ Karambit | Lore 1"  float="0.2646844387">
+								<figure>
+									<div class="condition">FT</div>
+									<img class="item_image" src="img/Image24.png" alt="">
+									<div class="price"><span>$ </span><span class="price-text">453.37</span></div>
+								</figure>
+							</div>
+							<div class="item covert" name="★ Karambit 3"  float="0.3738864660">
+								<figure>
+									<div class="condition">FT</div>
+									<img class="item_image" src="img/Z2aWPng.png" alt="">
+									<div class="price"><span>$ </span><span class="price-text">117.37</span></div>
+								</figure>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="section-number">
+		<div class="wrap-number">
+			<h3 class="heading-number">
+				SIGN IN THROUGH STEAM
+			</h3>
+			<h4 class="slogan-number">
+				REMBER TO SET YOUR INVENTORY TO PUBLIC
+			</h4>
+			<div class="wrap-number__container">
+				<div class="wrap-number__item">
+					<div class="number-circle"><span>1</span></div>
+					<p>
+						Log in via
+						Steam
+					</p>
+				</div>
+				<div class="wrap-number__item">
+					<div class="number-circle"><span>2</span></div>
+					<p>
+						Enter trade
+						URL
+					</p>
+				</div>
+				<div class="wrap-number__item">
+					<div class="number-circle"><span>3</span></div>
+					<p>
+						Select your
+						Skins
+					</p>
+				</div>
+				<div class="wrap-number__item">
+					<div class="number-circle"><span>4</span></div>
+					<p>
+						Select your
+						Skins
+					</p>
+				</div>
+				<div class="wrap-number__item">
+					<div class="number-circle"><span>5</span></div>
+					<p>
+						Confirm 
+						Trade
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</main>
+<!-- Main End -->
+
+<!-- Footer -->
+<footer class="">
+	<div class="footer">
+		<div class="container-footer clearfix">
+			<div class="col_6">
+				<h2 class="heading-footer">
+					MORE INFORMATION
+				</h2>
+				<nav class="footer-menu">
+					<ul>
+						<li><a href="#">FAQ</a></li>
+						<li><a href="#">ABOUT US</a></li>
+						<li><a href="#">SUPPORT</a></li>
+					</ul>
+				</nav>
+				<a href="#" class="login-footer">LOGOUT</a>
+			</div>
+			<div class="col_6 text-right">
+				<a href="#" class="logo-footer"><img src="img/logo-footer.png" alt=""></a>
+				<div class="">
+					<ul class="socials-footer clearfix">
+						<li><a href="#"><img src="img/social-icon1.png" alt=""></a></li>
+						<li><a href="#"><img src="img/social-icon2.png" alt=""></a></li>
+						<li><a href="#"><img src="img/social-icon3.png" alt=""></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="copyright-block">
+		<div class="container-footer clearfix">
+			<p>
+				2017-2018 <a href="#">TRADEF1.COM</a> ALL RIGHTS RESERVED.  CS;GO & PUBG - Automated Trading 
+			</p>
+		</div>
+	</div>
+</footer>
+
+<!-- Footer End -->
+
+<div class="tooltip_item">
+	<div class="details_name"></div>
+	<div class="details_price"></div>
+	<div class="details_float_text clearfix">
+		<span>Float:</span>
+		<span class="float-result"></span>
+	</div>
+	<div class="details_float">
+		<div class="arrow"></div>
+		<div class="float-line clearfix">
+			<span class="light-green"></span>
+			<span class="dark-green"></span>
+			<span class="light-red"></span>
+		</div>
+		<div class="float-name-text clearfix">
+			<ul>
+				<li>FN</li>
+				<li>MW</li>
+				<li>FT</li>
+				<li>WW</li>
+				<li>BS</li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+<div class="big-tooltip_item">
+	<div class="details_name"></div>
+	<div class="details_img">
+		<img src="" alt="">
+	</div>
+	<div class="wrapper-pattern">
+		<ul class="clearfix">
+			<li><a href="">VIEW</a></li>
+			<li><a href="">INSPECT</a></li>
+			<li><a href="">SCREEN</a></li>
+		</ul>
+		<div class="pattern-load clearfix">
+			<p>Pattern</p>
+			<div class="container-pattern">
+				<div class="load-text">52%</div>
+				<div class="wrapper-pattern-load">
+					<div class="load-go" style="width: 52%"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="details_price"></div>
+	<div class="details_float_text clearfix">
+		<span>Float:</span>
+		<span class="float-result"></span>
+	</div>
+	<div class="details_float">
+		<div class="arrow"></div>
+		<div class="float-line clearfix">
+			<span class="light-green"></span>
+			<span class="dark-green"></span>
+			<span class="light-red"></span>
+		</div>
+		<div class="float-name-text clearfix">
+			<ul>
+				<li>FN</li>
+				<li>MW</li>
+				<li>FT</li>
+				<li>WW</li>
+				<li>BS</li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+<div class="modals">
+	<div class="modal hidden misc" id="about" style="display: none;">
+		<div class="content">
+			TradeF1 is a Virtual Trading website, where we offer CS:GO Skin to Skin trading, or Skin to Bitcoin cashouts, at the lowest exchange rates out there compared to all other sites. You can trade your ugly skins for our nice skins, and lose almost nothing! 
+			<br>
+			We do not have an affiliate system. 
+			<br>
+
+			This website is in no way related to gambling. 
+			<br>
+			<br>
+			TRADEF1.COM is NOT affiliated with neither Valve or Steam.
+			<br>
+			<br>
+			For support, please press on the "Support" Tab.
+			<br>
+		</div>
+	</div>
+</div>
+
+<script src="libs/jquery/jquery-1.11.2.min.js"></script>
+<script src="libs/easypiechart/jquery.easypiechart.min.js"></script>
+<script src="libs/jquery-ui/jquery-ui.js"></script>
+<script src="libs/simple-scrollbar/simple-scrollbar.min.js"></script>
+<script src="js/common.js"></script>
+
+</body>
+</html>
