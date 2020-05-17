@@ -1,0 +1,448 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1800px) {
+
+}
+
+@media only screen and (max-width : 1680px) {
+	
+}
+
+@media only screen and (max-width : 1545px) {
+
+}
+
+@media only screen and (max-width : 1400px){
+
+}
+
+@media only screen and (max-width : 1350px){
+
+}
+
+@media only screen and (max-width : 1060px) {
+
+}
+
+@media only screen and (max-width : 1220px) {
+
+}
+
+@media only screen and (max-width : 1200px) {
+	
+}
+
+@media only screen and (max-width : 1024px) {
+	.v-slideshow .v-slide-next {
+		left: 20px;
+	}
+	.v-slideshow .v-slide-prev {
+		right: 20px;
+	}
+	.v-stripe .v-sidebar {
+		left: 70px;
+	}
+}
+
+@media only screen and (max-width : 1000px) {
+	.wrapper-accessories img,
+	.wrapper-play_button img {
+		width: 100%;
+	}
+}
+
+@media only screen and (max-width : 999px) {
+	.header {
+		padding: 0 10px;
+	}
+	footer .main-links .contact .phone,
+	footer .main-links .contact div.social-buttons {
+		float: none;
+	}
+	footer .main-links .contact {
+		text-align: left;
+	}
+}
+
+@media only screen and (max-width : 991px) {
+	.frm-container {
+		width: 100%;
+	}
+	.contact .pad_30 {
+		padding: 20px;
+	}
+	.description-product {
+		padding-left: 20px;
+	}
+	.img-right img {
+		float: right;
+	}
+	.img-left img {
+		float: left;
+	}
+}
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 980px) {
+	.v-slides-cont .v-slides .v-slide {
+		width: 980px;
+	}
+	.v-cont {
+		width: 900px;
+	}
+	.item__main-product img {
+		width: 100%;
+	}
+	.mobile-fullwidth-980 {
+		width: 100%;
+	}
+}
+
+@media only screen and (max-width : 960px){
+	.header-nav__link {
+		padding: 12px 15px;
+	}
+	.items-mnu-product {
+		margin: 0;
+		padding: 5px;
+	}
+	.items-mnu-product a {
+		padding: 10px 15px;
+	}
+}
+
+@media only screen and (max-width : 940px){
+
+}
+
+@media only screen and (max-width : 900px){
+	.v-cont {
+		width: 860px;
+	}
+	.items-mnu-product a {
+		padding: 10px 10px;
+	}
+}
+
+@media only screen and (max-width : 854px){
+	.menu-product__right {
+		float: none;
+		display: block;
+		text-align: center;
+		margin: 10px 0 0 0;
+	}
+	.items-mnu-product a > img {
+		float: none;
+		padding: 0;
+	}
+	.sub-menu li a {
+		padding: 15px 5px 10px!important;
+	}
+	.v-cont {
+		width: 800px;
+	}
+	.v-slides-cont .v-slides .v-slide {
+		width: 950px;
+	}
+	.header-nav__link {
+		padding: 12px 10px;
+	}
+}
+
+@media only screen and (max-width : 800px){
+	.slogan {
+		margin: 13px 0 0 15px;
+		padding-left: 15px;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.wrapper-logo {
+		padding: 0;
+	}
+	.v-cont {
+		width: 740px;
+		height: 580px;
+	}
+	.v-slides-cont .v-slides .v-slide {
+		width: 870px;
+	}
+}
+
+@media only screen and (max-width : 767px) {
+	.page-product .col_3 {
+		width: 50%;
+	}
+	.category-product {
+		border-right: none;
+	}
+	.page-product .col_3:nth-child(2n+1) {
+		clear: left;
+	}
+}
+
+@media only screen and (max-width : 720px) {
+	.table-wrapper {
+		padding: 10px;
+		overflow-x: scroll;
+	}
+	.wrapper-trampoline {
+		padding: 70px 30px 0;
+	}
+	.logo {
+		float: none;
+	}
+	.slogan {
+		margin: 0;
+		padding-left: 0px;
+		display: block;
+		border-left: none;
+		line-height: 20px;
+	}
+}
+
+@media only screen and (max-width : 640px) {
+	.v-cont {
+		width: 100%;
+		height: 500px;
+	}
+	.about main .col_6 {
+		width: 100%;
+	}
+}
+
+@media only screen and (max-width : 600px) {
+	.description-product {
+		padding-left: 0;
+		padding-top: 30px;
+	}
+	.contact main .col_6 {
+		width: 100%;
+	}
+	.product-view .col_5,
+	.product-view .col_7 {
+		width: 100%;
+	}
+	.height-350 {
+		height: 100%;
+	}
+	.wrapper-trampoline {
+		padding: 0px 15px 0;
+	}
+	.img-left img {
+		float: left;
+		width: 100%;
+	}
+	.img-right img {
+		float: right;
+		width: 100%;
+	}
+	.zoom-on {
+		margin: 12px auto 20px;
+	}
+	.image-small {
+		margin: 0 auto;
+	}
+	.v-stripe .v-sidebar {
+		left: 0;
+		top: initial;
+		bottom: 0;
+	}
+	.v-stripe {
+		position: relative;
+		height: 500px;
+	}
+	.v-stripe .v-sidebar {
+		background: rgba(255, 255, 255, 0.7);
+	}
+	.v-sidebar::before {
+		display: none;
+	}
+	.items-mnu-product a {
+		padding: 20px 10px 10px;
+	}
+}
+
+@media only screen and (max-width : 540px) {
+	.header-callout {
+		display: none;
+	}
+	.tru-banner .h2.bigger {
+		font-size: 22px;
+		color: #262626;
+	}
+}
+
+@media only screen and (max-width : 480px) {
+	.description-product h1 {
+		font-size: 30px;
+		line-height: 32px;
+	}
+	.tru-banner img {
+		width: 100%;
+	}
+	h2 {
+		font-size: 20px;
+		font-weight: bold;
+		color: #262626;
+		margin: 10px 0;
+	}
+	.vca-newsletter .fl-left {
+		width: 100%;
+	}
+	.vca-newsletter .fl-left input {
+		width: 100%;
+	}
+	.vca-yt-video h4 {
+		font-size: 13px;
+		text-align: center;
+		font-weight: normal;
+		min-height: 90px;
+		margin: 10px 0 0;
+	}
+	.main-product .col_6 {
+		width: 100%;
+	}
+	.v-top-stripe .stripe-deco {
+		width: 250px;
+	}
+	.header {
+		padding: 0;
+	}
+	.phone-header {
+		margin-right: 0;
+	}
+	.top-line,
+	.wrapper-logo {
+		padding: 0 10px;
+	}
+}
+
+@media only screen and (max-width : 414px) {
+	.page-product .col_3 {
+		width: 100%;
+	}
+	.v-top-stripe .stripe-deco {
+		width: 240px;
+	}
+	.stripe-content {
+		padding-left: 0;
+	}
+	.play_button {
+		margin-top: 0;
+		margin-left: -38px;
+		left: 50%;
+		top: 12px;
+	}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 375px) {
+	.v-top-stripe {
+		height: 80px;
+	}
+	.v-top-stripe .stripe-deco {
+		width: 195px;
+	}
+	.stripe-content {
+		padding-top: 15px;
+	}
+	.stripe-content::before {
+		top: 10px;
+	}
+	.header-nav__item .col_4 {
+		width: 100%;
+	}
+}
+
+@media only screen and (max-width : 360px) {
+	.v-top-stripe h4 {
+		font-size: 14px;
+	}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+	.tru-orange {
+		line-height: normal;
+	}
+	.tru-banner .h2.bigger {
+		font-size: 16px;
+		color: #262626;
+	}
+	.tru-banner .h2 {
+		font-size: 14px;
+	}
+	.none-320 {
+		display: none;
+	}
+	.wrapper-logo .col_6 {
+		width: 100%;
+	}
+	.logo {
+		float: none;
+		display: block;
+		padding: 10px 0 0;
+		text-align: center;
+	}
+	.slogan {
+		text-align: center;
+	}
+	.quick-access {
+		display: block;
+		text-align: center;
+	}
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 769px) {
+
+}
+
+@media only screen and (min-width : 854px){
+
+}
+
+@media only screen and (min-width : 900px){
+
+}
+
+@media only screen and (min-width : 901px){
+
+}
+
+@media only screen and (min-width : 960px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 980px) {
+
+}
+
+@media only screen and (min-width : 1024px){
+
+}
+
+@media only screen and (min-width : 1060px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
