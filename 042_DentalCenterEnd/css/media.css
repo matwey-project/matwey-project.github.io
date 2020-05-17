@@ -1,0 +1,257 @@
+/*==========  Desktop First  ==========*/
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) {
+  /**/ }
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+  .doctor-head [class*=col_] {
+    //padding: 0;
+    } }
+
+@media only screen and (max-width: 975px) {
+  .container {
+    max-width: 854px; }
+  body {
+    min-height: 600px; }
+  .mobile-menu {
+    display: inline-block; }
+  .exit {
+    display: none; }
+  .hidden-exit {
+    display: block; }
+  .left-block {
+    display: none; }
+  .open-left-menu {
+    display: block !important;
+    position: absolute;
+    background: #fff;
+    z-index: 1000;
+    width: 300px;
+    -webkit-transition: all .3s ease-out;
+    -o-transition: all .3s ease-out;
+    transition: all .3s ease-out;
+    top: 54px;
+    left: -320px;
+    height: 100%;
+    padding-left: 20px;
+    padding-top: 15px;
+    -webkit-box-shadow: 1px 5px 15px 0px rgba(0, 0, 0, 0.2);
+            box-shadow: 1px 5px 15px 0px rgba(0, 0, 0, 0.2); }
+    .open-left-menu.open-menu {
+      left: 0; }
+    .open-left-menu a {
+      font-size: 14px;
+      color: #0079ad;
+      display: block; }
+    .open-left-menu .left-menu li {
+      border-bottom: 1px solid #f6f7f8; }
+      .open-left-menu .left-menu li a {
+        position: relative; }
+        .open-left-menu .left-menu li a:before {
+          content: "\f105";
+          font: normal normal normal 20px/1.4 FontAwesome;
+          display: block;
+          position: absolute;
+          right: 10px; }
+  .no-left-pad {
+    padding-left: 7px; }
+  .center-block {
+    width: 534px; }
+  .right-block {
+    width: 320px; }
+  .logo-wrapper {
+    width: 15% !important; }
+  .search-wrapper {
+    width: 70% !important; }
+  .exit-wrapper {
+    width: 15% !important;
+    display: block !important; }
+  .search__input,
+  .search {
+    width: 100%; } }
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 853px) {
+  .container {
+    max-width: 534px; }
+  .right-block {
+    display: none; }
+  .descript-dantict__img {
+    display: inline-block;
+    float: right; }
+  .descript-dantict__h1 {
+    width: 80%;
+    float: left;
+    display: inline-block; }
+  .jcf-select-slct_home .jcf-select-text:before {
+    content: "\f124";
+    line-height: 30px; }
+  .jcf-select-slct_home .jcf-select-text span {
+    display: none; } }
+
+@media only screen and (max-width: 768px) {
+  .logo-images {
+    display: inline-block;
+    margin-top: 3px; }
+  .logo {
+    display: none; } }
+
+@media only screen and (max-width: 720px) {
+  .tab_item__text {
+    width: 82%; }
+    .tab_item__text br {
+      display: none; }
+  .filial .doctor__item-text {
+    padding-left: 10px;
+    max-width: 160px; } }
+
+@media only screen and (max-width: 719px) {
+  .right-block {
+    display: none; }
+  .center-block {
+    width: 100%; }
+  .search__input {
+    padding-right: 35px !important; } }
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 540px) {
+  .row {
+    margin-left: 0;
+    margin-right: 0; }
+  .center-block {
+    padding: 0; }
+  .hidden-540 {
+    display: none !important; }
+  .statistics {
+    background: #f6f7f8; }
+    .statistics .all-statistics {
+      display: none; }
+    .statistics span {
+      color: #0079ad; }
+  [class*=col_] {
+    padding: 0 !important; }
+  .block-star a:last-child {
+    display: none; }
+  .search-metro {
+    display: block; } }
+
+@media only screen and (max-width: 519px) {
+  .container {
+    width: 480px;
+    margin: 0 auto; }
+  .wrapper-comments:before {
+    width: 100%;
+    left: 0; }
+  .tab-menu {
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0; }
+  .add-contant_block {
+    margin-left: 0;
+    margin-right: 0; } }
+
+@media only screen and (max-width: 480px) {
+  .bg-and-offset,
+  .bg-and-offset__h1 {
+    margin-bottom: 7px;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-top: 7px;
+    padding-bottom: 8px; }
+  .breadcrumbs {
+    padding: 0 7px; }
+  .price-hospital {
+    padding-left: 0; }
+  .tab-wrapper > span {
+    display: none; }
+  .logo-wrapper {
+    text-align: center; }
+  .exit-wrapper {
+    text-align: center; }
+    .exit-wrapper .mobile-menu {
+      float: none; }
+  .open-left-menu {
+    width: 100%;
+    height: auto;
+    padding-bottom: 20px;
+    left: -105%; }
+    .open-left-menu.open-menu {
+      left: 0; } }
+
+@media only screen and (max-width: 479px) {
+  .container {
+    width: 414px;
+    margin: 0 auto; } }
+
+@media only screen and (max-width: 414px) {
+  .doctor__item-text {
+    padding-left: 10px;
+    width: 70%; }
+  .tab-wrapper > span {
+    display: block;
+    float: none;
+    margin-bottom: 10px; }
+  .tab_item__text {
+    width: 80%; } }
+
+@media only screen and (max-width: 413px) {
+  .container {
+    width: 375px;
+    margin: 0 auto; } }
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 375px) {
+  .descript-dantict__h1 {
+    width: 78%; }
+  .comments-stars span {
+    display: block;
+    margin: 6px 0 15px; }
+  .jcf-select-slct_comments {
+    max-width: 190px; }
+  .wrapper-sub-comments {
+    padding-left: 10px; }
+  .tab-menu li {
+    margin-right: 18px; } }
+
+@media only screen and (max-width: 374px) {
+  .container {
+    width: 360px;
+    margin: 0 auto; } }
+
+@media only screen and (max-width: 360px) {
+  .tab_item__text {
+    width: 75%; } }
+
+@media only screen and (max-width: 359px) {
+  .container {
+    width: 320px;
+    margin: 0 auto; } }
+
+@media only screen and (max-width: 320px) {
+  /**/ }
+
+/*==========  Mobile First  ==========*/
+/* Custom, iPhone Retina */
+@media only screen and (min-width: 320px) {
+  /**/ }
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width: 480px) {
+  /**/ }
+
+@media only screen and (min-width: 720px) {
+  /*9*/ }
+
+/* Small Devices, Tablets */
+@media only screen and (min-width: 768px) {
+  /**/ }
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width: 992px) {
+  /**/ }
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width: 1200px) {
+  /**/ }
