@@ -1,0 +1,472 @@
+@import "vars"
+
+/*==========  Desktop First  ==========*/
+
+
+
+@media (min-width: 1200px)
+	.container
+		width: 1200px
+
+@media (min-width: 1255px)
+	.container
+		width: 1255px
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px)
+	.ico
+		.submit-ico
+			left: 15px
+
+@media only screen and (max-width : 1199px)
+	.wrapper-ico__container
+		padding-top: 135px
+
+	.item-wrapp
+		.item__text
+			h3
+				font-size: 26px
+			p
+				font-size: 16px
+
+	[class*=item-ico]:before
+		width: 100px
+		height: 97px
+	.item-ico6
+		width: 458px
+	.item-ico5
+		width: 556px
+	.item-ico4
+		width: 654px
+	.item-ico3
+		width: 752px
+	.item-ico2
+		width: 850px
+
+	.pre-seed__items
+		padding: 25px 20px 0
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px)
+	.wrapper-ico__container
+		position: relative
+		display:flex !important
+		flex-flow: column
+		&:before
+			content: ""
+			display: block
+			position: absolute
+			width: 2px
+			height: 90%
+			background: #e1e1f6
+			left: 0
+			top: 0
+		.flex-1
+			order: 9
+		.flex-2
+			order: 2
+		.flex-3
+			order: 3
+		.flex-4
+			order: 4
+		.flex-5
+			order: 5
+		.flex-6
+			order: 6
+		.flex-7
+			order: 7
+		.flex-8
+			order: 8
+
+	.size-month
+		position: relative
+		margin: 0 auto
+
+	[class*=item-ico]
+		&:before
+			display: none
+		.item__text
+			position: relative
+			&:before
+				content: ""
+				display: block
+				position: absolute
+				width: 24px
+				height: 24px
+				top: 50%
+				left: -42px
+				margin-top: -12px
+				background: $purple
+				border: 7px solid #e1e1f6
+				border-radius: 50%
+				box-shadow: 0 0 0 8px #f7f7fe;
+
+
+	.content-header
+		h1
+			font-size: 42px
+			font-weight: bold
+			margin: 30px 0 25px
+			line-height: 1.3
+	.join-on
+		ul
+			padding-top: 10px
+		li,
+		.bitkoin
+			font-size: 20px
+
+	.ico
+		background: #f7f7fe
+		.submit-ico
+			position: relative
+
+	.item-ico7,
+	.item-ico6,
+	.item-ico5,
+	.item-ico4,
+	.item-ico3,
+	.item-ico2,
+	.item-ico1
+		max-width: 100%
+		width: 100%
+
+	.wrapper-ico__container
+		padding-top: 0px
+		margin-top: 50px
+
+	.partners
+		.vertical-middle
+			img
+				max-width: 85%;
+				height: auto
+
+	.our-team
+		.team-h3
+			padding-top: 0
+			margin-bottom: 30px
+			text-align: center
+		br
+			display: none
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px)
+	.wrapper-roadmap
+		padding: 0 10px
+	.join-on
+		ul
+			text-align: center
+			padding: 10px 5px 0
+		li
+			margin-right: 20px
+	.content-header
+		padding: 0 10px
+	.our-team
+		padding-bottom: 50px
+	.top-line__container-navigation
+		display: none
+
+	.opened_top_menu
+		display: block
+
+	.item_foudners
+		width: 85%
+		margin: 0 auto
+
+	.wrap_top_menu
+		display: none
+
+	.opened_top_menu
+		background-color: transparent
+		border: 0
+		display: block
+		position: absolute
+		right: 10px
+		top: 30px
+		z-index: 1005
+		-webkit-transition: all .3s ease-out
+		-o-transition: all .3s ease-out
+		transition: all .3s ease-out
+
+	.opened_top_menu.sticky_mnu
+		position: fixed
+		top: 24px;
+
+	.top_mnu
+		&>ul
+			position: absolute
+			top: 50%
+			margin-top: -100px
+		ul
+			width: 100%
+		li
+			margin: 15px 0
+
+	.social
+		text-align: center
+		li
+			display: inline-block
+			padding: 0 10px !important
+			margin: 0
+		i
+			font-size: 25px
+
+	.tbl
+		img
+			float: left
+
+	.ico
+		.submit-ico
+			left: 0
+			padding: 0 10px
+			h3
+				line-height: 1.2
+
+	.pre-seed
+		padding-bottom: 40px
+		h3
+			padding: 20px 0 25px
+	.pre-seed__items
+		margin: 0 auto 20px
+		float: none !important
+
+	footer
+		.footer-logo,
+		.social
+			text-align: center
+
+	.wrapper-ico__container
+		&:before
+			left: 46px
+
+	[class*=item-ico]
+		padding-left: 55px
+		.item__text
+			padding-left: 80px
+			&:before
+				left: -50px
+
+	.wrapper-ico__container
+		padding-left: 30px
+
+@media only screen and (max-width : 720px)
+	.wrapper-roadmap
+		padding-left: 50px
+	.item-roadmap
+		width: 100%
+		float: none
+		text-align: left !important
+		position: relative
+		margin-bottom: 30px
+		.dote-roadmap
+			position: absolute
+			left: -5px
+			top: 50%
+			margin-top: -10px
+		h3
+			margin-bottom: 0
+			padding-left: 50px
+		p
+			margin-top: 0
+			padding-left: 50px
+	.roadmap
+		.progress-roadmap
+			position: absolute
+			height: 100%
+			width: 4px
+			top: 0px
+			left: 50px
+			background: #e1e1f6
+			&:before
+				content: ""
+				display: block
+				width: 100%
+				height: 0%
+				background: #8080ef
+
+@media only screen and (max-width : 600px)
+	.join-on
+		li
+			margin-right: 5px
+
+@media only screen and (max-width : 540px)
+	header
+		height: 100%
+		min-height: 620px
+	.content-header
+		h1
+			font-size: 38px
+
+	.join-on
+		height: auto
+		border-radius: 10px
+		margin: 20px auto 0
+		background-color: transparent
+		border: 0
+		li
+			margin-right: 0
+			text-align: left
+
+	.join-on
+		li,
+		.bitkoin
+			font-size: 16px
+
+	[class*=item-ico]
+		&:before
+			display: none
+
+	.ico
+		.submit-ico
+			text-align: center
+			span
+				margin-bottom: 30px
+			.button-blue
+				margin: 0 auto
+
+	.size-month
+		position: relative
+		margin: 0 auto
+
+	.pre-seed
+		h3
+			line-height: 1.2
+
+	.notifications
+		background-size: 150%
+		h3
+			font-size: 30px
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px)
+	.join-on
+		li,
+		.bitkoin
+			font-size: 14px
+
+	.notifications
+		padding: 95px 0 95px
+
+	.wrapper-ico__container
+		padding-left: 0
+
+	.wrapper-ico__container
+		&:before
+			left: 16px
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 414px)
+	.item-wrapp
+		.item__number
+			p
+				font-size: 44px				
+		.item__text
+			h3
+				font-size: 20px
+			p
+				font-size: 14px
+
+	[class*=item-ico]
+		.item__text
+			padding-left: 60px
+
+	header
+		min-height: 730px
+	.content-header
+		h1
+			font-size: 34px
+		p
+			font-size: 19px
+
+	.join-on
+		li,
+		.bitkoin
+			font-size: 18px
+			display: block
+			line-height: 2.5
+
+	.button-v2
+		padding: 0 15px
+
+	.pre-seed
+		h3
+			font-size: 38px
+
+	.pre-seed__items
+		.pre-seed__content
+			.wrap-seed__left
+				width: 100%
+				float: left
+				padding-right: 0
+				margin-bottom: 25px
+			.wrap-seed__right
+				width: 100%
+
+@media only screen and (max-width : 375px)
+	footer
+		.social
+			li
+				margin-left: 10px
+
+
+@media only screen and (max-width : 360px)
+	.content-header
+		h1
+			font-size: 28px
+
+	.ico
+		.submit-ico
+			h3
+				font-size: 30px
+
+@media only screen and (max-width : 320px)
+	.content-header
+		p
+			font-size: 18px
+
+	.button-v2
+		padding: 0 15px
+		line-height: 66px !important
+		font-size: 16px
+
+	.input-style
+		input
+			padding: 0 15px
+
+	.bootom-form
+		span
+			font-size: 20px
+		p
+			font-size: 18px
+
+	.notifications
+		p
+			font-size: 18px
+
+
+/*==========  Mobile First  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px)
+	/**/
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px)
+	/**/
+
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px)
+	/**/
+
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px)
+	/**/
+
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px)
+	/**/
+
