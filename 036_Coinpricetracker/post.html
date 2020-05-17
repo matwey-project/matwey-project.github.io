@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+	<meta charset="utf-8">
+
+	<title>Coinpricetracker</title>
+	<meta name="description" content="">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<meta property="og:image" content="path/to/image.jpg">
+	<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+
+	<!-- Chrome, Firefox OS and Opera -->
+	<meta name="theme-color" content="#000">
+	<!-- Windows Phone -->
+	<meta name="msapplication-navbutton-color" content="#000">
+	<!-- iOS Safari -->
+	<meta name="apple-mobile-web-app-status-bar-style" content="#000">
+
+	<style>body { opacity: 0; overflow-x: hidden; } html { background-color: #fff; }</style>
+
+	<link rel="stylesheet" href="css/bootstrap.min.css"/>
+	<link rel="stylesheet" href="css/main.css" />
+	<link rel="stylesheet" href="css/media.css" />
+	<link rel="stylesheet" href="css/fonts.css" />
+	<link rel="stylesheet" href="css/font-awesome.min.css" />
+	<link rel="stylesheet" href="libs/magnific-popup/magnific-popup.css" />
+	<link href="libs/owl-carousel/owl.carousel.css" rel="stylesheet" type="text/css">
+
+</head>
+<body>
+	<!-- Header -->
+	<header class="header">
+		<div class="top-line">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-3 col-sm-12">
+						<a href="#" class="logo-link">
+							<h1>Coinpricetracker</h1>
+							<span>Realtime Cryptocurrency Prices & News</span>
+						</a>
+						<a href="" class="mobile-mnu__button">
+							<span class="line-top"></span>
+							<span class="line-none"></span>
+							<span class="line-bottom"></span>
+						</a>
+					</div>
+					<div class="col-md-9 col-sm-8 mobile-mnu">
+						<div class="row">
+							<div class="col-md-8 col-sm-12">
+								<form action="" class="header-form">
+									<div class="wrapper-rorms">
+										<input type="text" class="placeholder-style focus-input" placeholder="Search...">
+									<button class="header-form__submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+									</div>
+									<!-- Live Search -->
+									<!-- <div class="search-live">
+										<div class="search-live__money">
+											<div class="live-money__items">
+												<a href="#" class="company-name">
+													<img src="img/company/bitcoin.png" alt="">
+													<span>Bitcoin</span>
+												</a>
+											</div>
+											<div class="live-money__items">
+												<a href="#" class="company-name">
+													<img src="img/company/bitcoin-cash.png" alt="">
+													<span>Bitcoin Cash</span>
+												</a>
+											</div>
+										</div>
+										<div class="search-live__news">
+											<h3>latest News</h3>
+											<div class="live-news__wrapper">
+												<a href="#" class="live-news__item">
+													<h4>
+														Trader Makes $1 Million Bet Bitcoin Will Triple In Price
+													</h4>
+													<span class="live-news__time">
+														— December 26, 2017
+													</span>
+												</a>
+												<a href="#" class="live-news__item">
+													<h4>
+														Trader Makes $1 Million Bet Bitcoin Will Triple In Price
+													</h4>
+													<span class="live-news__time">
+														— December 26, 2017
+													</span>
+												</a>
+												<a href="#" class="live-news__item">
+													<h4>
+														Trader Makes $1 Million Bet Bitcoin Will Triple In Price
+													</h4>
+													<span class="live-news__time">
+														— December 26, 2017
+													</span>
+												</a>
+												<a href="#" class="live-news__item">
+													<h4>
+														Trader Makes $1 Million Bet Bitcoin Will Triple In Price
+													</h4>
+													<span class="live-news__time">
+														— December 26, 2017
+													</span>
+												</a>
+											</div>
+										</div>
+									</div> -->
+									<!-- Live Search End -->
+								</form>
+							</div>
+							<div class="col-md-4 col-sm-12 posinit">
+								<nav class="main-menu">
+									<ul>
+										<li><a href="#">News</a></li>
+										<li><a href="#">Bitcoin</a></li>
+										<li><a href="#">Ethereum</a></li>
+									</ul>
+								</nav>
+								<ul class="socials-mobil">
+									<li><a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
+									<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+									<li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="total-header">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-3 col-sm-3 col-xs-6">
+						<div class="total-item">
+							<span class="total-item__name">Total Market Cap:</span>
+							<span class="total-item__number">$529.1B</span>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-3 col-xs-6">
+						<div class="total-item">
+							<span class="total-item__name">Total 24h Volume:</span>
+							<span class="total-item__number">$23.5B</span>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-3 col-xs-12">
+						<div class="total-item up-arrow">
+							<span class="total-item__name">24h Change<span class="arrow"></span>:</span>
+							<a href="#" class="underline">Dent</a>
+							<span class="total-item__number">+102.73%</span>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-3 col-xs-12">
+						<div class="total-item down-arrow">
+							<span class="total-item__name">24h Change<span class="arrow"></span>:</span>
+							<a href="#" class="underline">Verge</a>
+							<span class="total-item__number">-17.74%</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<!-- Header End -->
+	<div class="baned">
+		<div class="container">
+			<a href="#">
+				<img src="https://placehold.it/1140x90?text=BANNER" alt="">
+			</a>
+		</div>
+	</div>
+	<!-- Main -->
+	<main>
+		<div class="post-wrapper">
+			<div class="my-container">
+				<div class="my-row clearfix">
+					<div class="col-9 content-bar">
+						<div class="main-post__view mar-bot_30">
+							<span class="post-view__date">STAFF  —  DECEMBER 26, 2017</span>
+							<h1 class="post-view__name">
+								This Chart Will Put The Bitcoin Crash In Perspective
+							</h1>
+							<img src="img/post-img.jpg" class="width-100" alt="">
+							<h1>h1 - This Chart Will Put The Bitcoin Crash In Perspective</h1>
+							<h2>h2 - This Chart Will Put The Bitcoin Crash In Perspective</h2>
+							<h3>h3 - This Chart Will Put The Bitcoin Crash In Perspective</h3>
+							<h4>h4 - This Chart Will Put The Bitcoin Crash In Perspective</h4>
+							<h5>h5 - This Chart Will Put The Bitcoin Crash In Perspective</h5>
+							<h6>h6 - This Chart Will Put The Bitcoin Crash In Perspective</h6>
+							<p>
+								A trader just bet that Bitcoin will triple in price next year.
+							</p>
+							<p>
+								The trader, using the cryptocurrency trading platform, LederX, bet that the price of Bitcoin will triple from its current level of $16,376 to $50,000 by the end of 2018. That would be a 200% increase which actually doesn’t seem too crazy considering Bitcoin has risen over 1,900% in 2017
+							</p>
+							<p>
+								<a href="#">LedgerX</a> started to allow Bitcoin futures trading for its clients in October and has seen a steady increase in trading volume. The million dollar bet came on a contract that saw 275 call options. If the price does hit $50,000, it will give the trader the option to buy 275 Bitcoins at a total of $13.8 million. The reason why this could be a smart trade is if the price at that time is actually higher than $50,000. The trader could be getting a massive discount.
+							</p>
+							<p>
+								The Wall Street Journal <a href="#">reported</a>:
+							</p>
+							<i>
+								The trade wagering on a move to $50,000 was the first of its kind on LedgerX. … Just under $1 million was paid for the options in one or more trades that took place during the 24-hour period ending at 4 p.m. Eastern Time on Wednesday, the records show. It is unclear from LedgerX’s data who the buyer or buyers were or whether the purchasing was done in multiple transactions or just one. If bitcoin is below $50,000 on Dec. 28, 2018, the options will expire worthless, and the $1 million will be lost. If bitcoin rises above that level, the options will give their owners the right to buy 275 bitcoins for $50,000 apiece—a transaction that would cost about $13.8 million.
+							</i>
+							<p>
+								There are many analysts that think that Bitcoin will easily reach the $50,000 mark next year and some even say that it will hit $400,000 shortly. If it hits the <a href="#">$400,000</a> mark, its market cap will be on par with Gold ($7.8 trillion) but that would take more than a year.
+							</p>
+							<div class="wrapper__socials-button clearfix">
+								<div class="socials-button__item">
+									<a href="#" class="socials-button button-facebook"><i class="fa fa-facebook-square" aria-hidden="true"></i>Facebook</a>
+								</div>
+								<div class="socials-button__item">
+									<a href="#" class="socials-button button-twitter"><i class="fa fa-twitter" aria-hidden="true"></i>Twitter</a>
+								</div>
+							</div>
+						</div>
+						<div class="related-post mar-bot_30">
+							<div class="related-post__heading">
+								<h3>RELATED POSTS</h3>
+							</div>
+							<div class="related-post__post clearfix">
+								<div class="col-md-4">
+									<div class="related-post__items">
+										<a href="#" class="related-post__img"><img src="img/post-item-img.jpg" alt=""></a>
+										<span class="related-post__items-name">CRYPTOCURRENCY</span>
+										<h4>
+											<a href="#">
+												Cryptocurrency 
+												Entrepreneur Predicts Bitcoin Price Hits $60,000
+											</a>
+										</h4>
+									</div>
+								</div>
+								<div class="col-md-4">
+									<div class="related-post__items">
+										<a href="#" class="related-post__img"><img src="img/post-item-img.jpg" alt=""></a>
+										<span class="related-post__items-name">CRYPTOCURRENCY</span>
+										<h4>
+											<a href="#">
+												Cryptocurrency 
+												Entrepreneur Predicts Bitcoin Price Hits $60,000
+											</a>
+										</h4>
+									</div>
+								</div>
+								<div class="col-md-4">
+									<div class="related-post__items">
+										<a href="#" class="related-post__img"><img src="img/post-item-img.jpg" alt=""></a>
+										<span class="related-post__items-name">CRYPTOCURRENCY</span>
+										<h4>
+											<a href="#">
+												Cryptocurrency 
+												Entrepreneur Predicts Bitcoin Price Hits $60,000
+											</a>
+										</h4>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="wrapper-disqus">
+							<img src="https://placehold.it/800x380?text=DISQUS" alt="">
+						</div>
+					</div>
+					<div class="col-3 left-sidebar">
+						<div class="baned-sidebar mar-bot_30">
+							<a href="#">
+								<img src="https://placehold.it/300x600?text=BANNER" alt="">
+							</a>
+						</div>
+						<div class="item-sidebar mar-bot_30">
+							<h3 class="heading__item-sidebar">Tweets</h3>
+							<div class="pad-30">
+								<img src="https://placehold.it/240x450?text=Tweets" width="100%" alt="">
+							</div>
+						</div>
+						<div class="item-sidebar mar-bot_30">
+							<h3 class="heading__item-sidebar">Recent posts</h3>
+							<a href="#" class="recent-sidebar">
+								<span class="recent-sidebar__img">
+									<img src="img/post-item-img.jpg" alt="">
+								</span>
+								<h4>
+									Goldman Sachs 
+									A Cryptocurrency 
+									Trading Desk
+								</h4>
+							</a>
+							<a href="#" class="recent-sidebar">
+								<span class="recent-sidebar__img">
+									<img src="img/post-item-img2.jpg" alt="">
+								</span>
+								<h4>
+									Trader Makes $1 Million Bet Bitcoin Will Triple In Price
+								</h4>
+							</a>
+							<a href="#" class="recent-sidebar">
+								<span class="recent-sidebar__img">
+									<img src="img/post-item-img3.jpg" alt="">
+								</span>
+								<h4>
+									This Chart Will Put The Bitcoin Crash In 
+									Perspective
+								</h4>
+							</a>
+							<a href="#" class="recent-sidebar">
+								<span class="recent-sidebar__img">
+									<img src="img/post-item-img.jpg" alt="">
+								</span>
+								<h4>
+									Cryptocurrency 
+									Entrepreneur Predicts Bitcoin Price Hits $60,000
+								</h4>
+							</a>
+							<a href="#" class="recent-sidebar">
+								<span class="recent-sidebar__img">
+									<img src="img/post-item-img3.jpg" alt="">
+								</span>
+								<h4>
+									This Chart Will Put The Bitcoin Crash In 
+									Perspective
+								</h4>
+							</a>
+						</div>
+						<div class="baned-sidebar mar-bot_30">
+							<a href="#">
+								<img src="https://placehold.it/300x250?text=Facebook" alt="">
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
+	<!-- Main End -->
+
+	<!-- Footer -->
+	<footer class="footer">
+		<div class="container">
+			<div class="row wrapper-foot__position">
+				<div class="col-md-6 col-sm-4 col-xs-4 wrapper-footlogo">
+					<a href="#" class="logo-footer">COINPRICETRACKER</a>
+					<ul class="socials">
+						<li><a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
+						<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+						<li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+					</ul>
+					<p class="copyright-text">© 2017 Сoinpricetracker</p>
+				</div>
+				<div class="col-md-4 col-sm-5 col-xs-5 wrapper-footdonate">
+					<ul class="donate">
+						<li>
+							<p class="name-donate">Donate BTC:</p>
+							<p class="link-donate">196kyEtCnj9mxvS22JDBCZjhzEQLQZ6NB2</p>
+						</li>
+						<li>
+							<p class="name-donate">Donate ETH:</p>
+							<p class="link-donate">0xbe0588cd2fafd4f3b04b0eec5118c073599f7c7c</p>
+						</li>
+					</ul>
+					<ul class="socials show-mobile">
+						<li><a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
+						<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+						<li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+					</ul>
+					<p class="copyright-text show-mobile">© 2017 Сoinpricetracker</p>
+				</div>
+				<div class="col-md-2 col-sm-3 col-xs-3 wrapper-footlink">
+					<ul class="footer-menu">
+						<li><a href="#">Advertise</a></li>
+						<li><a href="#">Privacy Policy</a></li>
+						<li><a href="#">Terms of Use</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- Footer End -->
+
+
+	<div class="hidden"></div>
+
+	<script src="libs/jquery/jquery-1.11.2.min.js"></script>
+	<script src="libs/owl-carousel/owl.carousel.min.js"></script>
+	<script src="libs/jcf/jcf.js"></script>
+	<script src="libs/jcf/jcf.select.js"></script>
+	<script src="libs/magnific-popup/jquery.magnific-popup.min.js"></script>
+	<script src="js/common.js"></script>
+
+</body>
+</html>
