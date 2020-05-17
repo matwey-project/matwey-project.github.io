@@ -1,0 +1,1137 @@
+/*==========  Desktop First Method  ==========*/
+
+@media only screen and (max-width : 1800px) {
+	.main-power:after {
+		bottom: -195px;
+	}
+}
+
+@media only screen and (max-width : 1540px) {
+	.header-form:before {
+		top: 140px;
+	}
+	.main-power:after {
+		bottom: -215px;
+	}
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	.mg-girl3 {
+		left: 30% !important;
+	}
+	.galery-navigation div {
+		height: auto;
+	}
+	.galery-navigation div img {
+		min-height: 75px;
+	}
+	.galery-navigation div a {
+		height: 90px;
+	}
+	.item-choice_care {
+		max-width: 380px;
+		padding: 15px;
+		margin-bottom: 75px;
+	}
+	.item-choice_left {
+		width: 40%;
+	}
+	.item-choice_right {
+		width: 60%;
+	}
+	.add-to-info:before {
+		top: 15px;
+	}
+	.choice-car_img-position {
+		position: absolute;
+		left: -100px;
+		bottom: 35px;
+		width: 235px;
+	}
+	.slider-last-year {
+		padding-bottom: 120px;
+		padding-top: 0;
+	}
+	.position-book {
+		width: 100%;
+	}
+	.slider-last-year:before {
+		bottom: -190px;
+	}
+	.items-top_car {
+		max-width: 430px;
+		background-position: -25px 35px;
+		background-size: 70%;
+	}
+	.block-form-copy .img-position img {
+		bottom: -127px;
+	}
+	.our-services-block .col_3 {
+		width: 33.3%;
+	}
+	img.img-controls {
+		width: 95%;
+		margin-top: 35px;
+	}
+	.box-controls-text {
+		margin-top: 0;
+		padding: 12px;
+	}
+	.block-form {
+		min-height: 505px;
+	}
+	.weight-controls:before {
+		top: -55px;
+	}
+	h3.form-h3style {
+		font-size: 30px;
+	}
+	.form-wrapper input {
+		max-width: 100%;
+	}
+	.city-position {
+		font-size: 10px;
+	}
+	.kaliningrad {
+		left: 44px;
+		top: 70px;
+	}
+	.spb {
+		top: 98px;
+		left: 130px;
+	}
+	.moscov {
+		top: 155px;
+		left: 102px;
+	}
+	.novgorod {
+		left: 140px;
+		top: 190px;
+	}
+	.krasnodar {
+		left: 5px;
+		top: 250px;
+	}
+	.rostov {
+		left: 40px;
+		top: 230px;
+	}
+	.volgograd {
+		left: 90px;
+		top: 253px;
+	}
+	.arkhangelsk {
+		left: 185px;
+		top: 105px;
+	}
+	.kazan {
+		left: 165px;
+		top: 220px;
+	}
+	.samara {
+		left: 145px;
+		top: 240px;
+	}
+	.perm {
+		left: 225px;
+		top: 198px;
+	}
+	.ufa {
+		left: 183px;
+		top: 265px;
+	}
+	.ekaterinburg {
+		left: 250px;
+		top: 245px;
+	}
+	.chelyabinsk {
+		left: 210px;
+		top: 280px;
+	}
+	.tyumen {
+		left: 270px;
+		top: 290px;
+	}
+	.omsk {
+		left: 300px;
+		top: 314px;
+	}
+	.novosibirsk {
+		left: 350px;
+		bottom: 95px;
+	}
+	.novokuznetsk {
+		left: 385px;
+		bottom: 75px;
+	}
+	.krasnoyarsk {
+		left: 440px;
+		bottom: 105px;
+	}
+	.chita {
+		bottom: 45px;
+		right: 275px;
+	}
+	.irkutsk {
+		left: 510px;
+		bottom: 45px;
+	}
+	.vladivostok {
+		bottom: 5px;
+		right: 90px;
+	}
+	.khabarovsk {
+		bottom: 80px;
+		right: 100px;
+	}
+	.kaliningrad .city-position {
+		left: -5px;
+	}
+	.wrapper_icon_map,
+	img.map-bg {
+		max-width: 914px;
+		height: 490px;
+	}
+	.all-services .tab_item img {
+		width: auto;
+		max-width: 580px;
+	}
+	.all-services .tab {
+		font-size: 18px;
+		margin-bottom: 15px;
+	}
+	.all-services:after {
+		bottom: -200px;
+	}
+	.header-form:before {
+		top: 165px;
+	}
+	.main-power:after {
+		bottom: -250px;
+	}
+	.top-line:before {
+		bottom: 60px;
+	}
+	.head-description {
+		font-size: 26px;
+	}
+	.top-menu ul li {
+		margin-right: 20px;
+	}
+	.top-fixed-menu {
+		padding: 0 10px;
+	}
+}
+
+@media only screen and (max-width : 1150px) {
+	.block-trailer {
+		width: 58%;
+	}
+	.block-about-counter {
+		width: 42%;
+	}
+}
+
+@media only screen and (max-width : 1060px) {
+	
+}
+
+@media only screen and (max-width : 1024px){
+	.all-services:after {
+		bottom: -225px;
+		margin-left: -1240px;
+	}
+}
+
+@media only screen and (max-width : 1004px){
+	
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 991px) {
+	.our-drivers .col_1-5 {
+		width: 33.3%;
+	}
+	.our-drivers {
+		padding-top: 150px;
+	}
+	.item_our-drivers {
+		margin-bottom: 20px;
+	}
+	.choice-car_img-position {
+		position: absolute;
+		left: -83px;
+		bottom: 10px;
+		width: auto;
+	}
+	.galery-navigation div a {
+		height: 60px;
+	}
+	.galery-navigation div img {
+		min-height: auto;
+	}
+	.add-to-info:before {
+		top: -40px;
+	}
+	.item-choice_care {
+		max-width: 510px;
+		padding: 20px;
+		margin-bottom: 104px;
+	}
+	.item-choice_left {
+		width: 58%;
+	}
+	.item-choice_right {
+		width: 42%;
+	}
+	.choice-care .col_6 {
+		width: 100%;
+	}
+	.slider-last-year {
+		padding-bottom: 85px;
+	}
+	.slider-last-year:before {
+		bottom: -235px;
+	}
+	.choice-care .name-block {
+		margin-bottom: 40px;
+	}
+	.items-top_car {
+		max-width: 360px;
+		background-position: -25px 15px;
+	}
+	.item-slider_brand .col_6 {
+		width: 100%;
+	}
+	.slider_left-wrapper img {
+		display: block;
+		width: 55% !important;
+		margin: 0 auto !important;
+	}
+	.item-slider_brand h4 {
+		font-size: 22px;
+		text-align: center;
+	}
+	.item-foot_car span {
+		font-size: 54px;
+	}
+	.small-text.midle-center {
+		top: -10px;
+	}
+	.your-trust:before {
+		top: -45px;
+	}
+	.slider_right-wrapper ul li p {
+		font-size: 16px;
+	}
+	.item-foot_car p {
+		font-size: 14px;
+		padding: 0 10px;
+	}
+	.slider_right-wrapper ul li span,
+	.slider_right-wrapper ul li p {
+		margin-bottom: 5px;
+		margin: 0px 20px 5px;
+	}
+	.slider_left-wrapper p {
+		font-size: 18px;
+		padding-left: 15px;
+	}
+	.item-slider_brand {
+		padding: 15px 0 15px;
+	}
+	.car-park .name-block h3 {
+		font-size: 34px;
+		margin-bottom: 20px;
+	}
+	.number-top_car {
+		margin-bottom: 10px;
+	}
+	.number-style_car {
+		font-size: 54px;
+		width: 100px;
+		height: 100px;
+	}
+	.car-park {
+		margin-top: -85px;
+		padding-top: 100px;
+	}
+	.weight-controls {
+		padding-bottom: 110px;
+	}
+	.block-form-copy .img-position img {
+		bottom: -121px;
+	}
+	.wrapper_icon_map, img.map-bg {
+		max-width: 748px;
+		height: 401px;
+	}
+	.kaliningrad {
+		left: 30px;
+		top: 46px;
+	}
+	.spb {
+		top: 79px;
+		left: 102px;
+	}
+	.arkhangelsk {
+		left: 149px;
+		top: 105px;
+	}
+	.moscov {
+		top: 127px;
+		left: 81px;
+	}
+	.krasnodar {
+		left: 0px;
+		top: 196px;
+	}
+	.rostov {
+		left: 29px;
+		top: 186px;
+	}
+	.volgograd {
+		left: 60px;
+		top: 175px;
+	}
+	.novgorod {
+		left: 100px;
+		top: 147px;
+	}
+	.novgorod .city-position {
+		left: 7px;
+		bottom: -12px;
+	}
+	.kazan {
+		left: 130px;
+		top: 178px;
+	}
+	.perm {
+		left: 185px;
+		top: 155px;
+	}
+	.samara {
+		left: 111px;
+		top: 196px;
+	}
+	.ufa {
+		left: 140px;
+		top: 217px;
+	}
+	.ekaterinburg {
+		left: 196px;
+		top: 202px;
+	}
+	.chelyabinsk {
+		left: 170px;
+		top: 225px;
+	}
+	.tyumen {
+		left: 218px;
+		top: 225px;
+	}
+	.omsk {
+		left: 243px;
+		top: 239px;
+	}
+	.novosibirsk {
+		left: 273px;
+		bottom: 84px;
+	}
+	.novokuznetsk {
+		left: 310px;
+		bottom: 65px;
+	}
+	.krasnoyarsk {
+		left: 355px;
+		bottom: 105px;
+	}
+	.irkutsk {
+		left: 420px;
+		bottom: 40px;
+	}
+	.chita {
+		bottom: 35px;
+		right: 225px;
+	}
+	.khabarovsk {
+		bottom: 75px;
+		right: 80px;
+	}
+	.vladivostok {
+		bottom: 5px;
+		right: 65px;
+	}
+	.name-block h3 {
+		font-size: 40px;
+	}
+	.name-block p {
+		font-size: 16px;
+	}
+	.all-services .tab_item img {
+		width: auto;
+		max-width: 420px;
+	}
+	h3.form-h3style {
+		font-size: 23px;
+		line-height: 26px;
+	}
+	p.form-stylep {
+		font-size: 16px;
+	}
+	.head-description {
+		font-size: 21px;
+	}
+	p.slogan {
+		font-size: 22px;
+	}
+	.style-hr {
+		height: 1px;
+	}
+	.top-fixed-menu {
+		display: none;
+	}
+}
+
+@media only screen and (max-width : 960px){
+	.block-trailer {
+		width: 46%;
+	}
+	.block-about-counter {
+		width: 54%;
+	}
+}
+
+@media only screen and (max-width : 940px){
+
+}
+
+@media only screen and (max-width : 900px){
+	.item-header-form {
+		position: relative;
+		width: 20%;
+		float: left;
+		padding: 0 5px;
+	}
+	.item-header-form label,
+	.item-header-form input + label.input-data-icon,
+	.item-header-form input + label.form-weight,
+	.item-header-form input + label.form-number {
+		left: 10px;
+	}
+	.item-header-form input {
+		padding-left: 34px;
+	}
+	label.error {
+		left: 0 !important;
+		padding: 0 5px;
+	}
+	.info-city {
+		width: 155px;
+		left: 40px;
+		padding: 10px;
+	}
+}
+
+@media only screen and (max-width : 854px){
+	.mb_60 {
+		margin-bottom: 0px;
+	}
+}
+
+@media only screen and (max-width : 800px){
+	.before-top-bg {
+		padding-bottom: 75px;
+	}
+	.all-services:before {
+		top: -70px;
+	}
+	.main-power {
+		margin-top: 80px;
+	}
+	.all-services .name-block {
+		margin-bottom: 50px;
+	}
+	.footer-power {
+		margin-top: 20px;
+	}
+	.header-form:before {
+		top: 215px;
+	}
+	.teretory-map {
+		padding-top: 0;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.our-comand {
+		padding-top: 0;
+	}
+	.slider-last-year .owl-nav {
+		display: none;
+	}
+	.slider-last-year:before {
+		display: none;
+	}
+	.position-book {
+		width: 85%;
+	}
+	.your-trust {
+		padding-bottom: 40px;
+	}
+	.block-accordion {
+		padding-bottom: 50px;
+	}
+	.left-contact {
+		width: 40%;
+	}
+	.right-map {
+		width: 60%;
+	}
+	.our-sertificat .col_1-5 {
+		width: 25%;
+	}
+	.video-items {
+		padding: 0 10px;
+		margin-bottom: 16px;
+	}
+	.product-details-active .owl-item div {
+		padding: 7px 0;
+	}
+	.product-details-active .owl-item div img {
+		width: 90%;
+	}
+	.main-power-traler {
+		width: 100%;
+	}
+	.block-trailer {
+		display: none;
+	}
+	.block-about-counter {
+		width: 100%;
+	}
+	.wrapper-about-counter {
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.open-menu {
+		right: 15px;
+		top: 25px;
+	}
+}
+
+@media only screen and (max-width : 767px){
+	.items-top_car {
+		max-width: 565px;
+		background-position: -25px -20px;
+		background-size: auto;
+		margin-bottom: 25px;
+	}
+	.number-top_car {
+		margin-bottom: 24px;
+	}
+	.car-park .col_6,
+	.video-wrapper_block .col_6 {
+		width: 100%;
+	}
+	.our-sertificat .col_1-5 {
+		width: 50%;
+	}
+	.head-description {
+		font-size: 20px;
+	}
+}
+
+@media only screen and (max-width : 720px){
+	.all-services {
+		padding-bottom: 185px;
+	}
+	.header-form:before {
+		top: 185px;
+	}
+	.form-wrapper input {
+		max-width: 210px;
+	}
+	.map-mobile {
+		display: block;
+		width: 100%;
+	}
+	.wrapper_map {
+		display: none;
+	}
+	.teretory-map .name-block {
+		margin-bottom: 30px;
+	}
+	.wrapper-about-counter {
+		margin-top: 25px;
+	}
+	.all-services .tab {
+		font-size: 16px;
+		margin-bottom: 15px;
+	}
+	.name-block h3 {
+		font-size: 32px;
+	}
+}
+
+@media only screen and (max-width : 640px){
+	.product-details-active {
+		margin-left: 0;
+	}
+	.contact-footer .name-block,
+	.left-contact {
+		margin-bottom: 20px;
+	}
+	.left-contact,
+	.right-map {
+		width: 100%;
+	}
+	.our-comand .col_4,
+	.our-comand .col_8 {
+		width: 100%;
+	}
+	.galery-navigation div {
+		height: 160px;
+	}
+	.product-details-active .owl-item div img {
+		width: 100%;
+	}
+	.car-park .name-block h3 {
+		font-size: 32px;
+		line-height: 36px;
+	}
+	.add-to-info:before {
+		top: 0;
+		left: -60px;
+	}
+	.choice-car_img-position {
+		position: absolute;
+		left: -45px;
+		bottom: 20px;
+		width: 100%;
+	}
+	.width-600 {
+		width: 100% !important;
+	}
+	.head-description {
+		font-size: 21px;
+	}
+	.main-power {
+		margin-top: 0;
+		padding-bottom: 0px;
+	}
+	.main-power:after {
+		bottom: -295px;
+	}
+	.form-wrapper input {
+		max-width: 182px;
+	}
+	.all-services .tab_item img {
+		width: auto;
+		max-width: 100%;
+	}
+	.all-services_tab-nav {
+		width: 40%;
+	}
+	.all-services__tab-img {
+		width: 60%;
+	}
+	.all-services:after,
+	.header-form:before,
+	.main-power:before,
+	.main-power:after,
+	.teretory-map:after,
+	.all-services:before {
+		display: none;
+	}
+	.teretory-map {
+		padding-bottom: 115px;
+	}
+	.item-header-form {
+		width: 50%;
+		margin-bottom: 20px;
+	}
+	.item-power {
+		text-align: center;
+	}
+	.footer-power {
+		margin-top: 0;
+	}
+	.wrapper-services-position {
+		display:flex;
+		flex-flow: column;
+	}
+	.all-services__tab-img {
+		order:2;
+		width: 100%;
+	}
+	.all-services_tab-nav {
+		order:1;
+		width: 100%;
+	}
+	.img-position img {
+		left: 70%;
+		width: 130%;
+	}
+	.main-power .col_4 {
+		min-height: auto;
+	}
+	.item-power {
+		margin-bottom: 20px;
+	}
+	.before-top-bg {
+		max-height: 850px;
+		position: relative;
+	}
+	.before-top-bg:before {
+		content: "";
+		display: block;
+		position: absolute;
+		bottom: 0px;
+		height: 90px;
+		width: 100%;
+		z-index: 10;
+		background: -moz-linear-gradient(top, rgba(255, 255, 255, 0.3) 0%, #ffffff 80%); /* FF3.6-15 */
+		background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.3) 0%,#ffffff 80%); /* Chrome10-25,Safari5.1-6 */
+		background: linear-gradient(to bottom, rgba(255, 255, 255, 0.3) 0%,#ffffff 80%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	}
+	#open-main-power {
+		display: block;
+		position: absolute;
+		bottom: 10px;
+	}
+	.before-top-bg.active {
+		max-height: 100%;
+	}
+}
+
+@media only screen and (max-width : 600px){
+	.our-services {
+		padding-bottom: 125px;
+	}
+	.form-copy-four .col_7 {
+		width: 100%;
+	}
+	.our-sertificat {
+		padding-bottom: 40px;
+	}
+	.choice-care {
+		padding-bottom: 90px;
+	}
+	.item-foot_car {
+		width: 50%;
+		min-height: 120px;
+	}
+	img.img-controls {
+		width: 80%;
+		margin: 35px auto;
+		display: block;
+	}
+	.block-form-copy .col_7.col_small_8 {
+		width: 100% !important;
+	}
+	.all-services .tab {
+		margin-bottom: 5px;
+	}
+	.all-services {
+		padding-bottom: 140px;
+	}
+	.teretory-map {
+		padding-bottom: 50px;
+	}
+	.name-block p {
+		font-size: 14px;
+	}
+	.name-block h3 {
+		font-size: 30px;
+	}
+	.block-form {
+		padding-top: 90px;
+	}
+	.block-form .col_6.col_small_8 {
+		width: 100%;
+	}
+	.form-wrapper input {
+		max-width: 100%;
+	}
+	.img-position{
+		display: none;
+	}
+	.top-line:before {
+		-ms-transform: rotateZ(-2deg);
+		-webkit-transform: rotateZ(-2deg);
+		-o-transform: rotateZ(-2deg);
+		-moz-transform: rotateZ(-2deg);
+		transform: rotateZ(-2deg);
+	}
+	.description-logo {
+		padding-top: 14px;
+	}
+	.open-menu {
+		top: 32px;
+	}
+	.top-line:before {
+		bottom: 46px;
+	}
+	.head-description span {
+		line-height: 28px;
+	}
+}
+
+@media only screen and (max-width : 540px){
+	.description-logo {
+		display: none;
+	}
+	.galery-navigation {
+		display: none;
+	}
+	.choice-car_img-position {
+		position: absolute;
+		left: -20px;
+		bottom: 50px;
+		width: 95%;
+	}
+	.block-form-copy h3.form-h3style {
+		margin-top: 0;
+	}
+	.add-to-info:before {
+		left: -5px;
+	}
+	.item-blockform {
+		width: 49%;
+	}
+	.head-description {
+		font-size: 19px;
+	}
+	.phone-number {
+		margin-left: 20px;
+	}
+}
+
+@media only screen and (max-width : 480px){
+	.items-top_car {
+		background-image: none !important;
+	}
+	.number-top_car {
+		max-width: 100%;
+		width: 100%;
+	}
+	.choice-car_img-position {
+		position: absolute;
+		left: -30px;
+		bottom: 90px;
+		width: 110%;
+	}
+	.add-to-info:before {
+		left: -30px;
+	}
+	.our-drivers .col_1-5 {
+		width: 50%;
+	}
+	.items-top_car {
+		background-position: 7px 0px;
+		background-size: 65%;
+		margin-bottom: 25px;
+	}
+	.item-choice_care {
+		max-width: 440px;
+	}
+	.item-choice_left {
+		width: 46%;
+	}
+	.item-choice_right {
+		width: 54%;
+	}
+	.our-services-block .col_3.col_xlarge_6 {
+		width: 100% !important;
+	}
+	.weight-controls .name-block {
+		margin-bottom: 0px;
+	}
+	.name-block h3 {
+		font-size: 22px !important;
+		text-transform: uppercase;
+		line-height: 30px;
+	}
+	.description-logo {
+		display: none;
+	}
+	p.slogan {
+		font-size: 18px;
+	}
+}
+
+@media only screen and (max-width : 414px){
+	.item-choice_care {
+		padding: 10px;
+		max-width: 360px;
+	}
+	.items-top_car {
+		background-position: 0px 40px;
+		background-size: 65%;
+	}
+	.our-services {
+		padding-bottom: 135px;
+	}
+	.block-form.block-form-copy {
+		padding-top: 50px;
+	}
+	.name-block h3 {
+		font-size: 20px;
+		text-transform: uppercase;
+	}
+	.top-line {
+		min-height: 140px;
+	}
+	.top-line:before {
+		bottom: 38px;
+	}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 375px) {
+	.add-to-info:before {
+		left: -6px;
+	}
+	.our-drivers .col_1-5 {
+		width: 100%;
+	}
+	h3.form-h3style {
+		font-size: 22px;
+		line-height: 24px;
+	}
+	.item-header-form {
+		width: 100%;
+	}
+	.item-blockform {
+		width: 100%;
+		margin-bottom: 15px;
+	}
+	.button-form_block {
+		margin-top: 0;
+	}
+	.block-form {
+		padding-top: 50px;
+	}
+	.top-line {
+		min-height: 100px;
+	}
+	.top-line:before {
+		bottom: 10px;
+	}
+	.wrapper-about-counter {
+		width: 360px;
+		padding: 20px 15px 6px;
+	}
+}
+
+@media only screen and (max-width : 360px) {
+	.wrapper-about-counter {
+		width: 350px;
+		padding: 20px 10px 6px;
+	}
+	.link-logo {
+		margin-right: 0;
+	}
+	.phone-number {
+		display: none;
+	}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+	.tarif-care {
+		padding-left: 40px;
+	}
+	.item-choice_care h3 {
+		font-size: 24px;
+	}
+	.item-choice_left {
+		display: none;
+	}
+	.item-choice_right {
+    width: 100%;
+}
+.size-choice_care {
+    padding-left: 25px;
+}
+	.tarif-one:before,
+	.tarif-two:before,
+	.tarif-three:before {
+		left: 8px;
+	}
+	h3.form-h3style {
+		font-size: 18px;
+		line-height: 22px;
+	}
+	p.form-stylep {
+		font-size: 14px;
+	}
+	.wrapper-about-counter {
+		width: 314px;
+		padding: 20px 5px 6px;
+		border: 2px dashed #fff;
+	}
+	.icon-2:before {
+		left: 15px;
+	}
+	.icon-4:before {
+		left: 35px;
+	}
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+	
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+	
+}
+
+@media only screen and (min-width : 854px){
+
+}
+
+@media only screen and (min-width : 900px){
+
+}
+
+@media only screen and (min-width : 993px){
+	.open-menu {
+		display: none;
+	}
+}
+
+@media only screen and (min-width : 960px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 980px) {
+	
+}
+
+@media only screen and (min-width : 1024px){
+
+}
+
+@media only screen and (min-width : 1060px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
