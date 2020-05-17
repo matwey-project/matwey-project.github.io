@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 595.3 595" style="enable-background:new 0 0 595.3 595;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:url(#SVGID_1_);}
+	.st1{fill:url(#SVGID_2_);}
+</style>
+<g id="close">
+	<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="-5.579026e-006" y1="297.5" x2="595" y2="297.5">
+		<stop  offset="1.891892e-002" style="stop-color:#54B150"/>
+		<stop  offset="0.9946" style="stop-color:#3D8C4F"/>
+	</linearGradient>
+	<polygon class="st0" points="0,70.8 70.8,0 595,524.2 524.2,595 	"/>
+	<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="-5.579026e-006" y1="297.5" x2="595" y2="297.5">
+		<stop  offset="1.891892e-002" style="stop-color:#54B150"/>
+		<stop  offset="0.9946" style="stop-color:#3D8C4F"/>
+	</linearGradient>
+	<polygon class="st1" points="524.2,0 595,70.8 70.8,595 0,524.2 	"/>
+</g>
+</svg>
