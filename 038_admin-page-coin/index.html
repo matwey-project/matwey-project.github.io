@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+	<meta charset="utf-8">
+
+	<title>Admin</title>
+	<meta name="description" content="">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<meta property="og:image" content="path/to/image.jpg">
+	<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+
+	<!-- Chrome, Firefox OS and Opera -->
+	<meta name="theme-color" content="#000">
+	<!-- Windows Phone -->
+	<meta name="msapplication-navbutton-color" content="#000">
+	<!-- iOS Safari -->
+	<meta name="apple-mobile-web-app-status-bar-style" content="#000">
+
+	<style>body { opacity: 0; overflow-x: hidden; } html { background-color: #fff; }</style>
+
+	<link rel="stylesheet" href="css/grid_css.css"/>
+	<link rel="stylesheet" href="css/main.css" />
+	<link rel="stylesheet" href="css/media.css" />
+	<link rel="stylesheet" href="css/fonts.css" />
+	<link rel="stylesheet" href="libs/magnific-popup/magnific-popup.css" />
+	<link href="libs/owl-carousel/owl.carousel.css" rel="stylesheet" type="text/css">
+
+</head>
+<body>
+	<!-- Header -->
+	<header class="header">
+		<div class="top-bar clearfix">
+			<div class="col_4">
+				<a href="" class="title-site">Title Here</a>
+			</div>
+			<div class="col_8 text-right">
+				<div class="admin-bar__right clearfix">
+					<ul class="message-menu">
+						<li><a href="#"><img src="img/search.png" alt=""></a></li>
+						<li><a href="#"><img src="img/buzzer.png" alt=""></a></li>
+						<li><a href="#"><img src="img/message.png" alt=""></a></li>
+					</ul>
+					<div class="menu-open">
+								<span></span>
+								<span></span>
+								<span></span>
+							</div>
+					<div class="admin-block">
+						<a href="#" class="admin-block__open">
+							<img src="img/icon-admin.png" alt="">
+							<span class="name">WhiteNemo</span>
+							<span class="sub-name">Owner</span>
+						</a>
+						<div class="log-out">
+							<a href="#">Logout</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<!-- Header End -->
+
+	<!-- Main -->
+	<main class="clearfix">
+		<div class="left-sidebar">
+			<div class="admin-block">
+				<a href="#" class="admin-block__open">
+					<img src="img/icon-admin.png" alt="">
+					<span class="name">WhiteNemo</span>
+					<span class="sub-name">Owner</span>
+				</a>
+			</div>
+			<div id='cssmenu'>
+				<ul>
+					<li><a href='#'><span><img src="img/icon-menu1.png" alt=""></span>Home</a></li>
+					<li class='active has-sub'><a href='#'><span><img src="img/icon-menu2.png" alt=""></span>Stats</a>
+						<ul>
+							<li><a href='#'>Daily</a></li>
+							<li><a href='#'>Weekly</a></li>
+							<li><a href='#'>Monthly</a></li>
+							<li><a href='#'>All time</a></li>
+						</ul>
+					</li>
+					<li class='has-sub'><a href='#'><span><img src="img/icon-menu3.png" alt=""></span>Prices</a>
+						<ul>
+							<li><a href='#'>Daily</a></li>
+							<li><a href='#'>Weekly</a></li>
+							<li><a href='#'>Monthly</a></li>
+							<li><a href='#'>All time</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+			<!-- <div class="admin-wrapper">
+				<div class="progress-wrapper">
+					<p class="progress-green"></p>
+					<progress max="100" value="40" id="progress-green">
+						<div class="progress-bar">
+							<span style="width:50%">50%</span>
+						</div>
+					</progress>
+				</div>
+				<div class="progress-wrapper">
+					<p class="progress-green"></p>
+					<progress max="100" value="40" id="progress-green">
+						<div class="progress-bar">
+							<span style="width:50%">50%</span>
+						</div>
+					</progress>
+				</div>
+			</div> -->
+			<div class="admin-wrapper">
+				<div class="progress-wrapper color-orange">
+					<p class="progress-text">Lorem Ipsum</p>
+					<div class="progress-bar-line" data-value="70"></div>
+				</div>
+				<div class="progress-wrapper color-green">
+					<p class="progress-text">Lorem Ipsum</p>
+					<div class="progress-bar-line" data-value="49"></div>
+				</div>
+			</div>
+		</div>
+		<div class="main-sidebar clearfix">
+			<div class="welcom">
+				<h3>Welcome Back, Name here.</h3>
+				<p>Your profit today = Approx. <span class="red">$</span> <span class="gren">500,000.00</span></p>
+			</div>
+			<div class="full-container clearfix">
+				<div class="col-pad_8 left-block">
+					<div class="row clearfix">
+						<div class="wid_40 desctop_30">
+							<div class="item-profit bg-main clearfix">
+								<div class="item-profit__icons">
+									<div class="wrap-icons">
+										<div class="item-icons">
+											<span>$</span>
+										</div>
+									</div>
+								</div>
+								<div class="item-profit__text">
+									<p class="item-profit__text-profit">PROFIT</p>
+									<p class="style-number">$5,999.32</p>
+								</div>
+							</div>
+						</div>
+						<div class="wid_30 desctop_30">
+							<div class="item-profit bg-main clearfix">
+								<div class="item-profit__icons">
+									<div class="wrap-icons">
+										<div class="item-icons">
+											<span>
+												<img src="img/icon-arrows.png" alt="">
+											</span>
+										</div>
+									</div>
+								</div>
+								<div class="item-profit__text">
+									<p class="item-profit__text-profit">USERS ONLINE</p>
+									<p class="style-number">64</p>
+								</div>
+							</div>
+						</div>
+						<div class="wid_30 desctop_30">
+							<div class="item-profit bg-main clearfix">
+								<div class="item-profit__icons">
+									<div class="wrap-icons">
+										<div class="item-icons">
+											<span>
+												<img src="img/icon-game.png" alt="">
+											</span>
+										</div>
+									</div>
+								</div>
+								<div class="item-profit__text">
+									<p class="item-profit__text-profit">TOTAL TRADES</p>
+									<p class="style-number">63,924</p>
+								</div>
+							</div>
+						</div>
+						<div class="wid_100">
+							<div class="wrapper-charts bg-main">
+								<p class="charts-title">Totals Trades <span>(11/30/18)</span></p>
+								<canvas id="myChart" width="580" height="300"></canvas>
+							</div>
+						</div>
+						<div class="wid_100">
+							<div class="form-id bg-main">
+								<form action="">
+									<input type="text" class="form-id__input placeholder-style" placeholder="Steam64 ID....">
+									<button class="button-style">BAN</button>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-pad_4 right-block">
+					<div class="bg-main">
+						<p class="title-recent">Recent Trades</p>
+						<div class="hidden-code">
+							<div class="open-source clearfix">
+								<div class="col_6">
+									<p class="time">14:13:12</p>
+									<div class="deposit-withdrawn">
+										<p>Deposited</p>
+										<p>3 Items</p>
+									</div>
+									<p class="money-green">$ 5.50</p>
+								</div>
+								<div class="col_6 text-right">
+									<p class="plus-money">
+										+ $45.24
+									</p>
+									<div class="deposit-withdrawn">
+										<p>Withdrawn</p>
+										<p>2 Items</p>
+									</div>
+									<p class="money-yellow">
+										-$ 5,255.23
+									</p>
+								</div>
+							</div>
+							<div class="source-code clearfix">
+								<div class="source-code__left">
+									<p>StatTrak™ USP-S | Guardian (Factory New) <span class="money-green">x4  $ 5.50</span></p>
+									<p>StatTrak™ USP-S | Guardian (Factory New) <span class="money-green">x4  $ 5.50</span></p>
+									<p>StatTrak™ USP-S | Guardian (Factory New) <span class="money-green">x4  $ 5.50</span></p>
+								</div>
+								<div class="source-code__right text-right">
+									<p><span class="money-blue">x4  $ 5.50</span>  StatTrak™ USP-S | Guardian (Factory New)</p>
+									<p><span class="money-blue">x4  $ 5.50</span>  StatTrak™ USP-S | Guardian (Factory New)</p>
+									<p><span class="money-blue">x4  $ 5.50</span>  StatTrak™ USP-S | Guardian (Factory New)</p>
+								</div>
+							</div>
+						</div>
+						<div class="hidden-code">
+							<div class="open-source clearfix">
+								<div class="col_6">
+									<p class="time">14:13:12</p>
+									<div class="deposit-withdrawn">
+										<p>Deposited</p>
+										<p>3 Items</p>
+									</div>
+									<p class="money-green">$ 5.50</p>
+								</div>
+								<div class="col_6 text-right">
+									<p class="plus-money">
+										+ $45.24
+									</p>
+									<div class="deposit-withdrawn">
+										<p>Withdrawn</p>
+										<p>2 Items</p>
+									</div>
+									<p class="money-yellow">
+										-$ 5,255.23
+									</p>
+								</div>
+							</div>
+							<div class="source-code clearfix">
+								<div class="source-code__left">
+									<p>StatTrak™ USP-S | Guardian (Factory New) <span class="money-green">x4  $ 5.50</span></p>
+									<p>StatTrak™ USP-S | Guardian (Factory New) <span class="money-green">x4  $ 5.50</span></p>
+									<p>StatTrak™ USP-S | Guardian (Factory New) <span class="money-green">x4  $ 5.50</span></p>
+								</div>
+								<div class="source-code__right text-right">
+									<p><span class="money-blue">x4  $ 5.50</span>  StatTrak™ USP-S | Guardian (Factory New)</p>
+									<p><span class="money-blue">x4  $ 5.50</span>  StatTrak™ USP-S | Guardian (Factory New)</p>
+									<p><span class="money-blue">x4  $ 5.50</span>  StatTrak™ USP-S | Guardian (Factory New)</p>
+								</div>
+							</div>
+						</div>
+						<div class="hidden-code">
+							<div class="open-source">
+								<div class="clearfix">
+									<div class="col_6">
+										<p class="time">14:13:12</p>
+										<div class="deposit-withdrawn">
+											<p>Deposited</p>
+											<p>3 Items</p>
+										</div>
+										<p class="money-green">$ 5.50</p>
+									</div>
+									<div class="col_6 text-right">
+										<p class="plus-money">
+											+ $45.24
+										</p>
+										<div class="deposit-withdrawn">
+											<p>Withdrawn</p>
+											<p>2 Items</p>
+										</div>
+										<p class="money-yellow">
+											-$ 5,255.23
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="source-code clearfix">
+								<div class="source-code__left">
+									<p>StatTrak™ USP-S | Guardian (Factory New) <span class="money-green">x4  $ 5.50</span></p>
+									<p>StatTrak™ USP-S | Guardian (Factory New) <span class="money-green">x4  $ 5.50</span></p>
+									<p>StatTrak™ USP-S | Guardian (Factory New) <span class="money-green">x4  $ 5.50</span></p>
+								</div>
+								<div class="source-code__right text-right">
+									<p><span class="money-blue">x4  $ 5.50</span>  StatTrak™ USP-S | Guardian (Factory New)</p>
+									<p><span class="money-blue">x4  $ 5.50</span>  StatTrak™ USP-S | Guardian (Factory New)</p>
+									<p><span class="money-blue">x4  $ 5.50</span>  StatTrak™ USP-S | Guardian (Factory New)</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
+	<!-- Main End -->
+
+	<!-- Footer -->
+	<footer>
+		
+	</footer>
+	<!-- Footer End -->
+
+
+	<div class="hidden"></div>
+
+	<script src="libs/jquery/jquery-1.11.2.min.js"></script>
+	<script src="libs/owl-carousel/owl.carousel.min.js"></script>
+	<script src="libs/chart/chart.js"></script>
+	<script src="libs/jcf/jcf.js"></script>
+	<script src="libs/jcf/jcf.select.js"></script>
+	<script src="libs/magnific-popup/jquery.magnific-popup.min.js"></script>
+	<script src="js/common.js"></script>
+	<script>
+		var myChart = document.getElementById("myChart");
+		var myChart = document.getElementById("myChart").getContext("2d");
+		var myChart = $("#myChart");
+		var myChart = "myChart";
+
+		var myChart = new Chart(myChart, {
+			type: 'line',
+			data: {
+				datasets: [{
+					fill: true,
+					label: '',
+					data: [ 10000, 20000, 49004, 51000, 42000, 60000, 58000, 60000],
+					backgroundColor: 'rgba(245, 126, 111, 0.25)',
+					borderColor: "#f87a6d",
+					borderWidth: 2,
+					borderCapStyle: 'square',
+					borderJoinStyle: 'round',
+					cubicInterpolationMode: 'default',
+					pointRadius: 5,
+					//backgroundColor: 'rgba(0, 0, 0, 1)',
+					//lineTension: 0,
+					pointBackgroundColor: '#fff',
+					pointBorderColor: '#f87a6d',
+					pointBorderWidth: 3,
+					pointRadius: 5,
+					pointHitRadius: 8,
+					pointHoverRadius: 5,
+					pointHoverBackgroundColor: '#f87a6d',
+					pointHoverBorderColor: '#fff',
+					pointHoverBorderWidth: 2,
+				}],
+				labels: ['JAN', 'FEB', 'MAR', 'APR', 'MAY', 'JUN', 'JUL', 'AUG'],
+			},
+			options: {
+				legend: {
+					display: true,
+					labels: {
+						boxWidth: 0,
+						fontSize: 18,
+						fontColor: '#FFF'
+					}
+				},
+				tooltips: {
+					backgroundColor: 'rgba(242, 118, 101, 0.52)',
+					titleFontFamily: 'sans-serif',
+					callbacks: {
+						labelColor: function(tooltipItem, chart) {
+							return {
+								borderColor: '#333',
+								backgroundColor: '#333'
+							}
+						},
+						labelTextColor:function(tooltipItem, chart){
+							return '#fff';
+						},
+						afterLabel: function(tooltipItem, data) {
+
+						}
+					}
+				},
+				scales: {
+					yAxes: [{
+						ticks: {
+							callback: function(value, index, values) {
+								return '' + value;
+							}
+						}
+					}]
+				},
+			}
+
+		});
+	</script>
+
+</body>
+</html>
