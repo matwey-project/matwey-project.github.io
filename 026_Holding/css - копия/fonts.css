@@ -1,0 +1,9 @@
+@font-face {
+	font-family: "FreightBigProBook-Regular";
+	src: url("../fonts/FreightBigProBook-Regular/FreightBigProBook-Regular.eot");
+	src: url("../fonts/FreightBigProBook-Regular/FreightBigProBook-Regular.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/FreightBigProBook-Regular/FreightBigProBook-Regular.woff") format("woff"),
+	url("../fonts/FreightBigProBook-Regular/FreightBigProBook-Regular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}

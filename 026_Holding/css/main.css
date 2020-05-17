@@ -1,0 +1,388 @@
+@font-face {
+	font-family: "FreightBigProBook-Regular";
+	src: url("../fonts/FreightBigProBook-Regular/FreightBigProBook-Regular.eot");
+	src: url("../fonts/FreightBigProBook-Regular/FreightBigProBook-Regular.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/FreightBigProBook-Regular/FreightBigProBook-Regular.woff") format("woff"),
+	url("../fonts/FreightBigProBook-Regular/FreightBigProBook-Regular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+*{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	outline: none;
+}
+*::-webkit-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*::-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-ms-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+	
+}
+body input:required:valid,
+body textarea:required:valid {
+	
+}
+html {
+	height: 100%;
+}
+body {
+	font-family: "FreightBigProBook-Regular", sans-serif;
+	font-size: 15px;
+	min-height: 100%;
+	min-width: 320px;
+	position: relative;
+	overflow-x: hidden;
+	background: #fff;
+	-webkit-background-size: cover;
+	background-size: cover;
+	opacity: 1;
+}
+
+/* CUSTOM STYLE =====================
+==============================================*/
+
+.hidden {
+	display: none;
+}
+button {
+	cursor: pointer;
+}
+.text-center {
+	text-align: center;
+}
+.text-left {
+	text-align: left;
+}
+.text-right {
+	text-align: right;
+}
+
+/* FOR OWL CAROUSEL =====================
+==============================================*/
+
+.owl-item {
+	position: relative;
+}
+.owl-carousel .owl-item{
+	z-index: 100;
+}
+
+/* PLACEHOLDER STYLE =====================
+==============================================*/
+
+.placeholder-style::-webkit-input-placeholder {color: #d08026;}
+.placeholder-style::-moz-placeholder          {color: #d08026;}/* Firefox 19+ */
+.placeholder-style:-moz-placeholder           {color: #d08026;}/* Firefox 18- */
+.placeholder-style:-ms-input-placeholder      {color: #d08026;}
+
+/* HIDDEN PLACEHOLDER =====================
+==============================================*/
+
+input::-webkit-input-placeholder,textarea::-webkit-input-placeholder       {opacity: 1; transition: opacity 0.3s ease;}
+input::-moz-placeholder,textarea::-moz-placeholder                {opacity: 1; transition: opacity 0.3s ease;}
+input:-moz-placeholder,textarea:-moz-placeholder                 {opacity: 1; transition: opacity 0.3s ease;}
+input:-ms-input-placeholder,textarea:-ms-input-placeholder            {opacity: 1; transition: opacity 0.3s ease;}
+input:focus::-webkit-input-placeholder,textarea:focus::-webkit-input-placeholder {opacity: 0; transition: opacity 0.3s ease;}
+input:focus::-moz-placeholder,textarea:focus::-moz-placeholder          {opacity: 0; transition: opacity 0.3s ease;}
+input:focus:-moz-placeholder,textarea:focus:-moz-placeholder           {opacity: 0; transition: opacity 0.3s ease;}
+input:focus:-ms-input-placeholder,textarea:focus:-ms-input-placeholder      {opacity: 0; transition: opacity 0.3s ease;}
+
+/* CLEARFIX =====================
+==============================================*/
+
+.clearfix:before,
+.clearfix:after {
+	content: " ";
+	display: table;
+}
+.clearfix:after {
+	clear: both;
+}
+
+/* HEADER =========================
+==============================================*/
+
+.header {
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+/* MAIN STYLE =====================
+==============================================*/
+
+.main {
+	padding: 20px;
+}
+.wrapper-main {
+	height: calc(100vh - 40px);
+	min-height: 480px;
+	background-image: url(../img/bg-main-min.jpg);
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center 0;
+}
+.wrapper-main {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-webkit-flex-direction: column;
+	-moz-flex-direction: column;
+	-ms-flex-direction: column;
+	-o-flex-direction: column;
+	flex-direction: column;
+}
+.name-text {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-webkit-flex-direction: column;
+	-moz-flex-direction: column;
+	-ms-flex-direction: column;
+	-o-flex-direction: column;
+	flex-direction: column;
+	text-align: center;
+	color: #fff;
+	height: 80%;
+	align-items: center;
+	justify-content: center;
+}
+.name-text h1 {
+	font-size: 41px;
+	letter-spacing: 6px;
+	font-weight: normal;
+	margin-bottom: 15px;
+}
+.name-text p {
+	font-size: 18px;
+	letter-spacing: 3px;
+	text-transform: uppercase;
+}
+.footer-description {
+	height: 20%;
+	color: #fff;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-webkit-flex-direction: row;
+	-moz-flex-direction: row;
+	-ms-flex-direction: row;
+	-o-flex-direction: row;
+	flex-direction: row;
+	align-items: flex-end;
+	padding-bottom: 20px;
+}
+.footer-description p {
+	font-size: 16px;
+	letter-spacing: 2px;
+}
+.footer-description p a {
+	text-decoration: none;
+	color: #fff;
+}
+.mail-text {
+	display: inline-block;
+	font-size: 16px;
+	letter-spacing: 2px;
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	margin-top: 5px;
+}
+.mail-text-smal {
+	font-size: 16px;
+	letter-spacing: 2px;
+	text-transform: none !important;
+	text-decoration: underline !important;
+}
+.items-col-3 {
+	width: 33.3%;
+	text-align: center;
+}
+.footer-logo {
+	font-size: 16px;
+	font-weight: normal;
+	letter-spacing: 3px;
+	margin-bottom: 60px;
+}
+.link-instagram {
+	display: block;
+	font-size: 13px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #fff;
+}
+.footer-text {
+	max-width: 400px;
+	margin: 0 auto;
+}
+.hidden-mobile {
+	display: none;
+}
+
+@media only screen and (max-width : 1500px) {
+	.footer-text {
+		max-width: 340px;
+	}
+	.footer-description p {
+		letter-spacing: 1px;
+	}
+
+}
+
+@media only screen and (max-width : 1400px){
+	.name-text h1 {
+		font-size: 36px;
+	}
+	.name-text p {
+		font-size: 16px;
+	}
+}
+
+@media only screen and (max-width : 1350px){
+	.wrapper-main {
+		height: calc(100vh - 82px);
+	}
+	.main {
+		padding-left: 15px;
+		padding-right: 15px;
+		padding-bottom: 15px;
+	}
+}
+
+@media only screen and (max-width : 1200px) {
+	.name-text h1 {
+		letter-spacing: 4px;
+	}
+	.name-text p {
+		letter-spacing: 2px;
+	}
+}
+
+@media only screen and (max-width : 1160px) {
+	.footer-description p {
+		font-size: 14px;
+	}
+	.items-col-3 {
+		width: 34%;
+	}
+	.items-col-3__center {
+		width: 40%;
+	}
+}
+
+@media only screen and (max-width : 1024px) {
+	.wrapper-main div {
+		position: relative;
+	}
+	.wrapper-main:before {
+		position: absolute;
+		left: 0;
+		top: 0;
+		content: "";
+		display: block;
+		width: 100%;
+		height: 100%;
+		background: rgba(0, 0, 0, 0.3);
+	}
+	.wrapper-main {
+		position: relative;
+		min-height: 560px;
+	}
+	.items-col-3 {
+		width: 100%;
+	}
+	.footer-description p {
+		font-size: 15px;
+	}
+	.footer-description {
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
+		-o-flex-direction: column;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.footer-logo {
+		margin-bottom: 0;
+	}
+	.name-text {
+		height: 40%;
+	}
+	.footer-description {
+		height: 60%;
+	}
+	.link-instagram {
+		display: none;
+	}
+	.link-instagram.hidden-mobile {
+		display: block;
+		margin-top: 20px;
+	}
+	.mail-text {
+		margin-top: 4px;
+	}
+	.items-col-3__center {
+		order: 1;
+		margin-bottom: 70px;
+	}
+	.items-col-3__left {
+		order: 3;
+	}
+	.items-col-3__right {
+		order: 2;
+		margin-bottom: 20px;
+	}
+}
+@media only screen and (max-width : 375px) {
+	.name-text h1 {
+		letter-spacing: 2px;
+	}
+	.mail-text {
+		font-size: 14px;
+	}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 360px) {
+	.name-text h1 {
+		font-size: 34px;
+	}
+	.mail-text {
+		font-size: 13px;
+	}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+	.name-text h1 {
+		font-size: 30px;
+	}
+}
