@@ -1,0 +1,9 @@
+@font-face {
+	font-family: "WorkSans-Hairline";
+	src: url("../fonts/WorkSans-Hairline/WorkSans-Hairline.eot");
+	src: url("../fonts/WorkSans-Hairline/WorkSans-Hairline.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/WorkSans-Hairline/WorkSans-Hairline.woff") format("woff"),
+	url("../fonts/WorkSans-Hairline/WorkSans-Hairline.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
