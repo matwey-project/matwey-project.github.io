@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW 2019 (64-Bit) -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="18.6207mm" height="18.2541mm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 426.99 418.58"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ xmlns:xodm="http://www.corel.com/coreldraw/odm/2003">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .str1 {stroke:#F6121C;stroke-width:8.09;stroke-miterlimit:22.9256}
+    .str0 {stroke:#FEFEFE;stroke-width:4.59;stroke-miterlimit:22.9256}
+    .fil1 {fill:none}
+    .fil0 {fill:#B0B4B7}
+   ]]>
+  </style>
+ </defs>
+ <g id="Слой_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <path class="fil0" d="M63.5 0l138.33 30.34 0 270.59 -138.33 29.12 0 -286.98 -33.98 0 0 260.28 -25.48 0 0 -260.28 0 -25.48 25.48 0 33.98 0 0 -17.59zm23.56 155.85c5.07,0 9.18,4.11 9.18,9.18 0,5.07 -4.11,9.18 -9.18,9.18 -5.07,0 -9.18,-4.11 -9.18,-9.18 0,-5.07 4.11,-9.18 9.18,-9.18z"/>
+  <path class="fil0" d="M240.95 16.99l182.01 0 0 296.08 -182.01 0 0 -296.08zm99.5 44.29l0 60.98 40.65 0 0 -60.98 -40.65 0zm40.65 77.96l-40.65 0 0 51.57 40.65 0 0 -51.57zm0 68.56l-40.65 0 0 60.98 40.65 0 0 -60.98zm-57.64 60.98l0 -60.98 -40.65 0 0 60.98 40.65 0zm-40.65 -77.96l40.65 0 0 -51.57 -40.65 0 0 51.57zm0 -68.56l40.65 0 0 -60.98 -40.65 0 0 60.98z"/>
+  <rect class="fil1 str0" x="257.94" y="35.8" width="148.03" height="258.45"/>
+  <line class="fil1 str0" x1="246.72" y1="23.97" x2="257.94" y2= "35.8" />
+  <line class="fil1 str0" x1="416.6" y1="23.97" x2="405.38" y2= "35.8" />
+  <line class="fil1 str0" x1="416.6" y1="305.33" x2="405.38" y2= "293.49" />
+  <line class="fil1 str0" x1="247.17" y1="305.33" x2="258.39" y2= "293.49" />
+  <line class="fil1 str1" x1="4.04" y1="418.58" x2="4.04" y2= "345.78" />
+  <line class="fil1 str1" x1="422.94" y1="418.58" x2="422.94" y2= "345.78" />
+  <line class="fil1 str1" x1="422.94" y1="382.18" x2="4.04" y2= "382.18" />
+ </g>
+</svg>
