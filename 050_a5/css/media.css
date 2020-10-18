@@ -1,0 +1,592 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+
+@media only screen and (max-width : 1024px){
+	.block_contact button{
+		opacity: 1;
+	}
+}
+
+@media only screen and (max-width : 940px){
+	.header{
+		padding: 28px 10px 0;
+	}
+
+	.portfolio {
+		padding: 56px 10px 60px;
+	}
+
+	.item_video {
+		margin-right: 20px;
+	}
+
+	.item_work:first-child {
+		width: 33.2%;
+	}
+
+	.work {
+		padding: 64px 10px 45px;
+	}
+
+	.comment {
+		padding: 66px 10px 10px;
+	}
+}
+
+@media only screen and (max-width : 900px){
+	.nav li {
+		margin-right: 42px;
+	}
+
+	.item_video {
+		width: 48.8%;
+	}
+
+	.item_video a img{
+		width: 100%;
+	}
+}
+
+@media only screen and (max-width : 854px){
+	.nav li {
+		margin-right: 34px;
+	}
+
+	.new_canal {
+		padding: 72px 10px 52px;
+	}
+}
+
+@media only screen and (max-width : 800px){
+	.nav li {
+		margin-right: 24px;
+	}
+
+	.item_video {
+		width: 50%;
+		padding-right: 10px;
+		margin-right: 0;
+	}
+
+	.item_video:nth-child(2n+2) {
+		padding-right: 0;
+		padding-left: 10px;
+	}
+
+	.new_canal .span2 {
+		width: 33.3%;
+		height: 200px;
+	}
+
+	.comment .span2 {
+		width: 20%;
+	}
+
+	.comment .span10 {
+		width: 80%;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+	.to_present h1{
+		font-size: 42px;
+	}
+
+	a.video_present_icon {
+		margin: 73px auto 34px;
+	}
+
+	.nav li {
+		margin-right: 20px;
+	}
+
+	.item_work p{
+		font-size: 11px;
+	}
+}
+
+@media only screen and (max-width : 720px){
+	.span1.logo {
+		width: 12%;
+	}
+
+	.span9.phone_nav {
+		padding: 20px 0 0 14px;
+		width: 68%;
+	}
+
+	.span2.zakaz {
+		width: 20%;
+	}
+
+	.nav li {
+		margin-right: 12px;
+	}
+
+	.to_present h1 {
+		font-size: 36px;
+	}
+
+	a.video_present_icon {
+		margin: 85px auto 34px;
+	}
+
+	h2{
+		font-size: 30px;
+	}
+
+	.container_video p{
+		height: 20px;
+	}
+
+	.item_work p br {
+		display: none;
+	}
+
+	.item_work p {
+		font-size: 12px;
+	}
+
+	p.slog_work br{
+		display: none;
+	}
+
+}
+
+@media only screen and (max-width : 640px){
+
+	.toggle_mnu{
+		display: block;
+	}
+	
+	.span9.phone_nav {
+		padding: 20px 0 0 14px;
+		width: 62%;
+	}
+
+	.span2.zakaz {
+		width: 26%;
+	}
+
+	.nav {
+		display: none;
+	}
+
+	.new_canal p br{
+		display: none;
+	}
+
+	.work{
+		background: transparent;
+	}
+
+	.comment .span2 {
+		width: 24%;
+	}
+
+	.comment .span10 {
+		width: 76%;
+	}
+
+	.phone p span{
+		display: block;
+		margin-top: 5px;
+	}
+
+	.phone p span i{
+		display: none;
+	}
+
+}
+
+@media only screen and (max-width : 600px){
+	.to_present h1 {
+		font-size: 32px;
+	}
+
+	a.video_present_icon {
+		margin: 95px auto 34px;
+	}
+
+	h2 {
+		font-size: 26px;
+	}
+
+	.comment .span2 {
+		width: 28%;
+	}
+
+	.comment .span10 {
+		width: 72%;
+	}
+
+	.item_comment p{
+		padding-right: 0;
+	}
+}
+
+@media only screen and (max-width : 540px){
+	.to_present h1 {
+		font-size: 30px;
+	}
+
+	a.video_present_icon {
+		margin: 99px auto 34px;
+	}
+
+	.advantages .span3 {
+		width: 50%;
+	}
+
+	.new_canal .span2 {
+		width: 50%;
+	}
+
+	.container_canal .span3{
+		width: 50%;
+	}
+
+	.span4.item_work {
+		width: 50%;
+		margin-bottom: 15px;
+		text-align: center;
+		padding-top: 40px;
+	}
+
+	.item_work span {
+		left: 50%;
+	}
+
+	.span4.item_work:last-child {
+		width: 50%;
+		float: none;
+		margin: 0px auto;
+		display: block;
+		clear: both;
+	}
+
+	.row.work_bottom {
+		margin-top: 30px;
+	}
+
+	.item_comment h4 span {
+		float: none;
+		display: block;
+		text-align: left;
+		margin-top: 5px;
+	}
+
+	.new_canal .row {
+		padding: 15px 0 0;
+	}
+
+	.new_canal p{
+		font-size: 16px;
+	}
+
+	p.slog_work{
+		font-size: 21px;
+	}
+
+	h2 {
+		font-size: 25px;
+	}
+}
+
+@media only screen and (max-width : 480px){
+	.span1.logo {
+		width: 18%;
+	}
+	.span9.phone_nav {
+		padding: 20px 0 0 14px;
+		width: 49%;
+	}
+	.span2.zakaz {
+		width: 33%;
+	}
+
+	.toggle_mnu,
+	button.toggle_mnu.hid {
+		top: 10px;
+		right: 10px;
+	}
+
+	.span1.logo {
+		width: 25%;
+		text-align: right;
+	}
+
+	.span9.phone_nav {
+		padding: 38px 0 0 14px;
+		width: 75%;
+	}
+
+	.span2.zakaz {
+		width: 100%;
+		text-align: center;
+		padding-top: 15px;
+	}
+
+	.to_present h1 {
+		font-size: 26px;
+		margin: 25px 0 10px;
+	}
+
+	a.video_present_icon {
+		margin: 59px auto 34px;
+	}
+
+	h2 {
+		font-size: 22px;
+	}
+
+	.new_canal p {
+		font-size: 15px;
+	}
+
+	.work_foot p{
+		font-size: 16px;
+	}
+
+	.item_comment{
+		padding: 10px;
+	}
+
+	.comment .span2 {
+		width: 100%;
+		text-align: center;
+		padding: 0;
+	}
+
+	.comment .span10 {
+		width: 100%;
+		padding: 0;
+	}
+
+	.item_comment h4,
+	.item_comment h4 span {
+		text-align: center;
+	}
+
+	.map_footer {
+		padding: 0 10px;
+	}
+
+	.angles_top_center{
+		display: none;
+	}
+}
+
+@media only screen and (max-width : 414px) {
+	.to_present h1 {
+		font-size: 22px;
+	}
+
+	.to_present p{
+		font-size: 18px;
+	}
+
+	a.video_present_icon {
+		margin: 67px auto 34px;
+	}
+
+	h2 {
+		font-size: 18px;
+	}
+
+	.item_video {
+		width: 100%;
+		padding-right: 0;
+		margin-right: 0;
+	}
+
+	.item_video:nth-child(2n+2) {
+		padding-right: 0;
+		padding-left: 0;
+	}
+
+	.container_video {
+		padding: 65px 0 30px;
+	}
+
+	.new_canal p {
+		font-size: 12px;
+	}
+
+	.span4.item_work {
+		width: 100%;
+		padding-left: 0 !important;
+	}
+
+	.item_work span {
+		left: 50%;
+		margin-left: -14px;
+	}
+
+	.item_work p br {
+		display: block;
+	}
+
+	.row.work_top {
+		margin-top: 32px;
+	}
+
+	.work_foot p {
+		font-size: 14px;
+	}
+
+	.foot_phone span, p.adress {
+		margin: 38px 0 10px;
+		display: block;
+	}
+
+	.foot_phone>a{
+		margin-left: 28px;
+	}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 360px) {
+	.to_present h1 br{
+		display: none;
+	}
+
+	.to_present h1{
+		font-size: 21px;
+		line-height: 30px;
+	}
+
+	a.video_present_icon {
+		margin: 57px auto 34px;
+	}
+
+	.advantages {
+		padding: 35px 0 0;
+	}
+
+	h2 {
+		font-size: 26px;
+		line-height: 34px;
+	}
+
+	.advantages h2 {
+		margin-bottom: 40px;
+	}
+
+	.foot_advantages p {
+		font: 20px/normal "GothamPro";
+		margin-top: 35px;
+	}
+
+	.new_canal {
+		padding: 40px 10px 50px;
+	}
+
+	.advantages .span3 {
+		width: 100%;
+		margin-bottom: 15px;
+	}
+
+	.work_foot p {
+		font-size: 18px;
+	}
+
+	.work_foot p {
+		font-size: 14px;
+	}
+
+	.comment {
+		padding: 40px 10px 10px;
+	}
+
+	.comment h2 {
+		margin-bottom: 40px;
+	}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+	.to_present h1 {
+		font-size: 19px;
+	}
+
+	.to_present p br{
+		display: none;
+	}
+
+	.foot_advantages p{
+		font-size: 19px;
+	}
+
+	.container_video [class*=angles]{
+		display: none;
+	}
+
+	.work_foot p {
+		font-size: 14px;
+		line-height: 26px;
+	}
+
+	.block_contact h3{
+		font-size: 21px;
+	}
+
+	p.adress {
+		font-size: 16px;
+	}
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+	
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+	
+}
+
+@media only screen and (min-width : 854px){
+
+}
+
+@media only screen and (min-width : 900px){
+
+}
+
+@media only screen and (min-width : 901px){
+	
+}
+
+@media only screen and (min-width : 960px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 980px) {
+	
+}
+
+@media only screen and (min-width : 1024px){
+
+}
+
+@media only screen and (min-width : 1060px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
