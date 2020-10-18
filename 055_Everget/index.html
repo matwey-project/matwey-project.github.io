@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<meta charset="utf-8">
+
+	<title>Everget</title>
+	<meta name="description" content="">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<meta property="og:image" content="path/to/image.jpg">
+	<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+
+	<!-- Chrome, Firefox OS and Opera -->
+	<meta name="theme-color" content="#ffffff">
+	<!-- Windows Phone -->
+	<meta name="msapplication-navbutton-color" content="#ffffff">
+	<!-- iOS Safari -->
+	<meta name="apple-mobile-web-app-status-bar-style" content="#ffffff">
+
+	<!-- <style>body { opacity: 0; overflow-x: hidden; } html { background-color: #fff; }</style> -->
+
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="css/material-kit.min.css"/>
+	<!-- <link rel="stylesheet" href="css/grid_css.css"/> -->
+	<link rel="stylesheet" href="css/main.css" />
+	<link rel="stylesheet" href="css/media.css" />
+	<link rel="stylesheet" href="libs/magnific-popup/magnific-popup.css" />
+	<link rel="stylesheet" href="libs/select2/select2.min.css" />
+
+</head>
+<body>
+	<div class="mobile-menu">
+		<a href="#" class="close-menu">
+			<img src="img/close-menu.svg" alt="">
+		</a>
+		<ul class="list--mobile-menu">
+			<li class="is-active"><a href="#">Главная</a></li>
+			<li><a href="#">Как это работает</a></li>
+			<li><a href="#">3 простых шага</a></li>
+			<li><a href="#">Отзывы</a></li>
+			<li><a href="#">Личный кабинет</a></li>
+		</ul>
+	</div>
+	<!-- Header -->
+	<header class="header">
+		<div class="top-line">
+			<div class="container">
+				<div class="row align-items-center">
+
+					<a href="#" class="burger-menu col-md-3" id="burger-menu">
+						<img src="img/burger-menu.svg" alt="">
+					</a>
+
+					<div class="logo-wrapper col-lg-3 col-md-3">
+						<a href="" class="logos">
+							<img src="img/logo.svg" class="desctop-logo" alt="">
+							<img src="img/logo-mini.svg" class="mobile-logo" alt="">
+						</a>
+					</div>
+
+					<nav class="menu-wrapper col-lg-6 col-md-6">
+						<ul class="list-menu">
+							<li><a href="#">Как это работает</a></li>
+							<li><a href="#">3 простых шага</a></li>
+							<li><a href="#">Отзывы</a></li>
+						</ul>
+					</nav>
+
+					<div class="login-wrapper col-lg-3 col-md-3">
+						<a href="#registration-popup" class="button button-login popup">Личный кабинет</a>
+						<a href="#registration-popup" class="person-login popup">
+							<img src="img/person.png" alt="">
+						</a>
+					</div>
+
+				</div>
+			</div>
+		</div>
+		<div class="header-content">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-6 col-md-6 preview-description">
+						<p>
+							<b>Everget </b>
+							<br clear="mobile-none">
+							простой способ погасить займ
+						</p>
+						<p class="preview-desc--small">
+							Cкидка до 70% <br>
+							Оформим за 5 минут <br>
+							Нужен только паспорт
+						</p>
+					</div>
+					<div class="col-lg-6 col-md-6 sum-price--item">
+						<div class="sum-price">
+							<div class="sum-price-wrap">
+								<div class="sum-price--head">
+									<p>Сумма долга</p>
+									<span class="price-number">50 000₽</span>
+								</div>
+								<div class="range-wrapper">
+									<input type="range" class="range-slide" min="1000" max="200000" value="30000" />
+								<!-- <div class="range-main">
+									<div class="range-load" style="width: 20%;"></div>
+									<div class="range-dot"></div>
+								</div> -->
+								<div class="range-sum--wrap">
+									<p>1000₽</p>
+									<p>Больше 200 000₽</p>
+								</div>
+								<div class="to-money has-default">
+									<input type="text" class="word--to-money form-control" placeholder="Могу заплатить">
+								</div>
+								<div class="commission">
+									<p>Комиссия <a href="#" class="icon-why"><img src="img/icon-why.svg" alt=""></a></p>
+									<span>0₽</span>
+								</div>
+							</div>
+						</div>
+							<div class="button-sum--wrapper">
+								<button class="button button-login">отправить смс на номер</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<!-- Header End -->
+
+	<div class="popup-default popup-edit">
+		<h3 class="popup-head--edit">Заявка</h3>
+		<div class="form-registration" class="form-registration">
+			<div class="item-registration">
+				<select class="js-select2" data-placeholder="В каком банке или МФО ваш долг">
+					<option></option>
+					<option>В другом</option>
+					<option>Банк или МФО 1</option>
+					<option>Банк или МФО 2</option>
+					<option>Банк или МФО 3</option>
+					<option>Банк или МФО 4</option>
+					<option>Банк или МФО 5</option>
+				</select>
+				<div class="info-inputs">
+					Если МФО или банка в котором вы брали займ нет в списке, выберете “Другое”, а в поле ниже введите его название
+				</div>
+			</div>
+			<div class="item-registration">
+				<div class="form-group bmd-form-group blackstyle-items">
+					<label for="exampleInput1" class="bmd-label-floating">Название другой МФО или банка</label>
+					<input type="email" class="form-control" id="exampleInput1">
+				</div>
+			</div>
+			<div class="item-registration">
+				<div class="form-group bmd-form-group is-focused blackstyle-items">
+					<label for="exampleInput1" class="bmd-label-floating">Номер вашего договора займа</label>
+					<input type="email" class="form-control" id="exampleInput1" value="37372-31939 DS-323993">
+				</div>
+			</div>
+			<div class="item-registration">
+				<div class="form-group bmd-form-group is-filled is-focused blackstyle-items">
+					<label class="label-control bmd-label-static">Когда был последний платеж по кредиту</label>
+					<input type="text" class="form-control datetimepicker" value="03/06/2020">
+				</div>
+			</div>
+			<div class="item-registration">
+				<div class="form-group bmd-form-group is-focused blackstyle-items">
+					<label for="exampleInput1" class="bmd-label-floating">Сумма долга</label>
+					<input type="email" class="form-control" id="exampleInput1" value="21 093 939₽">
+				</div>
+			</div>
+			<!-- <div class="item-registration">
+				<input type="text" class="input-default input-default--disabled" placeholder="Название другой МФО или банка">
+			</div>
+			<div class="item-registration">
+				<input type="text" class="input-default">
+			</div> -->
+			<!-- <div class="item-registration">
+				<div class="form-group bmd-form-group is-focused blackstyle-items">
+					<label for="exampleInput1" class="bmd-label-floating">Имя</label>
+					<input type="email" class="form-control" id="exampleInput1" value="Константин">
+				</div>
+			</div>
+			<div class="item-registration">
+				<div class="form-group bmd-form-group is-focused blackstyle-items">
+					<label for="exampleInput1" class="bmd-label-floating">Отчество</label>
+					<input type="email" class="form-control" id="exampleInput1" value="Константинович">
+				</div>
+			</div>
+			<div class="item-registration">
+				<div class="form-group bmd-form-group is-focused blackstyle-items">
+					<label for="exampleInput1" class="bmd-label-floating">Серия и номер паспорта</label>
+					<input type="email" class="form-control" id="exampleInput1" value="80  12  481283">
+				</div>
+			</div>
+			<div class="item-registration">
+				<div class="form-group bmd-form-group is-focused blackstyle-items">
+					<label for="exampleInput1" class="bmd-label-floating">Номер телефона</label>
+					<input type="email" class="form-control" id="exampleInput1" value="+7 999 888 5555">
+				</div>
+			</div> -->
+			<button class="button button-login">ГОТОВО</button>
+		</div>
+	</div>
+
+	<div class="popup-default popup-edit">
+		<h3 class="popup-head--edit">Редактирование</h3>
+		<div class="form-registration" class="form-registration">
+			<!-- <div class="item-registration"><input type="text" class="form-control" placeholder="Фамилия"></div> -->
+			<div class="item-registration">
+				<div class="form-group bmd-form-group is-focused blackstyle-items">
+					<label for="exampleInput1" class="bmd-label-floating">Фамилия</label>
+					<input type="email" class="form-control" id="exampleInput1" value="Константинопольский">
+				</div>
+			</div>
+			<div class="item-registration">
+				<div class="form-group bmd-form-group is-focused blackstyle-items">
+					<label for="exampleInput1" class="bmd-label-floating">Имя</label>
+					<input type="email" class="form-control" id="exampleInput1" value="Константин">
+				</div>
+			</div>
+			<div class="item-registration">
+				<div class="form-group bmd-form-group is-focused blackstyle-items">
+					<label for="exampleInput1" class="bmd-label-floating">Отчество</label>
+					<input type="email" class="form-control" id="exampleInput1" value="Константинович">
+				</div>
+			</div>
+			<div class="item-registration">
+				<div class="form-group bmd-form-group is-focused blackstyle-items">
+					<label for="exampleInput1" class="bmd-label-floating">Серия и номер паспорта</label>
+					<input type="email" class="form-control" id="exampleInput1" value="80  12  481283">
+				</div>
+			</div>
+			<div class="item-registration">
+				<div class="form-group bmd-form-group is-focused blackstyle-items">
+					<label for="exampleInput1" class="bmd-label-floating">Номер телефона</label>
+					<input type="email" class="form-control" id="exampleInput1" value="+7 999 888 5555">
+				</div>
+			</div>
+			<button class="button button-login">СОХРАНИТЬ</button>
+		</div>
+	</div>
+
+	<div class="popup-default yes-no--registration">
+		<h4>Выход из профиля</h4>
+		<p>
+			Вы уверены что хотите <br> выйти из профиля ?
+		</p>
+		<div class="close-button--wrap">
+			<a href="#" class="button button-white">отмена</a>
+			<a href="#" class="button">Выйти</a>
+		</div>
+	</div>
+
+	<div class="popup-default">
+		<ul class="popup-navigate">
+			<li>Вход</li>
+			<li class="is-active">Регистрация</li>
+		</ul>
+		<div class="popup-number--call">
+			<h4>Введите номер телефона</h4>
+			<p class="send-number"> На него будет отправлен код <br> для входа в личный кабинет</p>
+			<div class="item-registration">
+				<div class="form-group bmd-form-group is-focused">
+					<label for="exampleInput1" class="bmd-label-floating">Номер телефона</label>
+					<input type="email" class="form-control" id="exampleInput1">
+				</div>
+			</div>
+			<div class="item-registration">
+				<div class="form-group bmd-form-group is-focused has-danger">
+					<label for="exampleInput1" class="bmd-label-floating">Номер телефона</label>
+					<input type="email" class="form-control" id="exampleInput1">
+					<span class="bmd-help">Данный телефон не зарегистрирован <br> Пройдите регистрацию и попробуйте снова</span>
+				</div>
+			</div>
+			<div class="repeat-send">
+				<a href="#" class="button button-login">отправить смс на номер</a>
+			</div>
+		</div>
+	</div>
+
+	<div class="popup-default">
+		<ul class="popup-navigate">
+			<li class="is-active">Вход</li>
+			<li>Регистрация</li>
+		</ul>
+		<div class="popup-message">
+			<h4>Введите код из СМС</h4>
+			<p class="send-number"> Код отправлен на номер <br> +7 953 628 2777</p>
+			<div class="nubber-code">
+				<div class="form-group bmd-form-group is-focused"><input type="number" max="1" value="5" class="form-control"></div>
+				<div class="form-group bmd-form-group is-focused"><input type="number" max="1" value="5" class="form-control"></div>
+				<div class="form-group bmd-form-group is-focused has-danger"><input type="number" max="1" class="form-control"></div>
+				<div class="form-group bmd-form-group is-focused has-danger"><input type="number" max="1" class="form-control"></div>
+				<!-- <div class="nubber-code--input">
+					<input type="text">
+					<div class="nubber-code--status">
+						<span></span>
+						<span></span>
+						<span></span>
+						<span></span>
+					</div>
+				</div> -->
+				<p class="error-code">Неверный код</p>
+			</div>
+			<span>Запросить код повторно <br> можно будет через 58 секунд</span>
+			<div class="repeat-send">
+				<a href="#" class="button button-white">ВЫСЛАТЬ КОД ПОВТОРНО</a>
+			</div>
+		</div>
+	</div>
+
+	<div class="popup-default yes-no--registration">
+		<h4>Прервать регистрацию</h4>
+		<p>
+			Введенные данные не будут сохранены <br> Вы уверены что хотите прервать регистрацию ?
+		</p>
+		<div class="close-button--wrap">
+			<a href="#" class="button button-white">отмена</a>
+			<a href="#" class="button">Прервать</a>
+		</div>
+	</div>
+
+	<div class="popup-default">
+		<ul class="popup-navigate">
+			<li class="is-active">Вход</li>
+			<li>Регистрация</li>
+		</ul>
+		<div class="popup-tabs">
+			<div class="form-registration" class="form-registration">
+				<!-- <div class="item-registration"><input type="text" class="form-control" placeholder="Фамилия"></div> -->
+				<div class="item-registration">
+					<div class="form-group bmd-form-group">
+						<label for="exampleInput1" class="bmd-label-floating">Фамилия</label>
+						<input type="email" class="form-control" id="exampleInput1">
+					</div>
+				</div>
+				<div class="item-registration">
+					<div class="form-group bmd-form-group">
+						<label for="exampleInput1" class="bmd-label-floating">Имя</label>
+						<input type="email" class="form-control" id="exampleInput1">
+					</div>
+				</div>
+				<div class="item-registration">
+					<div class="form-group bmd-form-group is-focused">
+						<label for="exampleInput1" class="bmd-label-floating">Отчество</label>
+						<input type="email" class="form-control" id="exampleInput1" value="Константинович">
+					</div>
+				</div>
+				<div class="item-registration">
+					<div class="form-group bmd-form-group is-focused">
+						<label for="exampleInput1" class="bmd-label-floating">Серия и номер паспорта</label>
+						<input type="email" class="form-control" id="exampleInput1" value="80  12  481283">
+					</div>
+				</div>
+				<div class="item-registration">
+					<div class="form-group bmd-form-group has-danger">
+						<label for="exampleInput1" class="bmd-label-floating">Номер телефона</label>
+						<input type="email" class="form-control" id="exampleInput1">
+					</div>
+				</div>
+				<div class="item-registration">
+					<div class="form-group bmd-form-group is-focused">
+						<label for="exampleInput1" class="bmd-label-floating">Номер телефона</label>
+						<input type="email" class="form-control" id="exampleInput1">
+						<!-- <span class="bmd-help">Введите номер телефона.</span> -->
+					</div>
+				</div>
+				<div class="item-registration">
+					<div class="form-group bmd-form-group is-focused has-danger">
+						<label for="exampleInput1" class="bmd-label-floating">Номер телефона</label>
+						<input type="email" class="form-control" id="exampleInput1">
+						<!-- <span class="bmd-help">Введите номер телефона.</span> -->
+					</div>
+				</div>
+				<div class="item-registration">
+					<div class="form-check">
+						<label class="form-check-label">
+							<input class="form-check-input" type="checkbox" value="">
+							Согласен с правилами передачи персональных данных
+							<span class="form-check-sign">
+								<span class="check"></span>
+							</span>
+						</label>
+					</div>
+				</div>
+				<div class="item-registration">
+					<div class="form-check is-error">
+						<label class="form-check-label">
+							<input class="form-check-input" type="checkbox" value="">
+							Согласен с правилами передачи персональных данных
+							<span class="form-check-sign">
+								<span class="check"></span>
+							</span>
+						</label>
+					</div>
+				</div>
+				<button class="button button-login">отправить смс на номер</button>
+			</div>
+		</div>
+	</div>
+
+	<!-- Main -->
+	<main>
+
+		<section class="howit-works">
+			<div class="container">
+				<h3 class="defoult--heading">Как это работает</h3>
+				<div class="row howit-works--wrap">
+					<div class="col-lg-4 col-md-4">
+						<div class="howit-works--items">
+							<div class="howit-works--items-img">
+								<img src="img/art1.svg" alt="">
+							</div>
+							<p>У вас ест
+просроченный кредит 
+в МФО или банке</p>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-4">
+						<div class="howit-works--items">
+							<div class="howit-works--items-img">
+								<img src="img/art2.svg" alt="">
+							</div>
+							<p>Денег на оплату 
+всего долга 
+нет</p>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-4">
+						<div class="howit-works--items">
+							<div class="howit-works--items-img">
+								<img src="img/art3.svg" alt="">
+							</div>
+							<p>Everget добьется 
+скидки до 70% и позволит 
+оплатить долг на сайте 
+за 5 минут</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="three-step">
+			<div class="container">
+				<h3 class="defoult--heading">3 простых шага</h3>
+				<div class="row three-steps--wrap">
+					<div class="col-lg-4 col-md-4">
+						<div class="three-steps--items">
+							<div class="three-steps--number">
+								<b>1</b>
+							</div>
+							<p>Заполни 
+данные</p>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-4">
+						<div class="three-steps--items">
+							<div class="three-steps--number">
+								<b>2</b>
+							</div>
+							<p>Получи 
+предложение</p>
+						</div>
+					</div>
+					<div class="col-lg-4 col-md-4">
+						<div class="three-steps--items">
+							<div class="three-steps--number">
+								<b>3</b>
+							</div>
+							<p>Оплати за
+пять минут</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="testimonials">
+			<div class="container">
+				<h3 class="defoult--heading">Отзывы наших клиентов</h3>
+				<div class="row ">
+					<div class="testimonials--wrap">
+						<div class="testimonials-items">
+							<div class="testimonials-items--img">
+								<img src="img/testimonials1.jpg" alt="">
+							</div>
+							<div class="testimonials-items--cpntent">
+								<h4>Константин 
+Зарубный</h4>
+								<p>Гораздо лучше чем проходить банкротство. Все погасил и никаких ограничений на будущее и нормальная кредитная история</p>
+							</div>
+						</div>
+						<div class="testimonials-items">
+							<div class="testimonials-items--img">
+								<img src="img/testimonials2.jpg" alt="">
+							</div>
+							<div class="testimonials-items--cpntent">
+								<h4>Виктория 
+Лебережная</h4>
+								<p>Попала в тяжолую финансовую ситуацию но погасить весь долг было нереально, капали штрафы и проценты. С помощью сервиса удалось добиться скидки в 45% и все оплатить. Наконец-то я смогу брать телефон с неизвестных номеров и не ждать на том конце коллектора</p>
+							</div>
+						</div>
+						<div class="testimonials-items">
+							<div class="testimonials-items--img">
+								<img src="img/testimonials3.jpg" alt="">
+							</div>
+							<div class="testimonials-items--cpntent">
+								<h4>Федор 
+Овсеенко</h4>
+								<p>Круто, я до последнего не верил что это работает... Но погасил свой долг всместо 65 000р всего 20к!</p>
+							</div>
+						</div>
+						</div>
+				</div>
+			</div>
+		</section>
+		
+	</main>
+	<!-- Main End -->
+
+	<!-- Footer -->
+	<footer class="footer">
+		<div class="container">
+			<div class="row footer-wrapper">
+				<div class="footer-top">
+					<div class="footer-top--items">
+						<h5>Наш адрес</h5>
+						<p>302049
+Россия, Москва
+проспект Котиковых 23 к4
+офис 394</p>
+					</div>
+					<div class="footer-top--items">
+						<h5>Документы</h5>
+						<p>Согласие на обработку данных
+Условия использования
+Публичная оферта
+</p>
+					</div>
+					<div class="footer-top--items">
+						<h5>Связаться с нами</h5>
+						<ul class="list-contact">
+							<li><a href="email:info@everget.com">info@everget.com</a></li>
+							<li><a href="tel:+88009999999">+8 800 999 9999</a></li>
+						</ul>
+						<ul class="list-social">
+							<li><a href="#"><img src="img/facebook.svg" alt="facebook"></a></li>
+							<li><a href="#"><img src="img/twitter.svg" alt="twitter"></a></li>
+						</ul>
+					</div>
+					<div class="footer-top--items hide-block"></div>
+					<div class="footer-top--items">
+						<h5>Мы поддерживаем</h5>
+						<img src="img/pay-icon.png" alt="" class="icon-cart">
+					</div>
+				</div>
+				<div class="footer-bottom">
+					<p class="copy">Copyright 2020 Everget</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- Footer End -->
+
+
+	<div class="hidden">
+		<div id="registration-popup" class="">
+			<div class="popup-default">
+				<ul class="popup-navigate">
+					<li class="is-active">Вход</li>
+					<li>Регистрация</li>
+				</ul>
+				<div class="popup-tabs">
+					<div class="form-registration" class="form-registration">
+						<!-- <div class="item-registration"><input type="text" class="form-control" placeholder="Фамилия"></div> -->
+						<div class="item-registration">
+							<div class="form-group bmd-form-group">
+								<label for="exampleInput1" class="bmd-label-floating">Фамилия</label>
+								<input type="email" class="form-control" id="exampleInput1">
+							</div>
+						</div>
+						<div class="item-registration">
+							<div class="form-group bmd-form-group">
+								<label for="exampleInput1" class="bmd-label-floating">Имя</label>
+								<input type="email" class="form-control" id="exampleInput1">
+							</div>
+						</div>
+						<div class="item-registration">
+							<div class="form-group bmd-form-group is-focused">
+								<label for="exampleInput1" class="bmd-label-floating">Отчество</label>
+								<input type="email" class="form-control" id="exampleInput1" value="Константинович">
+							</div>
+						</div>
+						<div class="item-registration">
+							<div class="form-group bmd-form-group is-focused">
+								<label for="exampleInput1" class="bmd-label-floating">Серия и номер паспорта</label>
+								<input type="email" class="form-control" id="exampleInput1" value="80  12  481283">
+							</div>
+						</div>
+						<div class="item-registration">
+							<div class="form-group bmd-form-group has-danger">
+								<label for="exampleInput1" class="bmd-label-floating">Номер телефона</label>
+								<input type="email" class="form-control" id="exampleInput1">
+							</div>
+						</div>
+						<div class="item-registration">
+							<div class="form-group bmd-form-group is-focused">
+								<label for="exampleInput1" class="bmd-label-floating">Номер телефона</label>
+								<input type="email" class="form-control" id="exampleInput1">
+								<!-- <span class="bmd-help">Введите номер телефона.</span> -->
+							</div>
+						</div>
+						<div class="item-registration">
+							<div class="form-group bmd-form-group is-focused has-danger">
+								<label for="exampleInput1" class="bmd-label-floating">Номер телефона</label>
+								<input type="email" class="form-control" id="exampleInput1">
+								<!-- <span class="bmd-help">Введите номер телефона.</span> -->
+							</div>
+						</div>
+						<div class="item-registration">
+							<div class="form-check">
+								<label class="form-check-label">
+									<input class="form-check-input" type="checkbox" value="">
+									Согласен с правилами передачи персональных данных
+									<span class="form-check-sign">
+										<span class="check"></span>
+									</span>
+								</label>
+							</div>
+						</div>
+						<div class="item-registration">
+							<div class="form-check is-error">
+								<label class="form-check-label">
+									<input class="form-check-input" type="checkbox" value="">
+									Согласен с правилами передачи персональных данных
+									<span class="form-check-sign">
+										<span class="check"></span>
+									</span>
+								</label>
+							</div>
+						</div>
+						<button class="button button-login">отправить смс на номер</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="libs/jquery/jquery.min.js"></script>
+	<script src="libs/magnific-popup/jquery.magnific-popup.min.js"></script>
+	<script src="libs/select2/select2.full.js"></script>
+	<script src="js/common.js"></script>
+
+</body>
+</html>
