@@ -1,0 +1,22 @@
+extends ../templates/main
+
+block variables
+    - var title = 'Family Cake Company';
+    - var active = 'Cupcakes';
+
+block content
+    main.main
+        .allergens
+            .layout
+                .heading
+                    h3 Allergens
+                .allergens__wrapper
+                    .allergens__image
+                        .allergens__image-wrapper
+                            img(src="/images/icons/allergens.jpg")
+                    .allergens__content
+                        p Family cakes take the safety of it’s customers as its highest priority.  With this in mind we feel it is of paramount importance to let all customers know our position on allergens in our kitchens.
+                        p Family cakes operates an artisan style bakery where all allergens are present and in use at all times. We also buy in a wide selection of ingredients from suppliers who cannot provide us with guarantees that their products are free of any specific allergen.
+                        p While we make every effort to prevent cross contamination we cannot guarantee that any item we make is 100% free of any specific allergen.
+                        p If you suffer from an allergy or are purchasing an item from Family cakes, for someone with an allergy, it is of the utmost importance that you share this information with them and any other party that will be consuming our retailed items.
+                        p Feel free to contact us directly for more information.

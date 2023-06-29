@@ -1,0 +1,20 @@
+.counseling
+
+    .counseling__heading
+        h3 AQENE vs traditional in office counseling
+    .counseling__table
+        .counseling__table-header
+            .counseling__table-title Feature
+            .counseling__table-title.counseling__table-tab.counseling__table-title--active AQENE
+            .counseling__table-title.counseling__table-tab.counseling__table-title--inactive In Office
+        .counseling__table-body
+            +tableLine('Provided by a licensed therapist', 'true')
+            +tableLine('In-office visits', 'true', 'true')
+            +tableLine('Messaging at any time', 'true')
+            +tableLine('Chat sessions', 'false', 'true')
+            +tableLine('Provided by a licensed therapist', 'true', 'false')
+            +tableLine('In-office visits', 'false', 'false')
+            +tableLine('Messaging at any time', 'true', 'true')
+            +tableLine('Chat sessions', 'true', 'false')
+            +tableLine('In-office visits', 'true', 'false')
+            +tableLine('Chat sessions', 'false', 'true')

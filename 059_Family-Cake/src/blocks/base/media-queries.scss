@@ -1,0 +1,89 @@
+$notebook-big-screen: (max-width: 1449px);
+$tablet-big-screen: (max-width: 1279px);
+$notebook-large-screen: (max-width: 1100px);
+$mobile-small-screen: (max-width: 1023px);
+
+@mixin _1200 {
+  @media (max-width: 1200px) {
+    @content;
+  }
+}
+
+@mixin _1170 {
+  @media (max-width: 1170px) {
+    @content;
+  }
+}
+
+@mixin _1160 {
+  @media (max-width: 1160px) {
+    @content;
+  }
+}
+
+@mixin _1140 {
+  @media (max-width: 1140px) {
+    @content;
+  }
+}
+
+@mixin _1024 {
+  @media (max-width: 1024px) {
+    @content;
+  }
+}
+
+@mixin _854 {
+  @media (max-width: 854px) {
+    @content;
+  }
+}
+@mixin _960 {
+  @media (max-width: 960px) {
+    @content;
+  }
+}
+
+@mixin _768 {
+  @media (max-width: 768px) {
+    @content;
+  }
+}
+
+@mixin _767 {
+  @media (max-width: 767px) {
+    @content;
+  }
+}
+
+@mixin _640 {
+  @media (max-width: 640px) {
+    @content;
+  }
+}
+
+@mixin _540 {
+  @media (max-width: 540px) {
+    @content;
+  }
+}
+
+@mixin _480 {
+  @media (max-width: 480px) {
+    @content;
+  }
+}
+
+@mixin _414 {
+  @media (max-width: 414px) {
+    @content;
+  }
+}
+
+// Use
+//@include _1170 {
+//  background-color: purple;
+//}
+
+
+

@@ -1,0 +1,168 @@
+@import "../../libs/scss/mixins";
+@import "../../blocks/base/variables";
+@import "../../blocks/base/media-queries";
+
+.contact {
+  padding: 90px 0 120px;
+  @include _768 {
+    padding: 60px 0 80px;
+  }
+
+  .layout {
+    max-width: 1006px;
+  }
+
+  .heading {
+    margin-bottom: 48px;
+  }
+
+  &__wrapper {
+    display: flex;
+    @include _640 {
+      display: block;
+    }
+  }
+
+  &__form {
+    max-width: 576px;
+    @include _960 {
+      max-width: 450px;
+    }
+    @include _768 {
+      max-width: 360px;
+    }
+    @include _640 {
+      max-width: 100%;
+    }
+
+    .order-cake__button {
+      .button {
+        width: 100%;
+      }
+    }
+
+  }
+
+  &__info {
+    margin-left: 90px;
+    @include _960 {
+      margin-left: 30px;
+    }
+    @include _640 {
+      margin-left: 0;
+      margin-top: 30px;
+    }
+  }
+
+  &__info-item {
+
+    h3 {
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 28px;
+      color: #353132;
+      margin-bottom: 12px;
+    }
+
+    &:not(:last-child) {
+      margin-bottom: 38px;
+    }
+  }
+
+  .list-info {
+    li {
+      display: flex;
+      align-items: center;
+      font-size: 16px;
+      line-height: 24px;
+      font-weight: normal;
+      color: #525C6B;
+
+      &:not(:last-child) {
+        margin-bottom: 16px;
+      }
+
+      img {
+        margin-right: 20px;
+      }
+    }
+  }
+
+  .socials__menu {
+    a {
+      display: inline-block;
+
+      &:not(:last-child) {
+        margin-right: 20px;
+      }
+    }
+
+    svg {
+      max-height: 20px;
+      fill: #d57792;
+    }
+  }
+}
+
+.allergens {
+  padding: 90px 0 120px;
+  @include _960 {
+    padding: 60px 0 80px;
+  }
+
+  .heading {
+    margin-bottom: 40px;
+  }
+
+  .allergens__wrapper {
+    display: flex;
+    @include _768 {
+      display: block;
+    }
+  }
+
+  .allergens__image {
+    width: 50%;
+    padding-right: 70px;
+    @include _960 {
+      padding-right: 30px;
+    }
+    @include _768 {
+      width: 100%;
+      padding-right: 0;
+      margin-bottom: 30px;
+      display: flex;
+      justify-content: center;
+    }
+  }
+
+  .allergens__image-wrapper {
+    position: relative;
+    border-radius: 12px;
+    overflow: hidden;
+    display: inline-flex;
+    margin: 0 auto;
+
+    img {
+      max-width: 100%;
+    }
+  }
+
+  .allergens__content {
+    width: 50%;
+    @include _768 {
+      width: 100%;
+    }
+
+    p {
+      font-size: 16px;
+      line-height: 24px;
+      color: #353132;
+    }
+
+    p:not(:last-child) {
+      margin-bottom: 26px;
+    }
+  }
+}
+

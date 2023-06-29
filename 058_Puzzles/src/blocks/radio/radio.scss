@@ -1,0 +1,329 @@
+@import "../../libs/scss/mixins";
+@import "../../blocks/base/variables";
+@import "../../blocks/base/media-queries";
+
+$radioText: '.radio-button__text';
+$radioStatus: '.radio-button__status';
+$radioItemStatus: '.radio-item__status';
+$checkBoxText: '.checkbox-button__text';
+$checkBoxStatus: '.checkbox-button__status';
+$checkBoxItemStatus: '.checkbox-item__status';
+
+.radio-button {
+  display: inline-block;
+
+  &:last-child {
+    margin-right: 0
+  }
+
+  &--full-style {
+    background: #FDFDFF;
+    border-radius: 100px;
+    min-height: 44px;
+    padding: 12px 20px;
+    margin-bottom: 10px;
+  }
+
+  &__input {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+    margin: 10px 0 0 7px;
+    display: none;
+
+    &:checked + #{$radioText} #{$radioStatus}:after {
+      opacity: 1;
+    }
+  }
+
+  &__status {
+    position: relative;
+    width: 16px;
+    min-width: 16px;
+    height: 16px;
+    margin-right: 8px;
+    cursor: pointer;
+
+    &:before,
+    &:after {
+      content: '';
+      position: absolute;
+      border-radius: 50%;
+      @include trn(.2s);
+    }
+
+    &:before {
+      top: 0;
+      left: 0;
+      width: 16px;
+      height: 16px;
+      border: 1px solid #484dcd;
+      background-color: #fff;
+    }
+
+    &:after {
+      top: 4px;
+      left: 4px;
+      width: 8px;
+      height: 8px;
+      background: #484dcd;
+      opacity: 0;
+    }
+  }
+
+  &__text {
+    display: flex;
+    align-items: center;
+    position: relative;
+    font-family: $fr;
+    font-size: 13px;
+    line-height: 18px;
+    color: #000;
+    @include trn(.2s);
+    cursor: pointer;
+    user-select: none;
+  }
+
+}
+
+// Radio Items
+
+.radio-item {
+  display: inline-block;
+  width: 100%;
+  cursor: pointer;
+  user-select: none;
+
+  &:last-child {
+    margin-right: 0
+  }
+
+  &--full-style {
+    background: #FDFDFF;
+    border-radius: 100px;
+    min-height: 44px;
+    padding: 12px 20px;
+    margin-bottom: 10px;
+  }
+
+  &__input {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+    margin: 10px 0 0 7px;
+    display: none;
+
+    &:checked + #{$radioItemStatus} {
+      background: #4637A5;
+      color: #fff;
+    }
+  }
+
+  &__status {
+    position: relative;
+    display: flex;
+    align-items: center;
+    background: #DEE1EF;
+    border: 1px solid #D2D6E6;
+    box-sizing: border-box;
+    border-radius: 6px;
+    min-height: 48px;
+    width: 100%;
+    padding: 10px 20px;
+    color: #153257;
+    @include fr();
+    font-size: 16px;
+    line-height: 24px;
+    @include trn(.2s);
+  }
+
+}
+
+.checkbox-button {
+  position: relative;
+  display: flex;
+  cursor: pointer;
+  user-select: none;
+
+  &__input {
+    display: none;
+    z-index: -1;
+    opacity: 0;
+
+    &:disabled + #{$checkBoxText} #{$checkBoxStatus},
+    &:disabled + #{$checkBoxText} p {
+      color: #000;
+      opacity: .5;
+    }
+    
+    &:checked + #{$checkBoxText} #{$checkBoxStatus}:before {
+      opacity: 1;
+      transform: scaleX(1);
+    }
+
+    &:checked + #{$checkBoxText} #{$checkBoxStatus} {
+      background: #484dcd;
+    }
+
+  }
+  
+  &:hover  #{$checkBoxText} {
+    color: #484dcd;
+  }
+
+  &__text {
+    display: flex;
+    font-family: $fr;
+    font-size: 13px;
+    line-height: 18px;
+    color: #000;
+    @include trn(.2s);
+  }
+
+  &__status {
+    position: relative;
+    border: 1px solid #484dcd;
+    border-radius: 3px;
+    width: 16px;
+    min-width: 16px;
+    height: 16px;
+    margin-right: 10px;
+    @include trn(.1s);
+
+    &:before {
+      content: '';
+      position: absolute;
+      display: inline-block;
+      width: 14px;
+      height: 12px;
+      background: url(/images/icons/icon-checked.svg) no-repeat;
+      top: 1px;
+      left: 0;
+      transform: scaleX(0);
+      transform-origin: center;
+      @include trn(.15s);
+      opacity: 0;
+    }
+  }
+}
+
+// Radio Default
+
+$radioDefaultText: ".radio-default__text";
+$radioDefaultStatus: ".radio-default__status";
+
+.radio-default {
+  position: relative;
+  display: flex;
+  cursor: pointer;
+  user-select: none;
+
+  &__input {
+    display: none;
+    z-index: -1;
+    opacity: 0;
+
+    &:disabled + #{$radioDefaultText} #{$radioDefaultStatus},
+    &:disabled + #{$radioDefaultText} p {
+      color: #000;
+      opacity: .5;
+    }
+
+    &:checked + #{$radioDefaultText} #{$radioDefaultStatus}:before {
+      opacity: 1;
+      transform: scale(1);
+    }
+
+    &:checked + #{$radioDefaultText} #{$radioDefaultStatus} {
+      border: 2px solid #6b70eb;
+    }
+
+  }
+
+  &__text {
+    position: relative;
+    padding-top: 4px;
+    padding-left: 40px;
+    color: #999;
+    font-family: $fm;
+    font-size: 15px;
+    line-height: 1.4;
+    letter-spacing: -.03em;
+    @include trn(.2s);
+  }
+
+  &__text-name {
+    color: #1b1b1b;
+  }
+
+  &__text-content {
+    &:before {
+      content: "\2014 ";
+      margin: 0 4px;
+    }
+  }
+
+  &__status {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    width: 30px;
+    min-width: 30px;
+    height: 30px;
+    border: 2px solid #e5e5e5;
+    margin-right: 10px;
+    @include trn(.1s);
+
+    &:before {
+      content: '';
+      position: absolute;
+      display: inline-block;
+      width: 10px;
+      height: 10px;
+      transition: transform .3s ease;
+      border-radius: 50%;
+      background: #6b70eb;
+      left: 8px;
+      top: 8px;
+      transform: scale(.5);
+      @include trn(.2s);
+      opacity: 0;
+    }
+  }
+}
+
+// CheckBox Items
+
+.checkbox-item {
+  position: relative;
+  display: flex;
+  cursor: pointer;
+  user-select: none;
+
+  &__input {
+    display: none;
+    z-index: -1;
+    opacity: 0;
+
+    &:checked + #{$checkBoxItemStatus} {
+      background: #4637A5;
+      color: #fff;
+    }
+  }
+
+  &__status {
+    position: relative;
+    display: flex;
+    align-items: center;
+    background: #DEE1EF;
+    border: 1px solid #D2D6E6;
+    box-sizing: border-box;
+    border-radius: 6px;
+    min-height: 48px;
+    width: 100%;
+    padding: 10px 20px;
+  }
+}
+
+

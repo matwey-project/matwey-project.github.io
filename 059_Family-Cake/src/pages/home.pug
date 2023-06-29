@@ -1,0 +1,232 @@
+extends ../templates/main
+
+block variables
+    - var title = 'Family Cake Company'
+
+block content
+    .main-slider
+        .main-slider__wrapper.slider
+            .main-slider__item(style="background-image: url(src/blocks/main-slider/assets/img/slider-image-1.jpg);")
+                //img(src="src/blocks/main-slider/assets/img/slider-image-1.jpg")
+                .main-slider__layout
+                    .main-slider__content
+                        h3 Magic Winter with Christmas Cake 1
+                        a(href="#").button.button__pink-light Shop Now
+            .main-slider__item(style="background-image: url(src/blocks/main-slider/assets/img/slider-image-1.jpg);")
+                //img(src="src/blocks/main-slider/assets/img/slider-image-1.jpg")
+                .main-slider__layout
+                    .main-slider__content
+                        h3 Magic Winter with Christmas Cake 2
+                        a(href="#").button.button__pink-light Shop Now
+            .main-slider__item(style="background-image: url(src/blocks/main-slider/assets/img/slider-image-1.jpg);")
+                .main-slider__layout
+                    .main-slider__content
+                        h3 Magic Winter with Christmas Cake 3
+                        a(href="#").button.button__pink-light Shop Now
+            .main-slider__item(style="background-image: url(src/blocks/main-slider/assets/img/slider-image-1.jpg);")
+                .main-slider__layout
+                    .main-slider__content
+                        h3 Magic Winter with Christmas Cake 4
+                        a(href="#").button.button__pink-light Shop Now
+            .main-slider__item(style="background-image: url(src/blocks/main-slider/assets/img/slider-image-1.jpg);")
+                .main-slider__layout
+                    .main-slider__content
+                        h3 Magic Winter with Christmas Cake 5
+                        a(href="#").button.button__pink-light Shop Now
+            .main-slider__item(style="background-image: url(src/blocks/main-slider/assets/img/slider-image-1.jpg);")
+                .main-slider__layout
+                    .main-slider__content
+                        h3 Magic Winter with Christmas Cake 6
+                        a(href="#").button.button__pink-light Shop Now
+        .main-slider__navigate
+        .socials
+            .socials__layout
+                .socials__menu
+                    a(href="#")
+                        +iconSvgSocial('27', '26', '0 0 27 26', 'icon-instagram')
+                    a(href="#")
+                        +iconSvgSocial('14', '28', '0 0 14 28', 'icon-facebook')
+                    a(href="#")
+                        +iconSvgSocial('27', '22', '0 0 27 22', 'icon-twitter')
+                    a(href="#")
+                        +iconSvgSocial('20', '26', '0 0 20 26', 'icon-pinterest')
+
+    main.main
+        .cakes
+            .cakes__layout
+                .heading
+                    h3 Cakes
+                .cakes-grid
+                    .cakes-items
+                        .cakes-image
+                            img(src="src/blocks/cakes/assets/img/cake-1.png")
+                            //img(src="build/images/cake-1.png")
+                            //img(src=require("./src/blocks/cakes/assets/img/cake-1.png"))
+                        .cakes-image__link
+                            a(href="#").button.button__pink-light Cakes
+                    .cakes-items
+                        .cakes-image
+                            img(src="src/blocks/cakes/assets/img/cake-2.png")
+                        .cakes-image__link
+                            a(href="#").button.button__pink-light Cupcakes
+                    .cakes-items
+                        .cakes-image
+                            img(src="src/blocks/cakes/assets/img/cake-3.png")
+                        .cakes-image__link
+                            a(href="#").button.button__pink-light Cheesecakes
+                    .cakes-items
+                        .cakes-image
+                            img(src="src/blocks/cakes/assets/img/cake-4.png")
+                        .cakes-image__link
+                            a(href="#").button.button__pink-light Seasonal
+
+        .bespoke
+            .bespoke__layout
+                .heading
+                    h3 Bespoke Cakes
+                .bespoke__grid
+                    .bespoke__items
+                        .bespoke__image
+                            img(src="src/blocks/bespoke/assets/img/bespoke1.png")
+                        .bespoke__link
+                            a(href="#").button.button__pink-light Children’s
+                    .bespoke__items
+                        .bespoke__image
+                            img(src="src/blocks/bespoke/assets/img/bespoke2.png")
+                        .bespoke__link
+                            a(href="#").button.button__pink-light Children’s
+                    .bespoke__items
+                        .bespoke__image
+                            img(src="src/blocks/bespoke/assets/img/bespoke3.png")
+                        .bespoke__link
+                            a(href="#").button.button__pink-light Children’s
+                    .bespoke__items
+                        .bespoke__image
+                            img(src="src/blocks/bespoke/assets/img/bespoke4.png")
+                        .bespoke__link
+                            a(href="#").button.button__pink-light Children’s
+                    .bespoke__items
+                        .bespoke__image
+                            img(src="src/blocks/bespoke/assets/img/bespoke5.png")
+                        .bespoke__link
+                            a(href="#").button.button__pink-light Children’s
+                    .bespoke__items
+                        .bespoke__image
+                            img(src="src/blocks/bespoke/assets/img/bespoke6.png")
+                        .bespoke__link
+                            a(href="#").button.button__pink-light Children’s
+
+        .how-works
+            .layout-large
+                .heading
+                    h3 How It Works
+                .how-works__wrapper
+                    .how-works__item
+                        .how-works__icon
+                            img(src="src/blocks/how-works/assets/img/hand-image.png")
+                        .how-works__text
+                            p Send us an email with an image of the cake you would like replicated, along with size and date required.
+                    .how-works__item
+                        .how-works__icon
+                            img(src="src/blocks/how-works/assets/img/line-decoration.png")
+
+                    .how-works__item
+                        .how-works__icon
+                            img(src="src/blocks/how-works/assets/img/list-image.png")
+                        .how-works__text
+                            p We’ll then send over a quote and finalise the order details with you.
+
+        .our-story
+            .layout
+                .our-story__wrapper
+                    .our-story__image-wrapper
+                        .our-story__image
+                            img(src="src/blocks/our-story/assets/img/our-story.png")
+                    .our-story__content
+                        h3 Our Story
+                        p Family Cake Company specialising in bespoke occasion cakes, corporate cakes, patisserie & divinely indulgent sweet treats.
+                        p We are a Family owned company, formerly known as Amato Patisserie, originating in the heart of Soho, and responsible for launching Patisserie Valerie onto the streets of London. After showcasing our creative flare on the cobbles of Old Compton Street we soon evolved into the Family Cake Brand, moving to the hustle and bustle of Kings Cross and working in partnership with:
+                        .our-story__category
+                            ul.our-story__list
+                                li
+                                    a(href="#")
+                                        | Sands Catering
+                                        +iconSvg('14', '10', '0 0 14 10', 'icon-arrow')
+                                li
+                                    a(href="#")
+                                        | Sandwich man
+                                        +iconSvg('14', '10', '0 0 14 10', 'icon-arrow')
+
+        .experience
+            .layout
+                .heading
+                    h3 Our Experience
+                .experience__wrapper
+                    .experience__col
+                        .experience__item
+                            .experience__image
+                                img(src="src/blocks/experience/assets/img/experience-icon-1.png")
+                            .experience__content
+                                p Our past customers include corporate and small businesses, media companies, and loyal customers throughout Central London and the City.
+                    .experience__col
+                        .experience__item
+                            .experience__image
+                                img(src="src/blocks/experience/assets/img/experience-icon-2.png")
+                            .experience__content
+                                p Our cakes have even made it on the telly, featuring in ITVBe’s The Only Way Is Essex.
+                    .experience__col
+                        .experience__item
+                            .experience__image
+                                img(src="src/blocks/experience/assets/img/experience-icon-3.png")
+                            .experience__content
+                                p All our cakes are made to order by our highly skilled bakers using only the finest quality ingredients.
+
+        .instagram
+            .layout-big
+                .heading
+                    h3 Follow Us on Instagram
+                    a(href="#").heading__link @familycakecomp
+                .instagram__wrapper
+                    .instagram__grid
+                        .instagram__col-4
+                            .instagram__grid-inside
+                                .instagram__item.instagram__item--el.instagram__item--el-1
+                                    .instagram__icon-item
+                                        +iconSvg('32', '32', '0 0 32 32', 'icon-inst')
+                                    img(src="src/blocks/instagram/assets/img/photo-image-1.jpg")
+                                .instagram__item.instagram__item--el.instagram__item--el-2
+                                    .instagram__icon-item
+                                        +iconSvg('32', '32', '0 0 32 32', 'icon-inst')
+                                    img(src="src/blocks/instagram/assets/img/photo-image-2.jpg")
+                                .instagram__item.instagram__item--el.instagram__item--el-3
+                                    .instagram__icon-item
+                                        +iconSvg('32', '32', '0 0 32 32', 'icon-inst')
+                                    img(src="src/blocks/instagram/assets/img/photo-image-3.jpg")
+                        .instagram__col-4
+                            .instagram__grid-inside
+                                .instagram__item.instagram__item--el.instagram__item--el-1
+                                    .instagram__icon-item
+                                        +iconSvg('32', '32', '0 0 32 32', 'icon-inst')
+                                    img(src="src/blocks/instagram/assets/img/photo-image-4.jpg")
+                                .instagram__item.instagram__item--el.instagram__item--el-2
+                                    .instagram__icon-item
+                                        +iconSvg('32', '32', '0 0 32 32', 'icon-inst')
+                                    img(src="src/blocks/instagram/assets/img/photo-image-5.jpg")
+                                .instagram__item.instagram__item--el.instagram__item--el-3
+                                    .instagram__icon-item
+                                        +iconSvg('32', '32', '0 0 32 32', 'icon-inst')
+                                    img(src="src/blocks/instagram/assets/img/photo-image-6.jpg")
+                        .instagram__col-4
+                            .instagram__grid-inside
+                                .instagram__item.instagram__item--el.instagram__item--el-1
+                                    .instagram__icon-item
+                                        +iconSvg('32', '32', '0 0 32 32', 'icon-inst')
+                                    img(src="src/blocks/instagram/assets/img/photo-image-7.jpg")
+                                .instagram__item.instagram__item--el.instagram__item--el-2
+                                    .instagram__icon-item
+                                        +iconSvg('32', '32', '0 0 32 32', 'icon-inst')
+                                    img(src="src/blocks/instagram/assets/img/photo-image-8.jpg")
+                                .instagram__item.instagram__item--el.instagram__item--el-3
+                                    .instagram__icon-item
+                                        +iconSvg('32', '32', '0 0 32 32', 'icon-inst')
+                                    img(src="src/blocks/instagram/assets/img/photo-image-9.jpg")

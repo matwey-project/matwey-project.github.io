@@ -1,0 +1,45 @@
+@import "../../libs/scss/mixins";
+@import "../../blocks/base/variables";
+@import "../../blocks/base/media-queries";
+
+.socials {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  a {
+    display: inline-block;
+    &:not(:last-child) {
+      margin-right: 25px;
+      @include _1024 {
+        margin-right: 15px;
+      }
+    }
+    & svg {
+      fill: #353132;
+      transition: all .15s ease-out;
+      @include _1024 {
+        width: 85%;
+      }
+    }
+    &:hover {
+      & svg {
+        fill: #b53057;
+      }
+    }
+  }
+  &__layout {
+    position: relative;
+    max-width: 1126px;
+    width: 100%;
+    @include margin-auto;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  &__menu {
+    display: flex;
+    align-items: center;
+    //position: absolute;
+    //right: 0;
+    //bottom: 50px;
+  }
+}

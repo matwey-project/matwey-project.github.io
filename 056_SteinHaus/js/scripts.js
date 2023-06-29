@@ -6733,7 +6733,7 @@ if($('#map-contact').length) {
 	ymaps.ready(function () {
 		var myMap = new ymaps.Map('map-contact', {
 			center: [56.889434, 37.330327],
-			zoom: 12,
+			zoom: 14,
 			controls: ['zoomControl'],
 			// behaviors: []
 		}, {
@@ -6824,7 +6824,7 @@ function init() {
 			// e.get('target').options.set('iconImageSize', [30, 30]);
 			// e.get('target').options.set('iconImageOffset',  [-15, -15]);
 			// e.get('target').options.set('iconImageHref', 'img/icon/icon-location2.svg');
-    	
+
     	$('[data-id]').each(function(index, value){
     		var count = $(this).attr("data-id");
     		$(this).find('.links-map').removeClass('is-active');
@@ -6836,12 +6836,12 @@ function init() {
     });
 
     function createDealerList (group) {
-    	
+
     	var gallery,
     			stops = '<span class="stops hide-in">'+ group.stops +'</span>',
     			pays = '<span class="pays hide-in">'+ group.pey +'</span>',
     			// clock = '<span class="clock-map"><img src="img/icon/clock-icon.png" />' + group.clock + '</span>';
-    			clock = '<span class="clock-map"><img src="'+homeUrl+'/img/icon/clock-icon.png" />' + group.clock + '</span>';
+    			clock = '<span class="clock-map"><img src="./img/icon/clock-icon.png" />' + group.clock + '</span>';
 
     	if(group.pey == undefined){
     		pays = "";
@@ -6863,7 +6863,7 @@ function init() {
     	var options = {
     		hideIcon: false
     	};
-    	
+
     	var menuListItem = $('<li data-id="'+group.id+'"><a href="#" data-center="'+group.center+'" class="links-map"><i class="icon-red"></i>' + group.name + '<span class="address-map">' + group.address + '</span>'+clock+'</a><div class="wrapper-map">'+ stops + pays + onCheckData(group.gallery) + '</div></li>'),
 
     		collection = new ymaps.GeoObjectCollection(null, { preset: group.style }),
@@ -6886,7 +6886,7 @@ function init() {
 
 
     	menuListItem.appendTo(menuList)
-    	.find('a') 
+    	.find('a')
     	.bind('click', function () {
     		var slice = $(this);
     		var coords = $(this).attr('data-center').split(",").map(Number);

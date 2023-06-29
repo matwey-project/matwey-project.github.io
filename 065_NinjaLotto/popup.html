@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>NinjaLotto</title>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="img/favicon/apple-touch-icon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="img/favicon/apple-touch-icon-72x72.png" type="image/x-icon">
+    <link rel="shortcut icon" href="img/favicon/apple-touch-icon-144x144.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/index.css">
+    <meta name="theme-color" content="#5D1324">
+    <meta name="msapplication-navbutton-color" content="#5D1324">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#5D1324">
+  </head>
+  <body>
+    <div id="overlayer"></div>
+    <header class="header">
+      <div class="top-line">
+        <div class="container">
+          <div class="logo-wrapper"><a class="logo-link" href="/"><img src="img/logo.svg" alt="Logo"></a>
+            <nav class="header-menu--wrapper">
+              <ul class="header-menu">
+                <li><a href="#">Syndicates</a>
+                  <div class="sub-menu">
+                    <ul>
+                      <li><a href="Syndicate-EuroMillions.html">EuroMillions</a></li>
+                      <li class="active"><a href="#">Lotto</a></li>
+                      <li><a href="#">PowerBall</a></li>
+                    </ul>
+                  </div>
+                </li>
+                <li><a href="How-It-Works.html">How It Works</a></li>
+                <li><a href="#">Lotteries</a>
+                  <div class="sub-menu">
+                    <ul>
+                      <li><a href="#">EuroMillions</a></li>
+                      <li><a href="#">Lotto</a></li>
+                      <li><a href="#">PowerBall</a></li>
+                    </ul>
+                  </div>
+                </li>
+                <li><a href="#">Lottery Results</a></li>
+                <li><a href="blog.html">Blog</a></li>
+              </ul>
+              <ul class="header-menu header-menu--mobile">
+                <li><a href="#">Register / Login</a></li>
+                <li><a href="#">Basket</a></li>
+                <li><a href="#">Help & Support</a>
+                  <div class="sub-menu">
+                    <ul>
+                      <li><a href="#">Contact Us</a></li>
+                      <li><a href="#">FAQs</a></li>
+                      <li><a href="#">About Us</a></li>
+                    </ul>
+                  </div>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div class="user-information">
+            <ul class="user-head">
+              <li><a class="login-link popup" href="#login-popup" data-effect="mfp-zoom-in">
+                  <div class="login-link--icon"><img class="icon-false" src="img/user.svg" alt=""><img class="icon-true" src="img/user-active.svg" alt=""></div>Login / Register</a></li>
+              <li><a class="cart-link" href="#">
+                  <div class="cart-link--icon"><img class="cart-false" src="img/cart.svg" alt=""><img class="cart-true" src="img/cart-active.svg" alt=""></div>Basket</a></li>
+            </ul><a class="burger-menu" href="#"><span></span><span></span><span></span></a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="section_main">
+      <section class="section-breadcrumbs">
+        <div class="container">
+          <div class="row">
+            <ul class="breadcrumbs">
+              <li><a href="#">Home</a></li>
+              <li><span>Popup</span></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="section--popup-preview">
+        <div class="container">
+          <div class="popup-preview"><a class="popup" href="#login-popup" data-effect="mfp-zoom-in">Popup link</a>
+            <div class="popup-default popup-login">
+              <div class="popup-login--head"><img src="img/logo.svg" alt=""></div>
+              <div class="login-wrap">
+                <form action="">
+                  <div class="input-large">
+                    <label>Login</label>
+                  </div>
+                  <div class="input-large">
+                    <input type="text" placeholder="Email Address">
+                  </div>
+                  <div class="input-large">
+                    <input type="text" placeholder="Password">
+                    <div class="forgot-link--wrapper"><a class="forgot-link" href="#">Forgot Password?</a></div>
+                  </div>
+                  <button class="button-cart">Login</button>
+                  <div class="or-text">
+                    <p>Or</p>
+                  </div><a class="button-more" href="#">Register for a New Account</a>
+                </form>
+              </div>
+            </div>
+            <div class="popup-default popup-login">
+              <div class="popup-login--head"><img src="img/logo.svg" alt=""></div>
+              <div class="login-wrap forgot-wrap"><img class="forgot--icon-ninja" src="img/regestration/ninja-popup.png" alt="">
+                <div class="text-popup">
+                  <h3>Forgotten your password?</h3>
+                  <p>Confirm your email address and we’ll send a password reset link</p>
+                </div>
+                <form action="">
+                  <div class="input-large">
+                    <input type="text" placeholder="Email Address">
+                  </div>
+                  <button class="button-cart">Reset your password</button>
+                </form>
+              </div>
+            </div>
+            <div class="popup-default popup-login">
+              <div class="popup-login--head"><img src="img/logo.svg" alt=""></div>
+              <div class="login-wrap forgot-wrap">
+                <div class="reset-pass--content">
+                  <h3 class="text-center">Reset your Password</h3>
+                  <p>Please think of something easy for you to remember. Use 8 - 40 characters and at least 1 special character (capital, number or punctuation). </p>
+                </div>
+                <form action="">
+                  <div class="input-large">
+                    <label>Password</label>
+                    <div class="input-password status-true">
+                      <input type="password" value="0000000" placeholder="Password"><a class="show-pass" href="#">Show</a><span class="error-message">Please enter valid characters</span>
+                    </div>
+                  </div>
+                  <div class="input-large">
+                    <label>Password</label>
+                    <div class="input-password status-false">
+                      <input type="password" value="0000000" placeholder="Password"><a class="show-pass" href="#">Show</a><span class="error-message">Please enter valid characters</span>
+                    </div>
+                  </div>
+                  <div class="input-large">
+                    <label>Confirm Password</label>
+                    <div class="input-password">
+                      <input type="password" placeholder="Confirm Password"><a class="show-pass" href="#">Show</a>
+                    </div>
+                  </div>
+                  <button class="button-cart">Submit</button>
+                </form>
+              </div>
+            </div>
+            <div class="popup-default popup-login">
+              <div class="popup-login--head"><img src="img/logo.svg" alt=""></div>
+              <div class="pass-successfully"><img class="check-circle" src="img/regestration/check-cirkle.svg" alt="">
+                <div class="reset-pass--content">
+                  <h3 class="text-center">Password Changed Successfully</h3>
+                  <p>Please use your new password to<br> sign in to your account</p>
+                  <button class="button-cart">Continue</button>
+                </div>
+              </div>
+            </div>
+            <div class="popup-default popup-register">
+              <div class="popup-login--head">
+                <h3>Register with Us</h3>
+                <div class="register-steps">
+                  <ul class="register-steps--list">
+                    <li class="active">1</li>
+                    <li class="checked">2</li>
+                    <li>3</li>
+                    <li>4</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="step-form">
+                <h3>Let’s start with your personal details</h3>
+                <form class="popup-row" action="">
+                  <div class="col-6">
+                    <div class="input-large">
+                      <label>Last Name *</label>
+                      <div class="input-text status-false">
+                        <input type="text" placeholder="First Name"><span class="error-message">Error Message</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-6">
+                    <div class="input-large">
+                      <label>First Name *</label>
+                      <div class="input-text status-true">
+                        <input type="text" value="Smit" placeholder="Last Name"><span class="error-message">Error Message</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <div class="input-large">
+                      <label>Email *</label>
+                      <div class="input-text status-true">
+                        <input type="text" value="ariscapellos@hotmail.com" placeholder="E-mail"><span class="error-message">Error Message</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="wrap-birth col-12">
+                    <div class="popup-row">
+                      <div class="col-12">
+                        <label class="label-popup">Date of Birth *</label>
+                      </div>
+                      <div class="col-4">
+                        <div class="select-birth">
+                          <select class="select-default">
+                            <option>Day</option>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                          </select>
+                        </div>
+                      </div>
+                      <div class="col-4">
+                        <div class="select-birth">
+                          <select class="select-default">
+                            <option>Month</option>
+                            <option value="">January</option>
+                            <option value="">February</option>
+                            <option value="">March</option>
+                            <option value="">April</option>
+                            <option value="">May</option>
+                            <option value="">June</option>
+                            <option value="">July</option>
+                            <option value="">August</option>
+                            <option value="">September</option>
+                            <option value="">October</option>
+                            <option value="">November</option>
+                            <option value="">December</option>
+                          </select>
+                        </div>
+                      </div>
+                      <div class="col-4">
+                        <div class="select-birth">
+                          <select class="select-default">
+                            <option>Year
+                              <option>1970</option>
+                              <option>1980</option>
+                              <option>1990</option>
+                              <option>2000</option>
+                              <option>2010</option>
+                            </option>
+                          </select>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="gender-popup">
+                    <div class="col-12">
+                      <label class="label-popup">Gender *</label>
+                    </div>
+                    <div class="col-12">
+                      <label class="radio radio-gender">
+                        <input type="radio" name="radio" required="">
+                        <p class="radio__text">Male</p>
+                      </label>
+                      <label class="radio radio-gender">
+                        <input type="radio" name="radio" required="">
+                        <p class="radio__text">Female</p>
+                      </label>
+                    </div>
+                  </div>
+                  <div class="col-12 bottom-register text-right">
+                    <button class="button-cart">Submit</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+            <div class="popup-default popup-register">
+              <div class="popup-login--head">
+                <h3>Register with Us</h3>
+                <div class="register-steps">
+                  <ul class="register-steps--list">
+                    <li class="checked">1</li>
+                    <li class="active">2</li>
+                    <li>3</li>
+                    <li>4</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="step-form">
+                <h3>Great having you with us!</h3>
+                <form class="popup-row" action="">
+                  <div class="col-12">
+                    <div class="input-large">
+                      <div class="input-head">
+                        <label class="label-popup">Postcode Lookup</label><a class="link-label" href="#">Enter Manually</a>
+                      </div>
+                      <div class="input-search">
+                        <input type="text" value="sw144af" placeholder="Search">
+                        <button class="button-search"></button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <div class="input-large">
+                      <label>Country</label>
+                      <p class="result-text">United Kingdom</p>
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <div class="popup-row">
+                      <div class="col-12">
+                        <label class="label-popup">Contact Number *</label>
+                      </div>
+                      <div class="col-5">
+                        <div class="select-phone">
+                          <select class="select-flug">
+                            <option data-image="img/country/flug.png">+44</option>
+                            <option data-image="img/country/flug.png">+44</option>
+                            <option data-image="img/country/flug.png">+44</option>
+                            <option data-image="img/country/flug.png">+44</option>
+                          </select>
+                        </div>
+                      </div>
+                      <div class="col-7">
+                        <div class="input-large">
+                          <input type="text" value="7989057441" placeholder="000-00-00">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12 bottom-register text-right">
+                    <button class="button-cart">Submit</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+            <div class="popup-default popup-register">
+              <div class="popup-login--head">
+                <h3>Register with Us</h3>
+                <div class="register-steps">
+                  <ul class="register-steps--list">
+                    <li class="checked">1</li>
+                    <li class="checked">2</li>
+                    <li class="active">3</li>
+                    <li>4</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="step-form">
+                <h3>Great having you with us!</h3>
+                <form class="popup-row" action="">
+                  <div class="col-12">
+                    <div class="input-large">
+                      <div class="input-head">
+                        <label class="label-popup">Address Line 1</label><a class="link-label" href="#">Postcode Lookup</a>
+                      </div>
+                      <div class="input-text status-true">
+                        <input type="text" value="Flat 2, Arundel Court" placeholder=""><span class="error-message">Error Message</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <div class="input-large">
+                      <div class="input-head">
+                        <label class="label-popup">Address Line 2</label>
+                      </div>
+                      <div class="input-text status-true">
+                        <input type="text" value="41 Raymond Road" placeholder=""><span class="error-message">Error Message</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-7">
+                    <div class="input-large">
+                      <div class="input-head">
+                        <label class="label-popup">City *</label>
+                      </div>
+                      <div class="input-text status-true">
+                        <input type="text" value="London" placeholder=""><span class="error-message">Error Message</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-5">
+                    <div class="input-large">
+                      <div class="input-head">
+                        <label class="label-popup">Post code *</label>
+                      </div>
+                      <div class="input-text status-false">
+                        <input type="text" value="SW19 4AF" placeholder=""><span class="error-message">Error Message</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <div class="input-large">
+                      <label>Country</label>
+                      <p class="result-text">United Kingdom</p>
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <div class="popup-row">
+                      <div class="col-12">
+                        <label class="label-popup">Contact Number *</label>
+                      </div>
+                      <div class="col-5">
+                        <div class="select-phone">
+                          <select class="select-flug">
+                            <option data-image="img/country/flug.png">+44</option>
+                            <option data-image="img/country/flug.png">+44</option>
+                            <option data-image="img/country/flug.png">+44</option>
+                            <option data-image="img/country/flug.png">+44</option>
+                          </select>
+                        </div>
+                      </div>
+                      <div class="col-7">
+                        <div class="input-large">
+                          <input type="text" value="7989057441" placeholder="000-00-00">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12 bottom-register text-right">
+                    <button class="button-cart">Submit</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+            <div class="popup-default popup-register">
+              <div class="popup-login--head">
+                <h3>Register with Us</h3>
+                <div class="register-steps">
+                  <ul class="register-steps--list">
+                    <li class="checked">1</li>
+                    <li class="checked">2</li>
+                    <li class="active">3</li>
+                    <li>4</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="step-form">
+                <h3>Your account is safe with us</h3>
+                <form class="popup-row" action="">
+                  <div class="col-12">
+                    <div class="input-large">
+                      <label>Password<span>Please think of something easy for you to remember. <strong>Use 8 - 40 characters and at least 1 special character (capital, number or punctuation).</strong></span></label>
+                      <div class="input-password status-true">
+                        <input type="password" value="@3EWfbTT56FGRg" placeholder="Password"><a class="show-pass" href="#">Show</a><span class="error-message">Please enter valid characters </span>
+                      </div>
+                    </div>
+                    <div class="input-large">
+                      <label>Confirm Password</label>
+                      <div class="input-password status-true">
+                        <input type="password" value="@3EWfbTT56FGRg" placeholder="Confirm Password"><a class="show-pass" href="#">Show</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12 bottom-register text-right">
+                    <button class="button-cart">Submit</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+            <div class="popup-default popup-register">
+              <div class="popup-login--head">
+                <h3>Register with Us</h3>
+                <div class="register-steps">
+                  <ul class="register-steps--list">
+                    <li class="checked">1</li>
+                    <li class="checked">2</li>
+                    <li class="checked">3</li>
+                    <li class="active">4</li>
+                  </ul>
+                </div>
+              </div>
+              <div class="step-form">
+                <div class="content--join-now">
+                  <h3>Join now and start playing</h3>
+                  <hr class="border-join">
+                  <p>I am happy to receive marketing communications and exciting offers from Ninja Lotto (you can unsubscribe at any time by visiting the Contact Preferences section  in Your Account). </p>
+                </div>
+                <form class="popup-row" action="">
+                  <div class="col-12 check-join-now">
+                    <label class="radio radio-gender">
+                      <input type="radio" name="radio" checked required="">
+                      <p class="radio__text">Accept</p>
+                    </label>
+                    <label class="radio radio-gender">
+                      <input type="radio" name="radio" required="">
+                      <p class="radio__text">No, thanks</p>
+                    </label>
+                  </div>
+                  <div class="col-12 check-privacy">
+                    <label class="checkbox">
+                      <input type="checkbox">
+                      <p class="checkbox__text">I am 18 years or older and accept the <a href="#">Terms Of Use</a> and <a href="#">Privacy Policy</a> for having an account.</p>
+                    </label>
+                  </div>
+                  <div class="col-12 bottom-register text-right">
+                    <button class="button-cart">Accept Terms</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+            <div class="popup-default popup-register">
+              <div class="popup-login--head">
+                <h3>Thank You For Registering</h3><img src="img/regestration/welcom.png" alt="">
+              </div>
+              <div class="you-like">
+                <h4>Would you like to:</h4>
+                <ul class="you-like--list">
+                  <li>
+                    <div class="you-like--icon"><img src="img/regestration/welcome-icon1.svg" alt=""></div>
+                    <p>Make a<br> Deposit</p>
+                  </li>
+                  <li>
+                    <div class="you-like--icon"><img src="img/regestration/welcome-icon2.svg" alt=""></div>
+                    <p>Join a<br> Syndicate</p>
+                  </li>
+                  <li>
+                    <div class="you-like--icon"><img src="img/regestration/welcome-icon3.svg" alt=""></div>
+                    <p>Continue<br> Browsing</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="hidden-wrapper">
+        <div class="popup-default popup-login mfp-with-anim mfp-hide" id="login-popup">
+          <div class="popup-login--head"><img src="img/logo.svg" alt=""></div>
+          <div class="login-wrap">
+            <form action="">
+              <div class="input-large">
+                <label>Login</label>
+              </div>
+              <div class="input-large">
+                <input type="text" placeholder="Email Address">
+              </div>
+              <div class="input-large">
+                <input type="text" placeholder="Password">
+                <div class="forgot-link--wrapper"><a class="popup forgot-link" href="#forgot-popup" data-effect="mfp-zoom-in">Forgot Password?</a></div>
+              </div>
+              <button class="button-cart">Login</button>
+              <div class="or-text">
+                <p>Or</p>
+              </div><a class="popup button-more" href="#forgot-popup" data-effect="mfp-zoom-in">Register for a New Account</a>
+            </form>
+          </div>
+        </div>
+        <div class="popup-default popup-login mfp-with-anim mfp-hide" id="forgot-popup">
+          <div class="popup-login--head"><img src="img/logo.svg" alt=""></div>
+          <div class="login-wrap forgot-wrap"><img class="forgot--icon-ninja" src="img/regestration/ninja-popup.png" alt="">
+            <div class="text-popup">
+              <h3>Forgotten your password?</h3>
+              <p>Confirm your email address and we’ll send a password reset link</p>
+            </div>
+            <form action="">
+              <div class="input-large">
+                <input type="text" placeholder="Email Address">
+              </div>
+              <button class="button-cart">Reset your password</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="row footer-row">
+          <div class="col-md-4">
+            <div class="footer-logo--wrapper">
+              <div class="footer-logo"><a href="#"><img src="img/logo-white.svg" alt=""></a></div>
+              <div class="list-logo--wrapper" data-da=".footer-content--menu, 992, last">
+                <ul class="list-logo">
+                  <li><img src="img/logo-foot1.svg" alt=""></li>
+                  <li><img src="img/logo-foot2.svg" alt=""></li>
+                  <li><img src="img/logo-foot3.svg" alt=""></li>
+                </ul>
+              </div>
+              <div class="social-wrapper">
+                <ul class="list-social">
+                  <li><a href="#"><img src="img/soc-icon-instagram.svg" alt="">Instagram</a></li>
+                  <li><a href="#"><img src="img/soc-icon-twitter.svg" alt="">Twitter</a></li>
+                  <li><a href="#"><img src="img/soc-icon-youtube.svg" alt="">YouTube</a></li>
+                </ul>
+              </div>
+              <div class="copy-wrapper">
+                <p>* All jackpots are estimated.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-8">
+            <div class="footer-content">
+              <div class="footer-content--preview" data-da=".footer-logo--wrapper, 992, 1">
+                <div class="row">
+                  <div class="col-md-4">
+                    <div class="preview-items">
+                      <div class="preview-icon"><img src="img/icon-foot1.svg" alt=""></div>
+                      <p>All transactions 100% secure and protected by 128-bit SSL security</p>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="preview-items">
+                      <div class="preview-icon"><img src="img/icon-foot2.svg" alt=""></div>
+                      <p>Official lottery tickets purchased from licensed lottery retailers</p>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="preview-items">
+                      <div class="preview-icon"><img src="img/icon-foot3.svg" alt=""></div>
+                      <p>A team of lottery Ninja’s ready to respond to any queries via email</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="footer-content--menu">
+                <div class="footer-menu--wrapper row">
+                  <div class="col-md-3">
+                    <h3 class="list-name">Syndicates <span class="icon-triangle"></span></h3>
+                    <ul class="list-menu--footer">
+                      <li><a href="#">Lottery Syndicates</a></li>
+                      <li><a href="#">Lotto Syndicates</a></li>
+                      <li><a href="#">EuroMillions Syndicates</a></li>
+                      <li><a href="#">PowerBall Syndicates</a></li>
+                    </ul>
+                  </div>
+                  <div class="col-md-3">
+                    <h3 class="list-name">Lotteries <span class="icon-triangle"></span></h3>
+                    <ul class="list-menu--footer">
+                      <li><a href="#">Lotto</a></li>
+                      <li><a href="#">EuroMillions</a></li>
+                      <li><a href="#">Thunderball</a></li>
+                      <li><a href="#">Set For Life</a></li>
+                      <li><a href="#">Irish Lotto</a></li>
+                      <li><a href="#">PowerBall</a></li>
+                      <li><a href="#">Mega Millions</a></li>
+                    </ul>
+                  </div>
+                  <div class="col-md-3">
+                    <h3 class="list-name">Results <span class="icon-triangle"></span></h3>
+                    <ul class="list-menu--footer">
+                      <li><a href="#">Lottery Results</a></li>
+                      <li><a href="#">Lotto Results</a></li>
+                      <li><a href="#">EuroMillions Results</a></li>
+                      <li><a href="#">Thunderball Results</a></li>
+                      <li><a href="#">Set For Life Results</a></li>
+                      <li><a href="#">Irish Lottery Results</a></li>
+                      <li><a href="#">PowerBall Results</a></li>
+                      <li><a href="#">Mega Millions Results</a></li>
+                    </ul>
+                  </div>
+                  <div class="col-md-3">
+                    <ul class="list-menu--footer">
+                      <li><a href="#">FAQs</a></li>
+                      <li><a href="#">About Us</a></li>
+                      <li><a href="#">Contact</a></li>
+                      <li><a href="#">Lottery Blog</a></li>
+                      <li><a href="#">Privacy Policy</a></li>
+                      <li><a href="#">Terms Of Use</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="footer-content--content">
+                <p>Ninja Lotto is operated by Arpelon Limited (company number 12830673 and registered address The Long Lodge, 265-269 Kingston Road, Wimbledon, London, United Kingdom, SW19 3NW). </p>
+                <p>Arpelon Limited does not operate a lottery and is not connected to any official lottery body or organisation. The  National Lottery and Lotto logos are the trademarks of the Gambling Commission and are licensed to Camelot UK Lotteries Limited. EuroMillions is the trademark of S.L.E Services aux Loteries en Europe and PowerBall is the  trademark of The Multi-State Lottery Association (MUSL). </p>
+                <p>Copyright © 2020, Arpelon Limited. All rights reserved.</p>
+              </div>
+              <div class="footer--pay-method">
+                <ul class="list-pay">
+                  <li><img src="img/card1.svg" alt=""></li>
+                  <li><img src="img/card2.svg" alt=""></li>
+                  <li><img src="img/card3.svg" alt=""></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>

@@ -1,0 +1,29 @@
+header.header
+    .layout-small
+        .header__wrapper
+            .header__logo
+                a(href="#").logo
+                    img(src="src/blocks/header/assets/img/logo.png")
+            .header__navigation
+                .header__navigation-button
+                    a(href="mailto:user-name@gmail.com").button.button__border-pink E-mail Us
+                    a(href="tel:020-7619-7793").button.button__pink
+                        +iconSvg('16', '16', '0 0 16 16', 'icon-phone')
+                        | 020-7619-7793
+                a(href="tel:020-7619-7793").header__card
+                    span.header__card-counter 2
+                    +iconSvg('28', '28', '0 0 28 28', 'icon-card')
+                button.burger-menu
+                    span
+                    span
+                    span
+    .header__menu
+        .layout
+            ul
+                +item('Cakes', 'cakes.html')
+                +item('Cupcakes', 'cupcakes.html')
+                +item('Cheesecakes', 'cakes.html')
+                +item('Seasonal', 'cupcakes.html')
+                +item('Bespoke', 'bespoke.html')
+                +item('Contacts', 'cupcakes.html')
+                +item('Allergens', 'cakes.html')

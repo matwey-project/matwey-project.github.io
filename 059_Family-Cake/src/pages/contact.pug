@@ -1,0 +1,60 @@
+extends ../templates/main
+
+block variables
+    - var title = 'Family Cake Company';
+    - var active = 'Cupcakes';
+
+block content
+    main.main
+        .contact
+            .layout
+                .heading
+                    h3 Contact
+                    p We are always happy to help with any cake related queries you may have, fill in the form below or give us a call.
+
+                .contact__wrapper
+                    .contact__form
+                        form
+                            .order-cake__input-style
+                                input(type="text" placeholder="Your Name*")
+                            .order-cake__input-style
+                                input(type="text" placeholder="Your Telephone Number*")
+                            .order-cake__input-style
+                                textarea(placeholder="Your Message")
+                            .order-cake__input-style
+                                label.label-name.label-name__big Which date do you require the cake?
+                                input(type='text' data-timepicker="true" data-time-format='hh:ii' placeholder="DD/MM/YY").datepicker-here.input-icon.input-icon--calendar
+                            .order-cake__input-style
+                                label.label-name.label-name__small Do you have an image of what you had in mind? If so click below to upload.
+                                .upload-file
+                                    label.upload-file__label
+                                        | Select File
+                                    input(type="file" multiple="multiple").load-file
+                            .order-cake__button
+                                button.button.button__big.button__pink Send
+
+                    .contact__info
+                        .contact__info-item
+                            h3 Contact Info
+                            ul.list-info
+                                li
+                                    img(src="/images/icons/location.svg")
+                                    | 20 Tile Yard Road, London N7 9AH
+                                li
+                                    img(src="/images/icons/phone.svg")
+                                    | 020 7619 7793
+                                li
+                                    img(src="/images/icons/time.svg")
+                                    | 9:00am - 5:00pm
+
+                        .contact__info-item
+                            h3 Follow Us
+                            .socials__menu
+                                a(href="#")
+                                    +iconSvgSocial('27', '26', '0 0 27 26', 'icon-instagram')
+                                a(href="#")
+                                    +iconSvgSocial('14', '28', '0 0 14 28', 'icon-facebook')
+                                a(href="#")
+                                    +iconSvgSocial('27', '22', '0 0 27 22', 'icon-twitter')
+                                a(href="#")
+                                    +iconSvgSocial('20', '26', '0 0 20 26', 'icon-pinterest')

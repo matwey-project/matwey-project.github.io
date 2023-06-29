@@ -1,0 +1,43 @@
+extends ../templates/main
+
+block variables
+    - var title = 'XDLE'
+
+include ../blocks/breadcrumbs/breadcrumbs
+include ../blocks/filter-news/filter-news
+
+block content
+
+    main.main
+        .section.section--offset-bottom.news
+            .layout
+                .breadcrumbs.breadcrumbs--default-offset
+                    ul.breadcrumbs__lists
+                        +listBreadcrumbs("Главная")
+                        +listBreadcrumbs("Новости и акции", true)
+
+                .heading.heading--no-offset
+                    h2.heading__title.heading__title--ofsset-bottom Новости и акции
+
+                +filterNews([{name: "Все", class: "filter-news__link--active"}, {name: "Акции"}, {name: "Новости"}])
+
+                .news__wrapper
+                    +newsPostFull("src/blocks/news/assets/img/news1.jpg", "Теплые скидки", "5 Апреля 2021")
+                    +newsPostFull("src/blocks/news/assets/img/news2.jpg", "Скидка недели 15%", "5 Апреля 2021")
+                    +newsPost("src/blocks/news/assets/img/news3.jpg", "Новинки лимитированной коллекции", "16 Февраля 2021")
+                    +newsPost("src/blocks/news/assets/img/news4.jpg", "Новинки лимитированной коллекции", "16 Февраля 2021")
+                    +newsPost("src/blocks/news/assets/img/news5.jpg", "Новинки лимитированной коллекции", "16 Февраля 2021")
+                    +newsPost("src/blocks/news/assets/img/news1.jpg", "Новинки лимитированной коллекции", "16 Февраля 2021")
+                    +newsPost("src/blocks/news/assets/img/news2.jpg", "Новинки лимитированной коллекции", "16 Февраля 2021")
+                    +newsPost("src/blocks/news/assets/img/news3.jpg", "Новинки лимитированной коллекции", "16 Февраля 2021")
+
+                .news__pagination-wrapper
+                    include ../blocks/pagination/pagination
+                .subscribe
+                    .subscribe__title
+                        +mixinSvg('68', '62','icon__banner-person', 'subscribe__icon')
+                        .subscribe__desc Хотите быть в курсе событий? Подпишитесь на наши новости:
+                    form.subscribe__form
+                        input(type="text").subscribe__input
+                        button.button.subscribe__button Подписаться
+

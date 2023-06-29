@@ -1,0 +1,94 @@
+@import "../../libs/scss/mixins";
+@import "../../blocks/base/variables";
+@import "../../blocks/base/media-queries";
+
+.related-product {
+  padding-bottom: 120px;
+  overflow: hidden;
+  @include _768 {
+    padding-bottom: 80px;
+  }
+  .heading {
+    margin-bottom: 46px;
+
+    h3 {
+      text-align: left;
+    }
+  }
+
+  &__wrapper {
+    position: relative;
+    @include _854 {
+      margin: 0 -15px;
+    }
+  }
+
+  &__col {
+    padding: 0 12px;
+  }
+
+  &__item {
+    max-width: 280px;
+    margin: 0 auto;
+  }
+
+  &__image {
+    position: relative;
+    border-radius: 12px;
+    overflow: hidden;
+    padding-top: 100%;
+
+
+    img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  &__name {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #353132;
+    min-height: 68px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+
+  &__button {
+    .button {
+      width: 100%;
+    }
+  }
+
+  &__prev,
+  &__next {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    cursor: pointer;
+    padding: 20px;
+  }
+  &__prev {
+    left: -60px;
+    @include _1200 {
+      left: -10px;
+      padding: 0;
+    }
+  }
+  &__next {
+    right: -60px;
+    @include _1200 {
+      right: -10px;
+      padding: 0;
+    }
+  }
+
+}

@@ -1,0 +1,767 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>NinjaLotto</title>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="img/favicon/apple-touch-icon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="img/favicon/apple-touch-icon-72x72.png" type="image/x-icon">
+    <link rel="shortcut icon" href="img/favicon/apple-touch-icon-144x144.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/index.css">
+    <meta name="theme-color" content="#5D1324">
+    <meta name="msapplication-navbutton-color" content="#5D1324">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#5D1324">
+  </head>
+  <body>
+    <div id="overlayer"></div>
+    <header class="header">
+      <div class="top-line">
+        <div class="container">
+          <div class="logo-wrapper"><a class="logo-link" href="/"><img src="img/logo.svg" alt="Logo"></a>
+            <nav class="header-menu--wrapper">
+              <ul class="header-menu">
+                <li><a href="#">Syndicates</a>
+                  <div class="sub-menu">
+                    <ul>
+                      <li><a href="Syndicate-EuroMillions.html">EuroMillions</a></li>
+                      <li class="active"><a href="#">Lotto</a></li>
+                      <li><a href="#">PowerBall</a></li>
+                    </ul>
+                  </div>
+                </li>
+                <li><a href="How-It-Works.html">How It Works</a></li>
+                <li><a href="#">Lotteries</a>
+                  <div class="sub-menu">
+                    <ul>
+                      <li><a href="#">EuroMillions</a></li>
+                      <li><a href="#">Lotto</a></li>
+                      <li><a href="#">PowerBall</a></li>
+                    </ul>
+                  </div>
+                </li>
+                <li><a href="#">Lottery Results</a></li>
+                <li><a href="blog.html">Blog</a></li>
+              </ul>
+              <ul class="header-menu header-menu--mobile">
+                <li><a href="#">Register / Login</a></li>
+                <li><a href="#">Basket</a></li>
+                <li><a href="#">Help & Support</a>
+                  <div class="sub-menu">
+                    <ul>
+                      <li><a href="#">Contact Us</a></li>
+                      <li><a href="#">FAQs</a></li>
+                      <li><a href="#">About Us</a></li>
+                    </ul>
+                  </div>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div class="user-information">
+            <ul class="user-head">
+              <li><a class="login-link popup" href="#login-popup" data-effect="mfp-zoom-in">
+                  <div class="login-link--icon"><img class="icon-false" src="img/user.svg" alt=""><img class="icon-true" src="img/user-active.svg" alt=""></div>Login / Register</a></li>
+              <li><a class="cart-link" href="#">
+                  <div class="cart-link--icon"><img class="cart-false" src="img/cart.svg" alt=""><img class="cart-true" src="img/cart-active.svg" alt=""></div>Basket</a></li>
+            </ul><a class="burger-menu" href="#"><span></span><span></span><span></span></a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="section_main">
+      <section class="section-breadcrumbs">
+        <div class="container">
+          <div class="row">
+            <ul class="breadcrumbs">
+              <li><a href="#">Home</a></li>
+              <li><span>Lottery Results</span></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="section-tab">
+        <div class="container">
+          <div class="tab-heading">
+            <h1>Lottery Results</h1>
+            <p>Use our Lottery Results Checker to quickly find the latest lottery results from the UK and beyond</p>
+          </div>
+          <div class="tab-result">
+            <div class="tab-result--head">
+              <div class="tab-item active" data-border="#CC0034">
+                <div class="tab-item--inside">
+                  <div class="tab-item--img"><img src="img/lotto-result/icon-tab/icon-tab1.png" alt=""></div>
+                  <p>Lotto</p>
+                </div>
+              </div>
+              <div class="tab-item" data-border="#000088">
+                <div class="tab-item--inside">
+                  <div class="tab-item--img"><img src="img/lotto-result/icon-tab/icon-tab2.png" alt=""></div>
+                  <p>EuroMillions</p>
+                </div>
+              </div>
+              <div class="tab-item" data-border="#8B01C1">
+                <div class="tab-item--inside">
+                  <div class="tab-item--img"><img src="img/lotto-result/icon-tab/icon-tab3.png" alt=""></div>
+                  <p>Thunderball</p>
+                </div>
+              </div>
+              <div class="tab-item" data-border="#137D80">
+                <div class="tab-item--inside">
+                  <div class="tab-item--img"><img src="img/lotto-result/icon-tab/icon-tab4.png" alt=""></div>
+                  <p>Set For Life</p>
+                </div>
+              </div>
+              <div class="tab-item" data-border="#0E6E02">
+                <div class="tab-item--inside">
+                  <div class="tab-item--img"><img src="img/lotto-result/icon-tab/icon-tab5.png" alt=""></div>
+                  <p>Irish Lotto</p>
+                </div>
+              </div>
+              <div class="tab-item" data-border="#F10E7F">
+                <div class="tab-item--inside">
+                  <div class="tab-item--img"><img src="img/lotto-result/icon-tab/icon-tab6.png" alt=""></div>
+                  <p>Lotto Hotpicks</p>
+                </div>
+              </div>
+              <div class="tab-item" data-border="#E98312">
+                <div class="tab-item--inside">
+                  <div class="tab-item--img"><img src="img/lotto-result/icon-tab/icon-tab7.png" alt=""></div>
+                  <p>EuroMillions <br>Hotpicks</p>
+                </div>
+              </div>
+              <div class="tab-item" data-border="#0F3464">
+                <div class="tab-item--inside">
+                  <div class="tab-item--img"><img src="img/lotto-result/icon-tab/icon-tab8.png" alt=""></div>
+                  <p>Powerball</p>
+                </div>
+              </div>
+              <div class="tab-item" data-border="#004790">
+                <div class="tab-item--inside">
+                  <div class="tab-item--img"><img src="img/lotto-result/icon-tab/icon-tab9.png" alt=""></div>
+                  <p>MegaMillions</p>
+                </div>
+              </div>
+            </div>
+            <div class="tab-result--content">
+              <div class="tab-result--items" data-da="#hidden-wrapper,768">
+                <div class="tab-result--inside tab-style--lotto"><a class="btn-close" href="#"></a>
+                  <div class="result-date">
+                    <div class="result-date--main">
+                      <div class="logo-icon"><img src="img/lotto-result/logo-tab1.png" alt=""></div>
+                      <div class="result-date--info">
+                        <div class="date-lotto"><strong>Result for</strong><span>Fri 08/04/2020</span></div>
+                        <div class="result-lotto"><span class="result-lotto--items">20</span><span class="result-lotto--items">26</span><span class="result-lotto--items">34</span><span class="result-lotto--items">41</span><span class="result-lotto--items">42</span><span class="result-lotto--items">02</span><span class="result-lotto--items active">06</span></div>
+                        <div class="total-lotto"><strong>Total Jackpot</strong><span>£11,600,502</span></div>
+                        <div class="draw-result">
+                          <div class="draw-result-item"><strong>Draw</strong><span>1316</span></div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="result-date--nav"><a class="prev-draw nav-draw disable" href="#">
+                        <svg class="icon-arrow" width="24" height="24" viewBox="0 0 24 24">
+                          <use xlink:href="img/icon/sprite.svg#icon-arrow"></use>
+                        </svg> Next Draw</a><a class="price-breakdown" href="#" data-godom=".draw-result">Prize Breakdown</a><a class="next-draw nav-draw" href="#">Prev Draw 
+                        <svg class="icon-arrow" width="24" height="24" viewBox="0 0 24 24">
+                          <use xlink:href="img/icon/sprite.svg#icon-arrow"></use>
+                        </svg></a></div>
+                  </div>
+                  <div class="result-content">
+                    <div class="result-content--text">
+                      <p>Increase your chances of winning the lottery by sharing lines with other players</p><a class="button-cart" href="#">Join Syndicate</a>
+                    </div>
+                    <div class="result-content--time"><a class="next-draw" href="#">Next Draw</a>
+                      <div class="total-sum">
+                        <p>£11 Million <sup>*</sup></p>
+                      </div>
+                      <div class="timer-wrapper" data-date="2020-12-11">
+                        <div class="timer-items">
+                          <div class="time-item days">08</div>
+                          <div class="description">Days</div>
+                        </div>
+                        <div class="timer-items">
+                          <div class="time-item hours">08</div>
+                          <div class="description">Hrs</div>
+                        </div>
+                        <div class="timer-items">
+                          <div class="time-item minutes">08</div>
+                          <div class="description">Mins</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-result--items" data-da="#hidden-wrapper,768">
+                <div class="tab-result--inside tab-style--EuroMillions"><a class="btn-close" href="#"></a>
+                  <div class="result-date">
+                    <div class="result-date--main">
+                      <div class="logo-icon"><img src="img/lotto-result/logo-tab2.png" alt=""></div>
+                      <div class="result-date--info">
+                        <div class="date-lotto"><strong>Result for</strong><span>Fri 08/04/2020</span></div>
+                        <div class="result-lotto"><span class="result-lotto--items">20</span><span class="result-lotto--items">26</span><span class="result-lotto--items">34</span><span class="result-lotto--items">41</span><span class="result-lotto--items">42</span><span class="result-lotto--items active">02</span><span class="result-lotto--items active">06</span></div>
+                        <div class="total-lotto"><strong>Total Jackpot</strong><span>£11,600,502</span></div>
+                        <div class="draw-result">
+                          <div class="draw-result-item"><strong>Draw</strong><span>1316</span></div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="result-date--nav"><a class="prev-draw nav-draw disable" href="#">
+                        <svg class="icon-arrow" width="24" height="24" viewBox="0 0 24 24">
+                          <use xlink:href="img/icon/sprite.svg#icon-arrow"></use>
+                        </svg> Next Draw</a><a class="price-breakdown" href="#" data-godom=".draw-result">Prize Breakdown</a><a class="next-draw nav-draw" href="#">Prev Draw 
+                        <svg class="icon-arrow" width="24" height="24" viewBox="0 0 24 24">
+                          <use xlink:href="img/icon/sprite.svg#icon-arrow"></use>
+                        </svg></a></div>
+                  </div>
+                  <div class="result-content">
+                    <div class="result-content--text">
+                      <p>Increase your chances of winning the lottery by sharing lines with other players</p><a class="button-cart" href="#">Join Syndicate</a>
+                    </div>
+                    <div class="result-content--time"><a class="next-draw" href="#">Next Draw</a>
+                      <div class="total-sum">
+                        <p>£44 Million <sup>*</sup></p><span>Entries End in</span>
+                      </div>
+                      <div class="timer-wrapper" data-date="2021-02-05">
+                        <div class="timer-items">
+                          <div class="time-item days">08</div>
+                          <div class="description">Days</div>
+                        </div>
+                        <div class="timer-items">
+                          <div class="time-item hours">08</div>
+                          <div class="description">Hrs</div>
+                        </div>
+                        <div class="timer-items">
+                          <div class="time-item minutes">08</div>
+                          <div class="description">Mins</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-result--items" data-da="#hidden-wrapper,768">
+                <div class="tab-result--inside tab-style--Thunderball-Button"><a class="btn-close" href="#"></a>
+                  <div class="result-date">
+                    <div class="result-date--main">
+                      <div class="logo-icon"><img src="img/lotto-result/logo-tab3.png" alt=""></div>
+                      <div class="result-date--info">
+                        <div class="date-lotto"><strong>Result for</strong><span>Fri 08/04/2020</span></div>
+                        <div class="result-lotto"><span class="result-lotto--items">20</span><span class="result-lotto--items">26</span><span class="result-lotto--items">34</span><span class="result-lotto--items">41</span><span class="result-lotto--items">42</span><span class="result-lotto--items active">02</span><span class="result-lotto--items active">06</span></div>
+                        <div class="total-lotto"><strong>Total Jackpot</strong><span>£11,600,502</span></div>
+                        <div class="draw-result">
+                          <div class="draw-result-item"><strong>Draw</strong><span>1316</span></div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="result-date--nav"><a class="prev-draw nav-draw disable" href="#">
+                        <svg class="icon-arrow" width="24" height="24" viewBox="0 0 24 24">
+                          <use xlink:href="img/icon/sprite.svg#icon-arrow"></use>
+                        </svg> Next Draw</a><a class="price-breakdown" href="#">Prize Breakdown</a><a class="next-draw nav-draw" href="#">Prev Draw 
+                        <svg class="icon-arrow" width="24" height="24" viewBox="0 0 24 24">
+                          <use xlink:href="img/icon/sprite.svg#icon-arrow"></use>
+                        </svg></a></div>
+                  </div>
+                  <div class="result-content">
+                    <div class="result-content--text">
+                      <p>Increase your chances of winning the lottery by sharing lines with other players</p>
+                    </div>
+                    <div class="result-content--time"><a class="next-draw" href="#">Next Draw</a>
+                      <div class="total-sum">
+                        <p>£500,000</p>
+                      </div>
+                      <div class="timer-wrapper" data-date="2021-12-05">
+                        <div class="timer-items">
+                          <div class="time-item days">08</div>
+                          <div class="description">Days</div>
+                        </div>
+                        <div class="timer-items">
+                          <div class="time-item hours">08</div>
+                          <div class="description">Hrs</div>
+                        </div>
+                        <div class="timer-items">
+                          <div class="time-item minutes">08</div>
+                          <div class="description">Mins</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-result--items" data-da="#hidden-wrapper,768">
+                <div class="tab-result--inside tab-style--SetForLife"><a class="btn-close" href="#"></a>
+                  <div class="result-date">
+                    <div class="result-date--main">
+                      <div class="logo-icon"><img src="img/lotto-result/logo-tab4.png" alt=""></div>
+                      <div class="result-date--info">
+                        <div class="date-lotto"><strong>Result for</strong><span>Fri 08/04/2020</span></div>
+                        <div class="result-lotto"><span class="result-lotto--items">20</span><span class="result-lotto--items">26</span><span class="result-lotto--items">34</span><span class="result-lotto--items">41</span><span class="result-lotto--items">42</span><span class="result-lotto--items active">02</span><span class="result-lotto--items active">06</span></div>
+                        <div class="total-lotto"><strong>Total Jackpot</strong><span>£11,600,502</span></div>
+                        <div class="draw-result">
+                          <div class="draw-result-item"><strong>Draw</strong><span>1316</span></div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="result-date--nav"><a class="prev-draw nav-draw disable" href="#">
+                        <svg class="icon-arrow" width="24" height="24" viewBox="0 0 24 24">
+                          <use xlink:href="img/icon/sprite.svg#icon-arrow"></use>
+                        </svg> Next Draw</a><a class="price-breakdown" href="#">Prize Breakdown</a><a class="next-draw nav-draw" href="#">Prev Draw 
+                        <svg class="icon-arrow" width="24" height="24" viewBox="0 0 24 24">
+                          <use xlink:href="img/icon/sprite.svg#icon-arrow"></use>
+                        </svg></a></div>
+                  </div>
+                  <div class="result-content">
+                    <div class="result-content--text">
+                      <p>Increase your chances of winning the lottery by sharing lines with other players</p>
+                    </div>
+                    <div class="result-content--time"><a class="next-draw" href="#">Next Draw</a>
+                      <div class="total-sum">
+                        <p>£10,000 <span>/month</span></p>
+                      </div>
+                      <div class="timer-wrapper" data-date="2021-02-11">
+                        <div class="timer-items">
+                          <div class="time-item days">08</div>
+                          <div class="description">Days</div>
+                        </div>
+                        <div class="timer-items">
+                          <div class="time-item hours">08</div>
+                          <div class="description">Hrs</div>
+                        </div>
+                        <div class="timer-items">
+                          <div class="time-item minutes">08</div>
+                          <div class="description">Mins</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-result--items" data-da="#hidden-wrapper,768">
+                <div class="tab-result--inside tab-style--IrishLotto"><a class="btn-close" href="#"></a>
+                  <div class="result-date">
+                    <div class="result-date--main">
+                      <div class="logo-icon"><img src="img/lotto-result/logo-tab5.png" alt=""></div>
+                      <div class="result-date--info">
+                        <div class="date-lotto"><strong>Result for</strong><span>Fri 08/04/2020</span></div>
+                        <div class="result-lotto"><span class="result-lotto--items">20</span><span class="result-lotto--items">26</span><span class="result-lotto--items">34</span><span class="result-lotto--items">41</span><span class="result-lotto--items">42</span><span class="result-lotto--items active">02</span><span class="result-lotto--items active">06</span></div>
+                        <div class="total-lotto"><strong>Total Jackpot</strong><span>£11,600,502</span></div>
+                        <div class="draw-result">
+                          <div class="draw-result-item"><strong>Draw</strong><span>1316</span></div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="result-date--nav"><a class="prev-draw nav-draw disable" href="#">
+                        <svg class="icon-arrow" width="24" height="24" viewBox="0 0 24 24">
+                          <use xlink:href="img/icon/sprite.svg#icon-arrow"></use>
+                        </svg> Next Draw</a><a class="price-breakdown" href="#">Prize Breakdown</a><a class="next-draw nav-draw" href="#">Prev Draw 
+                        <svg class="icon-arrow" width="24" height="24" viewBox="0 0 24 24">
+                          <use xlink:href="img/icon/sprite.svg#icon-arrow"></use>
+                        </svg></a></div>
+                  </div>
+                  <div class="result-content">
+                    <div class="result-content--text">
+                      <p>Increase your chances of winning the lottery by sharing lines with other players</p>
+                    </div>
+                    <div class="result-content--time"><a class="next-draw" href="#">Next Draw</a>
+                      <div class="total-sum">
+                        <p>£44 Million <sup>*</sup></p><span>Entries End in</span>
+                      </div>
+                      <div class="timer-wrapper" data-date="2021-02-11">
+                        <div class="timer-items">
+                          <div class="time-item days">08</div>
+                          <div class="description">Days</div>
+                        </div>
+                        <div class="timer-items">
+                          <div class="time-item hours">08</div>
+                          <div class="description">Hrs</div>
+                        </div>
+                        <div class="timer-items">
+                          <div class="time-item minutes">08</div>
+                          <div class="description">Mins</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-result--items" data-da="#hidden-wrapper,768">
+                <div class="tab-result--inside tab-style--LottoHotpicks"><a class="btn-close" href="#"></a>
+                  <div class="result-date">
+                    <div class="result-date--main">
+                      <div class="logo-icon"><img src="img/lotto-result/logo-tab6.png" alt=""></div>
+                      <div class="result-date--info">
+                        <div class="date-lotto"><strong>Result for</strong><span>Fri 08/04/2020</span></div>
+                        <div class="result-lotto"><span class="result-lotto--items">20</span><span class="result-lotto--items">26</span><span class="result-lotto--items">34</span><span class="result-lotto--items">41</span><span class="result-lotto--items">42</span><span class="result-lotto--items active">02</span><span class="result-lotto--items active">06</span></div>
+                        <div class="total-lotto"><strong>Total Jackpot</strong><span>£11,600,502</span></div>
+                        <div class="draw-result">
+                          <div class="draw-result-item"><strong>Draw</strong><span>1316</span></div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="result-date--nav"><a class="prev-draw nav-draw disable" href="#">
+                        <svg class="icon-arrow" width="24" height="24" viewBox="0 0 24 24">
+                          <use xlink:href="img/icon/sprite.svg#icon-arrow"></use>
+                        </svg> Next Draw</a><a class="price-breakdown" href="#">Prize Breakdown</a><a class="next-draw nav-draw" href="#">Prev Draw 
+                        <svg class="icon-arrow" width="24" height="24" viewBox="0 0 24 24">
+                          <use xlink:href="img/icon/sprite.svg#icon-arrow"></use>
+                        </svg></a></div>
+                  </div>
+                  <div class="result-content">
+                    <div class="result-content--text">
+                      <p>Increase your chances of winning the lottery by sharing lines with other players</p>
+                    </div>
+                    <div class="result-content--time"><a class="next-draw" href="#">Next Draw</a>
+                      <div class="total-sum">
+                        <p>£350,000 <sup>*</sup></p><span>Entries End in</span>
+                      </div>
+                      <div class="timer-wrapper" data-date="2021-02-11">
+                        <div class="timer-items">
+                          <div class="time-item days">08</div>
+                          <div class="description">Days</div>
+                        </div>
+                        <div class="timer-items">
+                          <div class="time-item hours">08</div>
+                          <div class="description">Hrs</div>
+                        </div>
+                        <div class="timer-items">
+                          <div class="time-item minutes">08</div>
+                          <div class="description">Mins</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-result--items" data-da="#hidden-wrapper,768">
+                <div class="tab-result--inside tab-style--EuroMillionsHotpicks"><a class="btn-close" href="#"></a>
+                  <div class="result-date">
+                    <div class="result-date--main">
+                      <div class="logo-icon"><img src="img/lotto-result/logo-tab7.png" alt=""></div>
+                      <div class="result-date--info">
+                        <div class="date-lotto"><strong>Result for</strong><span>Fri 08/04/2020</span></div>
+                        <div class="result-lotto"><span class="result-lotto--items">20</span><span class="result-lotto--items">26</span><span class="result-lotto--items">34</span><span class="result-lotto--items">41</span><span class="result-lotto--items">42</span><span class="result-lotto--items active">02</span><span class="result-lotto--items active">06</span></div>
+                        <div class="total-lotto"><strong>Total Jackpot</strong><span>£11,600,502</span></div>
+                        <div class="draw-result">
+                          <div class="draw-result-item"><strong>Draw</strong><span>1316</span></div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="result-date--nav"><a class="prev-draw nav-draw disable" href="#">
+                        <svg class="icon-arrow" width="24" height="24" viewBox="0 0 24 24">
+                          <use xlink:href="img/icon/sprite.svg#icon-arrow"></use>
+                        </svg> Next Draw</a><a class="price-breakdown" href="#">Prize Breakdown</a><a class="next-draw nav-draw" href="#">Prev Draw 
+                        <svg class="icon-arrow" width="24" height="24" viewBox="0 0 24 24">
+                          <use xlink:href="img/icon/sprite.svg#icon-arrow"></use>
+                        </svg></a></div>
+                  </div>
+                  <div class="result-content">
+                    <div class="result-content--text">
+                      <p>Increase your chances of winning the lottery by sharing lines with other players</p>
+                    </div>
+                    <div class="result-content--time"><a class="next-draw" href="#">Next Draw</a>
+                      <div class="total-sum">
+                        <p>£1 Million</p><span>Entries End in</span>
+                      </div>
+                      <div class="timer-wrapper" data-date="2021-02-11">
+                        <div class="timer-items">
+                          <div class="time-item days">08</div>
+                          <div class="description">Days</div>
+                        </div>
+                        <div class="timer-items">
+                          <div class="time-item hours">08</div>
+                          <div class="description">Hrs</div>
+                        </div>
+                        <div class="timer-items">
+                          <div class="time-item minutes">08</div>
+                          <div class="description">Mins</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-result--items" data-da="#hidden-wrapper,768">
+                <div class="tab-result--inside tab-style--PowerBall"><a class="btn-close" href="#"></a>
+                  <div class="result-date">
+                    <div class="result-date--main">
+                      <div class="logo-icon"><img src="img/lotto-result/logo-tab8.png" alt=""></div>
+                      <div class="result-date--info">
+                        <div class="date-lotto"><strong>Result for</strong><span>Fri 08/04/2020</span></div>
+                        <div class="result-lotto"><span class="result-lotto--items">20</span><span class="result-lotto--items">26</span><span class="result-lotto--items">34</span><span class="result-lotto--items">41</span><span class="result-lotto--items">42</span><span class="result-lotto--items active">02</span><span class="result-lotto--items active">06</span></div>
+                        <div class="total-lotto"><strong>Total Jackpot</strong><span>£11,600,502</span></div>
+                        <div class="draw-result">
+                          <div class="draw-result-item"><strong>Draw</strong><span>1316</span></div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="result-date--nav"><a class="prev-draw nav-draw disable" href="#">
+                        <svg class="icon-arrow" width="24" height="24" viewBox="0 0 24 24">
+                          <use xlink:href="img/icon/sprite.svg#icon-arrow"></use>
+                        </svg> Next Draw</a><a class="price-breakdown" href="#">Prize Breakdown</a><a class="next-draw nav-draw" href="#">Prev Draw 
+                        <svg class="icon-arrow" width="24" height="24" viewBox="0 0 24 24">
+                          <use xlink:href="img/icon/sprite.svg#icon-arrow"></use>
+                        </svg></a></div>
+                  </div>
+                  <div class="result-content">
+                    <div class="result-content--text">
+                      <p>Increase your chances of winning the lottery by sharing lines with other players</p><a class="button-cart" href="#">Join Syndicate</a>
+                    </div>
+                    <div class="result-content--time"><a class="next-draw" href="#">Next Draw</a>
+                      <div class="total-sum">
+                        <p>£44 Million <sup>*</sup></p><span>Entries End in</span>
+                      </div>
+                      <div class="timer-wrapper" data-date="2021-02-11">
+                        <div class="timer-items">
+                          <div class="time-item days">08</div>
+                          <div class="description">Days</div>
+                        </div>
+                        <div class="timer-items">
+                          <div class="time-item hours">08</div>
+                          <div class="description">Hrs</div>
+                        </div>
+                        <div class="timer-items">
+                          <div class="time-item minutes">08</div>
+                          <div class="description">Mins</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-result--items" data-da="#hidden-wrapper,768">
+                <div class="tab-result--inside tab-style--MegaMillions"><a class="btn-close" href="#"></a>
+                  <div class="result-date">
+                    <div class="result-date--main">
+                      <div class="logo-icon"><img src="img/lotto-result/logo-tab9.png" alt=""></div>
+                      <div class="result-date--info">
+                        <div class="date-lotto"><strong>Result for</strong><span>Fri 08/04/2020</span></div>
+                        <div class="result-lotto"><span class="result-lotto--items">20</span><span class="result-lotto--items">26</span><span class="result-lotto--items">34</span><span class="result-lotto--items">41</span><span class="result-lotto--items">42</span><span class="result-lotto--items active">02</span><span class="result-lotto--items active">06</span></div>
+                        <div class="total-lotto"><strong>Total Jackpot</strong><span>£11,600,502</span></div>
+                        <div class="draw-result">
+                          <div class="draw-result-item"><strong>Draw</strong><span>1316</span></div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="result-date--nav"><a class="prev-draw nav-draw disable" href="#">
+                        <svg class="icon-arrow" width="24" height="24" viewBox="0 0 24 24">
+                          <use xlink:href="img/icon/sprite.svg#icon-arrow"></use>
+                        </svg> Next Draw</a><a class="price-breakdown" href="#">Prize Breakdown</a><a class="next-draw nav-draw" href="#">Prev Draw 
+                        <svg class="icon-arrow" width="24" height="24" viewBox="0 0 24 24">
+                          <use xlink:href="img/icon/sprite.svg#icon-arrow"></use>
+                        </svg></a></div>
+                  </div>
+                  <div class="result-content">
+                    <div class="result-content--text">
+                      <p>Increase your chances of winning the lottery by sharing lines with other players</p>
+                    </div>
+                    <div class="result-content--time"><a class="next-draw" href="#">Next Draw</a>
+                      <div class="total-sum">
+                        <p>£500,000 <sup>*</sup></p>
+                      </div>
+                      <div class="timer-wrapper" data-date="2021-02-11">
+                        <div class="timer-items">
+                          <div class="time-item days">08</div>
+                          <div class="description">Days</div>
+                        </div>
+                        <div class="timer-items">
+                          <div class="time-item hours">08</div>
+                          <div class="description">Hrs</div>
+                        </div>
+                        <div class="timer-items">
+                          <div class="time-item minutes">08</div>
+                          <div class="description">Mins</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-result--button"><a class="button-black mobile-show" href="#">Check My Ninja Lotto Tickets</a></div>
+          </div>
+        </div>
+      </section>
+      <section class="section--white-star">
+        <div class="container">
+          <div class="white-star--wrapper">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sodales dignissim libero ac rutrum. Aliquam venenatis faucibus nisl vitae volutpat. Curabitur ac fermentum neque. Nam luctus tellus sit amet arcu rhoncus bibendum. Ut scelerisque diam ligula, sed congue neque iaculis at. Sed a porttitor justo, vel ullamcorper nisi. Duis mauris lorem, euismod et dolor id, tempor fringilla metus. Integer luctus nec sem nec rhoncus. Nam pharetra velit sit amet diam posuere consectetur. Sed non felis vulputate, placerat felis in, congue justo. Morbi iaculis quam eget ipsum euismod venenatis. Proin nisi ipsum, consectetur id dignissim sit amet, mattis placerat neque. Nulla facilisi. Vivamus tempus sed felis sit amet pulvinar.</p>
+            <p>Quisque finibus at elit a volutpat. Vestibulum non ex dolor. Nam porta elit eget nulla lobortis fermentum. Ut luctus porta dui, non varius neque rutrum vitae. Praesent eget mauris pulvinar, semper nunc id, commodo metus. Vivamus lacinia, augue non egestas feugiat, arcu nisl viverra ante, sit amet fringilla massa justo imperdiet dolor. Morbi blandit lorem justo, in ullamcorper felis lobortis eleifend. Suspendisse faucibus ac felis id bibendum. Phasellus vitae nisi tortor. Aenean sollicitudin pulvinar mattis. Etiam porttitor urna sed facilisis sodales. Aenean sed neque vitae nisl fermentum ultrices id non augue. Etiam vitae quam commodo, consequat justo quis, sodales lacus.</p>
+          </div>
+        </div>
+      </section>
+      <section class="section--home-post">
+        <div class="container">
+          <div class="home-post--wrapper">
+            <div class="home-post--items">
+              <div class="row">
+                <div class="col-md-7">
+                  <div class="home-post--content">
+                    <h3>Unclaimed Lottery Prizes <br>- The Biggest of All Time!</h3>
+                    <p>‘Unlucky’ winning ticket holders miss out on millions of pounds of lottery prizes every year, including some life-changing jackpots! So, you should never forget to check the lottery results when you play.</p>
+                    <p>We have reviewed the biggest ever unclaimed lottery prizes across the world, including a staggering £63.8 million EuroMillions jackpot in the UK, for which the ticket remained forever lost or forgotten.</p><a class="button-more" href="#">Read More</a>
+                  </div>
+                </div>
+                <div class="col-md-5">
+                  <div class="home-post--img" data-da=".home-post--items:nth-child(1) .home-post--content, 768, 1"><img src="img/lotto-result/icon-tab/post-1.png" alt=""></div>
+                </div>
+              </div>
+            </div>
+            <div class="home-post--items">
+              <div class="row">
+                <div class="col-md-5">
+                  <div class="home-post--img" data-da=".home-post--items:nth-child(2) .home-post--content, 768, 1"><img src="img/lotto-result/icon-tab/post-2.png" alt=""></div>
+                </div>
+                <div class="col-md-7">
+                  <div class="home-post--content">
+                    <h3>The Biggest Lottery <br> Wins Of All Time</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras porttitor nisi risus, venenatis sodales lectus dapibus id. Maecenas vehicula mollis tristique. Cras tincidunt, tellus nec maximus vestibulum.</p>
+                    <p>Mi quam Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras porttitor nisi risus, venenatis sodales lectus dapibus id. Maecenas vehicula mollis nisi risus, venenatis sodales adipiscing elit mollis.</p><a class="button-more" href="#">Read More</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section--blue-nl">
+        <div class="container">
+          <div class="blue-nl--wrapper row">
+            <div class="col-md-3"></div>
+            <div class="col-md-6">
+              <div class="blue-nl--content">
+                <div class="blue-nl--head"><span>Last year in the UK there were</span>
+                  <h3>£125 MILLION</h3>
+                  <p>Unclaimed Lotto & EuroMillions Prizes</p>
+                </div>
+                <div class="blue-nl--text">
+                  <p>Amazingly, people regularly forget to check the lottery results!<br> Play at Ninja Lotto and we’ll inform you immediately of all wins</p><a class="button-cart" href="#">EuroMillions Syndicates</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3"><img src="img/lotto-result/blue-nl.png" alt=""></div>
+          </div>
+        </div>
+      </section>
+      <div class="height-60"></div>
+      <div id="hidden-wrapper">
+        <div class="overlay-popup"></div>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="row footer-row">
+          <div class="col-md-4">
+            <div class="footer-logo--wrapper">
+              <div class="footer-logo"><a href="#"><img src="img/logo-white.svg" alt=""></a></div>
+              <div class="list-logo--wrapper" data-da=".footer-content--menu, 992, last">
+                <ul class="list-logo">
+                  <li><img src="img/logo-foot1.svg" alt=""></li>
+                  <li><img src="img/logo-foot2.svg" alt=""></li>
+                  <li><img src="img/logo-foot3.svg" alt=""></li>
+                </ul>
+              </div>
+              <div class="social-wrapper">
+                <ul class="list-social">
+                  <li><a href="#"><img src="img/soc-icon-instagram.svg" alt="">Instagram</a></li>
+                  <li><a href="#"><img src="img/soc-icon-twitter.svg" alt="">Twitter</a></li>
+                  <li><a href="#"><img src="img/soc-icon-youtube.svg" alt="">YouTube</a></li>
+                </ul>
+              </div>
+              <div class="copy-wrapper">
+                <p>* All jackpots are estimated.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-8">
+            <div class="footer-content">
+              <div class="footer-content--preview" data-da=".footer-logo--wrapper, 992, 1">
+                <div class="row">
+                  <div class="col-md-4">
+                    <div class="preview-items">
+                      <div class="preview-icon"><img src="img/icon-foot1.svg" alt=""></div>
+                      <p>All transactions 100% secure and protected by 128-bit SSL security</p>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="preview-items">
+                      <div class="preview-icon"><img src="img/icon-foot2.svg" alt=""></div>
+                      <p>Official lottery tickets purchased from licensed lottery retailers</p>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="preview-items">
+                      <div class="preview-icon"><img src="img/icon-foot3.svg" alt=""></div>
+                      <p>A team of lottery Ninja’s ready to respond to any queries via email</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="footer-content--menu">
+                <div class="footer-menu--wrapper row">
+                  <div class="col-md-3">
+                    <h3 class="list-name">Syndicates <span class="icon-triangle"></span></h3>
+                    <ul class="list-menu--footer">
+                      <li><a href="#">Lottery Syndicates</a></li>
+                      <li><a href="#">Lotto Syndicates</a></li>
+                      <li><a href="#">EuroMillions Syndicates</a></li>
+                      <li><a href="#">PowerBall Syndicates</a></li>
+                    </ul>
+                  </div>
+                  <div class="col-md-3">
+                    <h3 class="list-name">Lotteries <span class="icon-triangle"></span></h3>
+                    <ul class="list-menu--footer">
+                      <li><a href="#">Lotto</a></li>
+                      <li><a href="#">EuroMillions</a></li>
+                      <li><a href="#">Thunderball</a></li>
+                      <li><a href="#">Set For Life</a></li>
+                      <li><a href="#">Irish Lotto</a></li>
+                      <li><a href="#">PowerBall</a></li>
+                      <li><a href="#">Mega Millions</a></li>
+                    </ul>
+                  </div>
+                  <div class="col-md-3">
+                    <h3 class="list-name">Results <span class="icon-triangle"></span></h3>
+                    <ul class="list-menu--footer">
+                      <li><a href="#">Lottery Results</a></li>
+                      <li><a href="#">Lotto Results</a></li>
+                      <li><a href="#">EuroMillions Results</a></li>
+                      <li><a href="#">Thunderball Results</a></li>
+                      <li><a href="#">Set For Life Results</a></li>
+                      <li><a href="#">Irish Lottery Results</a></li>
+                      <li><a href="#">PowerBall Results</a></li>
+                      <li><a href="#">Mega Millions Results</a></li>
+                    </ul>
+                  </div>
+                  <div class="col-md-3">
+                    <ul class="list-menu--footer">
+                      <li><a href="#">FAQs</a></li>
+                      <li><a href="#">About Us</a></li>
+                      <li><a href="#">Contact</a></li>
+                      <li><a href="#">Lottery Blog</a></li>
+                      <li><a href="#">Privacy Policy</a></li>
+                      <li><a href="#">Terms Of Use</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="footer-content--content">
+                <p>Ninja Lotto is operated by Arpelon Limited (company number 12830673 and registered address The Long Lodge, 265-269 Kingston Road, Wimbledon, London, United Kingdom, SW19 3NW). </p>
+                <p>Arpelon Limited does not operate a lottery and is not connected to any official lottery body or organisation. The  National Lottery and Lotto logos are the trademarks of the Gambling Commission and are licensed to Camelot UK Lotteries Limited. EuroMillions is the trademark of S.L.E Services aux Loteries en Europe and PowerBall is the  trademark of The Multi-State Lottery Association (MUSL). </p>
+                <p>Copyright © 2020, Arpelon Limited. All rights reserved.</p>
+              </div>
+              <div class="footer--pay-method">
+                <ul class="list-pay">
+                  <li><img src="img/card1.svg" alt=""></li>
+                  <li><img src="img/card2.svg" alt=""></li>
+                  <li><img src="img/card3.svg" alt=""></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>

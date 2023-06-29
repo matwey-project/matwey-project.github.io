@@ -1,0 +1,41 @@
+@import "../../libs/scss/mixins";
+@import "../../blocks/base/variables";
+@import "../../blocks/base/media-queries";
+
+$socialMenuBorder: '.social-menu--border';
+
+.social-menu {
+  display: inline-flex;
+  align-items: center;
+
+  &--offset-left {
+    margin-left: 20px;
+  }
+
+  &--border {
+    border: 1px solid #404040;
+    border-radius: 5px;
+  }
+
+  &__link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 10px;
+    transition: all .25s ease-out;
+
+    &:hover {
+      transform: translateY(-2px);
+    }
+
+    #{$socialMenuBorder} & {
+      width: 48px;
+      height: 48px;
+
+      &:not(:last-child) {
+        border-right: 1px solid #404040;
+      }
+    }
+
+  }
+}

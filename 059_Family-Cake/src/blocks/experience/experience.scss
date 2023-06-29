@@ -1,0 +1,67 @@
+@import "../../libs/scss/mixins";
+@import "../../blocks/base/variables";
+@import "../../blocks/base/media-queries";
+
+.experience {
+  padding: 70px 0;
+  background: #F6F3F5;
+
+  .heading {
+    margin-bottom: 40px;
+  }
+
+  .experience__wrapper {
+    display: grid;
+    grid-gap: 74px;
+    grid-template-columns: repeat(3, minmax(250px, 1fr));
+    @include _960 {
+      grid-gap: 20px;
+      grid-template-columns: repeat(3, minmax(200px, 1fr));
+    }
+    @include _854 {
+      display: block;
+    }
+  }
+
+  &__button {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    &--prev {
+      left: 0;
+    }
+    &--next {
+      right: 0;
+    }
+  }
+
+  .experience__col {
+
+  }
+
+  &__item {
+    @include _854 {
+      max-width: 280px;
+      margin: 0 auto;
+    }
+  }
+
+  .experience__image {
+    min-height: 100px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+
+    img {
+    }
+  }
+
+  .experience__content {
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #353132;
+  }
+}

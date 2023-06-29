@@ -1,0 +1,143 @@
+extends ../templates/main
+
+block variables
+    - var title = 'Family Cake Company';
+    - var active = 'Cupcakes';
+
+block content
+    main.main
+        .cupcakes
+            .layout-big
+                .heading
+                    h3 Cupcakes
+                    p We’ve given our cupcakes a makeover and created some yummy new flavours for you! (Minimum order of 10).
+                .cupcakes__filter
+                    .cupcakes__view-count
+                        span Showing 16 of 40
+                    .cupcakes__sort
+                        .name-option Sort by
+                        select.sort-select.cupcakes__select
+                            option Popularity
+                            option Popularity 1
+                            option Popularity 2
+                            option Popularity 3
+                .cupcakes__grid.cupcakes__product-wrapper
+                    .cupcakes__col
+                        .product__item
+                            .product__image
+                                img(src="src/blocks/cupcakes/assets/img/product-1.png")
+                            p.product__name Rainbow
+                            .product__button
+                                a(href="#").button.button__pink Shop £3.50
+                    .cupcakes__col
+                        .product__item
+                            .product__image
+                                img(src="src/blocks/cupcakes/assets/img/product-2.png")
+                            p.product__name Unicorn
+                            .product__button
+                                a(href="#").button.button__pink Shop £3.50
+                    .cupcakes__col
+                        .product__item
+                            .product__image
+                                img(src="src/blocks/cupcakes/assets/img/product-3.png")
+                            p.product__name Vanilla
+                            .product__button
+                                a(href="#").button.button__pink Shop £3.50
+                    .cupcakes__col
+                        .product__item
+                            .product__image
+                                img(src="src/blocks/cupcakes/assets/img/product-4.png")
+                            p.product__name Queen Victoria
+                            .product__button
+                                a(href="#").button.button__pink Shop £3.50
+                    .cupcakes__col
+                        .product__item
+                            .product__image
+                                img(src="src/blocks/cupcakes/assets/img/product-5.png")
+                            p.product__name Blue Berry
+                            .product__button
+                                a(href="#").button.button__pink Shop £3.50
+                    .cupcakes__col
+                        .product__item
+                            .product__image
+                                img(src="src/blocks/cupcakes/assets/img/product-6.png")
+                            p.product__name Lemon Love
+                            .product__button
+                                a(href="#").button.button__pink Shop £3.50
+                    .cupcakes__col
+                        .product__item
+                            .product__image
+                                img(src="src/blocks/cupcakes/assets/img/product-7.png")
+                            p.product__name Lemon Marshmallow Meringue
+                            .product__button
+                                a(href="#").button.button__pink Shop £3.50
+                    .cupcakes__col
+                        .product__item
+                            .product__image
+                                img(src="src/blocks/cupcakes/assets/img/product-8.png")
+                            p.product__name Go Bananas
+                            .product__button
+                                a(href="#").button.button__pink Shop £3.50
+                    .cupcakes__col
+                        .product__item
+                            .product__image
+                                img(src="src/blocks/cupcakes/assets/img/product-9.png")
+                            p.product__name Blue Berry
+                            .product__button
+                                a(href="#").button.button__pink Shop £3.50
+                    .cupcakes__col
+                        .product__item
+                            .product__image
+                                img(src="src/blocks/cupcakes/assets/img/product-10.png")
+                            p.product__name Lemon Love
+                            .product__button
+                                a(href="#").button.button__pink Shop £3.50
+                    .cupcakes__col
+                        .product__item
+                            .product__image
+                                img(src="src/blocks/cupcakes/assets/img/product-11.png")
+                            p.product__name Lemon Marshmallow Meringue
+                            .product__button
+                                a(href="#").button.button__pink Shop £3.50
+                    .cupcakes__col
+                        .product__item
+                            .product__image
+                                img(src="src/blocks/cupcakes/assets/img/product-12.png")
+                            p.product__name Go Bananas
+                            .product__button
+                                a(href="#").button.button__pink Shop £3.50
+                    .cupcakes__col
+                        .product__item
+                            .product__image
+                                img(src="src/blocks/cupcakes/assets/img/product-13.png")
+                            p.product__name Blue Berry
+                            .product__button
+                                a(href="#").button.button__pink Shop £3.50
+                    .cupcakes__col
+                        .product__item
+                            .product__image
+                                img(src="src/blocks/cupcakes/assets/img/product-14.png")
+                            p.product__name Lemon Love
+                            .product__button
+                                a(href="#").button.button__pink Shop £3.50
+                    .cupcakes__col
+                        .product__item
+                            .product__image
+                                img(src="src/blocks/cupcakes/assets/img/product-15.png")
+                            p.product__name Lemon Marshmallow Meringue
+                            .product__button
+                                a(href="#").button.button__pink Shop £3.50
+                    .cupcakes__col
+                        .product__item
+                            .product__image
+                                img(src="src/blocks/cupcakes/assets/img/product-16.png")
+                            p.product__name Go Bananas
+                            .product__button
+                                a(href="#").button.button__pink Shop £3.50
+
+                .show-more__wrapper
+                    a(href="#").button.button__border-pink.button__icon-right
+                        | Show More
+                        +iconSvg('14', '8', '0 0 14 8', 'icon-arrow__bottom')
+
+

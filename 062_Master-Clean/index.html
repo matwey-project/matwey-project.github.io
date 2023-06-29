@@ -1,0 +1,818 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="img/favicon/apple-touch-icon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="img/favicon/apple-touch-icon-72x72.png" type="image/x-icon">
+    <link rel="shortcut icon" href="img/favicon/apple-touch-icon-144x144.png" type="image/x-icon">
+    <title>Master Clean</title>
+  <link href="css/main.css" rel="stylesheet"></head>
+  <body>
+    <header class="header">
+      <div class="top-line">
+        <div class="layout">
+          <div class="top-line__left">
+            <div class="check-city">
+              <svg width="14px" height="20px">
+                <use xlink:href="img/icons/sprites.svg#icon-location"></use>
+              </svg>
+              <select class="check-city__select">
+                <option>Москва</option>
+                <option>Питер</option>
+                <option>Уфа</option>
+              </select>
+            </div>
+            <div class="top-line__menu-wrapper">
+              <ul class="top-menu">
+                <li class="top-menu__list top-menu__list--active"><a href="#">Частным клиентам</a></li>
+                <li class="top-menu__list"><a href="#">Корпоротивным клиентам</a></li>
+                <li class="top-menu__list"><a href="#">Сотрудничество</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="top-line__contact-wrapper"><a class="button button--small popup" href="#call-me">Позвоните мне</a>
+            <div class="top-line__phone"><a class="top-line__number" href="tel:89774529904">8 977 452-99-04</a><span>С 9-00 до 20-00</span></div>
+          </div>
+        </div>
+      </div>
+      <div class="header__main">
+        <div class="layout header__main-wrapper"><a class="logo" href="#"><img src="img/logo.svg" alt="Master Clean Logo"></a>
+          <div class="top-line__phone top-line__phone--mobile"><a class="top-line__number" href="tel:89774529904">8 977 452-99-04</a><span>С 9-00 до 20-00</span></div>
+          <div class="main-menu__wrapper"><a class="main-menu__drop-burger" href="#">Услуги
+              <!--+mixinSvg('17px', '15px', 'icon-burger', 'className')-->
+              <div class="burger-icon"><span class="burger-icon__item"></span><span class="burger-icon__item"></span><span class="burger-icon__item"></span></div></a>
+            <ul class="main-menu">
+              <li class="main-menu__list main-menu__list--active"><a href="#">Отзывы</a></li>
+              <li class="main-menu__list"><a href="#">Контакты</a></li>
+            </ul>
+          </div><a class="burger-menu" href="#"><span class="burger-menu__item"></span><span class="burger-menu__item"></span><span class="burger-menu__item"></span></a>
+          <div class="top-line__contact-wrapper top-line__contact-wrapper--scroll"><a class="button button--small popup" href="#call-me">Позвоните мне</a>
+            <div class="top-line__phone"><a class="top-line__number" href="tel:89774529904">8 977 452-99-04</a><span>С 9-00 до 20-00</span></div>
+          </div>
+        </div>
+      </div>
+      <div class="main-menu__drop">
+        <div class="layout main-menu__drop-wrapper">
+          <div class="main-menu__drop-item">
+            <h3>Частным клиентам</h3>
+            <div class="main-menu__drop-inside">
+              <div class="main-menu__drop-col"><a class="main-menu__drop-category" href="#">Уборка квартир и домов</a>
+                <ul class="drop-menu-inside">
+                  <li class="drop-menu-inside__list drop-menu-inside__list--active"><a href="#">Поддерживающая уборка</a></li>
+                  <li class="drop-menu-inside__list"><a href="#">Генеральная уборка</a></li>
+                  <li class="drop-menu-inside__list"><a href="#">Уборка после ремонта</a></li>
+                  <li class="drop-menu-inside__list"><a href="#">Уборка запущенных квартир</a></li>
+                  <li class="drop-menu-inside__list"><a href="#">Антибактериальная уборка</a></li>
+                  <li class="drop-menu-inside__list"><a href="#">Влажная уборка</a></li>
+                  <li class="drop-menu-inside__list"><a href="#">Эко уборка</a></li>
+                  <li class="drop-menu-inside__list"><a href="#">Уборка коттеджа</a></li>
+                </ul>
+              </div>
+              <div class="main-menu__drop-col"><a class="main-menu__drop-category" href="#">Химчистка</a>
+                <ul class="drop-menu-inside">
+                  <li class="drop-menu-inside__list"><a href="#">Химчистка мягкой мебели</a></li>
+                  <li class="drop-menu-inside__list"><a href="#">Химчистка ковролина</a></li>
+                  <li class="drop-menu-inside__list"><a href="#">Химчистка ковра</a></li>
+                  <li class="drop-menu-inside__list"><a href="#">Химчистка штор</a></li>
+                </ul><a class="main-menu__drop-category" href="#">Дополнительные услуги</a>
+                <ul class="drop-menu-inside">
+                  <li class="drop-menu-inside__list"><a href="#">Мытье окон</a></li>
+                  <li class="drop-menu-inside__list"><a href="#">Глажка белья</a></li>
+                  <li class="drop-menu-inside__list drop-menu-inside__all-list"><a href="#">Все услуги</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="main-menu__drop-item">
+            <h3>Корпоротивным клиентам</h3>
+            <div class="main-menu__drop-inside">
+              <div class="main-menu__drop-col">
+                <ul class="drop-menu-inside">
+                  <li class="drop-menu-inside__list"><a href="#">Генеральная уборка</a></li>
+                  <li class="drop-menu-inside__list"><a href="#">Уборка после ремонта</a></li>
+                  <li class="drop-menu-inside__list"><a href="#">Уборка после строительства</a></li>
+                  <li class="drop-menu-inside__list"><a href="#">Уборка  офисов</a></li>
+                  <li class="drop-menu-inside__list"><a href="#">Уборка производственных помещений</a></li>
+                  <li class="drop-menu-inside__list"><a href="#">Уборка торговых центров</a></li>
+                  <li class="drop-menu-inside__list"><a href="#">Уборка кафе и ресторанов</a></li>
+                  <li class="drop-menu-inside__list"><a href="#">Уборка подъездов</a></li>
+                  <li class="drop-menu-inside__list"><a href="#">Уборка территорий</a></li>
+                </ul>
+              </div>
+              <div class="main-menu__drop-col">
+                <ul class="drop-menu-inside">
+                  <li class="drop-menu-inside__list"><a href="#">Уборка школ</a></li>
+                  <li class="drop-menu-inside__list"><a href="#">Уборка спортзала и фитнес клуба</a></li>
+                  <li class="drop-menu-inside__list"><a href="#">Уборка на мероприятии</a></li>
+                  <li class="drop-menu-inside__list"><a href="#">Уборка медицинских центров</a></li>
+                  <li class="drop-menu-inside__list"><a href="#">Уборка автосервисов</a></li>
+                  <li class="drop-menu-inside__list"><a href="#">Уборка парковок и паркингов</a></li>
+                  <li class="drop-menu-inside__list"><a href="#">Уборка складов</a></li>
+                  <li class="drop-menu-inside__list"><a href="#">Уборка салонов красоты</a></li>
+                  <li class="drop-menu-inside__list drop-menu-inside__all-list"><a href="#">Все услуги</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="mobile-menu">
+      <div class="mobile-menu__head">
+        <div class="check-city">
+          <svg width="14px" height="20px">
+            <use xlink:href="img/icons/sprites.svg#icon-location"></use>
+          </svg>
+          <select class="check-city__select">
+            <option>Москва</option>
+            <option>Питер</option>
+            <option>Уфа</option>
+          </select>
+        </div>
+        <div class="mobile-menu__close">
+          <svg class="icon-close" width="28px" height="28px">
+            <use xlink:href="img/icons/sprites.svg#icon-close"></use>
+          </svg>
+        </div>
+      </div>
+      <div class="mobile-menu__button"><a class="button button--large" href="#">Частным клиентам</a><a class="button button--large button--border" href="#">Корпоротивным клиентам</a></div>
+      <div class="mobile-menu__menu-drop">
+        <ul class="menu-drop">
+          <li class="menu-drop__list"><a class="menu-drop__link menu-drop__link-sub" href="#">Услуги</a>
+            <ul class="menu-drop__sub-menu">
+              <li class="menu-drop__sub-list"><a class="menu-drop__sub-link" href="#">Физичиским лицам</a></li>
+              <li class="menu-drop__sub-list"><a class="menu-drop__sub-link" href="#">Юридическим лицам</a></li>
+            </ul>
+          </li>
+          <li class="menu-drop__list"><a class="menu-drop__link" href="#">Отзывы</a></li>
+          <li class="menu-drop__list"><a class="menu-drop__link" href="#">Контакты</a></li>
+          <li class="menu-drop__list"><a class="menu-drop__link" href="#">Сотрудничество</a></li>
+          <li class="menu-drop__list"><a class="menu-drop__link" href="#">Полезное</a></li>
+        </ul>
+      </div>
+      <div class="mobile-menu__page-wrapper">
+        <div class="mobile-menu__page">
+          <div class="mobile-menu__head">
+            <div class="mobile-menu__page-back">Назад</div>
+            <div class="mobile-menu__page-close">
+              <svg class="icon-close" width="28px" height="28px">
+                <use xlink:href="img/icons/sprites.svg#icon-close"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="mobile-menu__page-body">
+            <div class="mobile-menu__category"><a href="#">1 Уборка квартир и домов</a>
+              <ul class="mobile-menu__category-menu">
+                <li class="active"><a href="#">Поддерживающая уборка</a></li>
+                <li><a href="#">Уборка квартир и домов</a></li>
+                <li><a href="#">Генеральная уборка</a></li>
+                <li><a href="#">Уборка запущенных квартир</a></li>
+                <li><a href="#">Уборка после ремонта</a></li>
+              </ul>
+            </div>
+            <div class="mobile-menu__category"><a href="#">Химчистка</a>
+              <ul class="mobile-menu__category-menu">
+                <li><a href="#">Мягкая мебель</a></li>
+                <li><a href="#">Ковролин</a></li>
+                <li><a href="#">Ковер</a></li>
+                <li><a href="#">Шторы</a></li>
+                <li><a class="all-list" href="#">Все услуги</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="mobile-menu__page">
+          <div class="mobile-menu__head">
+            <div class="mobile-menu__page-back">Назад</div>
+            <div class="mobile-menu__page-close">
+              <svg class="icon-close" width="28px" height="28px">
+                <use xlink:href="img/icons/sprites.svg#icon-close"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="mobile-menu__page-body">
+            <div class="mobile-menu__category"><a href="#">2 Уборка квартир и домов</a>
+              <ul class="mobile-menu__category-menu">
+                <li class="active"><a href="#">Поддерживающая уборка</a></li>
+                <li><a href="#">Уборка квартир и домов</a></li>
+                <li><a href="#">Генеральная уборка</a></li>
+                <li><a href="#">Уборка запущенных квартир</a></li>
+                <li><a href="#">Уборка после ремонта</a></li>
+              </ul>
+            </div>
+            <div class="mobile-menu__category"><a href="#">Химчистка</a>
+              <ul class="mobile-menu__category-menu">
+                <li><a href="#">Мягкая мебель</a></li>
+                <li><a href="#">Ковролин</a></li>
+                <li><a href="#">Ковер</a></li>
+                <li><a href="#">Шторы</a></li>
+                <li><a class="all-list" href="#">Все услуги</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section class="section section__calculate">
+      <div class="layout">
+        <div class="calculate__wrapper">
+          <div class="calculate__head" data-da=".section__calculate .layout,991,0">
+            <h2>Уборка квартир и домов в Москве</h2>
+            <p>Гарантия чистоты в вашем доме!</p>
+          </div>
+          <div class="calculate">
+            <div class="calculate__title">Рассчитать стоимость</div>
+            <form class="calculate__form">
+              <div class="calculate__item">
+                <label>Вид уборки</label>
+                <select class="sort-select">
+                  <option>Генеральная уборка</option>
+                  <option>Генеральная уборка 1</option>
+                  <option>Генеральная уборка 2</option>
+                  <option>Генеральная уборка 3</option>
+                </select>
+              </div>
+              <div class="calculate__item">
+                <label>Площадь, м²</label>
+                <div class="calculate__area-fill">
+                  <label class="radio-item">
+                    <input class="radio-item__input" type="radio" name="radio" checked="checked" required="">
+                    <div class="radio-item__status">
+                      <p>40</p>
+                    </div>
+                  </label>
+                  <label class="radio-item">
+                    <input class="radio-item__input" type="radio" name="radio" checked="checked" required="">
+                    <div class="radio-item__status">
+                      <p>50</p>
+                    </div>
+                  </label>
+                  <label class="radio-item">
+                    <input class="radio-item__input" type="radio" name="radio" checked="checked" required="">
+                    <div class="radio-item__status">
+                      <p>60</p>
+                    </div>
+                  </label>
+                  <label class="radio-item radio-item--mobile-hide">
+                    <input class="radio-item__input" type="radio" name="radio" checked="checked" required="">
+                    <div class="radio-item__status">
+                      <p>70</p>
+                    </div>
+                  </label>
+                  <div class="calculate__meter">
+                    <input class="calculate__meter-input" type="text"><span>м²</span>
+                  </div>
+                </div>
+              </div>
+              <div class="calculate__item">
+                <div class="calculate__total">
+                  <div class="calculate__total-text">Итого</div>
+                  <div class="calculate__total-time time-item">
+                    <svg class="icon-time" width="15px" height="15px">
+                      <use xlink:href="img/icons/sprites.svg#icon-time"></use>
+                    </svg><span>2 - 4 ч.</span>
+                  </div>
+                  <div class="calculate__total-sum">от 3 450 ₽</div>
+                </div>
+              </div>
+              <div class="calculate__item">
+                <button class="button button--full-width button--big">Заказать</button>
+              </div>
+              <!--.calculate__item-->
+              <!--    label Название custom-->
+              <!--    .calculate__area-fill-->
+              <!--        label.checkbox-item-->
+              <!--            input.checkbox-item__input(type="checkbox" required="")-->
+              <!--            .checkbox-item__status-->
+              <!--                p 40-->
+              <!--        label.checkbox-item-->
+              <!--            input.checkbox-item__input(type="checkbox" checked="checked" required="")-->
+              <!--            .checkbox-item__status-->
+              <!--                p 50-->
+              <!--        label.checkbox-item-->
+              <!--            input.checkbox-item__input(type="checkbox" required="")-->
+              <!--            .checkbox-item__status-->
+              <!--                p 60-->
+              <!--        label.checkbox-item-->
+              <!--            input.checkbox-item__input(type="checkbox" required="")-->
+              <!--            .checkbox-item__status-->
+              <!--                p 70-->
+              <!--        .calculate__meter-->
+              <!--            input(type="text").calculate__meter-input-->
+              <!--            span м²-->
+              <!---->
+              <!--.calculate__item-->
+              <!--    label.checkbox-button-->
+              <!--        input.checkbox-button__input(type="checkbox" checked="checked" required="")-->
+              <!--        .checkbox-button__text-->
+              <!--            .checkbox-button__status-->
+              <!--            p Checkbox 1-->
+              <!--    label.radio-button-->
+              <!--        input.radio-button__input(type="radio" name="radio" checked="checked" required="")-->
+              <!--        .radio-button__text-->
+              <!--            .radio-button__status-->
+              <!--            p Radio 1-->
+            </form>
+          </div>
+        </div>
+        <div class="slider-preview">
+          <div class="slider-preview__init slick-slider">
+            <div class="slider-preview__item"><img class="addClass" src="img/slider-image/slide-1.jpg" alt="Название картинки">
+            </div>
+            <div class="slider-preview__item"><img class="addClass" src="img/slider-image/slide-1.jpg" alt="Название картинки">
+            </div>
+            <div class="slider-preview__item"><img class="addClass" src="img/slider-image/slide-1.jpg" alt="Название картинки">
+            </div>
+            <div class="slider-preview__item"><img class="addClass" src="img/slider-image/slide-1.jpg" alt="Название картинки">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section represent__section">
+      <div class="layout">
+        <div class="represent__wrapper">
+          <div class="represent">
+            <div class="represent__img"><img src="img/represent/represent1.svg" alt="Represent icon">
+            </div>
+            <div class="represent__content">
+              <h3>Экологичная уборка</h3>
+              <p>Мы используем специальные экологически безопасные средства</p>
+            </div>
+          </div>
+          <div class="represent">
+            <div class="represent__img"><img src="img/represent/represent2.svg" alt="Represent icon">
+            </div>
+            <div class="represent__content">
+              <h3>Лучшие исполнители</h3>
+              <p>Проверенные временем специалисты с многолетним опытом работы</p>
+            </div>
+          </div>
+          <div class="represent">
+            <div class="represent__img"><img src="img/represent/represent3.svg" alt="Represent icon">
+            </div>
+            <div class="represent__content">
+              <h3>Гарантия чистоты</h3>
+              <p>Если будет плохой результат — уборка за наш счет!</p>
+            </div>
+          </div>
+          <div class="represent">
+            <div class="represent__img"><img src="img/represent/represent4.svg" alt="Represent icon">
+            </div>
+            <div class="represent__content">
+              <h3>Страхуем</h3>
+              <p>Клинер что-то сломал? Не волнуйтесь! Ваше имущество застраховано!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section section__services">
+      <div class="layout">
+        <div class="heading">
+          <h3 class="heading__title">Виды услуг</h3><a class="heading__link" href="#">Все услуги</a>
+        </div>
+        <div class="services__wrapper">
+          <div class="tabs">
+            <div class="tabs__toggle-buttons">
+              <div class="services__tabs-buttons">
+                <div class="tabs__toggle-button services__tabs-button tabs__toggle-button--active">Поддерживающая уборка</div>
+                <div class="tabs__toggle-button services__tabs-button">Генеральная уборка</div>
+                <div class="tabs__toggle-button services__tabs-button">После ремонта</div>
+                <div class="tabs__toggle-button services__tabs-button">Химчистка</div>
+              </div>
+            </div>
+            <div class="tabs__toggle-items">
+              <div class="tabs__toggle-item tabs__toggle-item--active">
+                    <div class="services__tab-item">
+                      <div class="services__image"><img src="img/tab-image/tab-image1.svg" alt="services image">
+                      </div>
+                      <div class="services__content">
+                        <div class="services__head">
+                          <div class="services__head-title">Поддерживающая уборка</div>
+                          <div class="services__head-time time-item">
+                            <svg class="icon-time" width="15px" height="15px">
+                              <use xlink:href="img/icons/sprites.svg#icon-time"></use>
+                            </svg><span>2 - 4 ч.</span>
+                          </div>
+                          <div class="services__head-total">от 3 450 ₽</div>
+                        </div>
+                        <div class="services__text">
+                          <p>Поддержание порядка - это больше, чем просто поддержание его в чистоте. О да! Иногда груды белья превращаются в горы, детские игрушки превращают пол в минное поле для ваших ног, а скопление пыли и шерсти от животных вызывают постоянное чихание. Для занятых людей и работающих родителей найти время для уборки дома или квартиры может стать настоящей головной болью. Наша компания Masterclean24, готова вас избавить от всех страданий связанной с уборкой. Если загрязнений слишком много или в помещении давно никто не убирался, рекомендуем сначала заказать генеральную уборку.</p>
+                        </div>
+                        <div class="services__bottom"><a class="link" href="#">Что входит в поддерживающую уборку</a><a class="button button--big button--tab" href="#">Заказать</a></div>
+                      </div>
+                    </div>
+              </div>
+              <div class="tabs__toggle-item">
+                    <div class="services__tab-item">
+                      <div class="services__image"><img src="img/tab-image/tab-image1.svg" alt="services image">
+                      </div>
+                      <div class="services__content">
+                        <div class="services__head">
+                          <div class="services__head-title">Поддерживающая уборка</div>
+                          <div class="services__head-time time-item">
+                            <svg class="icon-time" width="15px" height="15px">
+                              <use xlink:href="img/icons/sprites.svg#icon-time"></use>
+                            </svg><span>2 - 4 ч.</span>
+                          </div>
+                          <div class="services__head-total">от 3 450 ₽</div>
+                        </div>
+                        <div class="services__text">
+                          <p>Поддержание порядка - это больше, чем просто поддержание его в чистоте. О да! Иногда груды белья превращаются в горы, детские игрушки превращают пол в минное поле для ваших ног, а скопление пыли и шерсти от животных вызывают постоянное чихание. Для занятых людей и работающих родителей найти время для уборки дома или квартиры может стать настоящей головной болью. Наша компания Masterclean24, готова вас избавить от всех страданий связанной с уборкой. Если загрязнений слишком много или в помещении давно никто не убирался, рекомендуем сначала заказать генеральную уборку.</p>
+                        </div>
+                        <div class="services__bottom"><a class="link" href="#">Что входит в поддерживающую уборку</a><a class="button button--big button--tab" href="#">Заказать</a></div>
+                      </div>
+                    </div>
+              </div>
+              <div class="tabs__toggle-item">
+                    <div class="services__tab-item">
+                      <div class="services__image"><img src="img/tab-image/tab-image1.svg" alt="services image">
+                      </div>
+                      <div class="services__content">
+                        <div class="services__head">
+                          <div class="services__head-title">Поддерживающая уборка</div>
+                          <div class="services__head-time time-item">
+                            <svg class="icon-time" width="15px" height="15px">
+                              <use xlink:href="img/icons/sprites.svg#icon-time"></use>
+                            </svg><span>2 - 4 ч.</span>
+                          </div>
+                          <div class="services__head-total">от 3 450 ₽</div>
+                        </div>
+                        <div class="services__text">
+                          <p>Поддержание порядка - это больше, чем просто поддержание его в чистоте. О да! Иногда груды белья превращаются в горы, детские игрушки превращают пол в минное поле для ваших ног, а скопление пыли и шерсти от животных вызывают постоянное чихание. Для занятых людей и работающих родителей найти время для уборки дома или квартиры может стать настоящей головной болью. Наша компания Masterclean24, готова вас избавить от всех страданий связанной с уборкой. Если загрязнений слишком много или в помещении давно никто не убирался, рекомендуем сначала заказать генеральную уборку.</p>
+                        </div>
+                        <div class="services__bottom"><a class="link" href="#">Что входит в поддерживающую уборку</a><a class="button button--big button--tab" href="#">Заказать</a></div>
+                      </div>
+                    </div>
+              </div>
+              <div class="tabs__toggle-item">
+                    <div class="services__tab-item">
+                      <div class="services__image"><img src="img/tab-image/tab-image1.svg" alt="services image">
+                      </div>
+                      <div class="services__content">
+                        <div class="services__head">
+                          <div class="services__head-title">Поддерживающая уборка</div>
+                          <div class="services__head-time time-item">
+                            <svg class="icon-time" width="15px" height="15px">
+                              <use xlink:href="img/icons/sprites.svg#icon-time"></use>
+                            </svg><span>2 - 4 ч.</span>
+                          </div>
+                          <div class="services__head-total">от 3 450 ₽</div>
+                        </div>
+                        <div class="services__text">
+                          <p>Поддержание порядка - это больше, чем просто поддержание его в чистоте. О да! Иногда груды белья превращаются в горы, детские игрушки превращают пол в минное поле для ваших ног, а скопление пыли и шерсти от животных вызывают постоянное чихание. Для занятых людей и работающих родителей найти время для уборки дома или квартиры может стать настоящей головной болью. Наша компания Masterclean24, готова вас избавить от всех страданий связанной с уборкой. Если загрязнений слишком много или в помещении давно никто не убирался, рекомендуем сначала заказать генеральную уборку.</p>
+                        </div>
+                        <div class="services__bottom"><a class="link" href="#">Что входит в поддерживающую уборку</a><a class="button button--big button--tab" href="#">Заказать</a></div>
+                      </div>
+                    </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section section-faq">
+      <div class="layout">
+        <div class="heading">
+          <h3 class="heading__title">Часто задаваемые вопросы</h3>
+        </div>
+        <div class="faq__wrapper">
+          <div class="accordion__item">
+            <div class="accordion__title">Сколько времени занимает уборка?
+              <svg class="icon-arrow" width="15px" height="8px">
+                <use xlink:href="img/icons/sprites.svg#icon-arrow"></use>
+              </svg>
+            </div>
+            <div class="accordion__description">
+              <p>В первую очередь стоимость работ зависит от того, какая именно уборка требуется в квартире или доме — 
+                <u>поддерживающая</u>, 
+                <u>генеральная</u> или произвести 
+                <u>химчистку мебели</u>. Все они разные по сложности и объему работы. Чтобы точно оценить стоимость услуги, необходимо учесть материал, степень  загрязнения и площадь. <a href="#">Свяжитесь с нами</a>, чтобы узнать стоимость именно вашей уборки.
+              </p>
+            </div>
+          </div>
+          <div class="accordion__item">
+            <div class="accordion__title">Сколько будут стоить услуги?
+              <svg class="icon-arrow" width="15px" height="8px">
+                <use xlink:href="img/icons/sprites.svg#icon-arrow"></use>
+              </svg>
+            </div>
+            <div class="accordion__description">
+              <p>В первую очередь стоимость работ зависит от того, какая именно уборка требуется в квартире или доме — 
+                <u>поддерживающая</u>, 
+                <u>генеральная</u> или произвести 
+                <u>химчистку мебели</u>. Все они разные по сложности и объему работы. Чтобы точно оценить стоимость услуги, необходимо учесть материал, степень  загрязнения и площадь. <a href="#">Свяжитесь с нами</a>, чтобы узнать стоимость именно вашей уборки.
+              </p>
+            </div>
+          </div>
+          <div class="accordion__item">
+            <div class="accordion__title">Какие материалы будут использоваться ?
+              <svg class="icon-arrow" width="15px" height="8px">
+                <use xlink:href="img/icons/sprites.svg#icon-arrow"></use>
+              </svg>
+            </div>
+            <div class="accordion__description">
+              <p>В первую очередь стоимость работ зависит от того, какая именно уборка требуется в квартире или доме — 
+                <u>поддерживающая</u>, 
+                <u>генеральная</u> или произвести 
+                <u>химчистку мебели</u>. Все они разные по сложности и объему работы. Чтобы точно оценить стоимость услуги, необходимо учесть материал, степень  загрязнения и площадь. <a href="#">Свяжитесь с нами</a>, чтобы узнать стоимость именно вашей уборки.
+              </p>
+            </div>
+          </div>
+          <div class="accordion__item">
+            <div class="accordion__title">Как оплачиваются услуги?
+              <svg class="icon-arrow" width="15px" height="8px">
+                <use xlink:href="img/icons/sprites.svg#icon-arrow"></use>
+              </svg>
+            </div>
+            <div class="accordion__description">
+              <p>В первую очередь стоимость работ зависит от того, какая именно уборка требуется в квартире или доме — 
+                <u>поддерживающая</u>, 
+                <u>генеральная</u> или произвести 
+                <u>химчистку мебели</u>. Все они разные по сложности и объему работы. Чтобы точно оценить стоимость услуги, необходимо учесть материал, степень  загрязнения и площадь. <a href="#">Свяжитесь с нами</a>, чтобы узнать стоимость именно вашей уборки.
+              </p>
+            </div>
+          </div>
+          <div class="accordion__item">
+            <div class="accordion__title">Я могу оставить клинера одного в квартире?
+              <svg class="icon-arrow" width="15px" height="8px">
+                <use xlink:href="img/icons/sprites.svg#icon-arrow"></use>
+              </svg>
+            </div>
+            <div class="accordion__description">
+              <p>В первую очередь стоимость работ зависит от того, какая именно уборка требуется в квартире или доме — 
+                <u>поддерживающая</u>, 
+                <u>генеральная</u> или произвести 
+                <u>химчистку мебели</u>. Все они разные по сложности и объему работы. Чтобы точно оценить стоимость услуги, необходимо учесть материал, степень  загрязнения и площадь. <a href="#">Свяжитесь с нами</a>, чтобы узнать стоимость именно вашей уборки.
+              </p>
+            </div>
+          </div>
+          <div class="accordion__item">
+            <div class="accordion__title">Как оплачиваются услуги?
+              <svg class="icon-arrow" width="15px" height="8px">
+                <use xlink:href="img/icons/sprites.svg#icon-arrow"></use>
+              </svg>
+            </div>
+            <div class="accordion__description">
+              <p>В первую очередь стоимость работ зависит от того, какая именно уборка требуется в квартире или доме — 
+                <u>поддерживающая</u>, 
+                <u>генеральная</u> или произвести 
+                <u>химчистку мебели</u>. Все они разные по сложности и объему работы. Чтобы точно оценить стоимость услуги, необходимо учесть материал, степень  загрязнения и площадь. <a href="#">Свяжитесь с нами</a>, чтобы узнать стоимость именно вашей уборки.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section section-testimonials">
+      <div class="layout">
+        <div class="heading">
+          <h3 class="heading__title">Отзывы</h3>
+        </div>
+        <div class="testimonials__wrapper">
+          <div class="testimonials">
+            <div class="testimonials__head">
+              <div class="testimonials__user">
+                <div class="testimonials__img-wrapper"><img class="testimonials__img" src="img/testimonials/testimonials1.png" alt="Отзывы">
+                </div>
+                <div class="testimonials__information">
+                  <p class="testimonials__name">Валерия</p>
+                  <div class="testimonials__rating">
+                    <div class="rating"><span class="rating-item">
+                        <svg class="icon-star" width="16px" height="15px">
+                          <use xlink:href="img/icons/sprites.svg#icon-star"></use>
+                        </svg></span><span class="rating-item">
+                        <svg class="icon-star" width="16px" height="15px">
+                          <use xlink:href="img/icons/sprites.svg#icon-star"></use>
+                        </svg></span><span class="rating-item">
+                        <svg class="icon-star" width="16px" height="15px">
+                          <use xlink:href="img/icons/sprites.svg#icon-star"></use>
+                        </svg></span><span class="rating-item">
+                        <svg class="icon-star" width="16px" height="15px">
+                          <use xlink:href="img/icons/sprites.svg#icon-star"></use>
+                        </svg></span><span class="rating-item">
+                        <svg class="icon-star" width="16px" height="15px">
+                          <use xlink:href="img/icons/sprites.svg#icon-star"></use>
+                        </svg></span></div>
+                  </div>
+                </div>
+              </div>
+              <div class="testimonials__date">07 Октября 2020, 13:22</div>
+            </div>
+            <div class="testimonials__text">
+              <p>Нужна была срочная генеральная уборка однокомнатной квартиры, направили клинера оперативно. Приехала девушка, за 5 часов все почистила. Остались небольшие разводы на окне, указала уборщице — она устранила. Понравилось, что клинер спрашивает что куда положить. Я осталась довольна уборкой.</p>
+            </div>
+            <div class="testimonials__answer">
+              <div class="testimonials__answer-title">Masterclean24.ru</div>
+              <div class="testimonials__answer-desc">
+                <p>Добрый день! Мы рады, что Вам понравилась наша работа! Спасибо за тёплые слова и высокую оценку! Будем ждать Вас :)</p>
+              </div>
+            </div>
+          </div>
+          <div class="testimonials">
+            <div class="testimonials__head">
+              <div class="testimonials__user">
+                <div class="testimonials__img-wrapper"><img class="testimonials__img" src="img/testimonials/testimonials2.png" alt="Отзывы">
+                </div>
+                <div class="testimonials__information">
+                  <p class="testimonials__name">Олег</p>
+                  <div class="testimonials__rating">
+                    <div class="rating"><span class="rating-item">
+                        <svg class="icon-star" width="16px" height="15px">
+                          <use xlink:href="img/icons/sprites.svg#icon-star"></use>
+                        </svg></span><span class="rating-item">
+                        <svg class="icon-star" width="16px" height="15px">
+                          <use xlink:href="img/icons/sprites.svg#icon-star"></use>
+                        </svg></span><span class="rating-item">
+                        <svg class="icon-star" width="16px" height="15px">
+                          <use xlink:href="img/icons/sprites.svg#icon-star"></use>
+                        </svg></span><span class="rating-item">
+                        <svg class="icon-star" width="16px" height="15px">
+                          <use xlink:href="img/icons/sprites.svg#icon-star"></use>
+                        </svg></span></div>
+                  </div>
+                </div>
+              </div>
+              <div class="testimonials__date">07 Октября 2020, 13:22</div>
+            </div>
+            <div class="testimonials__text">
+              <p>Заплатил 10.000 ₽. Убирали 12 часов! Правда возникли некоторые вопросы к уборке. Обратился в поддержку, вопрос урегулировали, предложили химчистку мебели. Cделали химчистку, бесплатно. Очень хорошо сделали! Я очень рад, спасибо большое. Хи.</p>
+            </div>
+            <div class="testimonials__answer">
+              <div class="testimonials__answer-title">Masterclean24.ru</div>
+              <div class="testimonials__answer-desc">
+                <p>Олег, добрый день! Нам жаль, что сложилась такая ситуация. Приносим свои извинения! Если будет плохой результат — уборка за наш счет! Ваше обращение уже рассматривается и в скором времени с Вами свяжутся !</p>
+              </div>
+            </div>
+          </div>
+          <div class="testimonials">
+            <div class="testimonials__head">
+              <div class="testimonials__user">
+                <div class="testimonials__img-wrapper"><img class="testimonials__img" src="img/testimonials/testimonials3.png" alt="Отзывы">
+                </div>
+                <div class="testimonials__information">
+                  <p class="testimonials__name">Елена</p>
+                  <div class="testimonials__rating">
+                    <div class="rating"><span class="rating-item">
+                        <svg class="icon-star" width="16px" height="15px">
+                          <use xlink:href="img/icons/sprites.svg#icon-star"></use>
+                        </svg></span><span class="rating-item">
+                        <svg class="icon-star" width="16px" height="15px">
+                          <use xlink:href="img/icons/sprites.svg#icon-star"></use>
+                        </svg></span><span class="rating-item">
+                        <svg class="icon-star" width="16px" height="15px">
+                          <use xlink:href="img/icons/sprites.svg#icon-star"></use>
+                        </svg></span><span class="rating-item">
+                        <svg class="icon-star" width="16px" height="15px">
+                          <use xlink:href="img/icons/sprites.svg#icon-star"></use>
+                        </svg></span><span class="rating-item">
+                        <svg class="icon-star" width="16px" height="15px">
+                          <use xlink:href="img/icons/sprites.svg#icon-star"></use>
+                        </svg></span></div>
+                  </div>
+                </div>
+              </div>
+              <div class="testimonials__date">07 Октября 2020, 13:22</div>
+            </div>
+            <div class="testimonials__text">
+              <p>Вежливый сотрудник. Прибыл точно во время. Качество уборки на 5+. Очень рада знакомству с ответственным <br> и трудолюбивым человеком</p>
+            </div>
+            <div class="testimonials__answer">
+              <div class="testimonials__answer-title">Masterclean24.ru</div>
+              <div class="testimonials__answer-desc">
+                <p>Елена, здравствуйте! Мы рады, что Вы остались довольны работой нашего клинера. Большое спасибо за отзыв и за то, что выбираете нас! Всегда рады Вам помочь. Обращайтесь к нам ещё:)</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="testimonials__button"><a class="button button--big" href="#">Оставить отзыв</a></div>
+      </div>
+    </section>
+    <section class="section section-news">
+      <div class="layout">
+        <div class="heading">
+          <h3 class="heading__title">Новости</h3><a class="heading__link" href="#">Все новости</a>
+        </div>
+        <div class="news__wrapper">
+          <div class="news__col"><a class="news__item" href="#">
+              <div class="news__image-wrapper"><img class="news__image" src="img/news/news1.jpg" alt="Новости">
+              </div>
+              <div class="news__decs">
+                <div class="news__title">«Мастерклин 24» проводит благотворительную помощь всем нуждающимся</div>
+                <div class="news__date">11 февраля 2021,  08:15</div>
+              </div></a></div>
+          <div class="news__col"><a class="news__item" href="#">
+              <div class="news__image-wrapper"><img class="news__image" src="img/news/news2.jpg" alt="Новости">
+              </div>
+              <div class="news__decs">
+                <div class="news__title">Европейские клинеры выбрали лучшую</div>
+                <div class="news__date">30 ноября 2020, 12:00</div>
+              </div></a></div>
+          <div class="news__col"><a class="news__item" href="#">
+              <div class="news__image-wrapper"><img class="news__image" src="img/news/news3.jpg" alt="Новости">
+              </div>
+              <div class="news__decs">
+                <div class="news__title">Выставка CLEANEXPO KRASNODAR 2020</div>
+                <div class="news__date">26 января 2020 16:52</div>
+              </div></a></div>
+          <div class="news__col"><a class="news__item popup-youtube" href="http://www.youtube.com/watch?v=0O2aH4XLbto">
+              <div class="news__image-wrapper">
+                <div class="news__icon--video"></div><img class="news__image" src="img/news/news4.jpg" alt="Новости">
+              </div>
+              <div class="news__decs">
+                <div class="news__title">Инновационный робот-поломойка</div>
+                <div class="news__date">26 января 2020 16:52</div>
+              </div></a></div>
+        </div>
+      </div>
+    </section>
+    <div class="height-100"></div>
+    <footer class="footer">
+      <div class="layout footer__wrapper">
+        <div class="footer__main">
+          <div class="footer__item footer__item--el1">
+            <div class="footer__item-title">Частным клиентам</div>
+            <ul class="footer__menu">
+              <li class="footer__menu-list"><a class="footer__menu-link" href="#">Поддерживающая уборка</a></li>
+              <li class="footer__menu-list"><a class="footer__menu-link" href="#">Генеральная уборка</a></li>
+              <li class="footer__menu-list"><a class="footer__menu-link" href="#">Коттеджи</a></li>
+              <li class="footer__menu-list"><a class="footer__menu-link" href="#">После ремонта</a></li>
+              <li class="footer__menu-list"><a class="footer__menu-link" href="#">После пожара</a></li>
+              <li class="footer__menu-list"><a class="footer__menu-link" href="#">Химчистка</a></li>
+            </ul>
+          </div>
+          <div class="footer__item footer__item--el2">
+            <div class="footer__item-title">Корпоротивным клиентам</div>
+            <ul class="footer__menu">
+              <li class="footer__menu-list"><a class="footer__menu-link" href="#">Уборка офисов</a></li>
+              <li class="footer__menu-list"><a class="footer__menu-link" href="#">Мытьё фасадов</a></li>
+              <li class="footer__menu-list"><a class="footer__menu-link" href="#">Мытьё стекол</a></li>
+              <li class="footer__menu-list"><a class="footer__menu-link" href="#">Уборка производственных помещений</a></li>
+            </ul>
+          </div>
+          <div class="footer__item footer__item--el3">
+            <div class="footer__item-title">Полезное</div>
+            <ul class="footer__menu">
+              <li class="footer__menu-list"><a class="footer__menu-link" href="#">О нас</a></li>
+              <li class="footer__menu-list"><a class="footer__menu-link" href="#">Контакты</a></li>
+              <li class="footer__menu-list"><a class="footer__menu-link" href="#">Новости</a></li>
+              <li class="footer__menu-list"><a class="footer__menu-link" href="#">Отзывы</a></li>
+              <li class="footer__menu-list"><a class="footer__menu-link" href="#">Вакансии</a></li>
+              <li class="footer__menu-list"><a class="footer__menu-link" href="#">Стать клинером</a></li>
+            </ul>
+          </div>
+          <div class="footer__item footer__item--el4">
+            <div class="footer__item-title">Подписывайтесь</div>
+            <div class="footer__social"><a class="footer__social-link footer__social-link--vk" href="#"><img class="footer__social-link-image" src="img/social-image/social-image1.svg" alt="Master Clean"></a><a class="footer__social-link footer__social-link--inst" href="#"><img class="footer__social-link-image" src="img/social-image/social-image2.svg" alt="Master Clean"></a><a class="footer__social-link footer__social-link--youtube" href="#"><img class="footer__social-link-image" src="img/social-image/social-image3.svg" alt="Master Clean"></a></div>
+            <div class="footer__contact"><a href="tel:89774529904">8 977 452-99-04</a><a href="mailto:masterclean-24@mail.ru">masterclean-24@mail.ru</a></div>
+            <div class="footer__contact">
+              <p>Москва, ул. Пятницкая, д.145, корпус 2, офис 12</p>
+            </div>
+          </div>
+          <div class="footer__item footer__item--el5 footer__item--mobile"><a class="footer__logo" href="#"><img class="footer__logo-image" src="img/logo-footer.svg" alt="Master Clean"></a>
+            <div class="footer__policy"><a href="#">Политика конфиденциальности</a><a href="#">Положение об обработке персональных данных</a></div>
+          </div>
+        </div>
+        <div class="footer__copy">
+          <div class="footer__policy footer__policy--mobile"><a href="#">Политика конфиденциальности</a><a href="#">Положение об обработке персональных данных</a></div>
+          <p>©2011-2020 Все права защищены. Любое копирование только с разрешения администрации. Не является публичной офертой.</p>
+        </div>
+      </div>
+    </footer>
+    <div class="popup-default mfp-zoom-in mfp-with-anim mfp-hide" id="call-me">
+      <form class="form-default">
+        <div class="form-default__item">
+          <input class="input-default" type="text" placeholder="Ваше имя">
+        </div>
+        <div class="form-default__item">
+          <input class="input-default check-input" type="text" placeholder="Номер телефона">
+        </div>
+        <div class="form-default__item">
+          <button class="button button--full-width button--big-x submit">Позвоните мне</button>
+        </div>
+      </form>
+      <div class="socials-menu socials-menu--border-top"><a class="socials-menu__link" href="#"><img class="footer__social-link-image" src="img/social-image/telegram.svg" alt="Social Icon"></a><a class="socials-menu__link" href="#"><img class="footer__social-link-image" src="img/social-image/whatsup.svg" alt="Social Icon"></a><a class="socials-menu__link" href="#"><img class="footer__social-link-image" src="img/social-image/viber.svg" alt="Social Icon"></a>
+      </div>
+    </div>
+    <div class="popup-default mfp-zoom-in mfp-with-anim mfp-hide" id="successful">
+      <div class="successful__wrapper">
+        <div class="form-default__item"><img src="img/icons/successful.svg" alt="Successful">
+        </div>
+        <div class="form-default__item">
+          <p>Ваша заявка принята!</p>
+        </div>
+        <div class="form-default__item">
+          <p>Оператор свяжется с вами в <br> течении 2-х минут</p>
+        </div>
+      </div>
+    </div><a class="to-top" href="#">
+      <svg class="to-top__icon" width="50px" height="50px">
+        <use xlink:href="img/icons/sprites.svg#icon-to-top"></use>
+      </svg></a>
+  <script src="js/main.js"></script></body>
+</html>

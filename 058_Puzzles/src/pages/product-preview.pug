@@ -1,0 +1,106 @@
+extends ../templates/main
+
+include ../blocks/breadcrumbs/breadcrumbs
+
+block variables
+    - var title = 'Puzzle'
+
+block content
+    main.main
+        .breadcrumbs.breadcrumbs--default-offset
+            .layout
+                ul.breadcrumbs__lists
+                    +listBreadcrumbs("Главная")
+                    +listBreadcrumbs("Каталог")
+                    +listBreadcrumbs("Коллекция DAVICI Детям")
+                    +listBreadcrumbs("Корабль сокровищ. 60 деталей", true)
+
+        .section.section--offset-none
+            .layout
+
+                include ../blocks/product-preview/product-preview
+
+                .text-content
+                    p Наивное искусство – это душа народа, наивные художники – это люди, которым Бог дал видеть красоту. Детали – художественные элементы наивного искусства, рассказывающие о плодородии земли, диковинных деревьях, счастливых обителях, хлебосольных застольях, о людях, пребывающих в любви.
+                    p Наша бабушка агент: #[br]
+                        | Через целый континент #[br]
+                        | Провезла она товар #[br]
+                        | Сквозь моря и сотню стран. #[br]
+                        | Ей пришлось маскироваться: #[br]
+                        | Даже злою притворяться, #[br]
+                        | Чтоб проверки на пути #[br]
+                        | Беспрепятственно пройти. #[br]
+                        | А товар тот непростой, #[br]
+                        | Чувствую, для нас с тобой. #[br]
+                        | Ведь такие корабли #[br]
+                        | Лишь сокровища везли! #[br]
+                        | Может быть шелка в мешках, #[br]
+                        | И алмазы в сундуках? #[br]
+                        | А в коробках в самом деле #[br]
+                        | Есть диковинные звери?!! #[br]
+                        | Чтобы все секреты знать #[br]
+                        | Буду пазлы составлять: #[br]
+                        | Что в корзинке гусь несёт, #[br]
+                        | Где удача меня ждёт! #[br]
+                        | Автор- Ирина Боднарь 7-71-05-060
+
+        .section.section--offset-bottom
+            .layout
+                .heading.heading--center
+                    h2.heading__title С этим товаром покупают
+                .catalog__wrapper.catalog__wrapper--no-offset
+                    .catalog__item
+                        +productItem(true, "", productSlide1, "Летучий фрегат. 130 деталей")
+                    .catalog__item
+                        +productItem(false, "", "src/blocks/product-item/assets/img/product-item1.jpg", "Коллекция №1")
+                    .catalog__item
+                        +productItem(true, "", productSlide2, "Купание разноцветного дракона. 125 деталей")
+                    .catalog__item
+                        +productItem(true, "", productSlide3, "Обитаемая рыба. 130 деталей")
+                .catalog__buttons
+                    a(href="#").button.button--gray Все товары
+
+        .section.section--offset-bottom
+            .layout
+                .heading.heading--center
+                    h2.heading__title Другое в разделе «Коллекция DAVICI Детям»
+                .collection-slider.collection-slider--full
+                    .collection-slider__init
+                        .collection-slider__item
+                            +productItem(true, "", productSlide1, "Летучий фрегат. 130 деталей")
+                        .collection-slider__item
+                            +productItem(false, "", "src/blocks/product-item/assets/img/product-item1.jpg", "Коллекция №1")
+                        .collection-slider__item
+                            +productItem(true, "", productSlide2, "Купание разноцветного дракона. 125 деталей")
+                        .collection-slider__item
+                            +productItem(true, "", productSlide3, "Обитаемая рыба. 130 деталей")
+                        .collection-slider__item
+                            +productItem(true, "", productSlide4, "Корабль сокровищ. 60 деталей")
+                        .collection-slider__item
+                            +productItem(true, "", productSlide5, "От сердца к сердцу. 180 деталей")
+                        .collection-slider__item
+                            +productItem(true, "", productSlide6, "Обитаемая рыба. 130 деталей")
+                        .collection-slider__item
+                            +productItem(true, "", productSlide8, "Обитаемая рыба. 130 деталей")
+                        .collection-slider__item
+                            +productItem(true, "", productSlide9, "Обитаемая рыба. 130 деталей")
+                        .collection-slider__item
+                            +productItem(true, "", productSlide10, "Обитаемая рыба. 130 деталей")
+
+                    .collection-slider__navigation
+                        button.collection-slider__navigation-button.collection-slider__navigation-button--prev
+                            +iconSvg('8', '14', '', 'icon__arrow-slide')
+                        button.collection-slider__navigation-button.collection-slider__navigation-button--next
+                            +iconSvg('8', '14', '', 'icon__arrow-slide')
+
+            .catalog__buttons
+                a(href="#").button.button--gray Посмотреть
+
+
+        .section.section--offset-bottom
+            .layout
+                include ../blocks/banner/banner
+
+        .section.section--offset-bottom
+            .layout
+                include ../blocks/testimonials/testimonials

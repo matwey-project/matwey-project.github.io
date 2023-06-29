@@ -1,0 +1,109 @@
+@import "../../libs/scss/mixins";
+@import "../../blocks/base/variables";
+@import "../../blocks/base/media-queries";
+
+input,
+textarea {
+  min-height: 40px;
+  width: 100%;
+  background: #F1F4F4;
+  border-radius: 12px;
+  border: none;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #999999;
+  outline: none;
+  padding: 8px 16px;
+  &::-webkit-input-placeholder {
+    font-size: 16px;
+    color: #999999;
+  }
+
+  &::-moz-placeholder {
+    font-size: 16px;
+    color: #999999;
+  }
+
+  &:-ms-input-placeholder {
+    font-size: 16px;
+    color: #999999;
+  }
+
+  &:-moz-placeholder {
+    font-size: 16px;
+    color: #999999;
+  }
+}
+textarea {
+  padding: 11px 16px;
+  width: 100% !important;
+  min-height: 100px;
+}
+
+.order-cake {
+  &__input-style {
+    margin-bottom: 24px;
+  }
+}
+
+.label-name {
+  display: inline-block;
+  font-weight: 500;
+  color: #50494B;
+  margin-bottom: 9px;
+  &__big {
+    font-size: 20px;
+  }
+  &__small {
+    font-size: 18px;
+  }
+}
+
+// Form style
+
+.order-cake {
+  max-width: 576px;
+  margin: 0 auto;
+  &__title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: #353132;
+    margin-bottom: 40px;
+  }
+
+  &__form {
+
+  }
+
+  &__input-style {
+
+  }
+
+  input {
+
+  }
+
+  textarea {
+
+  }
+  .order-cake__button {
+    margin-top: 50px;
+    .button {
+      width: 100%;
+    }
+  }
+
+  .input-icon {
+    cursor: pointer;
+    &--calendar {
+      background-image: url(/src/blocks/form/assets/img/calendar.svg);
+      background-repeat: no-repeat;
+      background-position: right 18px top 11px;
+    }
+  }
+}

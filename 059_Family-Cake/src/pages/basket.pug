@@ -1,0 +1,66 @@
+extends ../templates/main
+
+block variables
+    - var title = 'Family Cake Company';
+    - var active = 'Cupcakes';
+
+block content
+    main.main
+        .basket
+            .layout
+                .heading
+                    h3 Basket
+                .basket__wrapper
+                    table.basket__table
+                        thead
+                            tr
+                                th(style="width: 300px;") Product
+                                th Price
+                                th Quantity
+                                th Subtotal
+                        tbody
+                            tr
+                                td
+                                    .basket__product
+                                        .basket__product-image
+                                            img(src="src/blocks/cupcakes/assets/img/product-1.png")
+                                        .basket__product-desc
+                                            h3
+                                                a(href="#") Nutella
+                                            a(href="#").basket__product-category Cupcakes
+                                td
+                                    p.price £3.50
+                                td
+                                    .input-counter
+                                        i.less #[+iconSvg('22', '22', '0 0 22 22', 'icon-minus')]
+                                        input(type="text" value="1")
+                                        i.more #[+iconSvg('22', '22', '0 0 22 22', 'icon-plus')]
+                                td
+                                    p.subtotal £3.50
+
+                            tr
+                                td
+                                    .basket__product
+                                        .basket__product-image
+                                            img(src="src/blocks/cupcakes/assets/img/product-1.png")
+                                        .basket__product-desc
+                                            h3
+                                                a(href="#") Red Velvet
+                                            a(href="#").basket__product-category Cupcakes
+                                td
+                                    p.price £3.50
+                                td
+                                    .input-counter
+                                        i.less #[+iconSvg('22', '22', '0 0 22 22', 'icon-minus')]
+                                        input(type="text" value="2")
+                                        i.more #[+iconSvg('22', '22', '0 0 22 22', 'icon-plus')]
+                                td
+                                    p.subtotal £3.50
+
+                    .total-basket
+                        .total-basket__wrapper
+                            .total-basket__total
+                                span Total
+                                p £7.00
+                            .total-basket__button
+                                button.button.button__pink Checkout

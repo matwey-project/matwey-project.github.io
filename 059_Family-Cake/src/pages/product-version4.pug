@@ -1,0 +1,56 @@
+extends ../templates/main
+
+block variables
+    - var title = 'Family Cake Company';
+    - var active = 'Cupcakes';
+
+block content
+    main.main
+        .product
+            .layout
+                .product-view
+                    .product__images
+                        .icon-popup
+                            +iconSvg('28', '28', '0 0 28 28', 'icon-search')
+                        a(href="#")
+                            img(src="src/blocks/product/assets/img/product-1.jpg")
+
+                    .product__information
+                        h3.product__title Nutella
+                        a(href="#").product__category Cupcakes
+                        p.product__price £3.50
+                        .input-counter
+                            i.less #[+iconSvg('22', '22', '0 0 22 22', 'icon-minus')]
+                            input(type="text" value="2")
+                            i.more #[+iconSvg('22', '22', '0 0 22 22', 'icon-plus')]
+                        p.product__decs No Words Needed Really, Just a lot of Dreamy Nut LOVE here.
+
+                        .order-cake__input-style
+                            textarea(placeholder="Additional comments e.g. no strawberries.")
+
+                        .order-cake__input-style
+                            label.label-name.label-name__big Choose a flavour:
+                            select.sort-select.cupcakes__select
+                                option Italian Style
+                                option Italian Style 1
+                                option Italian Style 2
+                                option Italian Style 3
+
+                            p Layers of light and fluffy Vanilla sponge with Fresh cream, creme pattissiere & ,ixed fruit makes a great dessert.
+
+                        .order-cake__input-style
+                            label.label-name.label-name__big Choose a size:
+                            select.sort-select.cupcakes__select
+                                option 8”-16 portions
+                                option 8”-16 portions 1
+                                option 8”-16 portions 2
+                                option 8”-16 portions 3
+
+                        .order-cake__input-style
+                            label.label-name.label-name__big Add a personal message - its FREE!
+                            input(type="text" placeholder="Your message")
+
+                        .basket-product
+                            button.button.button__pink Add to Basket
+
+    include ../blocks/related-products/related-products

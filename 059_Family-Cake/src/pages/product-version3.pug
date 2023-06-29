@@ -1,0 +1,65 @@
+extends ../templates/main
+
+block variables
+    - var title = 'Family Cake Company';
+    - var active = 'Cupcakes';
+
+block content
+    main.main
+        .product
+            .layout
+                .product-view
+                    .product__images
+                        .slider-product
+                            .slider-product__item
+                                a(href="#")
+                                    img(src="src/blocks/product/assets/img/product-1.jpg")
+                            .slider-product__item
+                                a(href="#")
+                                    img(src="src/blocks/product/assets/img/product-2.jpg")
+                            .slider-product__item
+                                a(href="#")
+                                    img(src="src/blocks/product/assets/img/product-3.jpg")
+                            .slider-product__item
+                                a(href="#")
+                                    img(src="src/blocks/product/assets/img/product-4.jpg")
+
+                        .slider-product__navigate
+                            .slider-product__navigate-item
+                                .slider-product__navigate-image
+                                    img(src="src/blocks/product/assets/img/product-1.jpg")
+                            .slider-product__navigate-item
+                                .slider-product__navigate-image
+                                    img(src="src/blocks/product/assets/img/product-2.jpg")
+                            .slider-product__navigate-item
+                                .slider-product__navigate-image
+                                    img(src="src/blocks/product/assets/img/product-3.jpg")
+                            .slider-product__navigate-item
+                                .slider-product__navigate-image
+                                    img(src="src/blocks/product/assets/img/product-4.jpg")
+
+                    .product__information
+                        h3.product__title Nutella
+                        a(href="#").product__category Cupcakes
+                        p.product__price £3.50
+                        .input-counter
+                            i.less #[+iconSvg('22', '22', '0 0 22 22', 'icon-minus')]
+                            input(type="text" value="1")
+                            i.more #[+iconSvg('22', '22', '0 0 22 22', 'icon-plus')]
+                        p.product__decs Vitae nulla at augue adipiscing blandit vitae libero. Malesuada pulvinar pretium sed tempor mollis ac mi.
+
+                        .order-cake__input-style
+                            textarea(placeholder="Additional comments e.g. no strawberries.")
+
+                        .order-cake__input-style
+                            label.label-name.label-name__big Choose a flavour:
+                            select.sort-select.cupcakes__select
+                                option Chocolate
+                                option Chocolate 1
+                                option Chocolate 2
+                                option Chocolate 3
+
+                        .basket-product
+                            button.button.button__pink Add to Basket
+
+    include ../blocks/related-products/related-products

@@ -1,0 +1,51 @@
+@import "../../libs/scss/mixins";
+@import "../../blocks/base/variables";
+@import "../../blocks/base/media-queries";
+
+.layout {
+  max-width: 1170px;
+  width: 100%;
+  @include margin-auto;
+  padding-left: 15px;
+  padding-right: 15px;
+
+  //@media #{$notebook-big-screen}{
+  //  padding-left: 15px;
+  //  padding-right: 15px;
+  //}
+
+  //@media #{$tablet-big-screen}{
+  //
+  //}
+  //
+  //@media #{$mobile-big-screen}{
+  //
+  //}
+}
+
+
+
+.layout-gallery {
+  max-width: 900px;
+  @include margin-auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.layout-large {
+  max-width: 854px;
+  @include margin-auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.layout-small {
+  max-width: 800px;
+  @include margin-auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.layout-big {
+  max-width: 1200px;
+  @include margin-auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}

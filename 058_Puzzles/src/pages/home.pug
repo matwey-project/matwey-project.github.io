@@ -1,0 +1,313 @@
+extends ../templates/main
+
+block variables
+    - var title = 'Puzzle'
+
+block content
+    main.main
+
+        include ../blocks/slider-main/slider-main
+
+        .section
+            .layout
+                .heading.heading--center
+                    h2.heading__title.heading__title--border Авторские коллекции пазлов
+                    p.heading__desc Создана специально для дошкольников и младших школьников, маленьких любознательных и пытливых искателей.
+
+                .tabs
+                    .tabs__toggle-buttons.tabs__toggle-buttons--el-1.product-catalog__tab-wrapper
+                        .tabs__toggle-button.tabs__toggle-button--tab-link.tabs__toggle-button--active Коллекция N1
+                        .tabs__toggle-button.tabs__toggle-button--tab-link Коллекция N2
+                        .tabs__toggle-button.tabs__toggle-button--tab-link Коллекция N3
+                    .tabs__toggle-items.tabs__toggle-items--el-1
+                        .tabs__toggle-item.tabs__toggle-item--active
+                            .masonry-grid
+                                .masonry-grid__item
+                                    +productItem(true, "", productSlide1, "Летучий фрегат. 130 деталей")
+                                .masonry-grid__item
+                                    +productItem(false, "", "src/blocks/product-item/assets/img/product-item1.jpg", "Коллекция №1")
+                                .masonry-grid__item
+                                    +productItem(true, "", productSlide2, "Купание разноцветного дракона. 125 деталей")
+                                .masonry-grid__item
+                                    +productItem(true, "", productSlide3, "Обитаемая рыба. 130 деталей")
+                                .masonry-grid__item
+                                    +productItem(true, "", productSlide4, "Корабль сокровищ. 60 деталей")
+                                .masonry-grid__item
+                                    +productItem(true, "", productSlide5, "От сердца к сердцу. 180 деталей")
+                                .masonry-grid__item
+                                    +productItem(true, "", productSlide6, "Обитаемая рыба. 130 деталей")
+                                .masonry-grid__item
+                                    +productItem(true, "", productSlide7, "Обитаемая рыба. 130 деталей")
+                                .masonry-grid__item
+                                    +productItem(true, "", productSlide8, "Обитаемая рыба. 130 деталей")
+                                .masonry-grid__item
+                                    +productItem(true, "", productSlide9, "Обитаемая рыба. 130 деталей")
+                                .masonry-grid__item
+                                    +productItem(true, "", productSlide10, "Обитаемая рыба. 130 деталей")
+                                .masonry-grid__item
+                                    +productItem(true, "", productSlide4, "Корабль сокровищ. 60 деталей")
+
+                        .tabs__toggle-item
+                            .masonry-grid
+                                .masonry-grid__item
+                                    +productItem(false, "", "src/blocks/product-item/assets/img/product-item1.jpg", "Коллекция №1")
+                                .masonry-grid__item
+                                    +productItem(true, "", productSlide1, "Летучий фрегат. 130 деталей")
+                                .masonry-grid__item
+                                    +productItem(true, "", productSlide3, "Обитаемая рыба. 130 деталей")
+                                .masonry-grid__item
+                                    +productItem(true, "", productSlide4, "Корабль сокровищ. 60 деталей")
+                                .masonry-grid__item
+                                    +productItem(true, "", productSlide2, "Купание разноцветного дракона. 125 деталей")
+                                .masonry-grid__item
+                                    +productItem(true, "", productSlide5, "От сердца к сердцу. 180 деталей")
+                                .masonry-grid__item
+                                    +productItem(true, "", productSlide9, "Обитаемая рыба. 130 деталей")
+                                .masonry-grid__item
+                                    +productItem(true, "", productSlide10, "Обитаемая рыба. 130 деталей")
+                                .masonry-grid__item
+                                    +productItem(true, "", productSlide7, "Обитаемая рыба. 130 деталей")
+                                .masonry-grid__item
+                                    +productItem(true, "", productSlide4, "Корабль сокровищ. 60 деталей")
+                                .masonry-grid__item
+                                    +productItem(true, "", productSlide6, "Обитаемая рыба. 130 деталей")
+                                .masonry-grid__item
+                                    +productItem(true, "", productSlide8, "Обитаемая рыба. 130 деталей")
+
+                        .tabs__toggle-item
+                            .masonry-grid
+                                .masonry-grid__item
+                                    +productItem(true, "", productSlide5, "От сердца к сердцу. 180 деталей")
+                                .masonry-grid__item
+                                    +productItem(true, "", productSlide9, "Обитаемая рыба. 130 деталей")
+                                .masonry-grid__item
+                                    +productItem(true, "", productSlide10, "Обитаемая рыба. 130 деталей")
+                                .masonry-grid__item
+                                    +productItem(false, "", "src/blocks/product-item/assets/img/product-item1.jpg", "Коллекция №1")
+                                .masonry-grid__item
+                                    +productItem(true, "", productSlide4, "Корабль сокровищ. 60 деталей")
+                                .masonry-grid__item
+                                    +productItem(true, "", productSlide1, "Летучий фрегат. 130 деталей")
+                                .masonry-grid__item
+                                    +productItem(true, "", productSlide3, "Обитаемая рыба. 130 деталей")
+                                .masonry-grid__item
+                                    +productItem(true, "", productSlide4, "Корабль сокровищ. 60 деталей")
+                                .masonry-grid__item
+                                    +productItem(true, "", productSlide6, "Обитаемая рыба. 130 деталей")
+                                .masonry-grid__item
+                                    +productItem(true, "", productSlide2, "Купание разноцветного дракона. 125 деталей")
+                                .masonry-grid__item
+                                    +productItem(true, "", productSlide7, "Обитаемая рыба. 130 деталей")
+                                .masonry-grid__item
+                                    +productItem(true, "", productSlide8, "Обитаемая рыба. 130 деталей")
+
+
+
+                .section__buttons
+                    a(href="#").button.button--purple.section__button Посмотреть все наборы коллекции
+                    a(href="#").button.button--purple.section__button В каталог
+
+        .section.section--small-offset.section--background-red
+            .layout
+                .heading.heading--color-white.heading--center
+                    h2.heading__title Деревянные пазлы DAVICI — лучший подарок
+
+                .tabs
+                    .tabs__toggle-buttons.tabs__toggle-buttons--el-2
+                        .tabs__toggle-button.tabs__toggle-button--tab-item.tabs__toggle-button--active Коллекция N1
+                        .tabs__toggle-button.tabs__toggle-button--tab-item Коллекция N2
+                        .tabs__toggle-button.tabs__toggle-button--tab-item Коллекция N3
+                    .tabs__toggle-items.tabs__toggle-items--el-2
+                        .tabs__toggle-item.tabs__toggle-item--active
+                            .masonry-grid
+                                .masonry-grid__item
+                                    +productItem(false, "product-item--style-white", "src/blocks/product-item/assets/img/product-item1.jpg", "Коллекция №1")
+                                .masonry-grid__item
+                                    +productItem(true, "product-item--style-white", productSlide1, "Летучий фрегат. 130 деталей")
+                                .masonry-grid__item
+                                    +productItem(true, "product-item--style-white", productSlide3, "Обитаемая рыба. 130 деталей")
+                                .masonry-grid__item
+                                    +productItem(true, "product-item--style-white", productSlide4, "Корабль сокровищ. 60 деталей")
+                                .masonry-grid__item
+                                    +productItem(true, "product-item--style-white", productSlide2, "Купание разноцветного дракона. 125 деталей")
+                                .masonry-grid__item
+                                    +productItem(true, "product-item--style-white", productSlide5, "От сердца к сердцу. 180 деталей")
+                                .masonry-grid__item
+                                    +productItem(true, "product-item--style-white", productSlide9, "Обитаемая рыба. 130 деталей")
+                                .masonry-grid__item
+                                    +productItem(true, "product-item--style-white", productSlide10, "Обитаемая рыба. 130 деталей")
+                                .masonry-grid__item
+                                    +productItem(true, "product-item--style-white", productSlide7, "Обитаемая рыба. 130 деталей")
+                                .masonry-grid__item
+                                    +productItem(true, "product-item--style-white", productSlide4, "Корабль сокровищ. 60 деталей")
+                                .masonry-grid__item
+                                    +productItem(true, "product-item--style-white", productSlide6, "Обитаемая рыба. 130 деталей")
+                                .masonry-grid__item
+                                    +productItem(true, "product-item--style-white", productSlide8, "Обитаемая рыба. 130 деталей")
+
+                        .tabs__toggle-item
+                            .masonry-grid
+                                .masonry-grid__item
+                                    +productItem(true, "product-item--style-white", productSlide5, "От сердца к сердцу. 180 деталей")
+                                .masonry-grid__item
+                                    +productItem(true, "product-item--style-white", productSlide9, "Обитаемая рыба. 130 деталей")
+                                .masonry-grid__item
+                                    +productItem(true, "product-item--style-white", productSlide10, "Обитаемая рыба. 130 деталей")
+                                .masonry-grid__item
+                                    +productItem(false, "product-item--style-white", "src/blocks/product-item/assets/img/product-item1.jpg", "Коллекция №1")
+                                .masonry-grid__item
+                                    +productItem(true, "product-item--style-white", productSlide4, "Корабль сокровищ. 60 деталей")
+                                .masonry-grid__item
+                                    +productItem(true, "product-item--style-white", productSlide1, "Летучий фрегат. 130 деталей")
+                                .masonry-grid__item
+                                    +productItem(true, "product-item--style-white", productSlide3, "Обитаемая рыба. 130 деталей")
+                                .masonry-grid__item
+                                    +productItem(true, "product-item--style-white", productSlide4, "Корабль сокровищ. 60 деталей")
+                                .masonry-grid__item
+                                    +productItem(true, "product-item--style-white", productSlide6, "Обитаемая рыба. 130 деталей")
+                                .masonry-grid__item
+                                    +productItem(true, "product-item--style-white", productSlide2, "Купание разноцветного дракона. 125 деталей")
+                                .masonry-grid__item
+                                    +productItem(true, "product-item--style-white", productSlide7, "Обитаемая рыба. 130 деталей")
+                                .masonry-grid__item
+                                    +productItem(true, "product-item--style-white", productSlide8, "Обитаемая рыба. 130 деталей")
+                        .tabs__toggle-item
+                            .masonry-grid
+                                .masonry-grid__item
+                                    +productItem(true, "product-item--style-white", productSlide1, "Летучий фрегат. 130 деталей")
+                                .masonry-grid__item
+                                    +productItem(false, "product-item--style-white", "src/blocks/product-item/assets/img/product-item1.jpg", "Коллекция №1")
+                                .masonry-grid__item
+                                    +productItem(true, "product-item--style-white", productSlide2, "Купание разноцветного дракона. 125 деталей")
+                                .masonry-grid__item
+                                    +productItem(true, "product-item--style-white", productSlide3, "Обитаемая рыба. 130 деталей")
+                                .masonry-grid__item
+                                    +productItem(true, "product-item--style-white", productSlide4, "Корабль сокровищ. 60 деталей")
+                                .masonry-grid__item
+                                    +productItem(true, "product-item--style-white", productSlide5, "От сердца к сердцу. 180 деталей")
+                                .masonry-grid__item
+                                    +productItem(true, "product-item--style-white", productSlide6, "Обитаемая рыба. 130 деталей")
+                                .masonry-grid__item
+                                    +productItem(true, "product-item--style-white", productSlide7, "Обитаемая рыба. 130 деталей")
+                                .masonry-grid__item
+                                    +productItem(true, "product-item--style-white", productSlide8, "Обитаемая рыба. 130 деталей")
+                                .masonry-grid__item
+                                    +productItem(true, "product-item--style-white", productSlide9, "Обитаемая рыба. 130 деталей")
+                                .masonry-grid__item
+                                    +productItem(true, "product-item--style-white", productSlide10, "Обитаемая рыба. 130 деталей")
+                                .masonry-grid__item
+                                    +productItem(true, "product-item--style-white", productSlide4, "Корабль сокровищ. 60 деталей")
+
+
+
+        .section
+            .layout
+                include ../blocks/banner-preview/banner-preview
+
+        .section
+            .layout
+                .heading.heading--center
+                    h2.heading__title.heading__title--border Коллекция DAVICI Детям
+                    p.heading__desc Создана специально для дошкольников и младших школьников, маленьких любознательных и пытливых искателей.
+
+                .collection-slider.collection-slider--full
+                    .collection-slider__init
+                        .collection-slider__item
+                            +productItem(true, "", productSlide1, "Летучий фрегат. 130 деталей")
+                        .collection-slider__item
+                            +productItem(false, "", "src/blocks/product-item/assets/img/product-item1.jpg", "Коллекция №1")
+                        .collection-slider__item
+                            +productItem(true, "", productSlide2, "Купание разноцветного дракона. 125 деталей")
+                        .collection-slider__item
+                            +productItem(true, "", productSlide3, "Обитаемая рыба. 130 деталей")
+                        .collection-slider__item
+                            +productItem(true, "", productSlide4, "Корабль сокровищ. 60 деталей")
+                        .collection-slider__item
+                            +productItem(true, "", productSlide5, "От сердца к сердцу. 180 деталей")
+                        .collection-slider__item
+                            +productItem(true, "", productSlide6, "Обитаемая рыба. 130 деталей")
+                        .collection-slider__item
+                            +productItem(true, "", productSlide8, "Обитаемая рыба. 130 деталей")
+                        .collection-slider__item
+                            +productItem(true, "", productSlide9, "Обитаемая рыба. 130 деталей")
+                        .collection-slider__item
+                            +productItem(true, "", productSlide10, "Обитаемая рыба. 130 деталей")
+
+                    .collection-slider__navigation
+                        button.collection-slider__navigation-button.collection-slider__navigation-button--prev
+                            +iconSvg('8', '14', '', 'icon__arrow-slide')
+                        button.collection-slider__navigation-button.collection-slider__navigation-button--next
+                            +iconSvg('8', '14', '', 'icon__arrow-slide')
+
+        .section.section--small-offset.section--background-black
+            .layout.layout--large
+
+                .heading.heading--color-brown.heading--center
+                    h2.heading__title.heading__title--border Коллекция «Эрмитаж»
+                    p.heading__desc Премиальная коллекция DAVICI «Эрмитаж» создана по мотивам шедевров живописи Государственного Эрмитажа. #[br]В ней представлены известные экспонаты музея - шедевры Да Винчи, Рембрандта, Ван Гога, Гогена, Кандинского, Снейдерса, Микеланджело, Караваджо, Ренуара, Малевича.
+
+                .collection-slider.collection-slider--full
+                    .collection-slider__init
+                        .collection-slider__item
+                            +productItem(true, "product-item--style-white", productSlide9, "Обитаемая рыба. 130 деталей")
+                        .collection-slider__item
+                            +productItem(true, "product-item--style-white", productSlide2, "Купание разноцветного дракона. 125 деталей")
+                        .collection-slider__item
+                            +productItem(true, "product-item--style-white", productSlide1, "Летучий фрегат. 130 деталей")
+                        .collection-slider__item
+                            +productItem(true, "product-item--style-white", productSlide3, "Обитаемая рыба. 130 деталей")
+                        .collection-slider__item
+                            +productItem(false, "product-item--style-white", "src/blocks/product-item/assets/img/product-item1.jpg", "Коллекция №1")
+                        .collection-slider__item
+                            +productItem(true, "product-item--style-white", productSlide6, "Обитаемая рыба. 130 деталей")
+                        .collection-slider__item
+                            +productItem(true, "product-item--style-white", productSlide10, "Обитаемая рыба. 130 деталей")
+                        .collection-slider__item
+                            +productItem(true, "product-item--style-white", productSlide4, "Корабль сокровищ. 60 деталей")
+                        .collection-slider__item
+                            +productItem(true, "product-item--style-white", productSlide5, "От сердца к сердцу. 180 деталей")
+                        .collection-slider__item
+                            +productItem(true, "product-item--style-white", productSlide8, "Обитаемая рыба. 130 деталей")
+
+                    .collection-slider__navigation
+                        button.collection-slider__navigation-button.collection-slider__navigation-button--prev
+                            +iconSvg('8', '14', '', 'icon__arrow-slide')
+                        button.collection-slider__navigation-button.collection-slider__navigation-button--next
+                            +iconSvg('8', '14', '', 'icon__arrow-slide')
+
+        .section
+            .layout
+                .heading.heading--center
+                    h2.heading__title.heading__title--border Коллекция "Знаки Зодиака"
+                    p.heading__desc Рекордный по количеству реализованных идей проект DAVICI. Уникальный по масштабу: более 150 вовлеченных в одноименный конкурс художников-графиков. У каждого знака зодиака свой автор. У каждой схемы – непредсказуемое, стилистически разное и креативное исполнение.
+
+                .collection-slider.collection-slider--full
+                    .collection-slider__init
+                        .collection-slider__item
+                            +productItem(true, "", productSlide1, "Летучий фрегат. 130 деталей")
+                        .collection-slider__item
+                            +productItem(false, "", "src/blocks/product-item/assets/img/product-item1.jpg", "Коллекция №1")
+                        .collection-slider__item
+                            +productItem(true, "", productSlide2, "Купание разноцветного дракона. 125 деталей")
+                        .collection-slider__item
+                            +productItem(true, "", productSlide3, "Обитаемая рыба. 130 деталей")
+                        .collection-slider__item
+                            +productItem(true, "", productSlide4, "Корабль сокровищ. 60 деталей")
+                        .collection-slider__item
+                            +productItem(true, "", productSlide5, "От сердца к сердцу. 180 деталей")
+                        .collection-slider__item
+                            +productItem(true, "", productSlide6, "Обитаемая рыба. 130 деталей")
+                        .collection-slider__item
+                            +productItem(true, "", productSlide8, "Обитаемая рыба. 130 деталей")
+                        .collection-slider__item
+                            +productItem(true, "", productSlide9, "Обитаемая рыба. 130 деталей")
+                        .collection-slider__item
+                            +productItem(true, "", productSlide10, "Обитаемая рыба. 130 деталей")
+
+                    .collection-slider__navigation
+                        button.collection-slider__navigation-button.collection-slider__navigation-button--prev
+                            +iconSvg('8', '14', '', 'icon__arrow-slide')
+                        button.collection-slider__navigation-button.collection-slider__navigation-button--next
+                            +iconSvg('8', '14', '', 'icon__arrow-slide')
+
+        include ../blocks/instagram/instagram

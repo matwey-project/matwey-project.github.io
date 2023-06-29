@@ -1,0 +1,36 @@
+@import "../../libs/scss/mixins";
+@import "../../blocks/base/variables";
+@import "../../blocks/base/media-queries";
+
+.heading {
+  text-align: center;
+  color: #353132;
+  h3 {
+    font-family: 'Leckerli One', cursive;
+    font-size: 48px;
+    line-height: 60px;
+    text-align: center;
+    @include _854 {
+      font-size: 36px;
+      line-height: normal;
+      margin-bottom: 30px;
+    }
+  }
+  p {
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    color: #353132;
+    margin: 20px auto 0;
+    max-width: 590px;
+  }
+
+  &__link {
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    color: #D57792;
+  }
+}

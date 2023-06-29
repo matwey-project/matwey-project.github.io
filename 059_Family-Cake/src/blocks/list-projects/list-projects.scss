@@ -1,0 +1,20 @@
+@import "../../libs/scss/mixins";
+@import "../../blocks/base/variables";
+@import "../../blocks/base/media-queries";
+
+.list-projects {
+  height: calc(100vh - 152px);
+  display: flex;
+  align-items: center;
+  .list-projects__menu {
+    li {
+      margin-bottom: 14px;
+    }
+    a {
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 28px;
+      color: #50494B;
+    }
+  }
+}

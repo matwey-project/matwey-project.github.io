@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#565157">
+    <meta name="msapplication-navbutton-color" content="#565157">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#565157">
+    <title>Family Cake Company</title>
+  <link href="style.css" rel="stylesheet"></head>
+  <body>
+    <header class="header">
+      <div class="layout-small">
+        <div class="header__wrapper">
+          <div class="header__logo"><a class="logo" href="#"><img src="src/blocks/header/assets/img/logo.png"></a></div>
+          <div class="header__navigation">
+            <div class="header__navigation-button"><a class="button button__border-pink" href="mailto:user-name@gmail.com">E-mail Us</a><a class="button button__pink" href="tel:020-7619-7793">
+                <svg class="icon-phone" width="16" height="16" viewBox="0 0 16 16">
+                  <use xlink:href="/images/icons/sprites.svg#icon-phone"></use>
+                </svg>020-7619-7793</a></div><a class="header__card" href="tel:020-7619-7793"><span class="header__card-counter">2</span>
+              <svg class="icon-card" width="28" height="28" viewBox="0 0 28 28">
+                <use xlink:href="/images/icons/sprites.svg#icon-card"></use>
+              </svg></a>
+            <button class="burger-menu"><span></span><span></span><span></span></button>
+          </div>
+        </div>
+      </div>
+      <div class="header__menu">
+        <div class="layout">
+          <ul>
+            <li><a href="cakes.html">Cakes</a></li>
+            <li><a class="active" href="cupcakes.html">Cupcakes</a></li>
+            <li><a href="cakes.html">Cheesecakes</a></li>
+            <li><a href="cupcakes.html">Seasonal</a></li>
+            <li><a href="bespoke.html">Bespoke</a></li>
+            <li><a href="cupcakes.html">Contacts</a></li>
+            <li><a href="cakes.html">Allergens</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <div class="basket">
+        <div class="layout">
+          <div class="heading">
+            <h3>Basket</h3>
+          </div>
+          <div class="basket__wrapper">
+            <table class="basket__table">
+              <thead>
+                <tr>
+                  <th style="width: 300px;">Product</th>
+                  <th>Price</th>
+                  <th>Quantity</th>
+                  <th>Subtotal</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>
+                    <div class="basket__product">
+                      <div class="basket__product-image"><img src="src/blocks/cupcakes/assets/img/product-1.png"></div>
+                      <div class="basket__product-desc">
+                        <h3><a href="#">Nutella</a></h3><a class="basket__product-category" href="#">Cupcakes</a>
+                      </div>
+                    </div>
+                  </td>
+                  <td>
+                    <p class="price">£3.50</p>
+                  </td>
+                  <td>
+                    <div class="input-counter"><i class="less">
+                        <svg class="icon-minus" width="22" height="22" viewBox="0 0 22 22">
+                          <use xlink:href="/images/icons/sprites.svg#icon-minus"></use>
+                        </svg></i>
+                      <input type="text" value="1"><i class="more">
+                        <svg class="icon-plus" width="22" height="22" viewBox="0 0 22 22">
+                          <use xlink:href="/images/icons/sprites.svg#icon-plus"></use>
+                        </svg></i>
+                    </div>
+                  </td>
+                  <td>
+                    <p class="subtotal">£3.50</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <div class="basket__product">
+                      <div class="basket__product-image"><img src="src/blocks/cupcakes/assets/img/product-1.png"></div>
+                      <div class="basket__product-desc">
+                        <h3><a href="#">Red Velvet</a></h3><a class="basket__product-category" href="#">Cupcakes</a>
+                      </div>
+                    </div>
+                  </td>
+                  <td>
+                    <p class="price">£3.50</p>
+                  </td>
+                  <td>
+                    <div class="input-counter"><i class="less">
+                        <svg class="icon-minus" width="22" height="22" viewBox="0 0 22 22">
+                          <use xlink:href="/images/icons/sprites.svg#icon-minus"></use>
+                        </svg></i>
+                      <input type="text" value="2"><i class="more">
+                        <svg class="icon-plus" width="22" height="22" viewBox="0 0 22 22">
+                          <use xlink:href="/images/icons/sprites.svg#icon-plus"></use>
+                        </svg></i>
+                    </div>
+                  </td>
+                  <td>
+                    <p class="subtotal">£3.50</p>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <div class="total-basket">
+              <div class="total-basket__wrapper">
+                <div class="total-basket__total"><span>Total</span>
+                  <p>£7.00</p>
+                </div>
+                <div class="total-basket__button">
+                  <button class="button button__pink">Checkout</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="layout">
+        <div class="footer__wrapper">
+          <div class="footer__main">
+            <div class="footer__col footer__col-1">
+              <div class="footer__item">
+                <div class="footer__heading">
+                  <h4>Follow Us</h4>
+                </div>
+                <div class="socials__menu"><a href="#">
+                    <svg class="icon-inst" width="32" height="32" viewBox="0 0 32 32">
+                      <use xlink:href="/images/icons/sprites.svg#icon-inst"></use>
+                    </svg></a><a href="#">
+                    <svg class="icon-facebook" width="14" height="28" viewBox="0 0 14 28">
+                      <use xlink:href="/src/blocks/social-link/assets/img/social-sprites.svg#icon-facebook"></use>
+                    </svg></a><a href="#">
+                    <svg class="icon-twitter" width="27" height="22" viewBox="0 0 27 22">
+                      <use xlink:href="/src/blocks/social-link/assets/img/social-sprites.svg#icon-twitter"></use>
+                    </svg></a><a href="#">
+                    <svg class="icon-pinterest" width="20" height="26" viewBox="0 0 20 26">
+                      <use xlink:href="/src/blocks/social-link/assets/img/social-sprites.svg#icon-pinterest"></use>
+                    </svg></a></div>
+              </div>
+              <div class="footer__item">
+                <div class="footer__review">
+                  <div class="footer__desc">Reviews on Google</div>
+                  <div class="range">
+                    <p class="footer__rating-number">4.9</p>
+                    <div class="footer__rating">
+                      <svg class="icon-star" width="16" height="16" viewBox="0 0 16 16">
+                        <use xlink:href="/images/icons/sprites.svg#icon-star"></use>
+                      </svg>
+                      <svg class="icon-star" width="16" height="16" viewBox="0 0 16 16">
+                        <use xlink:href="/images/icons/sprites.svg#icon-star"></use>
+                      </svg>
+                      <svg class="icon-star" width="16" height="16" viewBox="0 0 16 16">
+                        <use xlink:href="/images/icons/sprites.svg#icon-star"></use>
+                      </svg>
+                      <svg class="icon-star" width="16" height="16" viewBox="0 0 16 16">
+                        <use xlink:href="/images/icons/sprites.svg#icon-star"></use>
+                      </svg>
+                      <svg class="icon-star" width="16" height="16" viewBox="0 0 16 16">
+                        <use xlink:href="/images/icons/sprites.svg#icon-star"></use>
+                      </svg>
+                    </div>
+                    <div class="footer__rating-count">(68)</div>
+                  </div><a class="footer__rating-link" href="#">See All Reviews</a>
+                </div>
+              </div>
+            </div>
+            <div class="footer__col footer__col-2">
+              <div class="footer__item">
+                <div class="footer__heading">
+                  <h4>Opening Hours</h4>
+                </div>
+                <div class="footer__content">
+                  <p>Monday - Tuesday (9:00 am – 5:00 pm)</p>
+                  <p>Saturday - Sunday (Closed)</p>
+                </div>
+              </div>
+              <div class="footer__item">
+                <div class="footer__heading">
+                  <h4>Terms</h4>
+                </div>
+                <div class="footer__menu-wrapper">
+                  <ul class="footer__menu">
+                    <li><a href="#">Cake FAQs & Delivery Info</a></li>
+                    <li><a href="#">Terms & Conditions</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="footer__col footer__col-3">
+              <div class="footer__item">
+                <div class="footer__heading">
+                  <h4>Address</h4>
+                </div>
+                <div class="footer__content">
+                  <p>20 Tile Yard Road, London N7 9AH</p>
+                  <p>Phone: 020-7619-7793</p>
+                </div>
+              </div>
+              <div class="footer__item">
+                <div class="footer__heading">
+                  <h4>Keep Up With Cakes</h4>
+                </div>
+                <div class="footer__subscribe">
+                  <form class="footer__subscribe-form">
+                    <input class="footer__subscribe-input" type="email" placeholder="Your e-mail">
+                    <button class="button button__subscribe">Subscribe</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="footer__copy">
+            <p>© 2020 The Family Cake Company. All Rights Reserved.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  <script src="libs.js"></script><script src="main.js"></script><script src="style.js"></script></body>
+</html>

@@ -1,0 +1,76 @@
+@import "../../libs/scss/mixins";
+@import "../../blocks/base/variables";
+@import "../../blocks/base/media-queries";
+
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 42px;
+  padding: 10px 20px;
+  border-radius: 12px;
+  font-size: 16px;
+  text-align: center;
+  transition: all .2s ease-out;
+  cursor: pointer;
+  border: none;
+  @include _854 {
+    min-height: 40px;
+    padding: 8px 12px;
+  }
+
+  &__big {
+    min-height: 48px;
+  }
+
+  &__pink {
+    background: #D57792;
+    color: #FFFFFF;
+    border: 1px solid #D57792;
+
+    svg {
+      margin-right: 8px;
+      fill: #FFFFFF;
+      transition: none;
+    }
+    &:hover {
+      background: transparent;
+      color: #D57792;
+      svg {
+        fill: #D57792;
+      }
+    }
+  }
+
+  &__border-pink {
+    border: 1px solid #D57792;
+    color: #D57792;
+    svg {
+      stroke: #D57792;
+    }
+    &:hover {
+      background: #D57792;
+      color: #ffffff;
+      svg {
+        stroke: #FFFFFF;
+      }
+    }
+  }
+
+  &.button__icon-right {
+    svg {
+      margin-left: 10px;
+    }
+  }
+
+  &__pink-light {
+    background: #D57792;
+    color: #FFFFFF;
+    border: 1px solid #D57792;
+    &:hover {
+      background: #B53057;
+      border: 1px solid #B53057;
+    }
+  }
+
+}

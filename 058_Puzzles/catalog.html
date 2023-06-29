@@ -1,0 +1,1442 @@
+
+<!-- Images product--><!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Puzzle</title>
+  <link href="style.css" rel="stylesheet"></head>
+  <body>
+<header class="header">
+  <div class="layout header__layout">
+<div class="burger-menu__wrapper">
+  <button class="burger-menu"><span class="burger-menu__item"></span><span class="burger-menu__item"></span><span class="burger-menu__item"></span></button>
+</div>
+    <div class="header__logo"><a class="logo" href="#"><img class="logo__image" src="images/logo.svg" alt=""></a></div>
+    <div class="header__main">
+      <div class="header__main-top">
+        <ul class="header__menu">
+          <li class="header__menu-list"><a class="header__menu-link" href="#"><img class="header__menu-icon header__menu-icon--left" src="src/blocks/header/assets/img/action-icon.svg">Акции</a></li>
+          <li class="header__menu-list"><a class="header__menu-link" href="#">Где купить</a></li>
+          <li class="header__menu-list"><a class="header__menu-link" href="#">О компании</a></li>
+          <li class="header__menu-list"><a class="header__menu-link" href="#">Отзывы</a></li>
+          <li class="header__menu-list"><a class="header__menu-link" href="#">Корпоративные продукты</a></li>
+          <li class="header__menu-list"><a class="header__menu-link" href="#">Как купить</a>
+            <ul class="header__menu-submenu">
+              <li class="header__menu-list"><a class="header__menu-link" href="#">Как оформить заказ</a></li>
+              <li class="header__menu-list"><a class="header__menu-link" href="#">Доставка и оплата</a></li>
+              <li class="header__menu-list"><a class="header__menu-link" href="#">Гарантии и обмен</a></li>
+              <li class="header__menu-list"><a class="header__menu-link" href="#">Стать партнёром</a></li>
+            </ul>
+          </li>
+        </ul>
+        <div class="header__social">
+<div class="social-menu social-menu--offset-left"><a class="social-menu__link" href="#"><img class="social__image" src="src/blocks/social-menu/assets/img/icon-facebook.svg"></a><a class="social-menu__link" href="#"><img class="social__image" src="src/blocks/social-menu/assets/img/icon-vk.svg"></a><a class="social-menu__link" href="#"><img class="social__image" src="src/blocks/social-menu/assets/img/icon-instagram.svg"></a><a class="social-menu__link" href="#"><img class="social__image" src="src/blocks/social-menu/assets/img/icon-youtube.svg"></a></div>
+        </div>
+        <div class="header__contact"><a class="header__contact-phone" href="tel:88000000000">8 800 000 00 00</a><a class="header__contact-city" href="#">Москва</a></div>
+      </div>
+      <div class="header__main-footer">
+<button class="catalog-button">
+  <div class="catalog-button__burger"><span class="catalog-button__burger-inner"></span><span class="catalog-button__burger-inner"></span></div>Каталог
+</button>
+<div class="header-catalog">
+  <div class="layout header-catalog__layout">
+    <div class="header-catalog__collection-big">
+      <div class="header-catalog__item header-catalog__item--big" style="background-image: url(src/blocks/header-catalog/assets/img/catalog-image-1.jpg)">
+        <div class="header-catalog__item-title">Авторские <br> коллекции пазлов</div>
+        <ul class="header-catalog__list">
+          <li class="header-catalog__list-li"><a class="header-catalog__list-link" href="#">Коллекция N1</a></li>
+          <li class="header-catalog__list-li"><a class="header-catalog__list-link" href="#">Коллекция N2</a></li>
+          <li class="header-catalog__list-li"><a class="header-catalog__list-link" href="#">Коллекция N3</a></li>
+          <li class="header-catalog__list-li"><a class="header-catalog__list-link" href="#">Коллекция N4</a></li>
+          <li class="header-catalog__list-li"><a class="header-catalog__list-link" href="#">Коллекция N5</a></li>
+          <li class="header-catalog__list-li"><a class="header-catalog__list-link" href="#">Коллекция N6</a></li>
+        </ul>
+      </div><a class="header-catalog__item header-catalog__item--big" href="#" style="background-image: url(src/blocks/header-catalog/assets/img/catalog-image-2.jpg)"><span>Соберите всю Коллекцию и получите <br> Гранд - набор «Коллекционер» в подарок</span></a>
+    </div>
+    <div class="header-catalog__collection-small"><a class="header-catalog__item header-catalog__item--small" href="#" style="background-image: url(src/blocks/header-catalog/assets/img/catalog-image-3.jpg)"><span>Коллекция "Наследие"</span></a><a class="header-catalog__item header-catalog__item--small" href="#" style="background-image: url(src/blocks/header-catalog/assets/img/catalog-image-3.jpg)"><span>Коллекция "Наследие"</span></a><a class="header-catalog__item header-catalog__item--small" href="#" style="background-image: url(src/blocks/header-catalog/assets/img/catalog-image-3.jpg)"><span>Коллекция "Наследие"</span></a><a class="header-catalog__item header-catalog__item--small" href="#" style="background-image: url(src/blocks/header-catalog/assets/img/catalog-image-3.jpg)"><span>Коллекция "Наследие"</span></a><a class="header-catalog__item header-catalog__item--small" href="#" style="background-image: url(src/blocks/header-catalog/assets/img/catalog-image-3.jpg)"><span>Коллекция "Наследие"</span></a><a class="header-catalog__item header-catalog__item--small" href="#" style="background-image: url(src/blocks/header-catalog/assets/img/catalog-image-3.jpg)"><span>Коллекция "Наследие"</span></a></div>
+  </div>
+</div>
+        <form class="header__search">
+          <input class="header__search-input" type="text" placeholder="Поиск">
+          <button class="header__search-button">
+            <svg id="search" viewBox="0 0 20 20"> <path fill="#ffffff" clip-rule="evenodd" d="M14.676 13.1344C17.1274 9.92933 16.8874 5.32581 13.9561 2.39449C10.7635 -0.798164 5.58715 -0.798164 2.39449 2.39449C-0.798164 5.58715 -0.798164 10.7635 2.39449 13.9561C5.32581 16.8874 9.92933 17.1274 13.1344 14.676L18.4585 20L20 18.4585L14.676 13.1344ZM12.4146 3.93604C14.7558 6.27732 14.7558 10.0733 12.4146 12.4146C10.0733 14.7558 6.27732 14.7558 3.93604 12.4146C1.59476 10.0733 1.59476 6.27732 3.93604 3.93604C6.27732 1.59476 10.0733 1.59476 12.4146 3.93604Z"></path> </svg>
+            
+          </button>
+        </form>
+        <div class="header__option-user"><a class="header__option-link" href="#"><img src="src/blocks/header/assets/img/user.svg"></a>
+          <!--a(href="#").header__option-link.header__option-link--favorites-->
+          <!--    img(src="src/blocks/header/assets/img/favorites.svg")--><a class="header__option-link header__option-link--cart" href="#"><img src="src/blocks/header/assets/img/cart.svg"></a>
+        </div>
+        <div class="header__contact-mobile"><a class="header__contact-phone header__contact-phone--mobile" href="tel:88000000000">8 800 000 00 00</a></div>
+      </div>
+    </div>
+  </div>
+<div class="mobile-menu">
+  <div class="layout">
+    <div class="mobile-menu__wrapper">
+      <div class="mobile-menu__search">
+        <form class="header__search">
+          <input class="header__search-input header__search-input--blue" type="text" placeholder="Поиск">
+          <button class="header__search-button header__search-button--blue">
+            <svg id="search" viewBox="0 0 20 20"> <path fill="#015684" clip-rule="evenodd" d="M14.676 13.1344C17.1274 9.92933 16.8874 5.32581 13.9561 2.39449C10.7635 -0.798164 5.58715 -0.798164 2.39449 2.39449C-0.798164 5.58715 -0.798164 10.7635 2.39449 13.9561C5.32581 16.8874 9.92933 17.1274 13.1344 14.676L18.4585 20L20 18.4585L14.676 13.1344ZM12.4146 3.93604C14.7558 6.27732 14.7558 10.0733 12.4146 12.4146C10.0733 14.7558 6.27732 14.7558 3.93604 12.4146C1.59476 10.0733 1.59476 6.27732 3.93604 3.93604C6.27732 1.59476 10.0733 1.59476 12.4146 3.93604Z"></path> </svg>
+            
+          </button>
+        </form>
+      </div>
+      <div class="mobile-menu__list">
+        <div class="mobile-menu__list-item"><a class="mobile-menu__list-city" href="#">Москва</a></div>
+        <div class="mobile-menu__list-item"><a class="mobile-menu__list-link" href="#">Избранное</a></div>
+        <div class="mobile-menu__list-item"><a class="mobile-menu__sub-link" href="#">Каталог</a>
+          <div class="mobile-menu__sub-menu">
+            <div class="mobile-menu__sub-back">Back</div>
+            <div class="mobile-menu__catalog">
+              <div class="mobile-menu__catalog-col"><a class="mobile-menu__catalog-item" href="#" style="background-image: url(src/blocks/header-catalog/assets/img/catalog-image-3.jpg)"><span>Коллекция "Наследие"</span></a></div>
+              <div class="mobile-menu__catalog-col"><a class="mobile-menu__catalog-item" href="#" style="background-image: url(src/blocks/header-catalog/assets/img/catalog-image-3.jpg)"><span>Коллекция "Наследие"</span></a></div>
+              <div class="mobile-menu__catalog-col"><a class="mobile-menu__catalog-item" href="#" style="background-image: url(src/blocks/header-catalog/assets/img/catalog-image-3.jpg)"><span>Коллекция "Наследие"</span></a></div>
+              <div class="mobile-menu__catalog-col"><a class="mobile-menu__catalog-item" href="#" style="background-image: url(src/blocks/header-catalog/assets/img/catalog-image-3.jpg)"><span>Коллекция "Наследие"</span></a></div>
+              <div class="mobile-menu__catalog-col"><a class="mobile-menu__catalog-item" href="#" style="background-image: url(src/blocks/header-catalog/assets/img/catalog-image-3.jpg)"><span>Коллекция "Наследие"</span></a></div>
+              <div class="mobile-menu__catalog-col"><a class="mobile-menu__catalog-item" href="#" style="background-image: url(src/blocks/header-catalog/assets/img/catalog-image-3.jpg)"><span>Коллекция "Наследие"</span></a></div>
+              <div class="mobile-menu__catalog-col"><a class="mobile-menu__catalog-item" href="#" style="background-image: url(src/blocks/header-catalog/assets/img/catalog-image-3.jpg)"><span>Коллекция "Наследие"</span></a></div>
+              <div class="mobile-menu__catalog-col"><a class="mobile-menu__catalog-item" href="#" style="background-image: url(src/blocks/header-catalog/assets/img/catalog-image-3.jpg)"><span>Коллекция "Наследие"</span></a></div>
+              <div class="mobile-menu__catalog-col"><a class="mobile-menu__catalog-item" href="#" style="background-image: url(src/blocks/header-catalog/assets/img/catalog-image-3.jpg)"><span>Коллекция "Наследие"</span></a></div>
+            </div>
+          </div>
+        </div>
+        <div class="mobile-menu__list-item"><a class="mobile-menu__list-link" href="#">Акции</a></div>
+        <div class="mobile-menu__list-item"><a class="mobile-menu__list-link" href="#">Где купить</a></div>
+        <div class="mobile-menu__list-item"><a class="mobile-menu__list-link" href="#">О компании</a></div>
+        <div class="mobile-menu__list-item"><a class="mobile-menu__list-link" href="#">Отзывы</a></div>
+        <div class="mobile-menu__list-item"><a class="mobile-menu__list-link" href="#">Корпоративные подарки</a></div>
+        <div class="mobile-menu__list-item"><a class="mobile-menu__sub-link" href="#">Как купить</a>
+          <div class="mobile-menu__sub-menu">
+            <div class="mobile-menu__sub-back">Back</div>
+            <div class="mobile-menu__sub-list"><a class="mobile-menu__list-link" href="#">Как купить</a><a class="mobile-menu__list-link" href="#">Как оформить заказ</a><a class="mobile-menu__list-link" href="#">Доставка и оплата</a><a class="mobile-menu__list-link" href="#">Гарантии и обмен</a><a class="mobile-menu__list-link" href="#">Стать партнёром</a></div>
+          </div>
+        </div>
+      </div>
+      <div class="mobile-menu__contact">
+        <div class="mobile-menu__contact-inner"><a class="mobile-menu__phone-link" href="tel:88000000000">8 800 000 00 00</a><a class="mobile-menu__mail-link" href="mailto:mail@mail.com">mail@mail.com</a></div>
+        <div class="mobile-menu__social">
+          <div class="mobile-menu__social-list"><a class="mobile-menu__social-link" href="#"><img src="src/blocks/social-menu/assets/img/icon-vk--blue.svg"></a><a class="mobile-menu__social-link" href="#"><img src="src/blocks/social-menu/assets/img/icon-facebook--blue.svg"></a><a class="mobile-menu__social-link" href="#"><img src="src/blocks/social-menu/assets/img/icon-instagram--blue.svg"></a><a class="mobile-menu__social-link" href="#"><img src="src/blocks/social-menu/assets/img/icon-youtube--blue.svg"></a></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</header>
+    <main class="main">
+      <div class="breadcrumbs breadcrumbs--default-offset">
+        <div class="layout">
+          <ul class="breadcrumbs__lists">
+                <li class="breadcrumbs__item"><a class="breadcrumbs__link" href="#">Главная</a></li>
+                <li class="breadcrumbs__item"><span class="breadcrumbs__current">Каталог</span></li>
+          </ul>
+        </div>
+      </div>
+      <!--.section-->
+      <!--    .layout-->
+      <!--        include ../blocks/banner-preview/banner-preview-->
+      <div class="catalog">
+        <div class="layout">
+          <div class="filter__wrapper">
+            <button class="filter-button">Фильтр
+              <svg class="icon__filter" width="22" height="25">
+                <use xlink:href="/images/icons/sprites.svg#icon__filter"></use>
+              </svg>
+              <div class="filter-button__arrow"></div>
+            </button>
+            <div class="filter">
+              <form class="filter__form">
+                <div class="filter__item">
+                  <div class="filter__toggle-box filter__toggle-box--active filter__toggle-box--effect">
+                    <div class="filter__toggle-title">Все коллекции<i class="filter__toggle-arrow"></i></div>
+                    <!--.filter__toggle-content.filter__toggle-content--active-->
+                    <div class="filter__toggle-content">
+                      <div class="filter__toggle-content-inner">
+                        <div class="filter__item">
+                          <label class="checkbox-button">
+                            <input class="checkbox-button__input" type="checkbox" checked="checked" required=""><span class="checkbox-button__text"><span class="checkbox-button__status"></span><span>Акция</span></span>
+                          </label>
+                        </div>
+                        <div class="filter__item">
+                          <label class="checkbox-button">
+                            <input class="checkbox-button__input" type="checkbox" required=""><span class="checkbox-button__text"><span class="checkbox-button__status"></span><span>Для первой сборки</span></span>
+                          </label>
+                        </div>
+                        <div class="filter__item">
+                          <label class="checkbox-button">
+                            <input class="checkbox-button__input" type="checkbox" required=""><span class="checkbox-button__text"><span class="checkbox-button__status"></span><span>Лидер рейтинга</span></span>
+                          </label>
+                        </div>
+                        <div class="filter__item">
+                          <label class="checkbox-button">
+                            <input class="checkbox-button__input" type="checkbox" required=""><span class="checkbox-button__text"><span class="checkbox-button__status"></span><span>Новинка</span></span>
+                          </label>
+                        </div>
+                        <div class="filter__item">
+                          <label class="checkbox-button">
+                            <input class="checkbox-button__input" type="checkbox" required=""><span class="checkbox-button__text"><span class="checkbox-button__status"></span><span>Скидка недели</span></span>
+                          </label>
+                        </div>
+                        <div class="filter__item">
+                          <label class="checkbox-button">
+                            <input class="checkbox-button__input" type="checkbox" required=""><span class="checkbox-button__text"><span class="checkbox-button__status"></span><span>Новинка</span></span>
+                          </label>
+                        </div>
+                        <div class="filter__item">
+                          <label class="checkbox-button">
+                            <input class="checkbox-button__input" type="checkbox" required=""><span class="checkbox-button__text"><span class="checkbox-button__status"></span><span>Скидка недели</span></span>
+                          </label>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="filter__item">
+                  <div class="filter__toggle-box">
+                    <div class="filter__toggle-title">Все коллекции<i class="filter__toggle-arrow"></i></div>
+                    <div class="filter__toggle-content" style="display: none;">
+                      <div class="filter__item">
+                        <label class="checkbox-button">
+                          <input class="checkbox-button__input" type="checkbox" checked="checked" required=""><span class="checkbox-button__text"><span class="checkbox-button__status"></span><span>Акция</span></span>
+                        </label>
+                      </div>
+                      <div class="filter__item">
+                        <label class="checkbox-button">
+                          <input class="checkbox-button__input" type="checkbox" required=""><span class="checkbox-button__text"><span class="checkbox-button__status"></span><span>Для первой сборки</span></span>
+                        </label>
+                      </div>
+                      <div class="filter__item">
+                        <label class="checkbox-button">
+                          <input class="checkbox-button__input" type="checkbox" required=""><span class="checkbox-button__text"><span class="checkbox-button__status"></span><span>Лидер рейтинга</span></span>
+                        </label>
+                      </div>
+                      <div class="filter__item">
+                        <label class="checkbox-button">
+                          <input class="checkbox-button__input" type="checkbox" required=""><span class="checkbox-button__text"><span class="checkbox-button__status"></span><span>Новинка</span></span>
+                        </label>
+                      </div>
+                      <div class="filter__item">
+                        <label class="checkbox-button">
+                          <input class="checkbox-button__input" type="checkbox" required=""><span class="checkbox-button__text"><span class="checkbox-button__status"></span><span>Скидка недели</span></span>
+                        </label>
+                      </div>
+                      <div class="filter__item">
+                        <label class="checkbox-button">
+                          <input class="checkbox-button__input" type="checkbox" required=""><span class="checkbox-button__text"><span class="checkbox-button__status"></span><span>Новинка</span></span>
+                        </label>
+                      </div>
+                      <div class="filter__item">
+                        <label class="checkbox-button">
+                          <input class="checkbox-button__input" type="checkbox" required=""><span class="checkbox-button__text"><span class="checkbox-button__status"></span><span>Скидка недели</span></span>
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="filter__item">
+                  <div class="filter__item-title">Количество деталей</div>
+                  <div class="range-slider__quantity-wrapper">
+                    <div class="range-slider__quantity range-slider__quantity--min"></div><span class="range-slider__separator"></span>
+                    <div class="range-slider__quantity range-slider__quantity--max"></div>
+                  </div>
+                  <div class="range-slider"></div>
+                </div>
+                <div class="filter__item">
+                  <label class="checkbox-button">
+                    <input class="checkbox-button__input" type="checkbox" checked="checked" required=""><span class="checkbox-button__text"><span class="checkbox-button__status"></span><span>Акция</span></span>
+                  </label>
+                </div>
+                <div class="filter__item">
+                  <label class="checkbox-button">
+                    <input class="checkbox-button__input" type="checkbox" required=""><span class="checkbox-button__text"><span class="checkbox-button__status"></span><span>Для первой сборки</span></span>
+                  </label>
+                </div>
+                <div class="filter__item">
+                  <label class="checkbox-button">
+                    <input class="checkbox-button__input" type="checkbox" required=""><span class="checkbox-button__text"><span class="checkbox-button__status"></span><span>Лидер рейтинга</span></span>
+                  </label>
+                </div>
+                <div class="filter__item">
+                  <label class="checkbox-button">
+                    <input class="checkbox-button__input" type="checkbox" required=""><span class="checkbox-button__text"><span class="checkbox-button__status"></span><span>Новинка</span></span>
+                  </label>
+                </div>
+                <div class="filter__item">
+                  <label class="checkbox-button">
+                    <input class="checkbox-button__input" type="checkbox" required=""><span class="checkbox-button__text"><span class="checkbox-button__status"></span><span>Скидка недели</span></span>
+                  </label>
+                </div>
+                <div class="filter__item">
+                  <label class="checkbox-button">
+                    <input class="checkbox-button__input" type="checkbox" required=""><span class="checkbox-button__text"><span class="checkbox-button__status"></span><span>Новинка</span></span>
+                  </label>
+                </div>
+                <div class="filter__item">
+                  <label class="checkbox-button">
+                    <input class="checkbox-button__input" type="checkbox" required=""><span class="checkbox-button__text"><span class="checkbox-button__status"></span><span>Скидка недели</span></span>
+                  </label>
+                </div>
+              </form>
+            </div>
+          </div>
+          <div class="catalog__wrapper">
+            <div class="catalog__item">
+              <div class="product-item">
+                <div class="product-item__slider-wrapper"><a class="product-item__slider" href="#">
+                    <div class="product-item__slider-element"><img class="product-item__slider-image" src="src/blocks/product-item/assets/img/product-slide1/product-item1.jpg"></div>
+                    <div class="product-item__slider-element"><img class="product-item__slider-image" src="src/blocks/product-item/assets/img/product-slide1/product-item2.jpg"></div>
+                    <div class="product-item__slider-element"><img class="product-item__slider-image" src="src/blocks/product-item/assets/img/product-slide1/product-item3.jpg"></div>
+                    <div class="product-item__slider-element"><img class="product-item__slider-image" src="src/blocks/product-item/assets/img/product-slide1/product-item4.jpg"></div>
+                    <div class="product-item__slider-element"><img class="product-item__slider-image" src="src/blocks/product-item/assets/img/product-slide1/product-item5.jpg"></div></a>
+                  <div class="product-item__slider-navigate">
+                    <div class="product-item__slider-navitem product-item__slider-navitem--prev">
+                      <svg class="icon__arrow-slide" width="8" height="14">
+                        <use xlink:href="/images/icons/sprites.svg#icon__arrow-slide"></use>
+                      </svg>
+                    </div>
+                    <div class="product-item__slider-navitem product-item__slider-navitem--next">
+                      <svg class="icon__arrow-slide" width="8" height="14">
+                        <use xlink:href="/images/icons/sprites.svg#icon__arrow-slide"></use>
+                      </svg>
+                    </div>
+                  </div>
+                </div><a class="product-item__favorite" href="#favorite">//.product-item__favorite--active
+                  <svg class="icon-favorite" width="22" height="22">
+                    <use xlink:href="/images/icons/sprites.svg#icon-favorite"></use>
+                  </svg></a><a class="product-item__information" href="#">
+                  <div class="product-item__name">Летучий фрегат. 130 деталей</div>
+                  <div class="product-item__price-wrapper">
+                    <div class="product-item__price">
+                      <div class="product-item__price-current">45 040
+                        <div class="product-item__price-currency">₽</div>
+                      </div>
+                      <div class="product-item__price-old">56 340</div>
+                    </div>
+                    <div class="product-item__review">
+                      <div class="product-item__rating product-item__rating--active"><span class="product-item__rating-star">
+                          <svg class="rating__item-star" width="14" height="13">
+                            <use xlink:href="/images/icons/sprites.svg#rating__item-star"></use>
+                          </svg></span><span class="product-item__rating-star">
+                          <svg class="rating__item-star" width="14" height="13">
+                            <use xlink:href="/images/icons/sprites.svg#rating__item-star"></use>
+                          </svg></span><span class="product-item__rating-star">
+                          <svg class="rating__item-star" width="14" height="13">
+                            <use xlink:href="/images/icons/sprites.svg#rating__item-star"></use>
+                          </svg></span><span class="product-item__rating-star">
+                          <svg class="rating__item-star" width="14" height="13">
+                            <use xlink:href="/images/icons/sprites.svg#rating__item-star"></use>
+                          </svg></span><span class="product-item__rating-star">
+                          <svg class="rating__item-star" width="14" height="13">
+                            <use xlink:href="/images/icons/sprites.svg#rating__item-star"></use>
+                          </svg></span></div>
+                      <div class="product-item__rating-count">22</div>
+                    </div>
+                  </div></a>
+                <div class="product-item__button"><a class="button button--add-card" href="#">В корзину</a><a class="links links--buy-click" href="#">Купить в 1 клик</a></div>
+              </div>
+            </div>
+            <div class="catalog__item">
+              <div class="product-item"><a class="product-item__image-wrapper" href="#"><img class="product-item__image" src="src/blocks/product-item/assets/img/product-item1.jpg">
+                  <div class="product-item__label">
+                    <div class="product-item__label-item product-item__label-item--action">Акция</div>
+                    <div class="product-item__label-item product-item__label-item--discount">-20%</div>
+                  </div></a><a class="product-item__favorite" href="#favorite">//.product-item__favorite--active
+                  <svg class="icon-favorite" width="22" height="22">
+                    <use xlink:href="/images/icons/sprites.svg#icon-favorite"></use>
+                  </svg></a><a class="product-item__information" href="#">
+                  <div class="product-item__name">Коллекция №1</div>
+                  <div class="product-item__price-wrapper">
+                    <div class="product-item__price">
+                      <div class="product-item__price-current">45 040
+                        <div class="product-item__price-currency">₽</div>
+                      </div>
+                      <div class="product-item__price-old">56 340</div>
+                    </div>
+                    <div class="product-item__review">
+                      <div class="product-item__rating product-item__rating--active"><span class="product-item__rating-star">
+                          <svg class="rating__item-star" width="14" height="13">
+                            <use xlink:href="/images/icons/sprites.svg#rating__item-star"></use>
+                          </svg></span><span class="product-item__rating-star">
+                          <svg class="rating__item-star" width="14" height="13">
+                            <use xlink:href="/images/icons/sprites.svg#rating__item-star"></use>
+                          </svg></span><span class="product-item__rating-star">
+                          <svg class="rating__item-star" width="14" height="13">
+                            <use xlink:href="/images/icons/sprites.svg#rating__item-star"></use>
+                          </svg></span><span class="product-item__rating-star">
+                          <svg class="rating__item-star" width="14" height="13">
+                            <use xlink:href="/images/icons/sprites.svg#rating__item-star"></use>
+                          </svg></span><span class="product-item__rating-star">
+                          <svg class="rating__item-star" width="14" height="13">
+                            <use xlink:href="/images/icons/sprites.svg#rating__item-star"></use>
+                          </svg></span></div>
+                      <div class="product-item__rating-count">22</div>
+                    </div>
+                  </div></a>
+                <div class="product-item__button"><a class="button button--add-card" href="#">В корзину</a><a class="links links--buy-click" href="#">Купить в 1 клик</a></div>
+              </div>
+            </div>
+            <div class="catalog__item">
+              <div class="product-item">
+                <div class="product-item__slider-wrapper"><a class="product-item__slider" href="#">
+                    <div class="product-item__slider-element"><img class="product-item__slider-image" src="src/blocks/product-item/assets/img/product-slide2/product-item1.jpg"></div>
+                    <div class="product-item__slider-element"><img class="product-item__slider-image" src="src/blocks/product-item/assets/img/product-slide2/product-item2.jpg"></div>
+                    <div class="product-item__slider-element"><img class="product-item__slider-image" src="src/blocks/product-item/assets/img/product-slide2/product-item3.jpg"></div>
+                    <div class="product-item__slider-element"><img class="product-item__slider-image" src="src/blocks/product-item/assets/img/product-slide2/product-item4.jpg"></div>
+                    <div class="product-item__slider-element"><img class="product-item__slider-image" src="src/blocks/product-item/assets/img/product-slide2/product-item5.jpg"></div></a>
+                  <div class="product-item__slider-navigate">
+                    <div class="product-item__slider-navitem product-item__slider-navitem--prev">
+                      <svg class="icon__arrow-slide" width="8" height="14">
+                        <use xlink:href="/images/icons/sprites.svg#icon__arrow-slide"></use>
+                      </svg>
+                    </div>
+                    <div class="product-item__slider-navitem product-item__slider-navitem--next">
+                      <svg class="icon__arrow-slide" width="8" height="14">
+                        <use xlink:href="/images/icons/sprites.svg#icon__arrow-slide"></use>
+                      </svg>
+                    </div>
+                  </div>
+                </div><a class="product-item__favorite" href="#favorite">//.product-item__favorite--active
+                  <svg class="icon-favorite" width="22" height="22">
+                    <use xlink:href="/images/icons/sprites.svg#icon-favorite"></use>
+                  </svg></a><a class="product-item__information" href="#">
+                  <div class="product-item__name">Купание разноцветного дракона. 125 деталей</div>
+                  <div class="product-item__price-wrapper">
+                    <div class="product-item__price">
+                      <div class="product-item__price-current">45 040
+                        <div class="product-item__price-currency">₽</div>
+                      </div>
+                      <div class="product-item__price-old">56 340</div>
+                    </div>
+                    <div class="product-item__review">
+                      <div class="product-item__rating product-item__rating--active"><span class="product-item__rating-star">
+                          <svg class="rating__item-star" width="14" height="13">
+                            <use xlink:href="/images/icons/sprites.svg#rating__item-star"></use>
+                          </svg></span><span class="product-item__rating-star">
+                          <svg class="rating__item-star" width="14" height="13">
+                            <use xlink:href="/images/icons/sprites.svg#rating__item-star"></use>
+                          </svg></span><span class="product-item__rating-star">
+                          <svg class="rating__item-star" width="14" height="13">
+                            <use xlink:href="/images/icons/sprites.svg#rating__item-star"></use>
+                          </svg></span><span class="product-item__rating-star">
+                          <svg class="rating__item-star" width="14" height="13">
+                            <use xlink:href="/images/icons/sprites.svg#rating__item-star"></use>
+                          </svg></span><span class="product-item__rating-star">
+                          <svg class="rating__item-star" width="14" height="13">
+                            <use xlink:href="/images/icons/sprites.svg#rating__item-star"></use>
+                          </svg></span></div>
+                      <div class="product-item__rating-count">22</div>
+                    </div>
+                  </div></a>
+                <div class="product-item__button"><a class="button button--add-card" href="#">В корзину</a><a class="links links--buy-click" href="#">Купить в 1 клик</a></div>
+              </div>
+            </div>
+            <div class="catalog__item">
+              <div class="product-item">
+                <div class="product-item__slider-wrapper"><a class="product-item__slider" href="#">
+                    <div class="product-item__slider-element"><img class="product-item__slider-image" src="src/blocks/product-item/assets/img/product-slide3/product-item1.png"></div>
+                    <div class="product-item__slider-element"><img class="product-item__slider-image" src="src/blocks/product-item/assets/img/product-slide3/product-item2.jpg"></div>
+                    <div class="product-item__slider-element"><img class="product-item__slider-image" src="src/blocks/product-item/assets/img/product-slide3/product-item3.jpg"></div>
+                    <div class="product-item__slider-element"><img class="product-item__slider-image" src="src/blocks/product-item/assets/img/product-slide3/product-item4.jpg"></div>
+                    <div class="product-item__slider-element"><img class="product-item__slider-image" src="src/blocks/product-item/assets/img/product-slide3/product-item5.jpg"></div></a>
+                  <div class="product-item__slider-navigate">
+                    <div class="product-item__slider-navitem product-item__slider-navitem--prev">
+                      <svg class="icon__arrow-slide" width="8" height="14">
+                        <use xlink:href="/images/icons/sprites.svg#icon__arrow-slide"></use>
+                      </svg>
+                    </div>
+                    <div class="product-item__slider-navitem product-item__slider-navitem--next">
+                      <svg class="icon__arrow-slide" width="8" height="14">
+                        <use xlink:href="/images/icons/sprites.svg#icon__arrow-slide"></use>
+                      </svg>
+                    </div>
+                  </div>
+                </div><a class="product-item__favorite" href="#favorite">//.product-item__favorite--active
+                  <svg class="icon-favorite" width="22" height="22">
+                    <use xlink:href="/images/icons/sprites.svg#icon-favorite"></use>
+                  </svg></a><a class="product-item__information" href="#">
+                  <div class="product-item__name">Обитаемая рыба. 130 деталей</div>
+                  <div class="product-item__price-wrapper">
+                    <div class="product-item__price">
+                      <div class="product-item__price-current">45 040
+                        <div class="product-item__price-currency">₽</div>
+                      </div>
+                      <div class="product-item__price-old">56 340</div>
+                    </div>
+                    <div class="product-item__review">
+                      <div class="product-item__rating product-item__rating--active"><span class="product-item__rating-star">
+                          <svg class="rating__item-star" width="14" height="13">
+                            <use xlink:href="/images/icons/sprites.svg#rating__item-star"></use>
+                          </svg></span><span class="product-item__rating-star">
+                          <svg class="rating__item-star" width="14" height="13">
+                            <use xlink:href="/images/icons/sprites.svg#rating__item-star"></use>
+                          </svg></span><span class="product-item__rating-star">
+                          <svg class="rating__item-star" width="14" height="13">
+                            <use xlink:href="/images/icons/sprites.svg#rating__item-star"></use>
+                          </svg></span><span class="product-item__rating-star">
+                          <svg class="rating__item-star" width="14" height="13">
+                            <use xlink:href="/images/icons/sprites.svg#rating__item-star"></use>
+                          </svg></span><span class="product-item__rating-star">
+                          <svg class="rating__item-star" width="14" height="13">
+                            <use xlink:href="/images/icons/sprites.svg#rating__item-star"></use>
+                          </svg></span></div>
+                      <div class="product-item__rating-count">22</div>
+                    </div>
+                  </div></a>
+                <div class="product-item__button"><a class="button button--add-card" href="#">В корзину</a><a class="links links--buy-click" href="#">Купить в 1 клик</a></div>
+              </div>
+            </div>
+            <div class="catalog__item">
+              <div class="product-item">
+                <div class="product-item__slider-wrapper"><a class="product-item__slider" href="#">
+                    <div class="product-item__slider-element"><img class="product-item__slider-image" src="src/blocks/product-item/assets/img/product-slide4/product-item1.jpg"></div>
+                    <div class="product-item__slider-element"><img class="product-item__slider-image" src="src/blocks/product-item/assets/img/product-slide4/product-item2.png"></div>
+                    <div class="product-item__slider-element"><img class="product-item__slider-image" src="src/blocks/product-item/assets/img/product-slide4/product-item3.png"></div>
+                    <div class="product-item__slider-element"><img class="product-item__slider-image" src="src/blocks/product-item/assets/img/product-slide4/product-item4.jpg"></div>
+                    <div class="product-item__slider-element"><img class="product-item__slider-image" src="src/blocks/product-item/assets/img/product-slide4/product-item5.jpg"></div></a>
+                  <div class="product-item__slider-navigate">
+                    <div class="product-item__slider-navitem product-item__slider-navitem--prev">
+                      <svg class="icon__arrow-slide" width="8" height="14">
+                        <use xlink:href="/images/icons/sprites.svg#icon__arrow-slide"></use>
+                      </svg>
+                    </div>
+                    <div class="product-item__slider-navitem product-item__slider-navitem--next">
+                      <svg class="icon__arrow-slide" width="8" height="14">
+                        <use xlink:href="/images/icons/sprites.svg#icon__arrow-slide"></use>
+                      </svg>
+                    </div>
+                  </div>
+                </div><a class="product-item__favorite" href="#favorite">//.product-item__favorite--active
+                  <svg class="icon-favorite" width="22" height="22">
+                    <use xlink:href="/images/icons/sprites.svg#icon-favorite"></use>
+                  </svg></a><a class="product-item__information" href="#">
+                  <div class="product-item__name">Корабль сокровищ. 60 деталей</div>
+                  <div class="product-item__price-wrapper">
+                    <div class="product-item__price">
+                      <div class="product-item__price-current">45 040
+                        <div class="product-item__price-currency">₽</div>
+                      </div>
+                      <div class="product-item__price-old">56 340</div>
+                    </div>
+                    <div class="product-item__review">
+                      <div class="product-item__rating product-item__rating--active"><span class="product-item__rating-star">
+                          <svg class="rating__item-star" width="14" height="13">
+                            <use xlink:href="/images/icons/sprites.svg#rating__item-star"></use>
+                          </svg></span><span class="product-item__rating-star">
+                          <svg class="rating__item-star" width="14" height="13">
+                            <use xlink:href="/images/icons/sprites.svg#rating__item-star"></use>
+                          </svg></span><span class="product-item__rating-star">
+                          <svg class="rating__item-star" width="14" height="13">
+                            <use xlink:href="/images/icons/sprites.svg#rating__item-star"></use>
+                          </svg></span><span class="product-item__rating-star">
+                          <svg class="rating__item-star" width="14" height="13">
+                            <use xlink:href="/images/icons/sprites.svg#rating__item-star"></use>
+                          </svg></span><span class="product-item__rating-star">
+                          <svg class="rating__item-star" width="14" height="13">
+                            <use xlink:href="/images/icons/sprites.svg#rating__item-star"></use>
+                          </svg></span></div>
+                      <div class="product-item__rating-count">22</div>
+                    </div>
+                  </div></a>
+                <div class="product-item__button"><a class="button button--add-card" href="#">В корзину</a><a class="links links--buy-click" href="#">Купить в 1 клик</a></div>
+              </div>
+            </div>
+            <div class="catalog__item">
+              <div class="product-item">
+                <div class="product-item__slider-wrapper"><a class="product-item__slider" href="#">
+                    <div class="product-item__slider-element"><img class="product-item__slider-image" src="src/blocks/product-item/assets/img/product-slide5/product-item1.png"></div>
+                    <div class="product-item__slider-element"><img class="product-item__slider-image" src="src/blocks/product-item/assets/img/product-slide5/product-item2.png"></div>
+                    <div class="product-item__slider-element"><img class="product-item__slider-image" src="src/blocks/product-item/assets/img/product-slide5/product-item3.png"></div></a>
+                  <div class="product-item__slider-navigate">
+                    <div class="product-item__slider-navitem product-item__slider-navitem--prev">
+                      <svg class="icon__arrow-slide" width="8" height="14">
+                        <use xlink:href="/images/icons/sprites.svg#icon__arrow-slide"></use>
+                      </svg>
+                    </div>
+                    <div class="product-item__slider-navitem product-item__slider-navitem--next">
+                      <svg class="icon__arrow-slide" width="8" height="14">
+                        <use xlink:href="/images/icons/sprites.svg#icon__arrow-slide"></use>
+                      </svg>
+                    </div>
+                  </div>
+                </div><a class="product-item__favorite" href="#favorite">//.product-item__favorite--active
+                  <svg class="icon-favorite" width="22" height="22">
+                    <use xlink:href="/images/icons/sprites.svg#icon-favorite"></use>
+                  </svg></a><a class="product-item__information" href="#">
+                  <div class="product-item__name">От сердца к сердцу. 180 деталей</div>
+                  <div class="product-item__price-wrapper">
+                    <div class="product-item__price">
+                      <div class="product-item__price-current">45 040
+                        <div class="product-item__price-currency">₽</div>
+                      </div>
+                      <div class="product-item__price-old">56 340</div>
+                    </div>
+                    <div class="product-item__review">
+                      <div class="product-item__rating product-item__rating--active"><span class="product-item__rating-star">
+                          <svg class="rating__item-star" width="14" height="13">
+                            <use xlink:href="/images/icons/sprites.svg#rating__item-star"></use>
+                          </svg></span><span class="product-item__rating-star">
+                          <svg class="rating__item-star" width="14" height="13">
+                            <use xlink:href="/images/icons/sprites.svg#rating__item-star"></use>
+                          </svg></span><span class="product-item__rating-star">
+                          <svg class="rating__item-star" width="14" height="13">
+                            <use xlink:href="/images/icons/sprites.svg#rating__item-star"></use>
+                          </svg></span><span class="product-item__rating-star">
+                          <svg class="rating__item-star" width="14" height="13">
+                            <use xlink:href="/images/icons/sprites.svg#rating__item-star"></use>
+                          </svg></span><span class="product-item__rating-star">
+                          <svg class="rating__item-star" width="14" height="13">
+                            <use xlink:href="/images/icons/sprites.svg#rating__item-star"></use>
+                          </svg></span></div>
+                      <div class="product-item__rating-count">22</div>
+                    </div>
+                  </div></a>
+                <div class="product-item__button"><a class="button button--add-card" href="#">В корзину</a><a class="links links--buy-click" href="#">Купить в 1 клик</a></div>
+              </div>
+            </div>
+            <div class="catalog__item">
+              <div class="product-item">
+                <div class="product-item__slider-wrapper"><a class="product-item__slider" href="#">
+                    <div class="product-item__slider-element"><img class="product-item__slider-image" src="src/blocks/product-item/assets/img/product-slide6/product-item1.jpg"></div>
+                    <div class="product-item__slider-element"><img class="product-item__slider-image" src="src/blocks/product-item/assets/img/product-slide6/product-item2.jpg"></div>
+                    <div class="product-item__slider-element"><img class="product-item__slider-image" src="src/blocks/product-item/assets/img/product-slide6/product-item3.png"></div>
+                    <div class="product-item__slider-element"><img class="product-item__slider-image" src="src/blocks/product-item/assets/img/product-slide6/product-item4.jpg"></div>
+                    <div class="product-item__slider-element"><img class="product-item__slider-image" src="src/blocks/product-item/assets/img/product-slide6/product-item5.jpg"></div></a>
+                  <div class="product-item__slider-navigate">
+                    <div class="product-item__slider-navitem product-item__slider-navitem--prev">
+                      <svg class="icon__arrow-slide" width="8" height="14">
+                        <use xlink:href="/images/icons/sprites.svg#icon__arrow-slide"></use>
+                      </svg>
+                    </div>
+                    <div class="product-item__slider-navitem product-item__slider-navitem--next">
+                      <svg class="icon__arrow-slide" width="8" height="14">
+                        <use xlink:href="/images/icons/sprites.svg#icon__arrow-slide"></use>
+                      </svg>
+                    </div>
+                  </div>
+                </div><a class="product-item__favorite" href="#favorite">//.product-item__favorite--active
+                  <svg class="icon-favorite" width="22" height="22">
+                    <use xlink:href="/images/icons/sprites.svg#icon-favorite"></use>
+                  </svg></a><a class="product-item__information" href="#">
+                  <div class="product-item__name">Обитаемая рыба. 130 деталей</div>
+                  <div class="product-item__price-wrapper">
+                    <div class="product-item__price">
+                      <div class="product-item__price-current">45 040
+                        <div class="product-item__price-currency">₽</div>
+                      </div>
+                      <div class="product-item__price-old">56 340</div>
+                    </div>
+                    <div class="product-item__review">
+                      <div class="product-item__rating product-item__rating--active"><span class="product-item__rating-star">
+                          <svg class="rating__item-star" width="14" height="13">
+                            <use xlink:href="/images/icons/sprites.svg#rating__item-star"></use>
+                          </svg></span><span class="product-item__rating-star">
+                          <svg class="rating__item-star" width="14" height="13">
+                            <use xlink:href="/images/icons/sprites.svg#rating__item-star"></use>
+                          </svg></span><span class="product-item__rating-star">
+                          <svg class="rating__item-star" width="14" height="13">
+                            <use xlink:href="/images/icons/sprites.svg#rating__item-star"></use>
+                          </svg></span><span class="product-item__rating-star">
+                          <svg class="rating__item-star" width="14" height="13">
+                            <use xlink:href="/images/icons/sprites.svg#rating__item-star"></use>
+                          </svg></span><span class="product-item__rating-star">
+                          <svg class="rating__item-star" width="14" height="13">
+                            <use xlink:href="/images/icons/sprites.svg#rating__item-star"></use>
+                          </svg></span></div>
+                      <div class="product-item__rating-count">22</div>
+                    </div>
+                  </div></a>
+                <div class="product-item__button"><a class="button button--add-card" href="#">В корзину</a><a class="links links--buy-click" href="#">Купить в 1 клик</a></div>
+              </div>
+            </div>
+            <div class="catalog__item">
+              <div class="product-item">
+                <div class="product-item__slider-wrapper"><a class="product-item__slider" href="#">
+                    <div class="product-item__slider-element"><img class="product-item__slider-image" src="src/blocks/product-item/assets/img/product-slide8/product-item1.jpg"></div>
+                    <div class="product-item__slider-element"><img class="product-item__slider-image" src="src/blocks/product-item/assets/img/product-slide8/product-item2.jpg"></div>
+                    <div class="product-item__slider-element"><img class="product-item__slider-image" src="src/blocks/product-item/assets/img/product-slide8/product-item3.png"></div>
+                    <div class="product-item__slider-element"><img class="product-item__slider-image" src="src/blocks/product-item/assets/img/product-slide8/product-item4.jpg"></div>
+                    <div class="product-item__slider-element"><img class="product-item__slider-image" src="src/blocks/product-item/assets/img/product-slide8/product-item5.jpg"></div></a>
+                  <div class="product-item__slider-navigate">
+                    <div class="product-item__slider-navitem product-item__slider-navitem--prev">
+                      <svg class="icon__arrow-slide" width="8" height="14">
+                        <use xlink:href="/images/icons/sprites.svg#icon__arrow-slide"></use>
+                      </svg>
+                    </div>
+                    <div class="product-item__slider-navitem product-item__slider-navitem--next">
+                      <svg class="icon__arrow-slide" width="8" height="14">
+                        <use xlink:href="/images/icons/sprites.svg#icon__arrow-slide"></use>
+                      </svg>
+                    </div>
+                  </div>
+                </div><a class="product-item__favorite" href="#favorite">//.product-item__favorite--active
+                  <svg class="icon-favorite" width="22" height="22">
+                    <use xlink:href="/images/icons/sprites.svg#icon-favorite"></use>
+                  </svg></a><a class="product-item__information" href="#">
+                  <div class="product-item__name">Обитаемая рыба. 130 деталей</div>
+                  <div class="product-item__price-wrapper">
+                    <div class="product-item__price">
+                      <div class="product-item__price-current">45 040
+                        <div class="product-item__price-currency">₽</div>
+                      </div>
+                      <div class="product-item__price-old">56 340</div>
+                    </div>
+                    <div class="product-item__review">
+                      <div class="product-item__rating product-item__rating--active"><span class="product-item__rating-star">
+                          <svg class="rating__item-star" width="14" height="13">
+                            <use xlink:href="/images/icons/sprites.svg#rating__item-star"></use>
+                          </svg></span><span class="product-item__rating-star">
+                          <svg class="rating__item-star" width="14" height="13">
+                            <use xlink:href="/images/icons/sprites.svg#rating__item-star"></use>
+                          </svg></span><span class="product-item__rating-star">
+                          <svg class="rating__item-star" width="14" height="13">
+                            <use xlink:href="/images/icons/sprites.svg#rating__item-star"></use>
+                          </svg></span><span class="product-item__rating-star">
+                          <svg class="rating__item-star" width="14" height="13">
+                            <use xlink:href="/images/icons/sprites.svg#rating__item-star"></use>
+                          </svg></span><span class="product-item__rating-star">
+                          <svg class="rating__item-star" width="14" height="13">
+                            <use xlink:href="/images/icons/sprites.svg#rating__item-star"></use>
+                          </svg></span></div>
+                      <div class="product-item__rating-count">22</div>
+                    </div>
+                  </div></a>
+                <div class="product-item__button"><a class="button button--add-card" href="#">В корзину</a><a class="links links--buy-click" href="#">Купить в 1 клик</a></div>
+              </div>
+            </div>
+            <div class="catalog__item">
+              <div class="product-item">
+                <div class="product-item__slider-wrapper"><a class="product-item__slider" href="#">
+                    <div class="product-item__slider-element"><img class="product-item__slider-image" src="src/blocks/product-item/assets/img/product-slide9/product-item1.jpg"></div>
+                    <div class="product-item__slider-element"><img class="product-item__slider-image" src="src/blocks/product-item/assets/img/product-slide9/product-item2.jpg"></div>
+                    <div class="product-item__slider-element"><img class="product-item__slider-image" src="src/blocks/product-item/assets/img/product-slide9/product-item3.png"></div>
+                    <div class="product-item__slider-element"><img class="product-item__slider-image" src="src/blocks/product-item/assets/img/product-slide9/product-item4.jpg"></div>
+                    <div class="product-item__slider-element"><img class="product-item__slider-image" src="src/blocks/product-item/assets/img/product-slide9/product-item5.jpg"></div></a>
+                  <div class="product-item__slider-navigate">
+                    <div class="product-item__slider-navitem product-item__slider-navitem--prev">
+                      <svg class="icon__arrow-slide" width="8" height="14">
+                        <use xlink:href="/images/icons/sprites.svg#icon__arrow-slide"></use>
+                      </svg>
+                    </div>
+                    <div class="product-item__slider-navitem product-item__slider-navitem--next">
+                      <svg class="icon__arrow-slide" width="8" height="14">
+                        <use xlink:href="/images/icons/sprites.svg#icon__arrow-slide"></use>
+                      </svg>
+                    </div>
+                  </div>
+                </div><a class="product-item__favorite" href="#favorite">//.product-item__favorite--active
+                  <svg class="icon-favorite" width="22" height="22">
+                    <use xlink:href="/images/icons/sprites.svg#icon-favorite"></use>
+                  </svg></a><a class="product-item__information" href="#">
+                  <div class="product-item__name">Обитаемая рыба. 130 деталей</div>
+                  <div class="product-item__price-wrapper">
+                    <div class="product-item__price">
+                      <div class="product-item__price-current">45 040
+                        <div class="product-item__price-currency">₽</div>
+                      </div>
+                      <div class="product-item__price-old">56 340</div>
+                    </div>
+                    <div class="product-item__review">
+                      <div class="product-item__rating product-item__rating--active"><span class="product-item__rating-star">
+                          <svg class="rating__item-star" width="14" height="13">
+                            <use xlink:href="/images/icons/sprites.svg#rating__item-star"></use>
+                          </svg></span><span class="product-item__rating-star">
+                          <svg class="rating__item-star" width="14" height="13">
+                            <use xlink:href="/images/icons/sprites.svg#rating__item-star"></use>
+                          </svg></span><span class="product-item__rating-star">
+                          <svg class="rating__item-star" width="14" height="13">
+                            <use xlink:href="/images/icons/sprites.svg#rating__item-star"></use>
+                          </svg></span><span class="product-item__rating-star">
+                          <svg class="rating__item-star" width="14" height="13">
+                            <use xlink:href="/images/icons/sprites.svg#rating__item-star"></use>
+                          </svg></span><span class="product-item__rating-star">
+                          <svg class="rating__item-star" width="14" height="13">
+                            <use xlink:href="/images/icons/sprites.svg#rating__item-star"></use>
+                          </svg></span></div>
+                      <div class="product-item__rating-count">22</div>
+                    </div>
+                  </div></a>
+                <div class="product-item__button"><a class="button button--add-card" href="#">В корзину</a><a class="links links--buy-click" href="#">Купить в 1 клик</a></div>
+              </div>
+            </div>
+            <div class="catalog__item">
+              <div class="product-item">
+                <div class="product-item__slider-wrapper"><a class="product-item__slider" href="#">
+                    <div class="product-item__slider-element"><img class="product-item__slider-image" src="src/blocks/product-item/assets/img/product-slide10/product-item1.jpg"></div>
+                    <div class="product-item__slider-element"><img class="product-item__slider-image" src="src/blocks/product-item/assets/img/product-slide10/product-item2.jpg"></div>
+                    <div class="product-item__slider-element"><img class="product-item__slider-image" src="src/blocks/product-item/assets/img/product-slide10/product-item3.jpg"></div>
+                    <div class="product-item__slider-element"><img class="product-item__slider-image" src="src/blocks/product-item/assets/img/product-slide10/product-item4.jpg"></div>
+                    <div class="product-item__slider-element"><img class="product-item__slider-image" src="src/blocks/product-item/assets/img/product-slide10/product-item5.jpg"></div></a>
+                  <div class="product-item__slider-navigate">
+                    <div class="product-item__slider-navitem product-item__slider-navitem--prev">
+                      <svg class="icon__arrow-slide" width="8" height="14">
+                        <use xlink:href="/images/icons/sprites.svg#icon__arrow-slide"></use>
+                      </svg>
+                    </div>
+                    <div class="product-item__slider-navitem product-item__slider-navitem--next">
+                      <svg class="icon__arrow-slide" width="8" height="14">
+                        <use xlink:href="/images/icons/sprites.svg#icon__arrow-slide"></use>
+                      </svg>
+                    </div>
+                  </div>
+                </div><a class="product-item__favorite" href="#favorite">//.product-item__favorite--active
+                  <svg class="icon-favorite" width="22" height="22">
+                    <use xlink:href="/images/icons/sprites.svg#icon-favorite"></use>
+                  </svg></a><a class="product-item__information" href="#">
+                  <div class="product-item__name">Обитаемая рыба. 130 деталей</div>
+                  <div class="product-item__price-wrapper">
+                    <div class="product-item__price">
+                      <div class="product-item__price-current">45 040
+                        <div class="product-item__price-currency">₽</div>
+                      </div>
+                      <div class="product-item__price-old">56 340</div>
+                    </div>
+                    <div class="product-item__review">
+                      <div class="product-item__rating product-item__rating--active"><span class="product-item__rating-star">
+                          <svg class="rating__item-star" width="14" height="13">
+                            <use xlink:href="/images/icons/sprites.svg#rating__item-star"></use>
+                          </svg></span><span class="product-item__rating-star">
+                          <svg class="rating__item-star" width="14" height="13">
+                            <use xlink:href="/images/icons/sprites.svg#rating__item-star"></use>
+                          </svg></span><span class="product-item__rating-star">
+                          <svg class="rating__item-star" width="14" height="13">
+                            <use xlink:href="/images/icons/sprites.svg#rating__item-star"></use>
+                          </svg></span><span class="product-item__rating-star">
+                          <svg class="rating__item-star" width="14" height="13">
+                            <use xlink:href="/images/icons/sprites.svg#rating__item-star"></use>
+                          </svg></span><span class="product-item__rating-star">
+                          <svg class="rating__item-star" width="14" height="13">
+                            <use xlink:href="/images/icons/sprites.svg#rating__item-star"></use>
+                          </svg></span></div>
+                      <div class="product-item__rating-count">22</div>
+                    </div>
+                  </div></a>
+                <div class="product-item__button"><a class="button button--add-card" href="#">В корзину</a><a class="links links--buy-click" href="#">Купить в 1 клик</a></div>
+              </div>
+            </div>
+            <div class="catalog__item">
+              <div class="product-item"><a class="product-item__image-wrapper" href="#"><img class="product-item__image" src="src/blocks/product-item/assets/img/product-item1.jpg">
+                  <div class="product-item__label">
+                    <div class="product-item__label-item product-item__label-item--action">Акция</div>
+                    <div class="product-item__label-item product-item__label-item--discount">-20%</div>
+                  </div></a><a class="product-item__favorite" href="#favorite">//.product-item__favorite--active
+                  <svg class="icon-favorite" width="22" height="22">
+                    <use xlink:href="/images/icons/sprites.svg#icon-favorite"></use>
+                  </svg></a><a class="product-item__information" href="#">
+                  <div class="product-item__name">Коллекция №1</div>
+                  <div class="product-item__price-wrapper">
+                    <div class="product-item__price">
+                      <div class="product-item__price-current">45 040
+                        <div class="product-item__price-currency">₽</div>
+                      </div>
+                      <div class="product-item__price-old">56 340</div>
+                    </div>
+                    <div class="product-item__review">
+                      <div class="product-item__rating product-item__rating--active"><span class="product-item__rating-star">
+                          <svg class="rating__item-star" width="14" height="13">
+                            <use xlink:href="/images/icons/sprites.svg#rating__item-star"></use>
+                          </svg></span><span class="product-item__rating-star">
+                          <svg class="rating__item-star" width="14" height="13">
+                            <use xlink:href="/images/icons/sprites.svg#rating__item-star"></use>
+                          </svg></span><span class="product-item__rating-star">
+                          <svg class="rating__item-star" width="14" height="13">
+                            <use xlink:href="/images/icons/sprites.svg#rating__item-star"></use>
+                          </svg></span><span class="product-item__rating-star">
+                          <svg class="rating__item-star" width="14" height="13">
+                            <use xlink:href="/images/icons/sprites.svg#rating__item-star"></use>
+                          </svg></span><span class="product-item__rating-star">
+                          <svg class="rating__item-star" width="14" height="13">
+                            <use xlink:href="/images/icons/sprites.svg#rating__item-star"></use>
+                          </svg></span></div>
+                      <div class="product-item__rating-count">22</div>
+                    </div>
+                  </div></a>
+                <div class="product-item__button"><a class="button button--add-card" href="#">В корзину</a><a class="links links--buy-click" href="#">Купить в 1 клик</a></div>
+              </div>
+            </div>
+            <div class="catalog__item">
+              <div class="product-item">
+                <div class="product-item__slider-wrapper"><a class="product-item__slider" href="#">
+                    <div class="product-item__slider-element"><img class="product-item__slider-image" src="src/blocks/product-item/assets/img/product-slide2/product-item1.jpg"></div>
+                    <div class="product-item__slider-element"><img class="product-item__slider-image" src="src/blocks/product-item/assets/img/product-slide2/product-item2.jpg"></div>
+                    <div class="product-item__slider-element"><img class="product-item__slider-image" src="src/blocks/product-item/assets/img/product-slide2/product-item3.jpg"></div>
+                    <div class="product-item__slider-element"><img class="product-item__slider-image" src="src/blocks/product-item/assets/img/product-slide2/product-item4.jpg"></div>
+                    <div class="product-item__slider-element"><img class="product-item__slider-image" src="src/blocks/product-item/assets/img/product-slide2/product-item5.jpg"></div></a>
+                  <div class="product-item__slider-navigate">
+                    <div class="product-item__slider-navitem product-item__slider-navitem--prev">
+                      <svg class="icon__arrow-slide" width="8" height="14">
+                        <use xlink:href="/images/icons/sprites.svg#icon__arrow-slide"></use>
+                      </svg>
+                    </div>
+                    <div class="product-item__slider-navitem product-item__slider-navitem--next">
+                      <svg class="icon__arrow-slide" width="8" height="14">
+                        <use xlink:href="/images/icons/sprites.svg#icon__arrow-slide"></use>
+                      </svg>
+                    </div>
+                  </div>
+                </div><a class="product-item__favorite" href="#favorite">//.product-item__favorite--active
+                  <svg class="icon-favorite" width="22" height="22">
+                    <use xlink:href="/images/icons/sprites.svg#icon-favorite"></use>
+                  </svg></a><a class="product-item__information" href="#">
+                  <div class="product-item__name">Купание разноцветного дракона. 125 деталей</div>
+                  <div class="product-item__price-wrapper">
+                    <div class="product-item__price">
+                      <div class="product-item__price-current">45 040
+                        <div class="product-item__price-currency">₽</div>
+                      </div>
+                      <div class="product-item__price-old">56 340</div>
+                    </div>
+                    <div class="product-item__review">
+                      <div class="product-item__rating product-item__rating--active"><span class="product-item__rating-star">
+                          <svg class="rating__item-star" width="14" height="13">
+                            <use xlink:href="/images/icons/sprites.svg#rating__item-star"></use>
+                          </svg></span><span class="product-item__rating-star">
+                          <svg class="rating__item-star" width="14" height="13">
+                            <use xlink:href="/images/icons/sprites.svg#rating__item-star"></use>
+                          </svg></span><span class="product-item__rating-star">
+                          <svg class="rating__item-star" width="14" height="13">
+                            <use xlink:href="/images/icons/sprites.svg#rating__item-star"></use>
+                          </svg></span><span class="product-item__rating-star">
+                          <svg class="rating__item-star" width="14" height="13">
+                            <use xlink:href="/images/icons/sprites.svg#rating__item-star"></use>
+                          </svg></span><span class="product-item__rating-star">
+                          <svg class="rating__item-star" width="14" height="13">
+                            <use xlink:href="/images/icons/sprites.svg#rating__item-star"></use>
+                          </svg></span></div>
+                      <div class="product-item__rating-count">22</div>
+                    </div>
+                  </div></a>
+                <div class="product-item__button"><a class="button button--add-card" href="#">В корзину</a><a class="links links--buy-click" href="#">Купить в 1 клик</a></div>
+              </div>
+            </div>
+            <div class="catalog__item">
+              <div class="product-item">
+                <div class="product-item__slider-wrapper"><a class="product-item__slider" href="#">
+                    <div class="product-item__slider-element"><img class="product-item__slider-image" src="src/blocks/product-item/assets/img/product-slide1/product-item1.jpg"></div>
+                    <div class="product-item__slider-element"><img class="product-item__slider-image" src="src/blocks/product-item/assets/img/product-slide1/product-item2.jpg"></div>
+                    <div class="product-item__slider-element"><img class="product-item__slider-image" src="src/blocks/product-item/assets/img/product-slide1/product-item3.jpg"></div>
+                    <div class="product-item__slider-element"><img class="product-item__slider-image" src="src/blocks/product-item/assets/img/product-slide1/product-item4.jpg"></div>
+                    <div class="product-item__slider-element"><img class="product-item__slider-image" src="src/blocks/product-item/assets/img/product-slide1/product-item5.jpg"></div></a>
+                  <div class="product-item__slider-navigate">
+                    <div class="product-item__slider-navitem product-item__slider-navitem--prev">
+                      <svg class="icon__arrow-slide" width="8" height="14">
+                        <use xlink:href="/images/icons/sprites.svg#icon__arrow-slide"></use>
+                      </svg>
+                    </div>
+                    <div class="product-item__slider-navitem product-item__slider-navitem--next">
+                      <svg class="icon__arrow-slide" width="8" height="14">
+                        <use xlink:href="/images/icons/sprites.svg#icon__arrow-slide"></use>
+                      </svg>
+                    </div>
+                  </div>
+                </div><a class="product-item__favorite" href="#favorite">//.product-item__favorite--active
+                  <svg class="icon-favorite" width="22" height="22">
+                    <use xlink:href="/images/icons/sprites.svg#icon-favorite"></use>
+                  </svg></a><a class="product-item__information" href="#">
+                  <div class="product-item__name">Летучий фрегат. 130 деталей</div>
+                  <div class="product-item__price-wrapper">
+                    <div class="product-item__price">
+                      <div class="product-item__price-current">45 040
+                        <div class="product-item__price-currency">₽</div>
+                      </div>
+                      <div class="product-item__price-old">56 340</div>
+                    </div>
+                    <div class="product-item__review">
+                      <div class="product-item__rating product-item__rating--active"><span class="product-item__rating-star">
+                          <svg class="rating__item-star" width="14" height="13">
+                            <use xlink:href="/images/icons/sprites.svg#rating__item-star"></use>
+                          </svg></span><span class="product-item__rating-star">
+                          <svg class="rating__item-star" width="14" height="13">
+                            <use xlink:href="/images/icons/sprites.svg#rating__item-star"></use>
+                          </svg></span><span class="product-item__rating-star">
+                          <svg class="rating__item-star" width="14" height="13">
+                            <use xlink:href="/images/icons/sprites.svg#rating__item-star"></use>
+                          </svg></span><span class="product-item__rating-star">
+                          <svg class="rating__item-star" width="14" height="13">
+                            <use xlink:href="/images/icons/sprites.svg#rating__item-star"></use>
+                          </svg></span><span class="product-item__rating-star">
+                          <svg class="rating__item-star" width="14" height="13">
+                            <use xlink:href="/images/icons/sprites.svg#rating__item-star"></use>
+                          </svg></span></div>
+                      <div class="product-item__rating-count">22</div>
+                    </div>
+                  </div></a>
+                <div class="product-item__button"><a class="button button--add-card" href="#">В корзину</a><a class="links links--buy-click" href="#">Купить в 1 клик</a></div>
+              </div>
+            </div>
+            <div class="catalog__item">
+              <div class="product-item">
+                <div class="product-item__slider-wrapper"><a class="product-item__slider" href="#">
+                    <div class="product-item__slider-element"><img class="product-item__slider-image" src="src/blocks/product-item/assets/img/product-slide3/product-item1.png"></div>
+                    <div class="product-item__slider-element"><img class="product-item__slider-image" src="src/blocks/product-item/assets/img/product-slide3/product-item2.jpg"></div>
+                    <div class="product-item__slider-element"><img class="product-item__slider-image" src="src/blocks/product-item/assets/img/product-slide3/product-item3.jpg"></div>
+                    <div class="product-item__slider-element"><img class="product-item__slider-image" src="src/blocks/product-item/assets/img/product-slide3/product-item4.jpg"></div>
+                    <div class="product-item__slider-element"><img class="product-item__slider-image" src="src/blocks/product-item/assets/img/product-slide3/product-item5.jpg"></div></a>
+                  <div class="product-item__slider-navigate">
+                    <div class="product-item__slider-navitem product-item__slider-navitem--prev">
+                      <svg class="icon__arrow-slide" width="8" height="14">
+                        <use xlink:href="/images/icons/sprites.svg#icon__arrow-slide"></use>
+                      </svg>
+                    </div>
+                    <div class="product-item__slider-navitem product-item__slider-navitem--next">
+                      <svg class="icon__arrow-slide" width="8" height="14">
+                        <use xlink:href="/images/icons/sprites.svg#icon__arrow-slide"></use>
+                      </svg>
+                    </div>
+                  </div>
+                </div><a class="product-item__favorite" href="#favorite">//.product-item__favorite--active
+                  <svg class="icon-favorite" width="22" height="22">
+                    <use xlink:href="/images/icons/sprites.svg#icon-favorite"></use>
+                  </svg></a><a class="product-item__information" href="#">
+                  <div class="product-item__name">Обитаемая рыба. 130 деталей</div>
+                  <div class="product-item__price-wrapper">
+                    <div class="product-item__price">
+                      <div class="product-item__price-current">45 040
+                        <div class="product-item__price-currency">₽</div>
+                      </div>
+                      <div class="product-item__price-old">56 340</div>
+                    </div>
+                    <div class="product-item__review">
+                      <div class="product-item__rating product-item__rating--active"><span class="product-item__rating-star">
+                          <svg class="rating__item-star" width="14" height="13">
+                            <use xlink:href="/images/icons/sprites.svg#rating__item-star"></use>
+                          </svg></span><span class="product-item__rating-star">
+                          <svg class="rating__item-star" width="14" height="13">
+                            <use xlink:href="/images/icons/sprites.svg#rating__item-star"></use>
+                          </svg></span><span class="product-item__rating-star">
+                          <svg class="rating__item-star" width="14" height="13">
+                            <use xlink:href="/images/icons/sprites.svg#rating__item-star"></use>
+                          </svg></span><span class="product-item__rating-star">
+                          <svg class="rating__item-star" width="14" height="13">
+                            <use xlink:href="/images/icons/sprites.svg#rating__item-star"></use>
+                          </svg></span><span class="product-item__rating-star">
+                          <svg class="rating__item-star" width="14" height="13">
+                            <use xlink:href="/images/icons/sprites.svg#rating__item-star"></use>
+                          </svg></span></div>
+                      <div class="product-item__rating-count">22</div>
+                    </div>
+                  </div></a>
+                <div class="product-item__button"><a class="button button--add-card" href="#">В корзину</a><a class="links links--buy-click" href="#">Купить в 1 клик</a></div>
+              </div>
+            </div>
+            <div class="catalog__item">
+              <div class="product-item">
+                <div class="product-item__slider-wrapper"><a class="product-item__slider" href="#">
+                    <div class="product-item__slider-element"><img class="product-item__slider-image" src="src/blocks/product-item/assets/img/product-slide4/product-item1.jpg"></div>
+                    <div class="product-item__slider-element"><img class="product-item__slider-image" src="src/blocks/product-item/assets/img/product-slide4/product-item2.png"></div>
+                    <div class="product-item__slider-element"><img class="product-item__slider-image" src="src/blocks/product-item/assets/img/product-slide4/product-item3.png"></div>
+                    <div class="product-item__slider-element"><img class="product-item__slider-image" src="src/blocks/product-item/assets/img/product-slide4/product-item4.jpg"></div>
+                    <div class="product-item__slider-element"><img class="product-item__slider-image" src="src/blocks/product-item/assets/img/product-slide4/product-item5.jpg"></div></a>
+                  <div class="product-item__slider-navigate">
+                    <div class="product-item__slider-navitem product-item__slider-navitem--prev">
+                      <svg class="icon__arrow-slide" width="8" height="14">
+                        <use xlink:href="/images/icons/sprites.svg#icon__arrow-slide"></use>
+                      </svg>
+                    </div>
+                    <div class="product-item__slider-navitem product-item__slider-navitem--next">
+                      <svg class="icon__arrow-slide" width="8" height="14">
+                        <use xlink:href="/images/icons/sprites.svg#icon__arrow-slide"></use>
+                      </svg>
+                    </div>
+                  </div>
+                </div><a class="product-item__favorite" href="#favorite">//.product-item__favorite--active
+                  <svg class="icon-favorite" width="22" height="22">
+                    <use xlink:href="/images/icons/sprites.svg#icon-favorite"></use>
+                  </svg></a><a class="product-item__information" href="#">
+                  <div class="product-item__name">Корабль сокровищ. 60 деталей</div>
+                  <div class="product-item__price-wrapper">
+                    <div class="product-item__price">
+                      <div class="product-item__price-current">45 040
+                        <div class="product-item__price-currency">₽</div>
+                      </div>
+                      <div class="product-item__price-old">56 340</div>
+                    </div>
+                    <div class="product-item__review">
+                      <div class="product-item__rating product-item__rating--active"><span class="product-item__rating-star">
+                          <svg class="rating__item-star" width="14" height="13">
+                            <use xlink:href="/images/icons/sprites.svg#rating__item-star"></use>
+                          </svg></span><span class="product-item__rating-star">
+                          <svg class="rating__item-star" width="14" height="13">
+                            <use xlink:href="/images/icons/sprites.svg#rating__item-star"></use>
+                          </svg></span><span class="product-item__rating-star">
+                          <svg class="rating__item-star" width="14" height="13">
+                            <use xlink:href="/images/icons/sprites.svg#rating__item-star"></use>
+                          </svg></span><span class="product-item__rating-star">
+                          <svg class="rating__item-star" width="14" height="13">
+                            <use xlink:href="/images/icons/sprites.svg#rating__item-star"></use>
+                          </svg></span><span class="product-item__rating-star">
+                          <svg class="rating__item-star" width="14" height="13">
+                            <use xlink:href="/images/icons/sprites.svg#rating__item-star"></use>
+                          </svg></span></div>
+                      <div class="product-item__rating-count">22</div>
+                    </div>
+                  </div></a>
+                <div class="product-item__button"><a class="button button--add-card" href="#">В корзину</a><a class="links links--buy-click" href="#">Купить в 1 клик</a></div>
+              </div>
+            </div>
+            <div class="catalog__item">
+              <div class="product-item">
+                <div class="product-item__slider-wrapper"><a class="product-item__slider" href="#">
+                    <div class="product-item__slider-element"><img class="product-item__slider-image" src="src/blocks/product-item/assets/img/product-slide8/product-item1.jpg"></div>
+                    <div class="product-item__slider-element"><img class="product-item__slider-image" src="src/blocks/product-item/assets/img/product-slide8/product-item2.jpg"></div>
+                    <div class="product-item__slider-element"><img class="product-item__slider-image" src="src/blocks/product-item/assets/img/product-slide8/product-item3.png"></div>
+                    <div class="product-item__slider-element"><img class="product-item__slider-image" src="src/blocks/product-item/assets/img/product-slide8/product-item4.jpg"></div>
+                    <div class="product-item__slider-element"><img class="product-item__slider-image" src="src/blocks/product-item/assets/img/product-slide8/product-item5.jpg"></div></a>
+                  <div class="product-item__slider-navigate">
+                    <div class="product-item__slider-navitem product-item__slider-navitem--prev">
+                      <svg class="icon__arrow-slide" width="8" height="14">
+                        <use xlink:href="/images/icons/sprites.svg#icon__arrow-slide"></use>
+                      </svg>
+                    </div>
+                    <div class="product-item__slider-navitem product-item__slider-navitem--next">
+                      <svg class="icon__arrow-slide" width="8" height="14">
+                        <use xlink:href="/images/icons/sprites.svg#icon__arrow-slide"></use>
+                      </svg>
+                    </div>
+                  </div>
+                </div><a class="product-item__favorite" href="#favorite">//.product-item__favorite--active
+                  <svg class="icon-favorite" width="22" height="22">
+                    <use xlink:href="/images/icons/sprites.svg#icon-favorite"></use>
+                  </svg></a><a class="product-item__information" href="#">
+                  <div class="product-item__name">Обитаемая рыба. 130 деталей</div>
+                  <div class="product-item__price-wrapper">
+                    <div class="product-item__price">
+                      <div class="product-item__price-current">45 040
+                        <div class="product-item__price-currency">₽</div>
+                      </div>
+                      <div class="product-item__price-old">56 340</div>
+                    </div>
+                    <div class="product-item__review">
+                      <div class="product-item__rating product-item__rating--active"><span class="product-item__rating-star">
+                          <svg class="rating__item-star" width="14" height="13">
+                            <use xlink:href="/images/icons/sprites.svg#rating__item-star"></use>
+                          </svg></span><span class="product-item__rating-star">
+                          <svg class="rating__item-star" width="14" height="13">
+                            <use xlink:href="/images/icons/sprites.svg#rating__item-star"></use>
+                          </svg></span><span class="product-item__rating-star">
+                          <svg class="rating__item-star" width="14" height="13">
+                            <use xlink:href="/images/icons/sprites.svg#rating__item-star"></use>
+                          </svg></span><span class="product-item__rating-star">
+                          <svg class="rating__item-star" width="14" height="13">
+                            <use xlink:href="/images/icons/sprites.svg#rating__item-star"></use>
+                          </svg></span><span class="product-item__rating-star">
+                          <svg class="rating__item-star" width="14" height="13">
+                            <use xlink:href="/images/icons/sprites.svg#rating__item-star"></use>
+                          </svg></span></div>
+                      <div class="product-item__rating-count">22</div>
+                    </div>
+                  </div></a>
+                <div class="product-item__button"><a class="button button--add-card" href="#">В корзину</a><a class="links links--buy-click" href="#">Купить в 1 клик</a></div>
+              </div>
+            </div>
+            <div class="catalog__item">
+              <div class="product-item">
+                <div class="product-item__slider-wrapper"><a class="product-item__slider" href="#">
+                    <div class="product-item__slider-element"><img class="product-item__slider-image" src="src/blocks/product-item/assets/img/product-slide9/product-item1.jpg"></div>
+                    <div class="product-item__slider-element"><img class="product-item__slider-image" src="src/blocks/product-item/assets/img/product-slide9/product-item2.jpg"></div>
+                    <div class="product-item__slider-element"><img class="product-item__slider-image" src="src/blocks/product-item/assets/img/product-slide9/product-item3.png"></div>
+                    <div class="product-item__slider-element"><img class="product-item__slider-image" src="src/blocks/product-item/assets/img/product-slide9/product-item4.jpg"></div>
+                    <div class="product-item__slider-element"><img class="product-item__slider-image" src="src/blocks/product-item/assets/img/product-slide9/product-item5.jpg"></div></a>
+                  <div class="product-item__slider-navigate">
+                    <div class="product-item__slider-navitem product-item__slider-navitem--prev">
+                      <svg class="icon__arrow-slide" width="8" height="14">
+                        <use xlink:href="/images/icons/sprites.svg#icon__arrow-slide"></use>
+                      </svg>
+                    </div>
+                    <div class="product-item__slider-navitem product-item__slider-navitem--next">
+                      <svg class="icon__arrow-slide" width="8" height="14">
+                        <use xlink:href="/images/icons/sprites.svg#icon__arrow-slide"></use>
+                      </svg>
+                    </div>
+                  </div>
+                </div><a class="product-item__favorite" href="#favorite">//.product-item__favorite--active
+                  <svg class="icon-favorite" width="22" height="22">
+                    <use xlink:href="/images/icons/sprites.svg#icon-favorite"></use>
+                  </svg></a><a class="product-item__information" href="#">
+                  <div class="product-item__name">Обитаемая рыба. 130 деталей</div>
+                  <div class="product-item__price-wrapper">
+                    <div class="product-item__price">
+                      <div class="product-item__price-current">45 040
+                        <div class="product-item__price-currency">₽</div>
+                      </div>
+                      <div class="product-item__price-old">56 340</div>
+                    </div>
+                    <div class="product-item__review">
+                      <div class="product-item__rating product-item__rating--active"><span class="product-item__rating-star">
+                          <svg class="rating__item-star" width="14" height="13">
+                            <use xlink:href="/images/icons/sprites.svg#rating__item-star"></use>
+                          </svg></span><span class="product-item__rating-star">
+                          <svg class="rating__item-star" width="14" height="13">
+                            <use xlink:href="/images/icons/sprites.svg#rating__item-star"></use>
+                          </svg></span><span class="product-item__rating-star">
+                          <svg class="rating__item-star" width="14" height="13">
+                            <use xlink:href="/images/icons/sprites.svg#rating__item-star"></use>
+                          </svg></span><span class="product-item__rating-star">
+                          <svg class="rating__item-star" width="14" height="13">
+                            <use xlink:href="/images/icons/sprites.svg#rating__item-star"></use>
+                          </svg></span><span class="product-item__rating-star">
+                          <svg class="rating__item-star" width="14" height="13">
+                            <use xlink:href="/images/icons/sprites.svg#rating__item-star"></use>
+                          </svg></span></div>
+                      <div class="product-item__rating-count">22</div>
+                    </div>
+                  </div></a>
+                <div class="product-item__button"><a class="button button--add-card" href="#">В корзину</a><a class="links links--buy-click" href="#">Купить в 1 клик</a></div>
+              </div>
+            </div>
+            <div class="catalog__item">
+              <div class="product-item">
+                <div class="product-item__slider-wrapper"><a class="product-item__slider" href="#">
+                    <div class="product-item__slider-element"><img class="product-item__slider-image" src="src/blocks/product-item/assets/img/product-slide5/product-item1.png"></div>
+                    <div class="product-item__slider-element"><img class="product-item__slider-image" src="src/blocks/product-item/assets/img/product-slide5/product-item2.png"></div>
+                    <div class="product-item__slider-element"><img class="product-item__slider-image" src="src/blocks/product-item/assets/img/product-slide5/product-item3.png"></div></a>
+                  <div class="product-item__slider-navigate">
+                    <div class="product-item__slider-navitem product-item__slider-navitem--prev">
+                      <svg class="icon__arrow-slide" width="8" height="14">
+                        <use xlink:href="/images/icons/sprites.svg#icon__arrow-slide"></use>
+                      </svg>
+                    </div>
+                    <div class="product-item__slider-navitem product-item__slider-navitem--next">
+                      <svg class="icon__arrow-slide" width="8" height="14">
+                        <use xlink:href="/images/icons/sprites.svg#icon__arrow-slide"></use>
+                      </svg>
+                    </div>
+                  </div>
+                </div><a class="product-item__favorite" href="#favorite">//.product-item__favorite--active
+                  <svg class="icon-favorite" width="22" height="22">
+                    <use xlink:href="/images/icons/sprites.svg#icon-favorite"></use>
+                  </svg></a><a class="product-item__information" href="#">
+                  <div class="product-item__name">От сердца к сердцу. 180 деталей</div>
+                  <div class="product-item__price-wrapper">
+                    <div class="product-item__price">
+                      <div class="product-item__price-current">45 040
+                        <div class="product-item__price-currency">₽</div>
+                      </div>
+                      <div class="product-item__price-old">56 340</div>
+                    </div>
+                    <div class="product-item__review">
+                      <div class="product-item__rating product-item__rating--active"><span class="product-item__rating-star">
+                          <svg class="rating__item-star" width="14" height="13">
+                            <use xlink:href="/images/icons/sprites.svg#rating__item-star"></use>
+                          </svg></span><span class="product-item__rating-star">
+                          <svg class="rating__item-star" width="14" height="13">
+                            <use xlink:href="/images/icons/sprites.svg#rating__item-star"></use>
+                          </svg></span><span class="product-item__rating-star">
+                          <svg class="rating__item-star" width="14" height="13">
+                            <use xlink:href="/images/icons/sprites.svg#rating__item-star"></use>
+                          </svg></span><span class="product-item__rating-star">
+                          <svg class="rating__item-star" width="14" height="13">
+                            <use xlink:href="/images/icons/sprites.svg#rating__item-star"></use>
+                          </svg></span><span class="product-item__rating-star">
+                          <svg class="rating__item-star" width="14" height="13">
+                            <use xlink:href="/images/icons/sprites.svg#rating__item-star"></use>
+                          </svg></span></div>
+                      <div class="product-item__rating-count">22</div>
+                    </div>
+                  </div></a>
+                <div class="product-item__button"><a class="button button--add-card" href="#">В корзину</a><a class="links links--buy-click" href="#">Купить в 1 клик</a></div>
+              </div>
+            </div>
+            <div class="catalog__item">
+              <div class="product-item">
+                <div class="product-item__slider-wrapper"><a class="product-item__slider" href="#">
+                    <div class="product-item__slider-element"><img class="product-item__slider-image" src="src/blocks/product-item/assets/img/product-slide10/product-item1.jpg"></div>
+                    <div class="product-item__slider-element"><img class="product-item__slider-image" src="src/blocks/product-item/assets/img/product-slide10/product-item2.jpg"></div>
+                    <div class="product-item__slider-element"><img class="product-item__slider-image" src="src/blocks/product-item/assets/img/product-slide10/product-item3.jpg"></div>
+                    <div class="product-item__slider-element"><img class="product-item__slider-image" src="src/blocks/product-item/assets/img/product-slide10/product-item4.jpg"></div>
+                    <div class="product-item__slider-element"><img class="product-item__slider-image" src="src/blocks/product-item/assets/img/product-slide10/product-item5.jpg"></div></a>
+                  <div class="product-item__slider-navigate">
+                    <div class="product-item__slider-navitem product-item__slider-navitem--prev">
+                      <svg class="icon__arrow-slide" width="8" height="14">
+                        <use xlink:href="/images/icons/sprites.svg#icon__arrow-slide"></use>
+                      </svg>
+                    </div>
+                    <div class="product-item__slider-navitem product-item__slider-navitem--next">
+                      <svg class="icon__arrow-slide" width="8" height="14">
+                        <use xlink:href="/images/icons/sprites.svg#icon__arrow-slide"></use>
+                      </svg>
+                    </div>
+                  </div>
+                </div><a class="product-item__favorite" href="#favorite">//.product-item__favorite--active
+                  <svg class="icon-favorite" width="22" height="22">
+                    <use xlink:href="/images/icons/sprites.svg#icon-favorite"></use>
+                  </svg></a><a class="product-item__information" href="#">
+                  <div class="product-item__name">Обитаемая рыба. 130 деталей</div>
+                  <div class="product-item__price-wrapper">
+                    <div class="product-item__price">
+                      <div class="product-item__price-current">45 040
+                        <div class="product-item__price-currency">₽</div>
+                      </div>
+                      <div class="product-item__price-old">56 340</div>
+                    </div>
+                    <div class="product-item__review">
+                      <div class="product-item__rating product-item__rating--active"><span class="product-item__rating-star">
+                          <svg class="rating__item-star" width="14" height="13">
+                            <use xlink:href="/images/icons/sprites.svg#rating__item-star"></use>
+                          </svg></span><span class="product-item__rating-star">
+                          <svg class="rating__item-star" width="14" height="13">
+                            <use xlink:href="/images/icons/sprites.svg#rating__item-star"></use>
+                          </svg></span><span class="product-item__rating-star">
+                          <svg class="rating__item-star" width="14" height="13">
+                            <use xlink:href="/images/icons/sprites.svg#rating__item-star"></use>
+                          </svg></span><span class="product-item__rating-star">
+                          <svg class="rating__item-star" width="14" height="13">
+                            <use xlink:href="/images/icons/sprites.svg#rating__item-star"></use>
+                          </svg></span><span class="product-item__rating-star">
+                          <svg class="rating__item-star" width="14" height="13">
+                            <use xlink:href="/images/icons/sprites.svg#rating__item-star"></use>
+                          </svg></span></div>
+                      <div class="product-item__rating-count">22</div>
+                    </div>
+                  </div></a>
+                <div class="product-item__button"><a class="button button--add-card" href="#">В корзину</a><a class="links links--buy-click" href="#">Купить в 1 клик</a></div>
+              </div>
+            </div>
+            <div class="catalog__item">
+              <div class="product-item">
+                <div class="product-item__slider-wrapper"><a class="product-item__slider" href="#">
+                    <div class="product-item__slider-element"><img class="product-item__slider-image" src="src/blocks/product-item/assets/img/product-slide6/product-item1.jpg"></div>
+                    <div class="product-item__slider-element"><img class="product-item__slider-image" src="src/blocks/product-item/assets/img/product-slide6/product-item2.jpg"></div>
+                    <div class="product-item__slider-element"><img class="product-item__slider-image" src="src/blocks/product-item/assets/img/product-slide6/product-item3.png"></div>
+                    <div class="product-item__slider-element"><img class="product-item__slider-image" src="src/blocks/product-item/assets/img/product-slide6/product-item4.jpg"></div>
+                    <div class="product-item__slider-element"><img class="product-item__slider-image" src="src/blocks/product-item/assets/img/product-slide6/product-item5.jpg"></div></a>
+                  <div class="product-item__slider-navigate">
+                    <div class="product-item__slider-navitem product-item__slider-navitem--prev">
+                      <svg class="icon__arrow-slide" width="8" height="14">
+                        <use xlink:href="/images/icons/sprites.svg#icon__arrow-slide"></use>
+                      </svg>
+                    </div>
+                    <div class="product-item__slider-navitem product-item__slider-navitem--next">
+                      <svg class="icon__arrow-slide" width="8" height="14">
+                        <use xlink:href="/images/icons/sprites.svg#icon__arrow-slide"></use>
+                      </svg>
+                    </div>
+                  </div>
+                </div><a class="product-item__favorite" href="#favorite">//.product-item__favorite--active
+                  <svg class="icon-favorite" width="22" height="22">
+                    <use xlink:href="/images/icons/sprites.svg#icon-favorite"></use>
+                  </svg></a><a class="product-item__information" href="#">
+                  <div class="product-item__name">Обитаемая рыба. 130 деталей</div>
+                  <div class="product-item__price-wrapper">
+                    <div class="product-item__price">
+                      <div class="product-item__price-current">45 040
+                        <div class="product-item__price-currency">₽</div>
+                      </div>
+                      <div class="product-item__price-old">56 340</div>
+                    </div>
+                    <div class="product-item__review">
+                      <div class="product-item__rating product-item__rating--active"><span class="product-item__rating-star">
+                          <svg class="rating__item-star" width="14" height="13">
+                            <use xlink:href="/images/icons/sprites.svg#rating__item-star"></use>
+                          </svg></span><span class="product-item__rating-star">
+                          <svg class="rating__item-star" width="14" height="13">
+                            <use xlink:href="/images/icons/sprites.svg#rating__item-star"></use>
+                          </svg></span><span class="product-item__rating-star">
+                          <svg class="rating__item-star" width="14" height="13">
+                            <use xlink:href="/images/icons/sprites.svg#rating__item-star"></use>
+                          </svg></span><span class="product-item__rating-star">
+                          <svg class="rating__item-star" width="14" height="13">
+                            <use xlink:href="/images/icons/sprites.svg#rating__item-star"></use>
+                          </svg></span><span class="product-item__rating-star">
+                          <svg class="rating__item-star" width="14" height="13">
+                            <use xlink:href="/images/icons/sprites.svg#rating__item-star"></use>
+                          </svg></span></div>
+                      <div class="product-item__rating-count">22</div>
+                    </div>
+                  </div></a>
+                <div class="product-item__button"><a class="button button--add-card" href="#">В корзину</a><a class="links links--buy-click" href="#">Купить в 1 клик</a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section section--offset-none">
+        <div class="layout">
+          <div class="pagination"><a class="pagination__prev" href="#">
+              <svg class="icon__arrow-slide" width="8" height="14">
+                <use xlink:href="/images/icons/sprites.svg#icon__arrow-slide"></use>
+              </svg></a>
+            <div class="pagination__counters"><a class="pagination__counter-link" href="#">1</a><a class="pagination__counter-link" href="#">2</a><a class="pagination__counter-link" href="#">3</a><span class="pagination__counter-current">4</span><a class="pagination__counter-link" href="#">5</a><a class="pagination__counter-link" href="#">...</a><a class="pagination__counter-link" href="#">10</a></div><a class="pagination__next" href="#">
+              <svg class="icon__arrow-slide" width="8" height="14">
+                <use xlink:href="/images/icons/sprites.svg#icon__arrow-slide"></use>
+              </svg></a>
+          </div>
+        </div>
+      </div>
+      <div class="section section--offset-top">
+        <div class="layout">
+          <div class="catalog-banner"><img class="catalog-banner__image" src="src/blocks/catalog-banner/assets/img/horse-image.svg">
+            <div class="catalog-banner__text">
+              <p>Бесплатно доставим до пункта выдачи при заказе от 4 000 ₽</p>
+            </div>
+            <div class="catalog-banner__button"><a class="button button--white-border" href="#">Подробнее</a></div>
+          </div>
+        </div>
+      </div>
+      <div class="text-content">
+        <h3>Художественные деревянные пазлы DAVICI — это искусство и история в ваших руках.</h3>
+        <p>Каждый набор уникален и неповторим. Это всегда искусная и тонкая работа. Единственное в своем роде произведение, каждый набор DAVICI раскрывает целый мир фантазий и игру воображения, создает теплый досуг семейного вечера, уютное и завораживающее занятие в свободные часы.</p>
+        <p>Художественные пазлы DAVICI сохранят истории нескольких поколений: их можно коллекционировать и передавать по наследству. DAVICI создают тёплые семейные традиции. Деревянные пазлы украшают индивидуальный досуг гармоничной медитацией в игре, а в восторге совместной сборки открывают новый уровень отношений. DAVICI — игры, обеспечивающие позитивные эмоции и отличное настроение.</p>
+      </div>
+    </main>
+<footer class="footer">
+  <div class="layout">
+    <div class="footer__wrapper">
+      <div class="footer__content-wrapper">
+        <div class="footer__sidebar">
+          <h3 class="footer__sidebar-title"><a class="footer__sidebar-link" href="#">Каталог пазлов</a></h3>
+          <ul class="footer__menu">
+            <li class="footer__menu-list"><a class="footer__menu-link" href="#">Коллекция N1</a></li>
+            <li class="footer__menu-list"><a class="footer__menu-link" href="#">Коллекция N2</a></li>
+            <li class="footer__menu-list"><a class="footer__menu-link" href="#">Коллекция N3</a></li>
+            <li class="footer__menu-list"><a class="footer__menu-link" href="#">Коллекция N4</a></li>
+            <li class="footer__menu-list"><a class="footer__menu-link" href="#">Коллекция N5</a></li>
+            <li class="footer__menu-list"><a class="footer__menu-link" href="#">Коллекция N6</a></li>
+            <li class="footer__menu-list"><a class="footer__menu-link" href="#">Коллекция "Наследие"</a></li>
+            <li class="footer__menu-list"><a class="footer__menu-link" href="#">Коллекция MINI</a></li>
+            <li class="footer__menu-list"><a class="footer__menu-link" href="#">Коллекция DAVICI Детям</a></li>
+            <li class="footer__menu-list"><a class="footer__menu-link" href="#">Коллекция "Знаки зодиака"</a></li>
+            <li class="footer__menu-list"><a class="footer__menu-link" href="#">Коллекция "Эрмитаж"</a></li>
+            <li class="footer__menu-list"><a class="footer__menu-link" href="#">Лимитированная коллекция</a></li>
+            <li class="footer__menu-list"><a class="footer__menu-link" href="#">Аксессуары</a></li>
+            <li class="footer__menu-list"><a class="footer__menu-link" href="#">Подарочные сертификаты</a></li>
+          </ul>
+        </div>
+        <div class="footer__sidebar">
+          <h3 class="footer__sidebar-title"><a class="footer__sidebar-link" href="#">Каталог пазлов</a></h3>
+          <ul class="footer__menu">
+            <li class="footer__menu-list"><a class="footer__menu-link" href="#">Акции</a></li>
+            <li class="footer__menu-list"><a class="footer__menu-link" href="#">Где купить</a></li>
+            <li class="footer__menu-list"><a class="footer__menu-link" href="#">О компании</a></li>
+            <li class="footer__menu-list"><a class="footer__menu-link" href="#">Отзывы</a></li>
+            <li class="footer__menu-list"><a class="footer__menu-link" href="#">Корпоративные подарки</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__information">
+        <div class="footer__contacts"><a class="footer__contact-phone" href="tel:8 800 000 00 00">8 800 000 00 00</a><a class="footer__contact-mail" href="mailto:mail@mail.com">mail@mail.com</a></div>
+        <div class="social-menu social-menu--border"><a class="social-menu__link" href="#"><img class="social__image" src="src/blocks/social-menu/assets/img/icon-facebook.svg"></a><a class="social-menu__link" href="#"><img class="social__image" src="src/blocks/social-menu/assets/img/icon-vk.svg"></a><a class="social-menu__link" href="#"><img class="social__image" src="src/blocks/social-menu/assets/img/icon-instagram.svg"></a><a class="social-menu__link" href="#"><img class="social__image" src="src/blocks/social-menu/assets/img/icon-youtube.svg"></a></div>
+        <div class="footer__copy footer__copy--mobile-hide">
+          <div class="footer__copy-text">© Puzzle. 644031, Москва, Звездова, 129</div>
+          <div class="footer__copy-text">ООО «Puzzle»</div>
+          <div class="footer__copy-text">ИНН: 7777149200, ОГРН: 1175543027788</div><a class="footer__copy-link" href="#">Политика конфиденциальности</a><br><a class="footer__copy-link" href="#">Пользовательское соглашение</a>
+        </div>
+      </div>
+      <div class="footer__mobile">
+        <div class="footer__copy">
+          <div class="footer__copy-text">© Puzzle. 644031, Москва, Звездова, 129</div>
+          <div class="footer__copy-text">ООО «Puzzle»</div>
+          <div class="footer__copy-text">ИНН: 7777149200, ОГРН: 1175543027788</div><a class="footer__copy-link" href="#">Политика конфиденциальности</a><br><a class="footer__copy-link" href="#">Пользовательское соглашение</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer__background">
+      <div class="layout">
+        <div class="footer__background-wrapper"><img class="footer__background-image" src="src/blocks/footer/assets/img/footer-background.png"></div>
+      </div>
+    </div>
+  </div>
+</footer>
+  <script src="libs.js"></script><script src="main.js"></script><script src="style.js"></script></body>
+</html>

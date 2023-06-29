@@ -1,0 +1,51 @@
+@import "../../libs/scss/mixins";
+@import "../../blocks/base/variables";
+@import "../../blocks/base/media-queries";
+
+.product-catalog {
+  overflow: hidden;
+
+  &--overflow-hide {
+    overflow: hidden;
+  }
+
+  &--default-offset {
+    padding: 65px 0 90px;
+  }
+
+  &--small-offset {
+    padding: 35px 0;
+  }
+
+  &--background-red {
+    background: #e33151;
+  }
+
+  &--background-black {
+    background: #1b1b1b;
+  }
+
+  &__wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 30px;
+
+    @include table-large-screen {
+      grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    }
+  }
+
+  &__tabs-list {
+    margin-bottom: 40px;
+  }
+
+  &__buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+
+    //& .button {
+    //  margin: 7.5px;
+    //}
+  }
+}

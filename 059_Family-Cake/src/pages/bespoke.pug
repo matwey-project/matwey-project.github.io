@@ -1,0 +1,74 @@
+extends ../templates/main
+
+block variables
+    - var title = 'Family Cake Company';
+    - var active = 'Bespoke';
+
+block content
+    main.main
+        .bespoke__wrapper
+            .layout-gallery
+                .heading
+                    h3 Bespoke
+
+                    ul.bespoke__list
+                        li
+                            a(href="#").active Children’s
+                        li
+                            a(href="#") Christening & Baby Shower
+                        li
+                            a(href="#") Sports
+                        li
+                            a(href="#") Wedding
+                        li
+                            a(href="#") Corporate
+                        li
+                            a(href="#") Adult
+
+                    p Pretty much anything is possible when it comes to children’s cakes. We tailor make each cake to our customer’s exact specifications. Feel free to send us an image of a cake you would like us to make. Pssst… we also make themed cupcakes too!
+
+                .gallery
+                    .gallery__grid
+                        .gallery__item
+                            .gallery__image
+                                img(src="src/blocks/bespoke/assets/img/bespoke-gallery1.png")
+                        .gallery__item
+                            .gallery__image
+                                img(src="src/blocks/bespoke/assets/img/bespoke-gallery2.png")
+                        .gallery__item
+                            .gallery__image
+                                img(src="src/blocks/bespoke/assets/img/bespoke-gallery3.png")
+                        .gallery__item
+                            .gallery__image
+                                img(src="src/blocks/bespoke/assets/img/bespoke-gallery4.png")
+                        .gallery__item
+                            .gallery__image
+                                img(src="src/blocks/bespoke/assets/img/bespoke-gallery5.png")
+                        .gallery__item
+                            .gallery__image
+                                img(src="src/blocks/bespoke/assets/img/bespoke-gallery6.png")
+
+                .order-cake
+                    .order-cake__title Fill out the form below to order a cake
+                    form.order-cake__form
+                        .order-cake__input-style
+                            input(type="text" placeholder="Your Name*")
+                        .order-cake__input-style
+                            input(type="text" placeholder="Your Telephone Number*")
+                        .order-cake__input-style
+                            textarea(placeholder="Your Message")
+                        .order-cake__input-style
+                            label.label-name.label-name__big Which date do you require the cake?
+                            input(type='text' data-timepicker="true" data-time-format='hh:ii' placeholder="DD/MM/YY").datepicker-here.input-icon.input-icon--calendar
+                        .order-cake__input-style
+                            label.label-name.label-name__small Do you have an image of what you had in mind? If so click below to upload.
+
+                            .upload-file
+                                label.upload-file__label
+                                    | Select File
+                                input(type="file" multiple="multiple").load-file
+
+                        .order-cake__button
+                            button.button.button__big.button__pink Send
+
+        include ../blocks/related-products/related-products

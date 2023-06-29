@@ -1,0 +1,55 @@
+@import "../../libs/scss/mixins";
+@import "../../blocks/base/variables";
+@import "../../blocks/base/media-queries";
+
+.cakes {
+  padding-top: 80px;
+  padding-bottom: 40px;
+  @include _854 {
+    padding-top: 40px;
+  }
+  .cakes__layout {
+    max-width: 1126px;
+    @include margin-auto;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .cakes-grid {
+    display: grid;
+    grid-gap: 24px;
+    grid-template-columns: repeat(4, minmax(190px, 1fr));
+    @include _854 {
+      grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+    }
+  }
+
+  .cakes-items {
+
+  }
+  .heading {
+    margin-bottom: 38px;
+  }
+  .cakes-image {
+    position: relative;
+    border-radius: 12px;
+    overflow: hidden;
+    padding-top: 100%;
+    margin-bottom: 20px;
+    img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  .cakes-image__link {
+
+  }
+  .button {
+    width: 100%;
+  }
+}

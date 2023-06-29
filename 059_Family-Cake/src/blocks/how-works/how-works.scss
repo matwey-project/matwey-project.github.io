@@ -1,0 +1,40 @@
+@import "../../libs/scss/mixins";
+@import "../../blocks/base/variables";
+@import "../../blocks/base/media-queries";
+
+.how-works {
+  background: #FAF7F3;
+  padding: 70px 0;
+  .heading {
+    margin-bottom: 48px;
+  }
+  &__wrapper {
+    display: flex;
+    justify-content: center;
+    @include _640 {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  &__item {
+    max-width: 260px;
+
+  }
+  &__icon {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    min-height: 95px;
+    img {
+      max-width: 100%;
+    }
+  }
+  &__text {
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #50494B;
+  }
+}

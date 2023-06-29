@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barker</title>
+  <link href="css/main.css" rel="stylesheet"></head>
+  <body id="custom-offset">
+    <header class="header">
+      <div class="layout">
+        <div class="header__wrapper"><a class="logo-link" href="/"><img class="logo-image" src="img/icons/logo.png" alt="Logo" width="90px"></a>
+          <div class="header__menu-wrapper">
+            <div class="header__search">
+              <!--button.header__search-button.header__search-button--white-->
+              <!--    +mixinSvg('23px', '20px', 'icon-search', 'icon-search')--><a class="header__search-button header__search-button--blue" href="#">
+                <svg class="icon-search" width="23px" height="20px">
+                  <use xlink:href="img/icons/sprites.svg#icon-search"></use>
+                </svg></a>
+            </div>
+            <div class="main-menu">
+              <ul class="main-menu__list main-menu__list--blue">
+                <li><a href="#">Sectors</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Services</a>
+                  <ul class="main-menu__sub-list">
+                    <li><a href="#">Architecture &amp; Design</a></li>
+                    <li><a href="#">Surveying &amp; Asset Management</a></li>
+                    <li><a href="#">Project Management</a></li>
+                    <li><a href="#">Cost Management</a></li>
+                    <li><a href="#">Project Management </a></li>
+                    <li><a href="#">Structural &amp; Civil Engineering</a></li>
+                    <li><a href="#">Building Services Enginering</a></li>
+                    <li><a href="#">Funding</a></li>
+                    <li><a href="#">Energy &amp; Sustainability</a></li>
+                  </ul>
+                </li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">People</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Sustainability</a></li>
+              </ul>
+            </div>
+          </div>
+          <button class="burger-menu--blue burger-menu"><span class="burger-menu__item"></span><span class="burger-menu__item"></span><span class="burger-menu__item"></span></button>
+        </div>
+      </div>
+    </header>
+    <main class="main main--offset">
+      <section class="people-content">
+        <div class="layout">
+          <div class="people-content__wrapper">
+            <div class="people-content__text">
+              <h3>Our people</h3>
+              <p>Barker is a RIBA and RICS Chartered Practice employing an experienced team of chartered architects, surveyors engineers and project managers. Our team work collaboratively to analyse projects in terms of design, functionality, cost and programme in order to ensure that the most appropriate and balanced solutions are delivered.</p>
+              <p>Our key strength is our staff and the depth and diversity of professional skills, the extensive experience and the commitment to the highest standards of delivery, which they embody.</p><a class="link link--arrow-down" href="#">Find out more about <br> our people expertise
+                <svg class="arrow-bottom" width="42px" height="59px">
+                  <use xlink:href="img/icons/sprites.svg#arrow-bottom"></use>
+                </svg></a>
+            </div>
+            <div class="people-content__slider-wrapper">
+              <div class="people-content__slider-main">
+                <div class="people-content__slider">
+                        <div class="people-content__slider-item">
+                          <div class="people-content__slider-text">
+                            <h3>Barbara Jeziora</h3>
+                            <p>Survey Co-Ordinator<br> /Audio Secretary</p>
+                          </div><img class="people-content__slider-image" src="img/people-content/people-content1.jpg" alt="">
+                        </div>
+                  <div class="people-content__slider-item">
+                    <div class="people-content__slider-text">
+                      <h3>Barbara Jeziora</h3>
+                      <p>Survey Co-Ordinator<br> /Audio Secretary</p>
+                    </div><img class="people-content__slider-image" src="img/people-content/people-content1.jpg" alt="">
+                  </div>
+                </div>
+                <div class="people-content__slider-navigation"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="person-section">
+        <div class="layout">
+          <div class="filter">
+            <div class="filter__search">
+              <input type="text" placeholder="Enter by name">
+              <button>
+                <svg class="icon-search" width="23px" height="20px">
+                  <use xlink:href="img/icons/sprites.svg#icon-search"></use>
+                </svg>
+              </button>
+            </div>
+            <div class="filter__sort">
+              <div class="filter__sort-item filter__sort-sectors">
+                <div class="filter__menu-head">Sectors
+                  <svg class="arrow-down" width="35px" height="20px">
+                    <use xlink:href="img/icons/sprites.svg#arrow-down"></use>
+                  </svg>
+                </div>
+                <ul class="filter__menu filter__menu-sectors" id="sectors">
+                  <li><a href="#">Education</a></li>
+                  <li class="active">Government</li>
+                  <li>Commercial</li>
+                  <li>Housing & Residential</li>
+                  <li>Heritage & Conservation</li>
+                  <li>Healthcare</li>
+                  <li>Insurance</li>
+                </ul>
+              </div>
+              <div class="filter__sort-item filter__sort-services">
+                <div class="filter__menu-head">Services
+                  <svg class="arrow-down" width="35px" height="20px">
+                    <use xlink:href="img/icons/sprites.svg#arrow-down"></use>
+                  </svg>
+                </div>
+                <ul class="filter__menu filter__menu-services" id="services">
+                  <li class="active">Architecture & Design</li>
+                  <li>Cost Management</li>
+                  <li class="active">Energy & Sustainability</li>
+                  <li>Funding</li>
+                  <li>Project Management</li>
+                  <li>Structural & Civil Engineering</li>
+                  <li>Surveying & Asset Management</li>
+                  <li>Sustainability</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="person">
+            <div class="person__wrapper">
+              <div class="person__col">
+                          <div class="person__item" data-id="person1"><img class="person__item-image" src="img/person/person1.png" alt="">
+                            <div class="person__item-title">
+                              <h4>John Scott</h4>
+                              <p>Managing Partner</p>
+                            </div>
+                            <div class="person__item-hide-content">
+                              <p>Nullam tristique posuere orci. Proin fermentum euismod nulla, feugiat lacinia enim gravida at(…)</p><a class="link link--yellow link--arrow" href="person1">See profile 
+                                <svg class="arrow-link" width="37px" height="22px">
+                                  <use xlink:href="img/icons/sprites.svg#arrow-link"></use>
+                                </svg></a>
+                            </div>
+                          </div>
+              </div>
+              <div class="person__col">
+                          <div class="person__item" data-id="person2"><img class="person__item-image" src="img/person/person2.png" alt="">
+                            <div class="person__item-title">
+                              <h4>Philippa Gould</h4>
+                              <p>Associate l Conservation</p>
+                            </div>
+                            <div class="person__item-hide-content">
+                              <p>Nullam tristique posuere orci. Proin fermentum euismod nulla, feugiat lacinia enim gravida at(…)</p><a class="link link--yellow link--arrow" href="person2">See profile 
+                                <svg class="arrow-link" width="37px" height="22px">
+                                  <use xlink:href="img/icons/sprites.svg#arrow-link"></use>
+                                </svg></a>
+                            </div>
+                          </div>
+              </div>
+              <div class="person__col">
+                          <div class="person__item" data-id=""><img class="person__item-image" src="img/person/person3.png" alt="">
+                            <div class="person__item-title">
+                              <h4>Michael Merrill</h4>
+                              <p>Managing Partner</p>
+                            </div>
+                            <div class="person__item-hide-content">
+                              <p>Nullam tristique posuere orci. Proin fermentum euismod nulla, feugiat lacinia enim gravida at(…)</p><a class="link link--yellow link--arrow" href="">See profile 
+                                <svg class="arrow-link" width="37px" height="22px">
+                                  <use xlink:href="img/icons/sprites.svg#arrow-link"></use>
+                                </svg></a>
+                            </div>
+                          </div>
+              </div>
+              <div class="person__col">
+                          <div class="person__item" data-id=""><img class="person__item-image" src="img/person/person4.png" alt="">
+                            <div class="person__item-title">
+                              <h4>Barbara Jeziora</h4>
+                              <p>Survey Co-Ordinator /Audio Secretary</p>
+                            </div>
+                            <div class="person__item-hide-content">
+                              <p>Nullam tristique posuere orci. Proin fermentum euismod nulla, feugiat lacinia enim gravida at(…)</p><a class="link link--yellow link--arrow" href="">See profile 
+                                <svg class="arrow-link" width="37px" height="22px">
+                                  <use xlink:href="img/icons/sprites.svg#arrow-link"></use>
+                                </svg></a>
+                            </div>
+                          </div>
+              </div>
+              <div class="person__col">
+                          <div class="person__item" data-id=""><img class="person__item-image" src="img/person/person1.png" alt="">
+                            <div class="person__item-title">
+                              <h4>John Scott</h4>
+                              <p>Managing Partner</p>
+                            </div>
+                            <div class="person__item-hide-content">
+                              <p>Nullam tristique posuere orci. Proin fermentum euismod nulla, feugiat lacinia enim gravida at(…)</p><a class="link link--yellow link--arrow" href="">See profile 
+                                <svg class="arrow-link" width="37px" height="22px">
+                                  <use xlink:href="img/icons/sprites.svg#arrow-link"></use>
+                                </svg></a>
+                            </div>
+                          </div>
+              </div>
+              <div class="person__col">
+                          <div class="person__item" data-id=""><img class="person__item-image" src="img/person/person2.png" alt="">
+                            <div class="person__item-title">
+                              <h4>Philippa Gould</h4>
+                              <p>Associate l Conservation</p>
+                            </div>
+                            <div class="person__item-hide-content">
+                              <p>Nullam tristique posuere orci. Proin fermentum euismod nulla, feugiat lacinia enim gravida at(…)</p><a class="link link--yellow link--arrow" href="">See profile 
+                                <svg class="arrow-link" width="37px" height="22px">
+                                  <use xlink:href="img/icons/sprites.svg#arrow-link"></use>
+                                </svg></a>
+                            </div>
+                          </div>
+              </div>
+              <div class="person__col">
+                          <div class="person__item" data-id=""><img class="person__item-image" src="img/person/person3.png" alt="">
+                            <div class="person__item-title">
+                              <h4>Michael Merrill</h4>
+                              <p>Managing Partner</p>
+                            </div>
+                            <div class="person__item-hide-content">
+                              <p>Nullam tristique posuere orci. Proin fermentum euismod nulla, feugiat lacinia enim gravida at(…)</p><a class="link link--yellow link--arrow" href="">See profile 
+                                <svg class="arrow-link" width="37px" height="22px">
+                                  <use xlink:href="img/icons/sprites.svg#arrow-link"></use>
+                                </svg></a>
+                            </div>
+                          </div>
+              </div>
+              <div class="person__col">
+                          <div class="person__item" data-id=""><img class="person__item-image" src="img/person/person4.png" alt="">
+                            <div class="person__item-title">
+                              <h4>Barbara Jeziora</h4>
+                              <p>Survey Co-Ordinator /Audio Secretary</p>
+                            </div>
+                            <div class="person__item-hide-content">
+                              <p>Nullam tristique posuere orci. Proin fermentum euismod nulla, feugiat lacinia enim gravida at(…)</p><a class="link link--yellow link--arrow" href="">See profile 
+                                <svg class="arrow-link" width="37px" height="22px">
+                                  <use xlink:href="img/icons/sprites.svg#arrow-link"></use>
+                                </svg></a>
+                            </div>
+                          </div>
+              </div>
+              <div class="person__col">
+                          <div class="person__item" data-id=""><img class="person__item-image" src="img/person/person1.png" alt="">
+                            <div class="person__item-title">
+                              <h4>John Scott</h4>
+                              <p>Managing Partner</p>
+                            </div>
+                            <div class="person__item-hide-content">
+                              <p>Nullam tristique posuere orci. Proin fermentum euismod nulla, feugiat lacinia enim gravida at(…)</p><a class="link link--yellow link--arrow" href="">See profile 
+                                <svg class="arrow-link" width="37px" height="22px">
+                                  <use xlink:href="img/icons/sprites.svg#arrow-link"></use>
+                                </svg></a>
+                            </div>
+                          </div>
+              </div>
+            </div>
+            <div class="pagination">
+              <div class="pagination__list nav-links"><a class="prev page-numbers pagination__arrow" href="#">
+                  <svg class="arrow-pagination" width="13px" height="24px">
+                    <use xlink:href="img/icons/sprites.svg#arrow-pagination"></use>
+                  </svg></a><span class="page-numbers dots">1</span><a class="page-numbers" href="#">2</a><a class="page-numbers" href="#">3</a><a class="next page-numbers pagination__arrow" href="#">
+                  <svg class="arrow-pagination" width="13px" height="24px">
+                    <use xlink:href="img/icons/sprites.svg#arrow-pagination"></use>
+                  </svg></a></div>
+            </div>
+          </div>
+          <div class="person__hide">
+            <div class="popup-default mfp-zoom-in mfp-with-anim mfp-hide popup__person" id="person1">
+              <div class="popup-default__close">
+                <svg class="close-bold" width="11px" height="11px">
+                  <use xlink:href="img/icons/sprites.svg#close-bold"></use>
+                </svg>
+              </div>
+              <div class="popup__person-wrapper">
+                <div class="popup__person-image"><img src="img/people-content/people-popup.jpg" alt="People"></div>
+                <div class="popup__person-content">
+                  <div class="popup__person-head">
+                    <h3>John Scott</h3>
+                    <p>Managing Partner</p>
+                  </div>
+                  <div class="popup__person-text">
+                    <p>Nullam tristique posuere orci. Proin fermentum euismod nulla, feugiat lacinia enim gravida at. Praesent laoreet, ante id iaculis ornare, orci est ultrices nisi, interdum ultrices nisi nisl eget lectus. Quisque eros urna, interdum ac libero nec, interdum blandit neque.</p>
+                    <p>Donec elementum, libero in tristique cursus, massa mi vehicula lectus, sit amet posuere turpis augue elementum ipsum. Praesent orci metus, maximus id feugiat a, tristique non enim.</p>
+                  </div><a class="link link--yellow link--arrow" href="#">Get in touch 
+                    <svg class="arrow-link" width="37px" height="22px">
+                      <use xlink:href="img/icons/sprites.svg#arrow-link"></use>
+                    </svg></a>
+                </div>
+              </div>
+            </div>
+            <div class="popup-default mfp-zoom-in mfp-with-anim mfp-hide popup__person" id="person2">
+              <div class="popup-default__close">
+                <svg class="close-bold" width="11px" height="11px">
+                  <use xlink:href="img/icons/sprites.svg#close-bold"></use>
+                </svg>
+              </div>
+              <div class="popup__person-wrapper">
+                <div class="popup__person-image"><img src="img/people-content/people-popup.jpg" alt="People"></div>
+                <div class="popup__person-content">
+                  <div class="popup__person-head">
+                    <h3>Philippa Gould</h3>
+                    <p>Managing Partner</p>
+                  </div>
+                  <div class="popup__person-text">
+                    <p>Nullam tristique posuere orci. Proin fermentum euismod nulla, feugiat lacinia enim gravida at. Praesent laoreet, ante id iaculis ornare, orci est ultrices nisi, interdum ultrices nisi nisl eget lectus. Quisque eros urna, interdum ac libero nec, interdum blandit neque.</p>
+                    <p>Donec elementum, libero in tristique cursus, massa mi vehicula lectus, sit amet posuere turpis augue elementum ipsum. Praesent orci metus, maximus id feugiat a, tristique non enim.</p>
+                  </div><a class="link link--yellow link--arrow" href="#">Get in touch 
+                    <svg class="arrow-link" width="37px" height="22px">
+                      <use xlink:href="img/icons/sprites.svg#arrow-link"></use>
+                    </svg></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="relevant-projects">
+        <div class="layout-large">
+          <div class="heading">
+            <h3 class="heading__title">Relevant Projects</h3>
+          </div>
+          <div class="relevant-projects__container row-df">
+            <div class="col-df-12">
+                    <div class="preview-item preview-item--home"><a class="preview-item__image preview-item__image--default-height" href="#"><img src="img/relevant-projects/relevant-projects1.jpg" alt="Image"></a>
+                      <div class="preview-item__options"><a class="preview-item__title" href="#">The Henrietta Barnett School -Library and ICT Remodelling</a>
+                        <ul class="preview-item__list">
+                          <li>Value: £325,000</li>
+                          <li>Location: Hampstead Garden Suburb</li>
+                        </ul>
+                      </div>
+                    </div>
+            </div>
+            <div class="col-df-6">
+                    <div class="preview-item preview-item--home"><a class="preview-item__image preview-item__image--default-height" href="#"><img src="img/relevant-projects/relevant-projects2.jpg" alt="Image"></a>
+                      <div class="preview-item__options"><a class="preview-item__title" href="#">Market Field School - Four Classroom Extension</a>
+                        <ul class="preview-item__list">
+                          <li>Value: £325,000</li>
+                          <li>Location: Hampstead Garden Suburb</li>
+                        </ul>
+                      </div>
+                    </div>
+            </div>
+            <div class="col-df-6">
+                    <div class="preview-item preview-item--home"><a class="preview-item__image preview-item__image--default-height" href="#"><img src="img/relevant-projects/relevant-projects2.jpg" alt="Image"></a>
+                      <div class="preview-item__options"><a class="preview-item__title" href="#">Market Field School - Four Classroom Extension</a>
+                        <ul class="preview-item__list">
+                          <li>Value: £325,000</li>
+                          <li>Location: Hampstead Garden Suburb</li>
+                        </ul>
+                      </div>
+                    </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--.layout-->
+      <!--    a(href="#go").link.link--arrow-down.popup Popup-->
+      <!---->
+      <!--+popupDefault('popup__person', 'go')-->
+      <!--    h1 Hi!!-->
+      <section class="discuss">
+        <div class="discuss__background" id="discusParallax" style="background-image: url(img/discuss/discuss.png);"></div>
+        <div class="layout">
+          <div class="heading heading--center">
+            <h3 class="heading__title">Let’s discuss <br>your project</h3>
+          </div>
+          <div class="discuss__wrapper"><a class="link link--big link--yellow link--arrow" href="#">Contact us 
+              <svg class="arrow-link" width="37px" height="22px">
+                <use xlink:href="img/icons/sprites.svg#arrow-link"></use>
+              </svg></a></div>
+        </div>
+      </section>
+      <footer class="footer">
+        <div class="layout">
+          <div class="footer__top">
+            <div class="row">
+              <div class="col-md-2"><a class="footer__logo" href="#"><img src="img/footer/logo-footer.png" alt="Logo" width="72px"></a></div>
+              <div class="col-md-8">
+                <div class="footer__menu-wrapper">
+                  <ul class="footer__menu">
+                          <li><a href="#">Sectors</a></li>
+                          <li><a href="#">Services</a></li>
+                          <li><a href="#">Projects</a></li>
+                          <li><a href="#">People</a></li>
+                          <li><a href="#">Sustainability</a></li>
+                          <li><a href="#">About Us</a></li>
+                          <li><a href="#">Contact Us</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-md-2"></div>
+            </div>
+          </div>
+          <div class="footer__address">
+            <div class="footer__address-item">
+              <h4 class="footer__address-title">Head Office</h4>
+              <p class="footer__address-text">Majesty House, Avenue West, <br> Skyline 120, Braintree, Essex CM77 7AA</p><a class="footer__address-phone" href="tel:01279647111">Tel: 01279 647 111</a>
+            </div>
+            <div class="footer__address-item">
+              <h4 class="footer__address-title">Cambridge Office</h4>
+              <p class="footer__address-text">Unit 6, Stow Court, Stow Road <br> Stow-Cum-Quy, Cambridge CB25 9AS</p><a class="footer__address-phone" href="tel:01223297251">Tel: 01223 297251</a>
+            </div>
+            <div class="footer__address-item">
+              <h4 class="footer__address-title">London Office</h4>
+              <p class="footer__address-text">Office 111, 63 St Mary Axe, <br> London EC3A 8AA</p><a class="footer__address-phone" href="tel:02039127817">Tel: 0203 912 7817</a>
+            </div>
+            <div class="footer__address-item">
+              <h4 class="footer__address-title">Birmingham Office</h4>
+              <p class="footer__address-text">4 The Cloisters,12 George Road, Edgbaston, <br> Birmingham, B15 1NP</p><a class="footer__address-phone" href="tel:01214509079">Tel: 0121 450 9079</a>
+            </div>
+          </div>
+          <div class="footer__social">
+            <div class="footer__social-title">Follow Barker</div>
+            <div class="footer__social-wrapper"><a class="footer__social-link" href="#"><img src="img/social/Facebook.png" alt="Facebook"></a><a class="footer__social-link" href="#"><img src="img/social/Twitter.png" alt="Twitter"></a><a class="footer__social-link" href="#"><img src="img/social/Linkedin.png" alt="Linkedin"></a><a class="footer__social-link" href="#"><img src="img/social/Instagram.png" alt="Instagram"></a></div>
+          </div>
+          <div class="footer__copy">
+            <p class="footer__copy-text">Company Number: 11605920 | VAT: 316444612 | © Copyright Barker 2021</p>
+            <ul class="footer__copy-menu">
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Cookie Policy</a></li>
+              <li><a href="#">Terms And Conditions</a></li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+    </main>
+    <div id="cursor"></div>
+    <div id="aura"><span>See <br>the project</span></div>
+  <script src="js/main.js"></script></body>
+  <undefined></undefined>
+</html>
