@@ -44,7 +44,7 @@
     "@babel/polyfill": "^7.8.7",
     "air-datepicker": "^2.2.3",
     "chart.js": "^2.9.4",
-    "jquery": "^2.1.1",
+    "jquery": "^3.5.0",
     "jquery-multifile": "^2.2.2",
     "magnific-popup": "^1.1.0",
     "select2": "^4.1.0-rc.0",
